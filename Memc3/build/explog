@@ -1,0 +1,38 @@
+#!/bin/bash
+time1=$(date +%m-%d_%H-%M-%S_)
+
+# sudo ./main -p 120 -f 3
+# sudo ./main > ../data/${time1}.log
+# echo "参数个数为：$#"
+# for i in $*; do
+#     echo "参数为 $i"
+# done
+logsize=33 #8-33  64-34  512-36
+# if [ $logsize == 30 ]
+# then 
+#     kvsize=8
+# elif [ $logsize == 31 ]
+# then 
+#     kvsize=64
+# elif [ $logsize == 33 ]
+# then 
+#     kvsize=512
+# else
+#     kvsize='none'
+# fi
+echo "本命令将执行server实验程序并写入log(以时间命名)"
+if [ $# == 2 ]
+then
+    if [ $1 == "-h" ]
+    then
+        echo "当且仅当参数个数为 1 且非 -h 时打印过程信息并写入文件"
+    else
+        echo "将执行并打印过程信息目前给的slab空间大小是 $2 hashsize是 25" # 适合于 $kvsize kvsize的实验"
+        sudo ./main -f 2 -l $2 -t 25 > ../data/${time1}$1.log
+    fi
+else
+    echo 请输入正确参数
+    # echo 仅执行,不打印过程信息
+    # sudo ./main > ../data/${time1}.log
+fi
+# ../data/insert-test.sh

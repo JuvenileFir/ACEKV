@@ -1,0 +1,39 @@
+#!/bin/bash
+time1=$(date +%m-%d_%H:%M:%S)
+
+# sudo ./main -p 120 -f 3
+# sudo ./main > ../data/${time1}.log
+# echo "参数个数为：$#"
+# for i in $*; do
+#     echo "参数为 $i"
+# done
+echo "本命令将执行server实验程序并写入log(以时间命名)"
+if [ $# == 1 ]
+then
+    if [ $1 == "-p" ]
+    then
+        echo 将执行并打印过程信息
+        sudo ./main -f 2 > ../data/${time1}.log
+    elif [ $1 == "-h" ]
+    then
+        echo "当且仅当参数个数为1且为 -p 时打印过程信息,除 -h/p 外其余情况均正常执行"
+    else
+        echo 仅执行,不打印过程信息
+        sudo ./main > ../data/${time1}.log
+    fi
+else
+    echo 仅执行,不打印过程信息
+    sudo ./main > ../data/${time1}.log
+fi
+
+# sudo ./main -f 2 > ../data/${time1}.log
+# sudo ./main -f 2 > ../data/${time1}.log
+# sudo ./main -p 12000 -f 3 > ./data/${time1}_latency_4_static_50_Zip.txt
+# sudo ./main -p 120 -f 3 > ./data/latency_4_dynamic_95_Zip.txt
+# sudo ./main -p 12000 -f 3 > ./data/latency_4_static_95_Zip.txt
+
+# sudo ./main -p 120 -f 3 > ./data/latency_4_dynamic_50_Uni.txt
+# sudo ./main -p 12000 -f 3 > ./data/latency_4_static_50_Uni.txt
+# sudo ./main -p 120 -f 3 > ./data/latency_4_dynamic_95_Uni.txt
+# sudo ./main -p 12000 -f 3 > ./data/latency_4_static_95_Uni.txt
+

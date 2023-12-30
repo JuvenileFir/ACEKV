@@ -1,0 +1,4466 @@
+EAL: Detected 44 lcore(s)
+EAL: Detected 1 NUMA nodes
+EAL: Multi-process socket /var/run/dpdk/rte/mp_socket
+EAL: Selected IOVA mode 'PA'
+EAL: No available hugepages reported in hugepages-1048576kB
+[INFO] 单个Log Size为:2 GB
+[INFO] 运行mica
+[INFO] 运行cleanup
+[INFO] 运行reload
+[INFO] reload kv size 8
+EAL: Probing VFIO support...
+EAL: VFIO support initialized
+EAL: PCI device 0000:03:00.0 on NUMA socket 0
+EAL:   probe driver: 15b3:1017 net_mlx5
+WEN: There are 1 device(s) available
+starting port 0...
+querying port 0...
+port 0: 100 Gbps (full-duplex)
+Adding UDP filter for each endpoint.
+port_id/queue_id/udp_port = 0 0 0
+Flow is created with src_port = 0, dst_port = 0
+port_id/queue_id/udp_port = 0 1 1
+Flow is created with src_port = 0, dst_port = 1
+port_id/queue_id/udp_port = 0 2 2
+Flow is created with src_port = 0, dst_port = 2
+port_id/queue_id/udp_port = 0 3 3
+Flow is created with src_port = 0, dst_port = 3
+MEM: Initializing pages...
+ == [STAT] Workers Start (4 threads in total) == 
+trigger:50.000000 
+
+[INFO]Current Time:       2.30 s
+
+[P]indexs Load Factor:    0.1701 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           67116 
+[P]get request:           66736 
+
+[P]Get Hit Rate:          0.7987 %
+[P]ACC Hit Rate:          0.7987 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            186541.602 ops
+[P]all request:           133852 o
+
+[P]GetThroughput:         93006.009 ops
+[P]SetThroughput:         93535.593 ops
+
+[P]Valid Entries:         92396.988 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           92567.013 / s
+
+[P]get found:             742.811 / s
+
+----------------------------------
+
+[INFO]Current Time:       3.04 s
+
+[P]indexs Load Factor:    0.3459 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           173829 
+[P]get request:           172936 
+
+[P]Get Hit Rate:          2.2411 %
+[P]ACC Hit Rate:          1.6844 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            287723.418 ops
+[P]all request:           346765 o
+
+[P]GetThroughput:         143515.084 ops
+[P]SetThroughput:         144208.335 ops
+
+[P]Valid Entries:         141243.437 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           142692.102 / s
+
+[P]get found:             3216.251 / s
+
+----------------------------------
+
+[INFO]Current Time:       3.76 s
+
+[P]indexs Load Factor:    0.5147 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           275162 
+[P]get request:           275549 
+
+[P]Get Hit Rate:          4.0950 %
+[P]ACC Hit Rate:          2.5821 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            284609.793 ops
+[P]all request:           550711 o
+
+[P]GetThroughput:         143198.026 ops
+[P]SetThroughput:         141411.766 ops
+
+[P]Valid Entries:         139961.826 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           142480.731 / s
+
+[P]expire scan persec:      1.396 / s
+[P]total expire scan:     1
+[P]expire hit persec:       0.000 / s
+[P]total expire hit:      0
+
+[P]expire hit rate:       0.000000 %
+[P]total expire hit rate: 0.000000 %
+
+[P]get found:             5863.956 / s
+
+----------------------------------
+
+[INFO]Current Time:       4.46 s
+
+[P]indexs Load Factor:    0.6789 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           375590 
+[P]get request:           375247 
+
+[P]Get Hit Rate:          5.7373 %
+[P]ACC Hit Rate:          3.4204 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            282609.998 ops
+[P]all request:           750837 o
+
+[P]GetThroughput:         140789.561 ops
+[P]SetThroughput:         141820.438 ops
+
+[P]Valid Entries:         135941.614 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           139627.353 / s
+
+[P]get found:             8077.557 / s
+
+----------------------------------
+
+[INFO]Current Time:       5.17 s
+
+[P]indexs Load Factor:    0.8423 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           477123 
+[P]get request:           476332 
+
+[P]Get Hit Rate:          7.1910 %
+[P]ACC Hit Rate:          4.2206 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            287200.593 ops
+[P]all request:           953455 o
+
+[P]GetThroughput:         143282.788 ops
+[P]SetThroughput:         143917.805 ops
+
+[P]Valid Entries:         137379.115 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           142456.415 / s
+
+[P]get found:             10303.434 / s
+
+----------------------------------
+
+[INFO]Current Time:       5.88 s
+
+[P]indexs Load Factor:    1.0035 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           578864 
+[P]get request:           577544 
+
+[P]Get Hit Rate:          9.0612 %
+[P]ACC Hit Rate:          5.0689 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            286691.944 ops
+[P]all request:           1156408 o
+
+[P]GetThroughput:         142972.339 ops
+[P]SetThroughput:         143719.605 ops
+
+[P]Valid Entries:         135858.472 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           139502.986 / s
+
+[P]get found:             12954.979 / s
+
+----------------------------------
+
+[INFO]Current Time:       6.59 s
+
+[P]indexs Load Factor:    1.1623 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           680237 
+[P]get request:           678424 
+
+[P]Get Hit Rate:          10.5442 %
+[P]ACC Hit Rate:          5.8830 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            285833.050 ops
+[P]all request:           1358662 o
+
+[P]GetThroughput:         142567.455 ops
+[P]SetThroughput:         143264.181 ops
+
+[P]Valid Entries:         134308.492 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           141736.471 / s
+
+[P]get found:             15032.613 / s
+
+----------------------------------
+
+[INFO]Current Time:       7.29 s
+
+[P]indexs Load Factor:    1.3205 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           781975 
+[P]get request:           779538 
+
+[P]Get Hit Rate:          12.2495 %
+[P]ACC Hit Rate:          6.7088 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            286131.940 ops
+[P]all request:           1561513 o
+
+[P]GetThroughput:         142626.583 ops
+[P]SetThroughput:         143506.768 ops
+
+[P]Valid Entries:         133312.706 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           141674.460 / s
+
+[P]get found:             17471.101 / s
+
+----------------------------------
+
+[INFO]Current Time:       8.01 s
+
+[P]indexs Load Factor:    1.4768 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           884162 
+[P]get request:           881087 
+
+[P]Get Hit Rate:          13.9342 %
+[P]ACC Hit Rate:          7.5416 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            285476.093 ops
+[P]all request:           1765249 o
+
+[P]GetThroughput:         142291.062 ops
+[P]SetThroughput:         143185.031 ops
+
+[P]Valid Entries:         131696.544 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           141346.649 / s
+
+[P]expire scan persec:      1.401 / s
+[P]total expire scan:     2
+[P]expire hit persec:       0.000 / s
+[P]total expire hit:      0
+
+[P]expire hit rate:       0.000000 %
+[P]total expire hit rate: 0.000000 %
+
+[P]get found:             19827.064 / s
+
+----------------------------------
+
+[INFO]Current Time:       8.73 s
+
+[P]indexs Load Factor:    1.6323 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           986814 
+[P]get request:           983179 
+
+[P]Get Hit Rate:          15.2686 %
+[P]ACC Hit Rate:          8.3440 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            285136.928 ops
+[P]all request:           1969993 o
+
+[P]GetThroughput:         142178.522 ops
+[P]SetThroughput:         142958.407 ops
+
+[P]Valid Entries:         130515.070 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           141303.937 / s
+
+[P]get found:             21708.643 / s
+
+----------------------------------
+
+[INFO]Current Time:       9.45 s
+
+[P]indexs Load Factor:    1.7875 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           1090716 
+[P]get request:           1086533 
+
+[P]Get Hit Rate:          16.9069 %
+[P]ACC Hit Rate:          9.1585 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            287129.804 ops
+[P]all request:           2177249 o
+
+[P]GetThroughput:         143185.306 ops
+[P]SetThroughput:         143944.498 ops
+
+[P]Valid Entries:         130295.664 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           142295.887 / s
+
+[P]get found:             24208.255 / s
+
+----------------------------------
+
+[INFO]Current Time:       10.17 s
+
+[P]indexs Load Factor:    1.9385 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           1194641 
+[P]get request:           1190012 
+
+[P]Get Hit Rate:          18.3197 %
+[P]ACC Hit Rate:          9.9551 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            285362.070 ops
+[P]all request:           2384653 o
+
+[P]GetThroughput:         142374.215 ops
+[P]SetThroughput:         142987.855 ops
+
+[P]Valid Entries:         128669.120 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           141569.328 / s
+
+[P]get found:             26082.471 / s
+
+----------------------------------
+
+[INFO]Current Time:       10.89 s
+
+[P]indexs Load Factor:    2.0906 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           1298843 
+[P]get request:           1293767 
+
+[P]Get Hit Rate:          19.9730 %
+[P]ACC Hit Rate:          10.7585 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            289371.697 ops
+[P]all request:           2592610 o
+
+[P]GetThroughput:         144374.849 ops
+[P]SetThroughput:         144996.848 ops
+
+[P]Valid Entries:         129505.304 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           143847.471 / s
+
+[P]get found:             28836.008 / s
+
+----------------------------------
+
+[INFO]Current Time:       11.63 s
+
+[P]indexs Load Factor:    2.2404 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           1404042 
+[P]get request:           1398347 
+
+[P]Get Hit Rate:          21.2985 %
+[P]ACC Hit Rate:          11.5468 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            286176.334 ops
+[P]all request:           2802389 o
+
+[P]GetThroughput:         142665.953 ops
+[P]SetThroughput:         143510.381 ops
+
+[P]Valid Entries:         126786.897 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           141822.890 / s
+
+[P]expire scan persec:      1.364 / s
+[P]total expire scan:     3
+[P]expire hit persec:       0.000 / s
+[P]total expire hit:      0
+
+[P]expire hit rate:       0.000000 %
+[P]total expire hit rate: 0.000000 %
+
+[P]get found:             30385.747 / s
+
+----------------------------------
+
+[INFO]Current Time:       12.36 s
+
+[P]indexs Load Factor:    2.3873 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           1507716 
+[P]get request:           1501278 
+
+[P]Get Hit Rate:          23.1437 %
+[P]ACC Hit Rate:          12.3419 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            283389.744 ops
+[P]all request:           3008994 o
+
+[P]GetThroughput:         141185.304 ops
+[P]SetThroughput:         142204.440 ops
+
+[P]Valid Entries:         124127.465 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           140205.946 / s
+
+[P]get found:             32675.446 / s
+
+----------------------------------
+
+[INFO]Current Time:       13.09 s
+
+[P]indexs Load Factor:    2.5340 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           1613042 
+[P]get request:           1605833 
+
+[P]Get Hit Rate:          24.7363 %
+[P]ACC Hit Rate:          13.1489 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            285734.736 ops
+[P]all request:           3218875 o
+
+[P]GetThroughput:         142342.543 ops
+[P]SetThroughput:         143392.193 ops
+
+[P]Valid Entries:         124148.619 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           141472.600 / s
+
+[P]get found:             35210.226 / s
+
+----------------------------------
+
+[INFO]Current Time:       13.83 s
+
+[P]indexs Load Factor:    2.6794 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           1718671 
+[P]get request:           1710712 
+
+[P]Get Hit Rate:          25.9566 %
+[P]ACC Hit Rate:          13.9341 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            285171.208 ops
+[P]all request:           3429383 o
+
+[P]GetThroughput:         142077.599 ops
+[P]SetThroughput:         143093.609 ops
+
+[P]Valid Entries:         122818.097 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           141240.406 / s
+
+[P]get found:             36878.483 / s
+
+----------------------------------
+
+[INFO]Current Time:       14.57 s
+
+[P]indexs Load Factor:    2.8239 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           1825057 
+[P]get request:           1816498 
+
+[P]Get Hit Rate:          27.4535 %
+[P]ACC Hit Rate:          14.7214 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            286107.668 ops
+[P]all request:           3641555 o
+
+[P]GetThroughput:         142649.293 ops
+[P]SetThroughput:         143458.375 ops
+
+[P]Valid Entries:         122486.963 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           142031.693 / s
+
+[P]get found:             39162.278 / s
+
+----------------------------------
+
+[INFO]Current Time:       15.32 s
+
+[P]indexs Load Factor:    2.9672 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           1932752 
+[P]get request:           1923507 
+
+[P]Get Hit Rate:          28.8163 %
+[P]ACC Hit Rate:          15.5055 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            287623.104 ops
+[P]all request:           3856259 o
+
+[P]GetThroughput:         143352.060 ops
+[P]SetThroughput:         144271.044 ops
+
+[P]Valid Entries:         121889.909 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           142741.191 / s
+
+[P]get found:             41308.714 / s
+
+----------------------------------
+
+[INFO]Current Time:       16.07 s
+
+[P]indexs Load Factor:    3.1076 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           2040217 
+[P]get request:           2030466 
+
+[P]Get Hit Rate:          30.3883 %
+[P]ACC Hit Rate:          16.2895 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            286221.490 ops
+[P]all request:           4070683 o
+
+[P]GetThroughput:         142773.031 ops
+[P]SetThroughput:         143448.459 ops
+
+[P]Valid Entries:         119987.331 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           142239.095 / s
+
+[P]get found:             43386.268 / s
+
+----------------------------------
+
+[INFO]Current Time:       16.82 s
+
+[P]indexs Load Factor:    3.2466 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           2148080 
+[P]get request:           2137559 
+
+[P]Get Hit Rate:          31.9377 %
+[P]ACC Hit Rate:          17.0735 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            285858.912 ops
+[P]all request:           4285640 o
+
+[P]GetThroughput:         142416.802 ops
+[P]SetThroughput:         143440.780 ops
+
+[P]Valid Entries:         118754.917 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           141628.205 / s
+
+[P]get found:             45484.596 / s
+
+----------------------------------
+
+[INFO]Current Time:       17.57 s
+
+[P]indexs Load Factor:    3.3845 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           2255858 
+[P]get request:           2244803 
+
+[P]Get Hit Rate:          32.6797 %
+[P]ACC Hit Rate:          17.8191 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            285884.651 ops
+[P]all request:           4500661 o
+
+[P]GetThroughput:         142587.996 ops
+[P]SetThroughput:         143297.984 ops
+
+[P]Valid Entries:         116330.393 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           142024.260 / s
+
+[P]get found:             46597.306 / s
+
+----------------------------------
+
+[INFO]Current Time:       18.32 s
+
+[P]indexs Load Factor:    3.5200 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           2363700 
+[P]get request:           2351988 
+
+[P]Get Hit Rate:          34.6065 %
+[P]ACC Hit Rate:          18.5841 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            285092.831 ops
+[P]all request:           4715688 o
+
+[P]GetThroughput:         142110.875 ops
+[P]SetThroughput:         142981.956 ops
+
+[P]Valid Entries:         116418.618 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           141401.547 / s
+
+[P]expire scan persec:      1.326 / s
+[P]total expire scan:     4
+[P]expire hit persec:       0.000 / s
+[P]total expire hit:      0
+
+[P]expire hit rate:       0.000000 %
+[P]total expire hit rate: 0.000000 %
+
+[P]get found:             49179.630 / s
+
+----------------------------------
+
+[INFO]Current Time:       19.08 s
+
+[P]indexs Load Factor:    3.6556 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           2471884 
+[P]get request:           2459579 
+
+[P]Get Hit Rate:          35.8487 %
+[P]ACC Hit Rate:          19.3393 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            286390.556 ops
+[P]all request:           4931463 o
+
+[P]GetThroughput:         142801.744 ops
+[P]SetThroughput:         143588.812 ops
+
+[P]Valid Entries:         116147.613 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           142154.039 / s
+
+[P]get found:             51192.602 / s
+
+----------------------------------
+
+[INFO]Current Time:       19.84 s
+
+[P]indexs Load Factor:    3.7889 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           2579588 
+[P]get request:           2568474 
+
+[P]Get Hit Rate:          37.2166 %
+[P]ACC Hit Rate:          20.0973 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            283429.440 ops
+[P]all request:           5148062 o
+
+[P]GetThroughput:         142493.958 ops
+[P]SetThroughput:         140935.482 ops
+
+[P]Valid Entries:         114642.896 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           141833.143 / s
+
+[P]get found:             53031.385 / s
+
+----------------------------------
+
+[INFO]Current Time:       20.60 s
+
+[P]indexs Load Factor:    3.9209 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           2688994 
+[P]get request:           2677230 
+
+[P]Get Hit Rate:          38.5487 %
+[P]ACC Hit Rate:          20.8468 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            286494.352 ops
+[P]all request:           5366224 o
+
+[P]GetThroughput:         142820.380 ops
+[P]SetThroughput:         143673.972 ops
+
+[P]Valid Entries:         113916.443 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           142176.903 / s
+
+[P]expire scan persec:      5.253 / s
+[P]total expire scan:     8
+[P]expire hit persec:       0.000 / s
+[P]total expire hit:      0
+
+[P]expire hit rate:       0.000000 %
+[P]total expire hit rate: 0.000000 %
+
+[P]get found:             55055.368 / s
+
+----------------------------------
+
+[INFO]Current Time:       21.37 s
+
+[P]indexs Load Factor:    4.0515 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           2799191 
+[P]get request:           2786785 
+
+[P]Get Hit Rate:          40.1095 %
+[P]ACC Hit Rate:          21.6041 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            286538.328 ops
+[P]all request:           5585976 o
+
+[P]GetThroughput:         142850.607 ops
+[P]SetThroughput:         143687.721 ops
+
+[P]Valid Entries:         113125.215 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           142259.932 / s
+
+[P]get found:             57296.713 / s
+
+----------------------------------
+
+[INFO]Current Time:       22.14 s
+
+[P]indexs Load Factor:    4.1806 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           2908901 
+[P]get request:           2895778 
+
+[P]Get Hit Rate:          41.2926 %
+[P]ACC Hit Rate:          22.3451 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            284949.855 ops
+[P]all request:           5804679 o
+
+[P]GetThroughput:         142007.835 ops
+[P]SetThroughput:         142942.020 ops
+
+[P]Valid Entries:         111487.219 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           141403.286 / s
+
+[P]get found:             58638.671 / s
+
+----------------------------------
+
+[INFO]Current Time:       22.91 s
+
+[P]indexs Load Factor:    4.3092 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           3020499 
+[P]get request:           3006726 
+
+[P]Get Hit Rate:          42.5262 %
+[P]ACC Hit Rate:          23.0898 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            287857.720 ops
+[P]all request:           6027225 o
+
+[P]GetThroughput:         143508.481 ops
+[P]SetThroughput:         144349.239 ops
+
+[P]Valid Entries:         111227.221 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           140731.389 / s
+
+[P]expire scan persec:      1.293 / s
+[P]total expire scan:     9
+[P]expire hit persec:       0.000 / s
+[P]total expire hit:      0
+
+[P]expire hit rate:       0.000000 %
+[P]total expire hit rate: 0.000000 %
+
+[P]get found:             61028.744 / s
+
+----------------------------------
+
+[INFO]Current Time:       23.69 s
+
+[P]indexs Load Factor:    4.4335 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           3130265 
+[P]get request:           3117599 
+
+[P]Get Hit Rate:          43.9250 %
+[P]ACC Hit Rate:          23.8308 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            282823.063 ops
+[P]all request:           6247864 o
+
+[P]GetThroughput:         142121.028 ops
+[P]SetThroughput:         140702.035 ops
+
+[P]Valid Entries:         109262.438 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           141505.746 / s
+
+[P]get found:             62426.706 / s
+
+----------------------------------
+
+[INFO]Current Time:       24.45 s
+
+[P]indexs Load Factor:    4.5593 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           3239959 
+[P]get request:           3226654 
+
+[P]Get Hit Rate:          44.9718 %
+[P]ACC Hit Rate:          24.5453 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            287418.463 ops
+[P]all request:           6466613 o
+
+[P]GetThroughput:         143289.435 ops
+[P]SetThroughput:         144129.029 ops
+
+[P]Valid Entries:         109160.389 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           142725.763 / s
+
+[P]get found:             64439.843 / s
+
+----------------------------------
+
+[INFO]Current Time:       25.23 s
+
+[P]indexs Load Factor:    4.6832 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           3351947 
+[P]get request:           3337929 
+
+[P]Get Hit Rate:          46.0481 %
+[P]ACC Hit Rate:          25.2621 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            286113.151 ops
+[P]all request:           6689876 o
+
+[P]GetThroughput:         142599.718 ops
+[P]SetThroughput:         143513.433 ops
+
+[P]Valid Entries:         107623.541 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           141906.423 / s
+
+[P]expire scan persec:      1.282 / s
+[P]total expire scan:     10
+[P]expire hit persec:       0.000 / s
+[P]total expire hit:      0
+
+[P]expire hit rate:       0.000000 %
+[P]total expire hit rate: 0.000000 %
+
+[P]get found:             65664.431 / s
+
+----------------------------------
+
+[INFO]Current Time:       26.01 s
+
+[P]indexs Load Factor:    4.8042 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           3462435 
+[P]get request:           3449545 
+
+[P]Get Hit Rate:          47.6786 %
+[P]ACC Hit Rate:          25.9875 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            284019.051 ops
+[P]all request:           6911980 o
+
+[P]GetThroughput:         142730.750 ops
+[P]SetThroughput:         141288.302 ops
+
+[P]Valid Entries:         106420.188 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           142233.310 / s
+
+[P]get found:             68052.092 / s
+
+----------------------------------
+
+[INFO]Current Time:       26.80 s
+
+[P]indexs Load Factor:    4.9240 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           3574466 
+[P]get request:           3560809 
+
+[P]Get Hit Rate:          48.6707 %
+[P]ACC Hit Rate:          26.6962 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            284735.504 ops
+[P]all request:           7135275 o
+
+[P]GetThroughput:         141878.731 ops
+[P]SetThroughput:         142856.774 ops
+
+[P]Valid Entries:         105223.155 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           141283.234 / s
+
+[P]get found:             69053.413 / s
+
+----------------------------------
+
+[INFO]Current Time:       27.58 s
+
+[P]indexs Load Factor:    5.0426 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           3685225 
+[P]get request:           3672548 
+
+[P]Get Hit Rate:          50.0819 %
+[P]ACC Hit Rate:          27.4078 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            283763.876 ops
+[P]all request:           7357774 o
+
+[P]GetThroughput:         142506.221 ops
+[P]SetThroughput:         141256.379 ops
+
+[P]Valid Entries:         104384.764 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           141993.531 / s
+
+[P]expire scan persec:      1.275 / s
+[P]total expire scan:     11
+[P]expire hit persec:       0.000 / s
+[P]total expire hit:      0
+
+[P]expire hit rate:       0.000000 %
+[P]total expire hit rate: 0.000000 %
+
+[P]get found:             71369.805 / s
+
+----------------------------------
+
+[INFO]Current Time:       28.37 s
+
+[P]indexs Load Factor:    5.1601 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           3798478 
+[P]get request:           3785167 
+
+[P]Get Hit Rate:          51.3217 %
+[P]ACC Hit Rate:          28.1193 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            286745.346 ops
+[P]all request:           7583645 o
+
+[P]GetThroughput:         142970.873 ops
+[P]SetThroughput:         143775.742 ops
+
+[P]Valid Entries:         103863.638 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           142412.289 / s
+
+[P]get found:             73375.101 / s
+
+----------------------------------
+
+[INFO]Current Time:       29.16 s
+
+[P]indexs Load Factor:    5.2760 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           3912340 
+[P]get request:           3898351 
+
+[P]Get Hit Rate:          52.4951 %
+[P]ACC Hit Rate:          28.8270 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            286553.369 ops
+[P]all request:           7810691 o
+
+[P]GetThroughput:         142848.835 ops
+[P]SetThroughput:         143704.534 ops
+
+[P]Valid Entries:         102673.862 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           142254.388 / s
+
+[P]get found:             74988.571 / s
+
+----------------------------------
+
+[INFO]Current Time:       29.95 s
+
+[P]indexs Load Factor:    5.3902 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           4025985 
+[P]get request:           4011351 
+
+[P]Get Hit Rate:          53.7265 %
+[P]ACC Hit Rate:          29.5284 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            286227.190 ops
+[P]all request:           8037336 o
+
+[P]GetThroughput:         142706.314 ops
+[P]SetThroughput:         143520.876 ops
+
+[P]Valid Entries:         101661.200 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           142088.762 / s
+
+[P]expire scan persec:      1.263 / s
+[P]total expire scan:     12
+[P]expire hit persec:       0.000 / s
+[P]total expire hit:      0
+
+[P]expire hit rate:       0.000000 %
+[P]total expire hit rate: 0.000000 %
+
+[P]get found:             76671.177 / s
+
+----------------------------------
+
+[INFO]Current Time:       30.75 s
+
+[P]indexs Load Factor:    5.5037 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           4140467 
+[P]get request:           4125186 
+
+[P]Get Hit Rate:          54.2891 %
+[P]ACC Hit Rate:          30.2117 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            287394.056 ops
+[P]all request:           8265653 o
+
+[P]GetThroughput:         143289.822 ops
+[P]SetThroughput:         144104.234 ops
+
+[P]Valid Entries:         101151.903 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           142923.526 / s
+
+[P]get found:             77790.759 / s
+
+----------------------------------
+
+[INFO]Current Time:       31.55 s
+
+[P]indexs Load Factor:    5.6152 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           4254430 
+[P]get request:           4238229 
+
+[P]Get Hit Rate:          55.8265 %
+[P]ACC Hit Rate:          30.8949 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            284413.744 ops
+[P]all request:           8492659 o
+
+[P]GetThroughput:         141630.542 ops
+[P]SetThroughput:         142783.202 ops
+
+[P]Valid Entries:         98583.718 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           140916.394 / s
+
+[P]get found:             79067.437 / s
+
+----------------------------------
+
+[INFO]Current Time:       32.35 s
+
+[P]indexs Load Factor:    5.7253 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           4370136 
+[P]get request:           4353222 
+
+[P]Get Hit Rate:          56.9687 %
+[P]ACC Hit Rate:          31.5836 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            286466.604 ops
+[P]all request:           8723358 o
+
+[P]GetThroughput:         142790.624 ops
+[P]SetThroughput:         143675.980 ops
+
+[P]Valid Entries:         98709.096 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           142283.997 / s
+
+[P]expire scan persec:      2.483 / s
+[P]total expire scan:     14
+[P]expire hit persec:       0.000 / s
+[P]total expire hit:      0
+
+[P]expire hit rate:       0.000000 %
+[P]total expire hit rate: 0.000000 %
+
+[P]get found:             81345.941 / s
+
+----------------------------------
+
+[INFO]Current Time:       33.15 s
+
+[P]indexs Load Factor:    5.8343 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           4484865 
+[P]get request:           4466946 
+
+[P]Get Hit Rate:          58.0414 %
+[P]ACC Hit Rate:          32.2572 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            285099.717 ops
+[P]all request:           8951811 o
+
+[P]GetThroughput:         141922.760 ops
+[P]SetThroughput:         143176.957 ops
+
+[P]Valid Entries:         97351.945 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           141287.549 / s
+
+[P]get found:             82373.954 / s
+
+----------------------------------
+
+[INFO]Current Time:       33.96 s
+
+[P]indexs Load Factor:    5.9419 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           4596246 
+[P]get request:           4581405 
+
+[P]Get Hit Rate:          59.1199 %
+[P]ACC Hit Rate:          32.9283 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            279499.065 ops
+[P]all request:           9177651 o
+
+[P]GetThroughput:         141654.195 ops
+[P]SetThroughput:         137844.869 ops
+
+[P]Valid Entries:         96463.315 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           141172.770 / s
+
+[P]get found:             83745.761 / s
+
+----------------------------------
+
+[INFO]Current Time:       34.77 s
+
+[P]indexs Load Factor:    6.0472 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           4711671 
+[P]get request:           4696060 
+
+[P]Get Hit Rate:          60.2974 %
+[P]ACC Hit Rate:          33.5966 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            285159.443 ops
+[P]all request:           9407731 o
+
+[P]GetThroughput:         142102.555 ops
+[P]SetThroughput:         143056.887 ops
+
+[P]Valid Entries:         95330.358 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           141591.925 / s
+
+[P]expire scan persec:      3.718 / s
+[P]total expire scan:     17
+[P]expire hit persec:       0.000 / s
+[P]total expire hit:      0
+
+[P]expire hit rate:       0.000000 %
+[P]total expire hit rate: 0.000000 %
+
+[P]get found:             85684.166 / s
+
+----------------------------------
+
+[INFO]Current Time:       35.58 s
+
+[P]indexs Load Factor:    6.1522 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           4827174 
+[P]get request:           4810736 
+
+[P]Get Hit Rate:          61.3337 %
+[P]ACC Hit Rate:          34.2578 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            285069.698 ops
+[P]all request:           9637910 o
+
+[P]GetThroughput:         142022.742 ops
+[P]SetThroughput:         143046.956 ops
+
+[P]Valid Entries:         94859.342 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           141524.877 / s
+
+[P]get found:             87107.761 / s
+
+----------------------------------
+
+[INFO]Current Time:       36.39 s
+
+[P]indexs Load Factor:    6.2559 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           4943332 
+[P]get request:           4927941 
+
+[P]Get Hit Rate:          62.2610 %
+[P]ACC Hit Rate:          34.9238 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            286396.529 ops
+[P]all request:           9871273 o
+
+[P]GetThroughput:         143840.734 ops
+[P]SetThroughput:         142555.795 ops
+
+[P]Valid Entries:         94799.518 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           143504.465 / s
+
+[P]get found:             89556.673 / s
+
+----------------------------------
+
+[INFO]Current Time:       37.20 s
+
+[P]indexs Load Factor:    6.3578 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           5059053 
+[P]get request:           5044688 
+
+[P]Get Hit Rate:          63.2839 %
+[P]ACC Hit Rate:          35.5801 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            285605.414 ops
+[P]all request:           10103741 o
+
+[P]GetThroughput:         143432.969 ops
+[P]SetThroughput:         142172.446 ops
+
+[P]Valid Entries:         93487.527 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           143108.624 / s
+
+[P]get found:             90769.909 / s
+
+----------------------------------
+
+[INFO]Current Time:       38.02 s
+
+[P]indexs Load Factor:    6.4585 %
+
+[P]full bucket LFactor:   0.0001 %
+
+[P]set request:           5175704 
+[P]get request:           5160598 
+
+[P]Get Hit Rate:          64.2990 %
+[P]ACC Hit Rate:          36.2251 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            284779.319 ops
+[P]all request:           10336302 o
+
+[P]GetThroughput:         141935.969 ops
+[P]SetThroughput:         142843.350 ops
+
+[P]Valid Entries:         91580.599 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           141422.888 / s
+
+[P]expire scan persec:      2.449 / s
+[P]total expire scan:     19
+[P]expire hit persec:       0.000 / s
+[P]total expire hit:      0
+
+[P]expire hit rate:       0.000000 %
+[P]total expire hit rate: 0.000000 %
+
+[P]get found:             91263.444 / s
+
+----------------------------------
+
+[INFO]Current Time:       38.84 s
+
+[P]indexs Load Factor:    6.5576 %
+
+[P]full bucket LFactor:   0.0001 %
+
+[P]set request:           5293559 
+[P]get request:           5277692 
+
+[P]Get Hit Rate:          65.3031 %
+[P]ACC Hit Rate:          36.8703 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            287153.134 ops
+[P]all request:           10571251 o
+
+[P]GetThroughput:         143111.522 ops
+[P]SetThroughput:         144041.612 ops
+
+[P]Valid Entries:         92022.613 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           142775.419 / s
+
+[P]get found:             93456.246 / s
+
+----------------------------------
+
+[INFO]Current Time:       39.66 s
+
+[P]indexs Load Factor:    6.6550 %
+
+[P]full bucket LFactor:   0.0001 %
+
+[P]set request:           5410920 
+[P]get request:           5394305 
+
+[P]Get Hit Rate:          66.0775 %
+[P]ACC Hit Rate:          37.5017 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            284719.916 ops
+[P]all request:           10805225 o
+
+[P]GetThroughput:         141904.842 ops
+[P]SetThroughput:         142815.073 ops
+
+[P]Valid Entries:         89957.154 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           141528.824 / s
+
+[P]get found:             93767.227 / s
+
+----------------------------------
+
+[INFO]Current Time:       40.48 s
+
+[P]indexs Load Factor:    6.7509 %
+
+[P]full bucket LFactor:   0.0001 %
+
+[P]set request:           5528917 
+[P]get request:           5511568 
+
+[P]Get Hit Rate:          67.3273 %
+[P]ACC Hit Rate:          38.1362 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            287151.765 ops
+[P]all request:           11040485 o
+
+[P]GetThroughput:         143127.933 ops
+[P]SetThroughput:         144023.833 ops
+
+[P]Valid Entries:         89661.998 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           142692.189 / s
+
+[P]expire scan persec:      3.662 / s
+[P]total expire scan:     22
+[P]expire hit persec:       0.000 / s
+[P]total expire hit:      0
+
+[P]expire hit rate:       0.000000 %
+[P]total expire hit rate: 0.000000 %
+
+[P]get found:             96364.158 / s
+
+----------------------------------
+
+[INFO]Current Time:       41.30 s
+
+[P]indexs Load Factor:    6.8452 %
+
+[P]full bucket LFactor:   0.0001 %
+
+[P]set request:           5647027 
+[P]get request:           5629005 
+
+[P]Get Hit Rate:          68.1974 %
+[P]ACC Hit Rate:          38.7634 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            286080.357 ops
+[P]all request:           11276033 o
+
+[P]GetThroughput:         142630.882 ops
+[P]SetThroughput:         143448.261 ops
+
+[P]Valid Entries:         88406.929 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           142253.163 / s
+
+[P]get found:             97270.576 / s
+
+----------------------------------
+
+[INFO]Current Time:       42.12 s
+
+[P]indexs Load Factor:    6.9391 %
+
+[P]full bucket LFactor:   0.0001 %
+
+[P]set request:           5765470 
+[P]get request:           5746717 
+
+[P]Get Hit Rate:          69.1637 %
+[P]ACC Hit Rate:          39.3861 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            287640.195 ops
+[P]all request:           11512187 o
+
+[P]GetThroughput:         143375.520 ops
+[P]SetThroughput:         144265.893 ops
+
+[P]Valid Entries:         88018.967 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           142911.455 / s
+
+[P]get found:             99163.846 / s
+
+----------------------------------
+
+[INFO]Current Time:       42.95 s
+
+[P]indexs Load Factor:    7.0309 %
+
+[P]full bucket LFactor:   0.0001 %
+
+[P]set request:           5883787 
+[P]get request:           5864131 
+
+[P]Get Hit Rate:          70.3690 %
+[P]ACC Hit Rate:          40.0065 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            285541.434 ops
+[P]all request:           11747918 o
+
+[P]GetThroughput:         142223.814 ops
+[P]SetThroughput:         143317.620 ops
+
+[P]Valid Entries:         86829.762 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           141832.564 / s
+
+[P]expire scan persec:      2.423 / s
+[P]total expire scan:     24
+[P]expire hit persec:       0.000 / s
+[P]total expire hit:      0
+
+[P]expire hit rate:       0.000000 %
+[P]total expire hit rate: 0.000000 %
+
+[P]get found:             100081.406 / s
+
+----------------------------------
+
+[INFO]Current Time:       43.78 s
+
+[P]indexs Load Factor:    7.1217 %
+
+[P]full bucket LFactor:   0.0001 %
+
+[P]set request:           6002680 
+[P]get request:           5982393 
+
+[P]Get Hit Rate:          71.1784 %
+[P]ACC Hit Rate:          40.6227 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            285869.032 ops
+[P]all request:           11985073 o
+
+[P]GetThroughput:         142554.209 ops
+[P]SetThroughput:         143314.823 ops
+
+[P]Valid Entries:         86026.503 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           142207.051 / s
+
+[P]get found:             101467.806 / s
+
+----------------------------------
+
+[INFO]Current Time:       44.61 s
+
+[P]indexs Load Factor:    7.2119 %
+
+[P]full bucket LFactor:   0.0001 %
+
+[P]set request:           6122051 
+[P]get request:           6101070 
+
+[P]Get Hit Rate:          70.9177 %
+[P]ACC Hit Rate:          41.2120 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            287368.476 ops
+[P]all request:           12223121 o
+
+[P]GetThroughput:         143265.344 ops
+[P]SetThroughput:         144103.132 ops
+
+[P]Valid Entries:         85444.703 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           142949.061 / s
+
+[P]get found:             101600.488 / s
+
+----------------------------------
+
+[INFO]Current Time:       45.44 s
+
+[P]indexs Load Factor:    7.2998 %
+
+[P]full bucket LFactor:   0.0001 %
+
+[P]set request:           6242627 
+[P]get request:           6220976 
+
+[P]Get Hit Rate:          72.6494 %
+[P]ACC Hit Rate:          41.8179 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            287493.926 ops
+[P]all request:           12463603 o
+
+[P]GetThroughput:         143346.474 ops
+[P]SetThroughput:         144147.452 ops
+
+[P]Valid Entries:         84461.398 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           142911.315 / s
+
+[P]get found:             104140.366 / s
+
+----------------------------------
+
+[INFO]Current Time:       46.28 s
+
+[P]indexs Load Factor:    7.3866 %
+
+[P]full bucket LFactor:   0.0001 %
+
+[P]set request:           6363467 
+[P]get request:           6341107 
+
+[P]Get Hit Rate:          72.7198 %
+[P]ACC Hit Rate:          42.4033 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            288174.540 ops
+[P]all request:           12704574 o
+
+[P]GetThroughput:         143663.327 ops
+[P]SetThroughput:         144511.212 ops
+
+[P]Valid Entries:         83812.676 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           143332.066 / s
+
+[P]expire scan persec:      3.588 / s
+[P]total expire scan:     27
+[P]expire hit persec:       0.000 / s
+[P]total expire hit:      0
+
+[P]expire hit rate:       0.000000 %
+[P]total expire hit rate: 0.000000 %
+
+[P]get found:             104471.657 / s
+
+----------------------------------
+
+[INFO]Current Time:       47.12 s
+
+[P]indexs Load Factor:    7.4726 %
+
+[P]full bucket LFactor:   0.0001 %
+
+[P]set request:           6481404 
+[P]get request:           6460067 
+
+[P]Get Hit Rate:          74.6713 %
+[P]ACC Hit Rate:          42.9975 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            282972.581 ops
+[P]all request:           12941471 o
+
+[P]GetThroughput:         142097.275 ops
+[P]SetThroughput:         140875.305 ops
+
+[P]Valid Entries:         82188.510 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           141847.625 / s
+
+[P]get found:             106105.908 / s
+
+----------------------------------
+
+[INFO]Current Time:       47.96 s
+
+[P]indexs Load Factor:    7.5573 %
+
+[P]full bucket LFactor:   0.0001 %
+
+[P]set request:           6602339 
+[P]get request:           6579993 
+
+[P]Get Hit Rate:          75.7676 %
+[P]ACC Hit Rate:          43.5948 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            286292.148 ops
+[P]all request:           13182332 o
+
+[P]GetThroughput:         142546.415 ops
+[P]SetThroughput:         143745.733 ops
+
+[P]Valid Entries:         81895.903 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           142244.506 / s
+
+[P]get found:             108003.936 / s
+
+----------------------------------
+
+[INFO]Current Time:       48.80 s
+
+[P]indexs Load Factor:    7.6401 %
+
+[P]full bucket LFactor:   0.0002 %
+
+[P]set request:           6722179 
+[P]get request:           6700674 
+
+[P]Get Hit Rate:          76.7080 %
+[P]ACC Hit Rate:          44.1912 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            285343.565 ops
+[P]all request:           13422853 o
+
+[P]GetThroughput:         143170.645 ops
+[P]SetThroughput:         142172.920 ops
+
+[P]Valid Entries:         81410.131 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           142808.807 / s
+
+[P]expire scan persec:      3.559 / s
+[P]total expire scan:     30
+[P]expire hit persec:       0.000 / s
+[P]total expire hit:      0
+
+[P]expire hit rate:       0.000000 %
+[P]total expire hit rate: 0.000000 %
+
+[P]get found:             109823.361 / s
+
+----------------------------------
+
+[INFO]Current Time:       49.65 s
+
+[P]indexs Load Factor:    7.7219 %
+
+[P]full bucket LFactor:   0.0002 %
+
+[P]set request:           6842585 
+[P]get request:           6820348 
+
+[P]Get Hit Rate:          77.2323 %
+[P]ACC Hit Rate:          44.7709 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            284537.249 ops
+[P]all request:           13662933 o
+
+[P]GetThroughput:         141834.850 ops
+[P]SetThroughput:         142702.399 ops
+
+[P]Valid Entries:         79640.326 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           141485.223 / s
+
+[P]get found:             109542.337 / s
+
+----------------------------------
+
+[INFO]Current Time:       50.49 s
+
+[P]indexs Load Factor:    7.8023 %
+
+[P]full bucket LFactor:   0.0002 %
+
+[P]set request:           6964485 
+[P]get request:           6939715 
+
+[P]Get Hit Rate:          79.3159 %
+[P]ACC Hit Rate:          45.3651 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            285588.014 ops
+[P]all request:           13904200 o
+
+[P]GetThroughput:         141294.850 ops
+[P]SetThroughput:         144293.165 ops
+
+[P]Valid Entries:         79932.968 / s
+[P]mica evicted:          30.342198 %
+[P]mica evict-invalid-ps: 0.000000 %
+[P]mica evict-valid-ps:   30.342198 %
+[P]mica evict-valid:      100.000000 %
+[P]mica evict-invalid:    0.000000 %
+[P]set success:           142928.357 / s
+
+[P]get found:             112069.269 / s
+
+----------------------------------
+
+[INFO]Current Time:       51.34 s
+
+[P]indexs Load Factor:    7.8816 %
+
+[P]full bucket LFactor:   0.0002 %
+
+[P]set request:           7084926 
+[P]get request:           7059149 
+
+[P]Get Hit Rate:          78.8301 %
+[P]ACC Hit Rate:          45.9313 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            284026.311 ops
+[P]all request:           14144075 o
+
+[P]GetThroughput:         141416.981 ops
+[P]SetThroughput:         142609.329 ops
+
+[P]Valid Entries:         77745.357 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           140968.223 / s
+
+[P]get found:             111479.217 / s
+
+----------------------------------
+
+[INFO]Current Time:       52.19 s
+
+[P]indexs Load Factor:    7.9598 %
+
+[P]full bucket LFactor:   0.0002 %
+
+[P]set request:           7208197 
+[P]get request:           7181761 
+
+[P]Get Hit Rate:          79.4531 %
+[P]ACC Hit Rate:          46.5036 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            288758.781 ops
+[P]all request:           14389958 o
+
+[P]GetThroughput:         143992.434 ops
+[P]SetThroughput:         144766.347 ops
+
+[P]Valid Entries:         78402.431 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           143665.958 / s
+
+[P]get found:             114406.412 / s
+
+----------------------------------
+
+[INFO]Current Time:       53.03 s
+
+[P]indexs Load Factor:    8.0369 %
+
+[P]full bucket LFactor:   0.0003 %
+
+[P]set request:           7328841 
+[P]get request:           7301565 
+
+[P]Get Hit Rate:          80.5883 %
+[P]ACC Hit Rate:          47.0629 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            283632.400 ops
+[P]all request:           14630406 o
+
+[P]GetThroughput:         141320.768 ops
+[P]SetThroughput:         142311.632 ops
+
+[P]Valid Entries:         76346.055 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           140942.117 / s
+
+[P]get found:             113887.996 / s
+
+----------------------------------
+
+[INFO]Current Time:       53.89 s
+
+[P]indexs Load Factor:    8.1123 %
+
+[P]full bucket LFactor:   0.0003 %
+
+[P]set request:           7452268 
+[P]get request:           7424143 
+
+[P]Get Hit Rate:          81.2014 %
+[P]ACC Hit Rate:          47.6265 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            288032.438 ops
+[P]all request:           14876411 o
+
+[P]GetThroughput:         143519.198 ops
+[P]SetThroughput:         144513.241 ops
+
+[P]Valid Entries:         76673.613 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           143253.417 / s
+
+[P]get found:             116539.537 / s
+
+----------------------------------
+
+[INFO]Current Time:       54.74 s
+
+[P]indexs Load Factor:    8.1858 %
+
+[P]full bucket LFactor:   0.0003 %
+
+[P]set request:           7574253 
+[P]get request:           7543305 
+
+[P]Get Hit Rate:          83.3689 %
+[P]ACC Hit Rate:          48.1912 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            283360.619 ops
+[P]all request:           15117558 o
+
+[P]GetThroughput:         140021.721 ops
+[P]SetThroughput:         143338.897 ops
+
+[P]Valid Entries:         74966.061 / s
+[P]mica evicted:          14.354781 %
+[P]mica evict-invalid-ps: 0.000000 %
+[P]mica evict-valid-ps:   14.354781 %
+[P]mica evict-valid:      100.000000 %
+[P]mica evict-invalid:    0.000000 %
+[P]set success:           141659.746 / s
+
+[P]expire scan persec:      1.175 / s
+[P]total expire scan:     31
+[P]expire hit persec:       0.000 / s
+[P]total expire hit:      0
+
+[P]expire hit rate:       0.000000 %
+[P]total expire hit rate: 0.000000 %
+
+[P]get found:             116734.512 / s
+
+----------------------------------
+
+[INFO]Current Time:       55.59 s
+
+[P]indexs Load Factor:    8.2588 %
+
+[P]full bucket LFactor:   0.0003 %
+
+[P]set request:           7695511 
+[P]get request:           7663772 
+
+[P]Get Hit Rate:          82.7986 %
+[P]ACC Hit Rate:          48.7352 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            284857.873 ops
+[P]all request:           15359283 o
+
+[P]GetThroughput:         141962.864 ops
+[P]SetThroughput:         142895.008 ops
+
+[P]Valid Entries:         74281.647 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           141535.091 / s
+
+[P]get found:             117543.276 / s
+
+----------------------------------
+
+[INFO]Current Time:       56.44 s
+
+[P]indexs Load Factor:    8.3310 %
+
+[P]full bucket LFactor:   0.0003 %
+
+[P]set request:           7818215 
+[P]get request:           7785523 
+
+[P]Get Hit Rate:          83.5221 %
+[P]ACC Hit Rate:          49.2792 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            286173.061 ops
+[P]all request:           15603738 o
+
+[P]GetThroughput:         142528.712 ops
+[P]SetThroughput:         143644.349 ops
+
+[P]Valid Entries:         74285.238 / s
+[P]mica evicted:          28.103487 %
+[P]mica evict-invalid-ps: 0.000000 %
+[P]mica evict-valid-ps:   28.103487 %
+[P]mica evict-valid:      100.000000 %
+[P]mica evict-invalid:    0.000000 %
+[P]set success:           142233.706 / s
+
+[P]get found:             119042.983 / s
+
+----------------------------------
+
+[INFO]Current Time:       57.30 s
+
+[P]indexs Load Factor:    8.4010 %
+
+[P]full bucket LFactor:   0.0003 %
+
+[P]set request:           7941294 
+[P]get request:           7907594 
+
+[P]Get Hit Rate:          84.1453 %
+[P]ACC Hit Rate:          49.8174 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            284825.630 ops
+[P]all request:           15848888 o
+
+[P]GetThroughput:         141827.246 ops
+[P]SetThroughput:         142998.383 ops
+
+[P]Valid Entries:         72335.137 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           141415.954 / s
+
+[P]get found:             119340.951 / s
+
+----------------------------------
+
+[INFO]Current Time:       58.16 s
+
+[P]indexs Load Factor:    8.4701 %
+
+[P]full bucket LFactor:   0.0004 %
+
+[P]set request:           8063007 
+[P]get request:           8024843 
+
+[P]Get Hit Rate:          87.4950 %
+[P]ACC Hit Rate:          50.3679 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            280199.829 ops
+[P]all request:           16087850 o
+
+[P]GetThroughput:         137482.737 ops
+[P]SetThroughput:         142717.092 ops
+
+[P]Valid Entries:         71664.001 / s
+[P]mica evicted:          13.843636 %
+[P]mica evict-invalid-ps: 0.000000 %
+[P]mica evict-valid-ps:   13.843636 %
+[P]mica evict-valid:      100.000000 %
+[P]mica evict-invalid:    0.000000 %
+[P]set success:           141117.706 / s
+
+[P]get found:             120290.506 / s
+
+----------------------------------
+
+[INFO]Current Time:       59.02 s
+
+[P]indexs Load Factor:    8.5382 %
+
+[P]full bucket LFactor:   0.0004 %
+
+[P]set request:           8185597 
+[P]get request:           8146468 
+
+[P]Get Hit Rate:          85.6691 %
+[P]ACC Hit Rate:          50.8949 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            284105.728 ops
+[P]all request:           16332065 o
+
+[P]GetThroughput:         141491.551 ops
+[P]SetThroughput:         142614.177 ops
+
+[P]Valid Entries:         70704.477 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           141147.202 / s
+
+[P]get found:             121214.489 / s
+
+----------------------------------
+
+[INFO]Current Time:       59.88 s
+
+[P]indexs Load Factor:    8.6057 %
+
+[P]full bucket LFactor:   0.0004 %
+
+[P]set request:           8309901 
+[P]get request:           8269976 
+
+[P]Get Hit Rate:          84.8706 %
+[P]ACC Hit Rate:          51.4023 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            287458.606 ops
+[P]all request:           16579877 o
+
+[P]GetThroughput:         143267.628 ops
+[P]SetThroughput:         144190.977 ops
+
+[P]Valid Entries:         71042.221 / s
+[P]mica evicted:          13.479293 %
+[P]mica evict-invalid-ps: 0.000000 %
+[P]mica evict-valid-ps:   13.479293 %
+[P]mica evict-valid:      100.000000 %
+[P]mica evict-invalid:    0.000000 %
+[P]set success:           142997.351 / s
+
+[P]get found:             121592.118 / s
+
+----------------------------------
+
+[INFO]Current Time:       60.74 s
+
+[P]indexs Load Factor:    8.6714 %
+
+[P]full bucket LFactor:   0.0004 %
+
+[P]set request:           8434693 
+[P]get request:           8393998 
+
+[P]Get Hit Rate:          86.9354 %
+[P]ACC Hit Rate:          51.9274 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            288044.476 ops
+[P]all request:           16828691 o
+
+[P]GetThroughput:         143576.535 ops
+[P]SetThroughput:         144467.941 ops
+
+[P]Valid Entries:         70387.487 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           143397.096 / s
+
+[P]expire scan persec:      3.473 / s
+[P]total expire scan:     34
+[P]expire hit persec:       0.000 / s
+[P]total expire hit:      0
+
+[P]expire hit rate:       0.000000 %
+[P]total expire hit rate: 0.000000 %
+
+[P]get found:             124818.810 / s
+
+----------------------------------
+
+[INFO]Current Time:       61.60 s
+
+[P]indexs Load Factor:    8.7358 %
+
+[P]full bucket LFactor:   0.0004 %
+
+[P]set request:           8558269 
+[P]get request:           8516878 
+
+[P]Get Hit Rate:          87.4829 %
+[P]ACC Hit Rate:          52.4403 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            287891.690 ops
+[P]all request:           17075147 o
+
+[P]GetThroughput:         143539.337 ops
+[P]SetThroughput:         144352.353 ops
+
+[P]Valid Entries:         69796.704 / s
+[P]mica evicted:          13.371707 %
+[P]mica evict-invalid-ps: 0.000000 %
+[P]mica evict-valid-ps:   13.371707 %
+[P]mica evict-valid:      100.000000 %
+[P]mica evict-invalid:    0.000000 %
+[P]set success:           143424.861 / s
+
+[P]get found:             125572.389 / s
+
+----------------------------------
+
+[INFO]Current Time:       62.46 s
+
+[P]indexs Load Factor:    8.7991 %
+
+[P]full bucket LFactor:   0.0004 %
+
+[P]set request:           8682221 
+[P]get request:           8639813 
+
+[P]Get Hit Rate:          88.5964 %
+[P]ACC Hit Rate:          52.9548 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            285653.988 ops
+[P]all request:           17322034 o
+
+[P]GetThroughput:         142238.648 ops
+[P]SetThroughput:         143415.341 ops
+
+[P]Valid Entries:         68389.328 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           141938.979 / s
+
+[P]get found:             126018.340 / s
+
+----------------------------------
+
+[INFO]Current Time:       63.33 s
+
+[P]indexs Load Factor:    8.8615 %
+
+[P]full bucket LFactor:   0.0004 %
+
+[P]set request:           8805415 
+[P]get request:           8762006 
+
+[P]Get Hit Rate:          89.2146 %
+[P]ACC Hit Rate:          53.4605 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            284126.782 ops
+[P]all request:           17567421 o
+
+[P]GetThroughput:         141483.876 ops
+[P]SetThroughput:         142642.906 ops
+
+[P]Valid Entries:         67522.474 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           141179.356 / s
+
+[P]get found:             126224.279 / s
+
+----------------------------------
+
+[INFO]Current Time:       64.19 s
+
+[P]indexs Load Factor:    8.9229 %
+
+[P]full bucket LFactor:   0.0005 %
+
+[P]set request:           8929405 
+[P]get request:           8885198 
+
+[P]Get Hit Rate:          89.8070 %
+[P]ACC Hit Rate:          53.9644 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            285620.585 ops
+[P]all request:           17814603 o
+
+[P]GetThroughput:         142349.245 ops
+[P]SetThroughput:         143271.340 ops
+
+[P]Valid Entries:         67094.526 / s
+[P]mica evicted:          25.899683 %
+[P]mica evict-invalid-ps: 0.000000 %
+[P]mica evict-valid-ps:   25.899683 %
+[P]mica evict-valid:      100.000000 %
+[P]mica evict-invalid:    0.000000 %
+[P]set success:           142047.658 / s
+
+[P]expire scan persec:      2.311 / s
+[P]total expire scan:     36
+[P]expire hit persec:       0.000 / s
+[P]total expire hit:      0
+
+[P]expire hit rate:       0.000000 %
+[P]total expire hit rate: 0.000000 %
+
+[P]get found:             127839.541 / s
+
+----------------------------------
+
+[INFO]Current Time:       65.06 s
+
+[P]indexs Load Factor:    8.9837 %
+
+[P]full bucket LFactor:   0.0005 %
+
+[P]set request:           9054562 
+[P]get request:           9009396 
+
+[P]Get Hit Rate:          90.1110 %
+[P]ACC Hit Rate:          54.4627 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            286251.307 ops
+[P]all request:           18063958 o
+
+[P]GetThroughput:         142575.203 ops
+[P]SetThroughput:         143676.103 ops
+
+[P]Valid Entries:         66349.048 / s
+[P]mica evicted:          12.778317 %
+[P]mica evict-invalid-ps: 0.000000 %
+[P]mica evict-valid-ps:   12.778317 %
+[P]mica evict-valid:      100.000000 %
+[P]mica evict-invalid:    0.000000 %
+[P]set success:           142367.421 / s
+
+[P]get found:             128475.873 / s
+
+----------------------------------
+
+[INFO]Current Time:       65.93 s
+
+[P]indexs Load Factor:    9.0431 %
+
+[P]full bucket LFactor:   0.0005 %
+
+[P]set request:           9179790 
+[P]get request:           9133801 
+
+[P]Get Hit Rate:          90.7488 %
+[P]ACC Hit Rate:          54.9569 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            286219.334 ops
+[P]all request:           18313591 o
+
+[P]GetThroughput:         142637.857 ops
+[P]SetThroughput:         143581.477 ops
+
+[P]Valid Entries:         65601.605 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           142395.933 / s
+
+[P]get found:             129442.093 / s
+
+----------------------------------
+
+[INFO]Current Time:       66.81 s
+
+[P]indexs Load Factor:    9.1005 %
+
+[P]full bucket LFactor:   0.0005 %
+
+[P]set request:           9305310 
+[P]get request:           9258186 
+
+[P]Get Hit Rate:          91.6043 %
+[P]ACC Hit Rate:          55.4493 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            285854.648 ops
+[P]all request:           18563496 o
+
+[P]GetThroughput:         142278.187 ops
+[P]SetThroughput:         143576.461 ops
+
+[P]Valid Entries:         64996.030 / s
+[P]mica evicted:          12.569095 %
+[P]mica evict-invalid-ps: 0.000000 %
+[P]mica evict-valid-ps:   12.569095 %
+[P]mica evict-valid:      100.000000 %
+[P]mica evict-invalid:    0.000000 %
+[P]set success:           142012.813 / s
+
+[P]get found:             130332.928 / s
+
+----------------------------------
+
+[INFO]Current Time:       67.67 s
+
+[P]indexs Load Factor:    9.1576 %
+
+[P]full bucket LFactor:   0.0005 %
+
+[P]set request:           9429646 
+[P]get request:           9381526 
+
+[P]Get Hit Rate:          92.0456 %
+[P]ACC Hit Rate:          55.9304 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            286108.458 ops
+[P]all request:           18811173 o
+
+[P]GetThroughput:         142478.378 ops
+[P]SetThroughput:         143628.925 ops
+
+[P]Valid Entries:         64296.631 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           140333.232 / s
+
+[P]get found:             131145.028 / s
+
+----------------------------------
+
+[INFO]Current Time:       68.54 s
+
+[P]indexs Load Factor:    9.2131 %
+
+[P]full bucket LFactor:   0.0005 %
+
+[P]set request:           9554220 
+[P]get request:           9505197 
+
+[P]Get Hit Rate:          92.6741 %
+[P]ACC Hit Rate:          56.4085 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            285761.006 ops
+[P]all request:           19059417 o
+
+[P]GetThroughput:         142361.343 ops
+[P]SetThroughput:         143400.813 ops
+
+[P]Valid Entries:         63618.326 / s
+[P]mica evicted:          12.494463 %
+[P]mica evict-invalid-ps: 0.000000 %
+[P]mica evict-valid-ps:   12.494463 %
+[P]mica evict-valid:      100.000000 %
+[P]mica evict-invalid:    0.000000 %
+[P]set success:           142083.921 / s
+
+[P]get found:             131932.110 / s
+
+----------------------------------
+
+[INFO]Current Time:       69.41 s
+
+[P]indexs Load Factor:    9.2681 %
+
+[P]full bucket LFactor:   0.0005 %
+
+[P]set request:           9679029 
+[P]get request:           9628945 
+
+[P]Get Hit Rate:          93.1571 %
+[P]ACC Hit Rate:          56.8808 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            285918.541 ops
+[P]all request:           19307974 o
+
+[P]GetThroughput:         142349.029 ops
+[P]SetThroughput:         143569.512 ops
+
+[P]Valid Entries:         62939.418 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           142114.365 / s
+
+[P]get found:             132608.172 / s
+
+----------------------------------
+
+[INFO]Current Time:       70.28 s
+
+[P]indexs Load Factor:    9.3218 %
+
+[P]full bucket LFactor:   0.0006 %
+
+[P]set request:           9803369 
+[P]get request:           9752217 
+
+[P]Get Hit Rate:          93.7212 %
+[P]ACC Hit Rate:          57.3465 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            284157.539 ops
+[P]all request:           19555586 o
+
+[P]GetThroughput:         141465.956 ops
+[P]SetThroughput:         142691.584 ops
+
+[P]Valid Entries:         61944.719 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           141340.868 / s
+
+[P]get found:             132583.594 / s
+
+----------------------------------
+
+[INFO]Current Time:       71.16 s
+
+[P]indexs Load Factor:    9.3750 %
+
+[P]full bucket LFactor:   0.0006 %
+
+[P]set request:           9928800 
+[P]get request:           9876891 
+
+[P]Get Hit Rate:          94.0252 %
+[P]ACC Hit Rate:          57.8094 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            287033.879 ops
+[P]all request:           19805691 o
+
+[P]GetThroughput:         143082.553 ops
+[P]SetThroughput:         143951.326 ops
+
+[P]Valid Entries:         62051.329 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           142956.311 / s
+
+[P]expire scan persec:      1.148 / s
+[P]total expire scan:     37
+[P]expire hit persec:       0.000 / s
+[P]total expire hit:      0
+
+[P]expire hit rate:       0.000000 %
+[P]total expire hit rate: 0.000000 %
+
+[P]get found:             134533.682 / s
+
+----------------------------------
+
+[INFO]Current Time:       72.03 s
+
+[P]indexs Load Factor:    9.4270 %
+
+[P]full bucket LFactor:   0.0006 %
+
+[P]set request:           10054237 
+[P]get request:           10001260 
+
+[P]Get Hit Rate:          94.8597 %
+[P]ACC Hit Rate:          58.2702 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            286073.602 ops
+[P]all request:           20055497 o
+
+[P]GetThroughput:         142425.273 ops
+[P]SetThroughput:         143648.329 ops
+
+[P]Valid Entries:         61226.068 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           142157.301 / s
+
+[P]get found:             135104.118 / s
+
+----------------------------------
+
+[INFO]Current Time:       72.91 s
+
+[P]indexs Load Factor:    9.4779 %
+
+[P]full bucket LFactor:   0.0006 %
+
+[P]set request:           10179331 
+[P]get request:           10125268 
+
+[P]Get Hit Rate:          95.4656 %
+[P]ACC Hit Rate:          58.7257 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            283652.557 ops
+[P]all request:           20304599 o
+
+[P]GetThroughput:         141207.964 ops
+[P]SetThroughput:         142444.593 ops
+
+[P]Valid Entries:         60156.405 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           141023.495 / s
+
+[P]get found:             134805.051 / s
+
+----------------------------------
+
+[INFO]Current Time:       73.78 s
+
+[P]indexs Load Factor:    9.5277 %
+
+[P]full bucket LFactor:   0.0006 %
+
+[P]set request:           10303415 
+[P]get request:           10249613 
+
+[P]Get Hit Rate:          95.8969 %
+[P]ACC Hit Rate:          59.1767 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            283725.893 ops
+[P]all request:           20553028 o
+
+[P]GetThroughput:         142011.988 ops
+[P]SetThroughput:         141713.905 ops
+
+[P]Valid Entries:         59730.805 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           139814.626 / s
+
+[P]get found:             136185.094 / s
+
+----------------------------------
+
+[INFO]Current Time:       74.65 s
+
+[P]indexs Load Factor:    9.5759 %
+
+[P]full bucket LFactor:   0.0007 %
+
+[P]set request:           10428208 
+[P]get request:           10373536 
+
+[P]Get Hit Rate:          96.1040 %
+[P]ACC Hit Rate:          59.6178 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            286268.748 ops
+[P]all request:           20801744 o
+
+[P]GetThroughput:         142633.695 ops
+[P]SetThroughput:         143635.053 ops
+
+[P]Valid Entries:         58979.999 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           142496.728 / s
+
+[P]expire scan persec:      2.302 / s
+[P]total expire scan:     39
+[P]expire hit persec:       0.000 / s
+[P]total expire hit:      0
+
+[P]expire hit rate:       0.000000 %
+[P]total expire hit rate: 0.000000 %
+
+[P]get found:             137076.732 / s
+
+----------------------------------
+
+[INFO]Current Time:       75.52 s
+
+[P]indexs Load Factor:    9.6240 %
+
+[P]full bucket LFactor:   0.0007 %
+
+[P]set request:           10552961 
+[P]get request:           10497117 
+
+[P]Get Hit Rate:          97.0076 %
+[P]ACC Hit Rate:          60.0580 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            286745.231 ops
+[P]all request:           21050078 o
+
+[P]GetThroughput:         142695.976 ops
+[P]SetThroughput:         144049.256 ops
+
+[P]Valid Entries:         58858.438 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           142396.915 / s
+
+[P]get found:             138425.985 / s
+
+----------------------------------
+
+[INFO]Current Time:       76.40 s
+
+[P]indexs Load Factor:    9.6711 %
+
+[P]full bucket LFactor:   0.0007 %
+
+[P]set request:           10678250 
+[P]get request:           10621451 
+
+[P]Get Hit Rate:          97.3547 %
+[P]ACC Hit Rate:          60.4946 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            284037.230 ops
+[P]all request:           21299701 o
+
+[P]GetThroughput:         141475.285 ops
+[P]SetThroughput:         142561.946 ops
+
+[P]Valid Entries:         57434.865 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           141288.675 / s
+
+[P]get found:             137732.847 / s
+
+----------------------------------
+
+[INFO]Current Time:       77.28 s
+
+[P]indexs Load Factor:    9.7173 %
+
+[P]full bucket LFactor:   0.0007 %
+
+[P]set request:           10805070 
+[P]get request:           10747327 
+
+[P]Get Hit Rate:          97.7533 %
+[P]ACC Hit Rate:          60.9310 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            287360.667 ops
+[P]all request:           21552397 o
+
+[P]GetThroughput:         143143.585 ops
+[P]SetThroughput:         144217.082 ops
+
+[P]Valid Entries:         57720.948 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           142946.853 / s
+
+[P]get found:             139927.642 / s
+
+----------------------------------
+
+[INFO]Current Time:       78.15 s
+
+[P]indexs Load Factor:    9.7625 %
+
+[P]full bucket LFactor:   0.0007 %
+
+[P]set request:           10930915 
+[P]get request:           10872177 
+
+[P]Get Hit Rate:          98.2795 %
+[P]ACC Hit Rate:          61.3599 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            285401.498 ops
+[P]all request:           21803092 o
+
+[P]GetThroughput:         142134.375 ops
+[P]SetThroughput:         143267.124 ops
+
+[P]Valid Entries:         56581.662 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           141811.057 / s
+
+[P]expire scan persec:      5.692 / s
+[P]total expire scan:     44
+[P]expire hit persec:       0.000 / s
+[P]total expire hit:      0
+
+[P]expire hit rate:       0.000000 %
+[P]total expire hit rate: 0.000000 %
+
+[P]get found:             139689.003 / s
+
+----------------------------------
+
+[INFO]Current Time:       79.03 s
+
+[P]indexs Load Factor:    9.8069 %
+
+[P]full bucket LFactor:   0.0007 %
+
+[P]set request:           11057087 
+[P]get request:           10997501 
+
+[P]Get Hit Rate:          98.5222 %
+[P]ACC Hit Rate:          61.7834 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            285593.254 ops
+[P]all request:           22054588 o
+
+[P]GetThroughput:         142315.142 ops
+[P]SetThroughput:         143278.112 ops
+
+[P]Valid Entries:         55802.289 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           142215.211 / s
+
+[P]get found:             140212.052 / s
+
+----------------------------------
+
+[INFO]Current Time:       79.92 s
+
+[P]indexs Load Factor:    9.8505 %
+
+[P]full bucket LFactor:   0.0008 %
+
+[P]set request:           11183635 
+[P]get request:           11123091 
+
+[P]Get Hit Rate:          99.1504 %
+[P]ACC Hit Rate:          62.2053 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            286019.281 ops
+[P]all request:           22306726 o
+
+[P]GetThroughput:         142466.275 ops
+[P]SetThroughput:         143553.007 ops
+
+[P]Valid Entries:         55607.109 / s
+[P]mica evicted:          11.515971 %
+[P]mica evict-invalid-ps: 0.000000 %
+[P]mica evict-valid-ps:   11.515971 %
+[P]mica evict-valid:      100.000000 %
+[P]mica evict-invalid:    0.000000 %
+[P]set success:           142352.837 / s
+
+[P]get found:             141255.895 / s
+
+----------------------------------
+
+[INFO]Current Time:       80.80 s
+
+[P]indexs Load Factor:    9.8926 %
+
+[P]full bucket LFactor:   0.0008 %
+
+[P]set request:           11306559 
+[P]get request:           11248481 
+
+[P]Get Hit Rate:          99.6180 %
+[P]ACC Hit Rate:          62.6223 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            280701.031 ops
+[P]all request:           22555040 o
+
+[P]GetThroughput:         141744.333 ops
+[P]SetThroughput:         138956.698 ops
+
+[P]Valid Entries:         54536.355 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           141629.029 / s
+
+[P]get found:             141202.858 / s
+
+----------------------------------
+
+[INFO]Current Time:       81.67 s
+
+[P]indexs Load Factor:    9.9341 %
+
+[P]full bucket LFactor:   0.0008 %
+
+[P]set request:           11431614 
+[P]get request:           11370944 
+
+[P]Get Hit Rate:          101.2534 %
+[P]ACC Hit Rate:          63.0384 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            283986.340 ops
+[P]all request:           22802558 o
+
+[P]GetThroughput:         140506.222 ops
+[P]SetThroughput:         143480.117 ops
+
+[P]Valid Entries:         54275.882 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           142261.646 / s
+
+[P]expire scan persec:      1.147 / s
+[P]total expire scan:     45
+[P]expire hit persec:       0.000 / s
+[P]total expire hit:      0
+
+[P]expire hit rate:       0.000000 %
+[P]total expire hit rate: 0.000000 %
+
+[P]get found:             142267.383 / s
+
+----------------------------------
+
+[INFO]Current Time:       82.55 s
+
+[P]indexs Load Factor:    9.9747 %
+
+[P]full bucket LFactor:   0.0008 %
+
+[P]set request:           11557285 
+[P]get request:           11495557 
+
+[P]Get Hit Rate:          100.3924 %
+[P]ACC Hit Rate:          63.4433 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            284818.875 ops
+[P]all request:           23052842 o
+
+[P]GetThroughput:         141807.445 ops
+[P]SetThroughput:         143011.431 ops
+
+[P]Valid Entries:         52942.372 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           139629.346 / s
+
+[P]get found:             142363.918 / s
+
+----------------------------------
+
+[INFO]Current Time:       83.43 s
+
+[P]indexs Load Factor:    10.0007 %
+
+[P]full bucket LFactor:   0.0009 %
+
+[P]set request:           11677671 
+[P]get request:           11616659 
+
+[P]Get Hit Rate:          99.4732 %
+[P]ACC Hit Rate:          63.8189 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            273523.024 ops
+[P]all request:           23294330 o
+
+[P]GetThroughput:         137167.003 ops
+[P]SetThroughput:         136356.021 ops
+
+[P]Valid Entries:         52317.417 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           137037.880 / s
+
+[P]get found:             136444.368 / s
+
+----------------------------------
+[INFO]End rx_queue_2:112924
+[INFO]End rx_queue_0:112924
+[INFO]End rx_queue_3:112924
+Finish the job......
+[INFO]End rx_queue_1:112924
+
+[INFO]Current Time:       84.32 s
+
+[P]indexs Load Factor:    10.0007 %
+
+[P]full bucket LFactor:   0.0009 %
+
+[P]set request:           11678503 
+[P]get request:           11617491 
+
+[P]Get Hit Rate:          100.0000 %
+[P]ACC Hit Rate:          63.8215 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            1881.795 ops
+[P]all request:           23295994 o
+
+[P]GetThroughput:         940.898 ops
+[P]SetThroughput:         940.898 ops
+
+[P]Valid Entries:         358.491 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           940.898 / s
+
+[P]get found:             940.898 / s
+
+----------------------------------
+
+Total Index Entries:       7361537
+
+indexs Load Factor:     10.000691 %
+
+log_0 Load Factor:      3.459258 %
+
+log_1 Load Factor:      3.460428 %
+
+log_2 Load Factor:      3.460390 %
+
+log_3 Load Factor:      3.460757 %
+
+Get Hit Rate:           63.821483%
+
+Max Throughput:         289371.70
+
+Calc Load Factor:       10.000691%
+
+set request:               2935998 | set_success:               2935998
+set_fail:                        0 | set_key_duplicate:         1078822 | set_mica_evicted:                1
+set_random:                      0 | set_cuckoo_evicted:              0 | set_expire_evicted:              0
+
+get request:               2935998
+get_found:                 1856396 | get_notfound:              1079602 | get_hit_ratio:          63.228790%
+
+clean up scan:                  30 | clean up success:                0 | test_notfound:                   0
+move_to_head_performed:          0 | move_to_head_skipped:      1856396 | move_to_head_failed:             0
+
+
+set request:               2935998 | set_success:               2935998
+set_fail:                        0 | set_key_duplicate:         1078192 | set_mica_evicted:                3
+set_random:                      0 | set_cuckoo_evicted:              0 | set_expire_evicted:              0
+
+get request:               2935998
+get_found:                 1857754 | get_notfound:              1078244 | get_hit_ratio:          63.275043%
+
+clean up scan:                  30 | clean up success:                0 | test_notfound:                   0
+move_to_head_performed:          0 | move_to_head_skipped:      1857754 | move_to_head_failed:             0
+
+
+set request:               2935998 | set_success:               2935998
+set_fail:                        0 | set_key_duplicate:         1078207 | set_mica_evicted:                8
+set_random:                      0 | set_cuckoo_evicted:              0 | set_expire_evicted:              0
+
+get request:               2935998
+get_found:                 1857734 | get_notfound:              1078264 | get_hit_ratio:          63.274362%
+
+clean up scan:                  30 | clean up success:                0 | test_notfound:                   0
+move_to_head_performed:          0 | move_to_head_skipped:      1857734 | move_to_head_failed:             0
+
+
+set request:               2935998 | set_success:               2935998
+set_fail:                        0 | set_key_duplicate:         1078016 | set_mica_evicted:                2
+set_random:                      0 | set_cuckoo_evicted:              0 | set_expire_evicted:              0
+
+get request:               2935998
+get_found:                 1857981 | get_notfound:              1078017 | get_hit_ratio:          63.282775%
+
+clean up scan:                  30 | clean up success:                0 | test_notfound:                   0
+move_to_head_performed:          0 | move_to_head_skipped:      1857981 | move_to_head_failed:             0
+
+
+[INFO] Everything works fine.
+deleting piekv......

@@ -1,0 +1,3472 @@
+EAL: Detected 44 lcore(s)
+EAL: Detected 1 NUMA nodes
+EAL: Multi-process socket /var/run/dpdk/rte/mp_socket
+EAL: Selected IOVA mode 'PA'
+EAL: No available hugepages reported in hugepages-1048576kB
+[INFO] 单个Log Size为:2 GB
+[INFO] 运行mica
+[INFO] 运行cleanup
+[INFO] 运行reload
+[INFO] reload kv size 8
+EAL: Probing VFIO support...
+EAL: VFIO support initialized
+EAL: PCI device 0000:03:00.0 on NUMA socket 0
+EAL:   probe driver: 15b3:1017 net_mlx5
+WEN: There are 1 device(s) available
+starting port 0...
+querying port 0...
+port 0: 100 Gbps (full-duplex)
+Adding UDP filter for each endpoint.
+port_id/queue_id/udp_port = 0 0 0
+Flow is created with src_port = 0, dst_port = 0
+port_id/queue_id/udp_port = 0 1 1
+Flow is created with src_port = 0, dst_port = 1
+port_id/queue_id/udp_port = 0 2 2
+Flow is created with src_port = 0, dst_port = 2
+port_id/queue_id/udp_port = 0 3 3
+Flow is created with src_port = 0, dst_port = 3
+MEM: Initializing pages...
+ == [STAT] Workers Start (4 threads in total) == 
+trigger:70.000000 
+
+[INFO]Current Time:       7.28 s
+
+[P]indexs Load Factor:    0.8115 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]full expirted BLF:     0.0000 %
+
+[P]set request:           154164 
+[P]get request:           153462 
+
+[P]Get Hit Rate:          54.0870 %
+[P]ACC Hit Rate:          54.0870 %
+
+[P]mica ttl-evicted:      0 / s
+[P]mica ttl-evt-invalid:  0 / s
+[P]mica ttl-evict-valid:  0 / s
+
+[P]rx packet:             12879.780 / s
+
+[P]rx burst:              413.910 / s
+
+[P]Throughput:            649640.163 ops
+[P]all request:           307626 o
+
+[P]GetThroughput:         324078.845 ops
+[P]SetThroughput:         325561.318 ops
+
+[P]Valid Entries:         310783.042 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           319540.617 / s
+
+[P]get found:             175284.542 / s
+
+----------------------------------
+
+[INFO]Current Time:       7.79 s
+
+[P]indexs Load Factor:    2.2533 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]full expirted BLF:     0.0000 %
+
+[P]set request:           1215897 
+[P]get request:           1211877 
+
+[P]Get Hit Rate:          63.6005 %
+[P]ACC Hit Rate:          62.3958 %
+
+[P]mica ttl-evicted:      0 / s
+[P]mica ttl-evt-invalid:  0 / s
+[P]mica ttl-evict-valid:  0 / s
+
+[P]rx packet:             76455.258 / s
+
+[P]rx burst:              28303.776 / s
+
+[P]Throughput:            4129951.382 ops
+[P]all request:           2427774 o
+
+[P]GetThroughput:         2061744.035 ops
+[P]SetThroughput:         2068207.347 ops
+
+[P]Valid Entries:         1962772.374 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           1992515.688 / s
+
+[P]expire scan persec:    81089.441 / s
+[P]total expire scan:     41628
+
+[P]expire hit persec:       0.000 / s
+[P]total expire hit:      0
+
+[P]expire hit rate:       0.000000 %
+[P]total expire hit rate: 0.000000 %
+
+[P]get found:             1311279.063 / s
+
+----------------------------------
+
+[INFO]Current Time:       8.27 s
+
+[P]indexs Load Factor:    3.7653 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]full expirted BLF:     0.0000 %
+
+[P]set request:           2401920 
+[P]get request:           2370933 
+
+[P]Get Hit Rate:          70.8327 %
+[P]ACC Hit Rate:          66.5203 %
+
+[P]mica ttl-evicted:      0 / s
+[P]mica ttl-evt-invalid:  0 / s
+[P]mica ttl-evict-valid:  0 / s
+
+[P]rx packet:             70393.512 / s
+
+[P]rx burst:              84905.639 / s
+
+[P]Throughput:            4943649.600 ops
+[P]all request:           4772853 o
+
+[P]GetThroughput:         2443400.299 ops
+[P]SetThroughput:         2500249.301 ops
+
+[P]Valid Entries:         2365830.831 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           2430359.623 / s
+
+[P]expire scan persec:    338633.860 / s
+[P]total expire scan:     202263
+
+[P]expire hit persec:       2.108 / s
+[P]total expire hit:      1
+
+[P]expire hit rate:       0.000623 %
+[P]total expire hit rate: 0.000494 %
+
+[P]get found:             1730727.122 / s
+
+----------------------------------
+
+[INFO]Current Time:       8.79 s
+
+[P]indexs Load Factor:    5.3791 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]full expirted BLF:     0.0000 %
+
+[P]set request:           3665966 
+[P]get request:           3699148 
+
+[P]Get Hit Rate:          73.6970 %
+[P]ACC Hit Rate:          69.0972 %
+
+[P]mica ttl-evicted:      0 / s
+[P]mica ttl-evt-invalid:  0 / s
+[P]mica ttl-evict-valid:  0 / s
+
+[P]rx packet:             72091.405 / s
+
+[P]rx burst:              87535.608 / s
+
+[P]Throughput:            4948754.304 ops
+[P]all request:           7365115 o
+
+[P]GetThroughput:         2535627.069 ops
+[P]SetThroughput:         2413125.326 ops
+
+[P]Valid Entries:         2378193.553 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           2326992.868 / s
+
+[P]expire scan persec:    1065672.963 / s
+[P]total expire scan:     760485
+
+[P]expire hit persec:       0.000 / s
+[P]total expire hit:      1
+
+[P]expire hit rate:       0.000000 %
+[P]total expire hit rate: 0.000131 %
+
+[P]get found:             1868681.829 / s
+
+----------------------------------
+
+[INFO]Current Time:       9.37 s
+
+[P]indexs Load Factor:    7.1271 %
+
+[P]full bucket LFactor:   0.0001 %
+
+[P]full expirted BLF:     0.0000 %
+
+[P]set request:           5106205 
+[P]get request:           5127331 
+
+[P]Get Hit Rate:          81.4938 %
+[P]ACC Hit Rate:          72.5502 %
+
+[P]mica ttl-evicted:      0 / s
+[P]mica ttl-evt-invalid:  0 / s
+[P]mica ttl-evict-valid:  0 / s
+
+[P]rx packet:             76344.932 / s
+
+[P]rx burst:              79708.456 / s
+
+[P]Throughput:            4940095.249 ops
+[P]all request:           10233537 o
+
+[P]GetThroughput:         2459665.995 ops
+[P]SetThroughput:         2480429.254 ops
+
+[P]Valid Entries:         2366210.664 / s
+[P]mica evicted:          0 / s
+[P]mica evict-invalid-ps: 0 / s
+[P]mica evict-valid-ps:   0 / s
+[P]mica evict-valid:      0 / s
+[P]mica evict-invalid:    0 / s
+[P]set success:           2333774.100 / s
+
+[P]expire scan persec:    1711808.065 / s
+[P]total expire scan:     1754431
+
+[P]expire hit persec:       5.167 / s
+[P]total expire hit:      4
+
+[P]expire hit rate:       0.000302 %
+[P]total expire hit rate: 0.000228 %
+
+[P]get found:             2004475.980 / s
+
+----------------------------------
+
+[INFO]Current Time:       10.01 s
+
+[P]indexs Load Factor:    9.0033 %
+
+[P]full bucket LFactor:   0.0005 %
+
+[P]full expirted BLF:     0.0000 %
+
+[P]set request:           6780097 
+[P]get request:           6744621 
+
+[P]Get Hit Rate:          82.2066 %
+[P]ACC Hit Rate:          74.8657 %
+
+[P]mica ttl-evicted:      2 / s
+[P]mica ttl-evt-invalid:  0 / s
+[P]mica ttl-evict-valid:  2 / s
+
+[P]rx packet:             75590.835 / s
+
+[P]rx burst:              85927.696 / s
+
+[P]Throughput:            5137493.420 ops
+[P]all request:           13524718 o
+
+[P]GetThroughput:         2524569.975 ops
+[P]SetThroughput:         2612925.007 ops
+
+[P]Valid Entries:         2373411.720 / s
+[P]mica evicted:          34.675827 %
+[P]mica evict-invalid-ps: 0.000000 %
+[P]mica evict-valid-ps:   34.675827 %
+[P]mica evict-valid:      100.000000 %
+[P]mica evict-invalid:    0.000000 %
+[P]set success:           2461979.046 / s
+
+[P]expire scan persec:    2891815.772 / s
+[P]total expire scan:     3606986
+
+[P]expire hit persec:       4.683 / s
+[P]total expire hit:      7
+
+[P]expire hit rate:       0.000162 %
+[P]total expire hit rate: 0.000194 %
+
+[P]get found:             2075362.952 / s
+
+----------------------------------
+
+[INFO]Current Time:       10.71 s
+
+[P]indexs Load Factor:    11.0010 %
+
+[P]full bucket LFactor:   0.0018 %
+
+[P]full expirted BLF:     0.0000 %
+
+[P]set request:           8536985 
+[P]get request:           8471490 
+
+[P]Get Hit Rate:          84.6161 %
+[P]ACC Hit Rate:          76.8533 %
+
+[P]mica ttl-evicted:      11 / s
+[P]mica ttl-evt-invalid:  1 / s
+[P]mica ttl-evict-valid:  10 / s
+
+[P]rx packet:             77122.300 / s
+
+[P]rx burst:              86316.662 / s
+
+[P]Throughput:            4979157.751 ops
+[P]all request:           17008475 o
+
+[P]GetThroughput:         2468126.556 ops
+[P]SetThroughput:         2511031.195 ops
+
+[P]Valid Entries:         2371366.369 / s
+[P]mica evicted:          116.928357 %
+[P]mica evict-invalid-ps: 12.992040 %
+[P]mica evict-valid-ps:   103.936317 %
+[P]mica evict-valid:      88.888889 %
+[P]mica evict-invalid:    11.111111 %
+[P]set success:           2462955.532 / s
+
+[P]expire scan persec:    3778349.535 / s
+[P]total expire scan:     6250576
+
+[P]expire hit persec:      11.434 / s
+[P]total expire hit:      15
+
+[P]expire hit rate:       0.000303 %
+[P]total expire hit rate: 0.000240 %
+
+[P]get found:             2088433.578 / s
+
+----------------------------------
+
+[INFO]Current Time:       11.46 s
+
+[P]indexs Load Factor:    13.0663 %
+
+[P]full bucket LFactor:   0.0049 %
+
+[P]full expirted BLF:     0.0000 %
+
+[P]set request:           10448877 
+[P]get request:           10317100 
+
+[P]Get Hit Rate:          86.2287 %
+[P]ACC Hit Rate:          78.5304 %
+
+[P]mica ttl-evicted:      51 / s
+[P]mica ttl-evt-invalid:  6 / s
+[P]mica ttl-evict-valid:  45 / s
+
+[P]rx packet:             78170.488 / s
+
+[P]rx burst:              85302.221 / s
+
+[P]Throughput:            5032395.778 ops
+[P]all request:           20765978 o
+
+[P]GetThroughput:         2471811.725 ops
+[P]SetThroughput:         2560582.714 ops
+
+[P]Valid Entries:         2369129.504 / s
+[P]mica evicted:          409.997968 %
+[P]mica evict-invalid-ps: 51.249746 %
+[P]mica evict-valid-ps:   358.748222 %
+[P]mica evict-valid:      87.500000 %
+[P]mica evict-invalid:    12.500000 %
+[P]set success:           2326965.896 / s
+
+[P]expire scan persec:    5012595.677 / s
+[P]total expire scan:     9993295
+
+[P]expire hit persec:      10.714 / s
+[P]total expire hit:      23
+
+[P]expire hit rate:       0.000214 %
+[P]total expire hit rate: 0.000230 %
+
+[P]get found:             2131410.434 / s
+
+----------------------------------
+
+[INFO]Current Time:       12.24 s
+
+[P]indexs Load Factor:    15.1783 %
+
+[P]full bucket LFactor:   0.0126 %
+
+[P]full expirted BLF:     0.0000 %
+
+[P]set request:           12489984 
+[P]get request:           12212853 
+
+[P]Get Hit Rate:          91.0162 %
+[P]ACC Hit Rate:          80.4685 %
+
+[P]mica ttl-evicted:      163 / s
+[P]mica ttl-evt-invalid:  34 / s
+[P]mica ttl-evict-valid:  129 / s
+
+[P]rx packet:             78685.203 / s
+
+[P]rx burst:              85485.032 / s
+
+[P]Throughput:            5040476.249 ops
+[P]all request:           24702837 o
+
+[P]GetThroughput:         2427188.266 ops
+[P]SetThroughput:         2613289.263 ops
+
+[P]Valid Entries:         2331607.837 / s
+[P]mica evicted:          944.750900 %
+[P]mica evict-invalid-ps: 236.187725 %
+[P]mica evict-valid-ps:   708.563175 %
+[P]mica evict-valid:      75.000000 %
+[P]mica evict-invalid:    25.000000 %
+[P]set success:           2343942.530 / s
+
+[P]expire scan persec:    6689838.809 / s
+[P]total expire scan:     15218387
+
+[P]expire hit persec:      11.523 / s
+[P]total expire hit:      32
+
+[P]expire hit rate:       0.000172 %
+[P]total expire hit rate: 0.000210 %
+
+[P]get found:             2209135.369 / s
+
+----------------------------------
+
+[INFO]Current Time:       13.05 s
+
+[P]indexs Load Factor:    17.3561 %
+
+[P]full bucket LFactor:   0.0279 %
+
+[P]full expirted BLF:     0.0000 %
+
+[P]set request:           14555863 
+[P]get request:           14139576 
+
+[P]Get Hit Rate:          90.5154 %
+[P]ACC Hit Rate:          81.8376 %
+
+[P]mica ttl-evicted:      450 / s
+[P]mica ttl-evt-invalid:  93 / s
+[P]mica ttl-evict-valid:  357 / s
+
+[P]rx packet:             80690.777 / s
+
+[P]rx burst:              85604.381 / s
+
+[P]Throughput:            4941577.705 ops
+[P]all request:           28695439 o
+
+[P]GetThroughput:         2384673.308 ops
+[P]SetThroughput:         2556904.396 ops
+
+[P]Valid Entries:         2368627.979 / s
+[P]mica evicted:          2046.634411 %
+[P]mica evict-invalid-ps: 420.736691 %
+[P]mica evict-valid-ps:   1625.897720 %
+[P]mica evict-valid:      79.442509 %
+[P]mica evict-invalid:    20.557491 %
+[P]set success:           2465734.153 / s
+
+[P]expire scan persec:    10380081.630 / s
+[P]total expire scan:     23605088
+
+[P]expire hit persec:      21.041 / s
+[P]total expire hit:      49
+
+[P]expire hit rate:       0.000203 %
+[P]total expire hit rate: 0.000208 %
+
+[P]get found:             2158496.546 / s
+
+----------------------------------
+
+[INFO]Current Time:       13.89 s
+
+[P]indexs Load Factor:    19.5858 %
+
+[P]full bucket LFactor:   0.0561 %
+
+[P]full expirted BLF:     0.0000 %
+
+[P]set request:           16761474 
+[P]get request:           16235378 
+
+[P]Get Hit Rate:          91.4450 %
+[P]ACC Hit Rate:          83.0778 %
+
+[P]mica ttl-evicted:      1085 / s
+[P]mica ttl-evt-invalid:  226 / s
+[P]mica ttl-evict-valid:  859 / s
+
+[P]rx packet:             83635.421 / s
+
+[P]rx burst:              85797.669 / s
+
+[P]Throughput:            5107480.350 ops
+[P]all request:           32996852 o
+
+[P]GetThroughput:         2488546.794 ops
+[P]SetThroughput:         2618933.556 ops
+
+[P]Valid Entries:         2384141.444 / s
+[P]mica evicted:          3849.700537 %
+[P]mica evict-invalid-ps: 806.315231 %
+[P]mica evict-valid-ps:   3043.385306 %
+[P]mica evict-valid:      79.055118 %
+[P]mica evict-invalid:    20.944882 %
+[P]set success:           2283749.492 / s
+
+[P]expire scan persec:    13646099.204 / s
+[P]total expire scan:     35097547
+
+[P]expire hit persec:      14.249 / s
+[P]total expire hit:      61
+
+[P]expire hit rate:       0.000104 %
+[P]total expire hit rate: 0.000174 %
+
+[P]get found:             2275652.639 / s
+
+----------------------------------
+
+[INFO]Current Time:       14.76 s
+
+[P]indexs Load Factor:    21.8671 %
+
+[P]full bucket LFactor:   0.1053 %
+
+[P]full expirted BLF:     0.0000 %
+
+[P]set request:           19049249 
+[P]get request:           18280166 
+
+[P]Get Hit Rate:          96.6992 %
+[P]ACC Hit Rate:          84.6014 %
+
+[P]mica ttl-evicted:      2417 / s
+[P]mica ttl-evt-invalid:  499 / s
+[P]mica ttl-evict-valid:  1918 / s
+
+[P]rx packet:             84369.968 / s
+
+[P]rx burst:              85739.267 / s
+
+[P]Throughput:            4981170.301 ops
+[P]all request:           37329415 o
+
+[P]GetThroughput:         2350903.439 ops
+[P]SetThroughput:         2630266.862 ops
+
+[P]Valid Entries:         2362833.930 / s
+[P]mica evicted:          7003.242835 %
+[P]mica evict-invalid-ps: 1435.349320 %
+[P]mica evict-valid-ps:   5567.893515 %
+[P]mica evict-valid:      79.504505 %
+[P]mica evict-invalid:    20.495495 %
+[P]set success:           2424594.945 / s
+
+[P]expire scan persec:    16984499.803 / s
+[P]total expire scan:     49870464
+
+[P]expire hit persec:      20.695 / s
+[P]total expire hit:      79
+
+[P]expire hit rate:       0.000122 %
+[P]total expire hit rate: 0.000158 %
+
+[P]get found:             2273304.085 / s
+
+----------------------------------
+
+[INFO]Current Time:       15.66 s
+
+[P]indexs Load Factor:    24.2037 %
+
+[P]full bucket LFactor:   0.1852 %
+
+[P]full expirted BLF:     0.0000 %
+
+[P]set request:           21363150 
+[P]get request:           20477361 
+
+[P]Get Hit Rate:          94.6877 %
+[P]ACC Hit Rate:          85.6837 %
+
+[P]mica ttl-evicted:      4969 / s
+[P]mica ttl-evt-invalid:  1028 / s
+[P]mica ttl-evict-valid:  3941 / s
+
+[P]rx packet:             89840.452 / s
+
+[P]rx burst:              77099.176 / s
+
+[P]Throughput:            4998444.797 ops
+[P]all request:           41840511 o
+
+[P]GetThroughput:         2434565.328 ops
+[P]SetThroughput:         2563879.468 ops
+
+[P]Valid Entries:         2374534.298 / s
+[P]mica evicted:          11682.941881 %
+[P]mica evict-invalid-ps: 2421.738344 %
+[P]mica evict-valid-ps:   9261.203536 %
+[P]mica evict-valid:      79.271160 %
+[P]mica evict-invalid:    20.728840 %
+[P]set success:           2431837.350 / s
+
+[P]expire scan persec:    21118203.670 / s
+[P]total expire scan:     68929641
+
+[P]expire hit persec:      22.161 / s
+[P]total expire hit:      99
+
+[P]expire hit rate:       0.000105 %
+[P]total expire hit rate: 0.000144 %
+
+[P]get found:             2305234.568 / s
+
+----------------------------------
+
+[INFO]Current Time:       16.59 s
+
+[P]indexs Load Factor:    26.5894 %
+
+[P]full bucket LFactor:   0.3111 %
+
+[P]full expirted BLF:     0.0000 %
+
+[P]set request:           23784961 
+[P]get request:           22817728 
+
+[P]Get Hit Rate:          92.2853 %
+[P]ACC Hit Rate:          86.3608 %
+
+[P]mica ttl-evicted:      9384 / s
+[P]mica ttl-evt-invalid:  1915 / s
+[P]mica ttl-evict-valid:  7469 / s
+
+[P]rx packet:             91898.107 / s
+
+[P]rx burst:              77805.998 / s
+
+[P]Throughput:            5110351.183 ops
+[P]all request:           46602689 o
+
+[P]GetThroughput:         2511476.318 ops
+[P]SetThroughput:         2598874.865 ops
+
+[P]Valid Entries:         2372407.419 / s
+[P]mica evicted:          17818.312677 %
+[P]mica evict-invalid-ps: 3579.805967 %
+[P]mica evict-valid-ps:   14238.506710 %
+[P]mica evict-valid:      79.909400 %
+[P]mica evict-invalid:    20.090600 %
+[P]set success:           2441602.765 / s
+
+[P]expire scan persec:    27144046.197 / s
+[P]total expire scan:     94224337
+
+[P]expire hit persec:      17.170 / s
+[P]total expire hit:      115
+
+[P]expire hit rate:       0.000063 %
+[P]total expire hit rate: 0.000122 %
+
+[P]get found:             2317723.769 / s
+
+----------------------------------
+
+[INFO]Current Time:       17.55 s
+
+[P]indexs Load Factor:    29.0224 %
+
+[P]full bucket LFactor:   0.4974 %
+
+[P]full expirted BLF:     0.0000 %
+
+[P]set request:           26276032 
+[P]get request:           25235276 
+
+[P]Get Hit Rate:          92.7117 %
+[P]ACC Hit Rate:          86.9692 %
+
+[P]mica ttl-evicted:      17314 / s
+[P]mica ttl-evt-invalid:  3521 / s
+[P]mica ttl-evict-valid:  13793 / s
+
+[P]rx packet:             93113.249 / s
+
+[P]rx burst:              84743.495 / s
+
+[P]Throughput:            5113758.006 ops
+[P]all request:           51511308 o
+
+[P]GetThroughput:         2518581.181 ops
+[P]SetThroughput:         2595176.825 ops
+
+[P]Valid Entries:         2374101.356 / s
+[P]mica evicted:          28465.654437 %
+[P]mica evict-invalid-ps: 5764.923206 %
+[P]mica evict-valid-ps:   22700.731231 %
+[P]mica evict-valid:      79.747793 %
+[P]mica evict-invalid:    20.252207 %
+[P]set success:           2447588.293 / s
+
+[P]expire scan persec:    33330073.846 / s
+[P]total expire scan:     126217371
+
+[P]expire hit persec:      22.919 / s
+[P]total expire hit:      137
+
+[P]expire hit rate:       0.000069 %
+[P]total expire hit rate: 0.000109 %
+
+[P]get found:             2335020.628 / s
+
+----------------------------------
+
+[INFO]Current Time:       18.54 s
+
+[P]indexs Load Factor:    31.5105 %
+
+[P]full bucket LFactor:   0.7640 %
+
+[P]full expirted BLF:     0.0000 %
+
+[P]set request:           28849465 
+[P]get request:           27595424 
+
+[P]Get Hit Rate:          96.0784 %
+[P]ACC Hit Rate:          87.7483 %
+
+[P]mica ttl-evicted:      30078 / s
+[P]mica ttl-evt-invalid:  6152 / s
+[P]mica ttl-evict-valid:  23926 / s
+
+[P]rx packet:             96694.180 / s
+
+[P]rx burst:              62537.605 / s
+
+[P]Throughput:            4980617.948 ops
+[P]all request:           56444889 o
+
+[P]GetThroughput:         2382649.740 ops
+[P]SetThroughput:         2597968.207 ops
+
+[P]Valid Entries:         2343311.227 / s
+[P]mica evicted:          40893.359501 %
+[P]mica evict-invalid-ps: 8429.209405 %
+[P]mica evict-valid-ps:   32464.150096 %
+[P]mica evict-valid:      79.387339 %
+[P]mica evict-invalid:    20.612661 %
+[P]set success:           2421713.660 / s
+
+[P]expire scan persec:    39555198.226 / s
+[P]total expire scan:     165399010
+
+[P]expire hit persec:      31.296 / s
+[P]total expire hit:      168
+
+[P]expire hit rate:       0.000079 %
+[P]total expire hit rate: 0.000102 %
+
+[P]get found:             2289212.317 / s
+
+----------------------------------
+
+[INFO]Current Time:       19.57 s
+
+[P]indexs Load Factor:    34.0385 %
+
+[P]full bucket LFactor:   1.1331 %
+
+[P]full expirted BLF:     0.0000 %
+
+[P]set request:           31403452 
+[P]get request:           30152656 
+
+[P]Get Hit Rate:          93.5445 %
+[P]ACC Hit Rate:          88.2399 %
+
+[P]mica ttl-evicted:      50494 / s
+[P]mica ttl-evt-invalid:  10192 / s
+[P]mica ttl-evict-valid:  40302 / s
+
+[P]rx packet:             100496.778 / s
+
+[P]rx burst:              67220.689 / s
+
+[P]Throughput:            4995487.867 ops
+[P]all request:           61556108 o
+
+[P]GetThroughput:         2499329.696 ops
+[P]SetThroughput:         2496158.171 ops
+
+[P]Valid Entries:         2348172.573 / s
+[P]mica evicted:          58620.987039 %
+[P]mica evict-invalid-ps: 11600.156134 %
+[P]mica evict-valid-ps:   47020.830905 %
+[P]mica evict-valid:      80.211599 %
+[P]mica evict-invalid:    19.788401 %
+[P]set success:           2466836.471 / s
+
+[P]expire scan persec:    47660773.506 / s
+[P]total expire scan:     214163947
+
+[P]expire hit persec:      30.298 / s
+[P]total expire hit:      199
+
+[P]expire hit rate:       0.000064 %
+[P]total expire hit rate: 0.000093 %
+
+[P]get found:             2337985.576 / s
+
+----------------------------------
+
+[INFO]Current Time:       20.62 s
+
+[P]indexs Load Factor:    36.5886 %
+
+[P]full bucket LFactor:   1.6247 %
+
+[P]full expirted BLF:     0.0000 %
+
+[P]set request:           34138887 
+[P]get request:           32749718 
+
+[P]Get Hit Rate:          93.8831 %
+[P]ACC Hit Rate:          88.6874 %
+
+[P]mica ttl-evicted:      81510 / s
+[P]mica ttl-evt-invalid:  16706 / s
+[P]mica ttl-evict-valid:  64804 / s
+
+[P]rx packet:             101447.831 / s
+
+[P]rx burst:              49488.815 / s
+
+[P]Throughput:            5079962.210 ops
+[P]all request:           66888605 o
+
+[P]GetThroughput:         2474071.118 ops
+[P]SetThroughput:         2605891.091 ops
+
+[P]Valid Entries:         2347026.741 / s
+[P]mica evicted:          80754.993073 %
+[P]mica evict-invalid-ps: 16960.214885 %
+[P]mica evict-valid-ps:   63794.778188 %
+[P]mica evict-valid:      78.997937 %
+[P]mica evict-invalid:    21.002063 %
+[P]set success:           2418604.473 / s
+
+[P]expire scan persec:    54947791.537 / s
+[P]total expire scan:     271843300
+
+[P]expire hit persec:      35.248 / s
+[P]total expire hit:      236
+
+[P]expire hit rate:       0.000064 %
+[P]total expire hit rate: 0.000087 %
+
+[P]get found:             2322734.363 / s
+
+----------------------------------
+
+[INFO]Current Time:       21.70 s
+
+[P]indexs Load Factor:    39.0926 %
+
+[P]full bucket LFactor:   2.2383 %
+
+[P]full expirted BLF:     0.0000 %
+
+[P]set request:           36892552 
+[P]get request:           35390697 
+
+[P]Get Hit Rate:          95.6785 %
+[P]ACC Hit Rate:          89.2091 %
+
+[P]mica ttl-evicted:      126334 / s
+[P]mica ttl-evt-invalid:  25761 / s
+[P]mica ttl-evict-valid:  100573 / s
+
+[P]rx packet:             102637.107 / s
+
+[P]rx burst:              10102.824 / s
+
+[P]Throughput:            4990946.837 ops
+[P]all request:           72283249 o
+
+[P]GetThroughput:         2443346.732 ops
+[P]SetThroughput:         2547600.105 ops
+
+[P]Valid Entries:         2314511.670 / s
+[P]mica evicted:          106080.747751 %
+[P]mica evict-invalid-ps: 21429.617412 %
+[P]mica evict-valid-ps:   84651.130338 %
+[P]mica evict-valid:      79.798769 %
+[P]mica evict-invalid:    20.201231 %
+[P]set success:           2423031.914 / s
+
+[P]expire scan persec:    63472296.952 / s
+[P]total expire scan:     340449610
+
+[P]expire hit persec:      42.558 / s
+[P]total expire hit:      282
+
+[P]expire hit rate:       0.000067 %
+[P]total expire hit rate: 0.000083 %
+
+[P]get found:             2337758.343 / s
+
+----------------------------------
+
+[INFO]Current Time:       22.80 s
+
+[P]indexs Load Factor:    41.5299 %
+
+[P]full bucket LFactor:   2.9776 %
+
+[P]full expirted BLF:     0.0000 %
+
+[P]set request:           39604583 
+[P]get request:           37970100 
+
+[P]Get Hit Rate:          93.3129 %
+[P]ACC Hit Rate:          89.4879 %
+
+[P]mica ttl-evicted:      186771 / s
+[P]mica ttl-evt-invalid:  38256 / s
+[P]mica ttl-evict-valid:  148515 / s
+
+[P]rx packet:             98438.258 / s
+
+[P]rx burst:              3076.196 / s
+
+[P]Throughput:            4811553.598 ops
+[P]all request:           77574683 o
+
+[P]GetThroughput:         2345476.819 ops
+[P]SetThroughput:         2466076.779 ops
+
+[P]Valid Entries:         2206687.932 / s
+[P]mica evicted:          132328.708837 %
+[P]mica evict-invalid-ps: 27358.194763 %
+[P]mica evict-valid-ps:   104970.514074 %
+[P]mica evict-valid:      79.325579 %
+[P]mica evict-invalid:    20.674421 %
+[P]set success:           2353929.764 / s
+
+[P]expire scan persec:    68254216.267 / s
+[P]total expire scan:     415511162
+
+[P]expire hit persec:      40.919 / s
+[P]total expire hit:      327
+
+[P]expire hit rate:       0.000060 %
+[P]total expire hit rate: 0.000079 %
+
+[P]get found:             2188632.673 / s
+
+----------------------------------
+
+[INFO]Current Time:       23.92 s
+
+[P]indexs Load Factor:    43.9236 %
+
+[P]full bucket LFactor:   3.8595 %
+
+[P]full expirted BLF:     0.0000 %
+
+[P]set request:           42287720 
+[P]get request:           40462208 
+
+[P]Get Hit Rate:          97.0963 %
+[P]ACC Hit Rate:          89.9565 %
+
+[P]mica ttl-evicted:      265967 / s
+[P]mica ttl-evt-invalid:  54586 / s
+[P]mica ttl-evict-valid:  211381 / s
+
+[P]rx packet:             95436.829 / s
+
+[P]rx burst:              2982.401 / s
+
+[P]Throughput:            4621154.328 ops
+[P]all request:           82749928 o
+
+[P]GetThroughput:         2225288.980 ops
+[P]SetThroughput:         2395865.347 ops
+
+[P]Valid Entries:         2134036.442 / s
+[P]mica evicted:          160999.694364 %
+[P]mica evict-invalid-ps: 33197.699492 %
+[P]mica evict-valid-ps:   127801.994872 %
+[P]mica evict-valid:      79.380272 %
+[P]mica evict-invalid:    20.619728 %
+[P]set success:           2292677.847 / s
+
+[P]expire scan persec:    73902669.718 / s
+[P]total expire scan:     498274990
+
+[P]expire hit persec:      44.647 / s
+[P]total expire hit:      377
+
+[P]expire hit rate:       0.000060 %
+[P]total expire hit rate: 0.000076 %
+
+[P]get found:             2160672.675 / s
+
+----------------------------------
+
+[INFO]Current Time:       25.06 s
+
+[P]indexs Load Factor:    46.2584 %
+
+[P]full bucket LFactor:   4.8801 %
+
+[P]full expirted BLF:     0.0000 %
+
+[P]set request:           44966023 
+[P]get request:           43022368 
+
+[P]Get Hit Rate:          95.8968 %
+[P]ACC Hit Rate:          90.3100 %
+
+[P]mica ttl-evicted:      369151 / s
+[P]mica ttl-evt-invalid:  76252 / s
+[P]mica ttl-evict-valid:  292899 / s
+
+[P]rx packet:             93363.085 / s
+
+[P]rx burst:              2917.596 / s
+
+[P]Throughput:            4586951.005 ops
+[P]all request:           87988391 o
+
+[P]GetThroughput:         2241750.774 ops
+[P]SetThroughput:         2345200.231 ops
+
+[P]Valid Entries:         2075480.178 / s
+[P]mica evicted:          195318.010145 %
+[P]mica evict-invalid-ps: 41011.784848 %
+[P]mica evict-valid-ps:   154306.225296 %
+[P]mica evict-valid:      79.002559 %
+[P]mica evict-invalid:    20.997441 %
+[P]set success:           2223057.843 / s
+
+[P]expire scan persec:    82953332.664 / s
+[P]total expire scan:     593010679
+
+[P]expire hit persec:      31.523 / s
+[P]total expire hit:      413
+
+[P]expire hit rate:       0.000038 %
+[P]total expire hit rate: 0.000070 %
+
+[P]get found:             2149767.681 / s
+
+----------------------------------
+
+[INFO]Current Time:       26.22 s
+
+[P]indexs Load Factor:    48.5146 %
+
+[P]full bucket LFactor:   6.0345 %
+
+[P]full expirted BLF:     0.0000 %
+
+[P]set request:           47541250 
+[P]get request:           45513960 
+
+[P]Get Hit Rate:          97.1399 %
+[P]ACC Hit Rate:          90.6839 %
+
+[P]mica ttl-evicted:      496747 / s
+[P]mica ttl-evt-invalid:  102931 / s
+[P]mica ttl-evict-valid:  393816 / s
+
+[P]rx packet:             90394.152 / s
+
+[P]rx burst:              2824.817 / s
+
+[P]Throughput:            4371666.975 ops
+[P]all request:           93055210 o
+
+[P]GetThroughput:         2149753.220 ops
+[P]SetThroughput:         2221913.755 ops
+
+[P]Valid Entries:         1973076.173 / s
+[P]mica evicted:          226921.960232 %
+[P]mica evict-invalid-ps: 47447.027940 %
+[P]mica evict-valid-ps:   179474.932292 %
+[P]mica evict-valid:      79.091037 %
+[P]mica evict-invalid:    20.908963 %
+[P]set success:           2133548.916 / s
+
+[P]expire scan persec:    89572755.484 / s
+[P]total expire scan:     696826670
+
+[P]expire hit persec:      38.826 / s
+[P]total expire hit:      458
+
+[P]expire hit rate:       0.000043 %
+[P]total expire hit rate: 0.000066 %
+
+[P]get found:             2088267.285 / s
+
+----------------------------------
+
+[INFO]Current Time:       27.39 s
+
+[P]indexs Load Factor:    50.6617 %
+
+[P]full bucket LFactor:   7.2871 %
+
+[P]full expirted BLF:     0.0000 %
+
+[P]set request:           50103896 
+[P]get request:           47934454 
+
+[P]Get Hit Rate:          94.7877 %
+[P]ACC Hit Rate:          90.8911 %
+
+[P]mica ttl-evicted:      650268 / s
+[P]mica ttl-evt-invalid:  135740 / s
+[P]mica ttl-evict-valid:  514528 / s
+
+[P]rx packet:             86426.035 / s
+
+[P]rx burst:              2701.664 / s
+
+[P]Throughput:            4237573.143 ops
+[P]all request:           98038350 o
+
+[P]GetThroughput:         2058344.812 ops
+[P]SetThroughput:         2179228.331 ops
+
+[P]Valid Entries:         1891923.331 / s
+[P]mica evicted:          257692.693968 %
+[P]mica evict-invalid-ps: 55071.551100 %
+[P]mica evict-valid-ps:   202621.142868 %
+[P]mica evict-valid:      78.628982 %
+[P]mica evict-invalid:    21.371018 %
+[P]set success:           2022423.821 / s
+
+[P]expire scan persec:    94544913.170 / s
+[P]total expire scan:     808005999
+
+[P]expire hit persec:      47.621 / s
+[P]total expire hit:      514
+
+[P]expire hit rate:       0.000050 %
+[P]total expire hit rate: 0.000064 %
+
+[P]get found:             1951058.053 / s
+
+----------------------------------
+
+[INFO]Current Time:       28.58 s
+
+[P]indexs Load Factor:    52.7892 %
+
+[P]full bucket LFactor:   8.6914 %
+
+[P]full expirted BLF:     0.0000 %
+
+[P]set request:           52578281 
+[P]get request:           50382681 
+
+[P]Get Hit Rate:          92.9660 %
+[P]ACC Hit Rate:          90.9919 %
+
+[P]mica ttl-evicted:      832797 / s
+[P]mica ttl-evt-invalid:  174736 / s
+[P]mica ttl-evict-valid:  658061 / s
+
+[P]rx packet:             84238.756 / s
+
+[P]rx burst:              2632.461 / s
+
+[P]Throughput:            4137479.150 ops
+[P]all request:           102960962 o
+
+[P]GetThroughput:         2057746.612 ops
+[P]SetThroughput:         2079732.537 ops
+
+[P]Valid Entries:         1825025.955 / s
+[P]mica evicted:          290620.918745 %
+[P]mica evict-invalid-ps: 62089.056245 %
+[P]mica evict-valid-ps:   228531.862500 %
+[P]mica evict-valid:      78.635724 %
+[P]mica evict-invalid:    21.364276 %
+[P]set success:           2023519.575 / s
+
+[P]expire scan persec:    100128623.143 / s
+[P]total expire scan:     927135146
+
+[P]expire hit persec:      38.663 / s
+[P]total expire hit:      560
+
+[P]expire hit rate:       0.000039 %
+[P]total expire hit rate: 0.000060 %
+
+[P]get found:             1913004.116 / s
+
+----------------------------------
+
+[INFO]Current Time:       29.79 s
+
+[P]indexs Load Factor:    54.8636 %
+
+[P]full bucket LFactor:   10.2202 %
+
+[P]full expirted BLF:     0.0000 %
+
+[P]set request:           55123636 
+[P]get request:           52822108 
+
+[P]Get Hit Rate:          96.1830 %
+[P]ACC Hit Rate:          91.2317 %
+
+[P]mica ttl-evicted:      1051681 / s
+[P]mica ttl-evt-invalid:  221057 / s
+[P]mica ttl-evict-valid:  830624 / s
+
+[P]rx packet:             83420.168 / s
+
+[P]rx burst:              2606.880 / s
+
+[P]Throughput:            4125311.052 ops
+[P]all request:           107945744 o
+
+[P]GetThroughput:         2018823.524 ops
+[P]SetThroughput:         2106487.528 ops
+
+[P]Valid Entries:         1784613.125 / s
+[P]mica evicted:          330172.233083 %
+[P]mica evict-invalid-ps: 69872.206322 %
+[P]mica evict-valid-ps:   260300.026760 %
+[P]mica evict-valid:      78.837649 %
+[P]mica evict-invalid:    21.162351 %
+[P]set success:           2030782.070 / s
+
+[P]expire scan persec:    107456321.142 / s
+[P]total expire scan:     1056979012
+
+[P]expire hit persec:      46.345 / s
+[P]total expire hit:      616
+
+[P]expire hit rate:       0.000043 %
+[P]total expire hit rate: 0.000058 %
+
+[P]get found:             1941764.143 / s
+
+----------------------------------
+
+[INFO]Current Time:       31.01 s
+
+[P]indexs Load Factor:    56.8465 %
+
+[P]full bucket LFactor:   11.8403 %
+
+[P]full expirted BLF:     0.0000 %
+
+[P]set request:           57614207 
+[P]get request:           55212053 
+
+[P]Get Hit Rate:          96.0967 %
+[P]ACC Hit Rate:          91.4422 %
+
+[P]mica ttl-evicted:      1303409 / s
+[P]mica ttl-evt-invalid:  275660 / s
+[P]mica ttl-evict-valid:  1027749 / s
+
+[P]rx packet:             80794.238 / s
+
+[P]rx burst:              2524.820 / s
+
+[P]Throughput:            4002086.401 ops
+[P]all request:           112826260 o
+
+[P]GetThroughput:         1959785.888 ops
+[P]SetThroughput:         2042300.513 ops
+
+[P]Valid Entries:         1704419.090 / s
+[P]mica evicted:          363118.907576 %
+[P]mica evict-invalid-ps: 78765.102453 %
+[P]mica evict-valid-ps:   284353.805123 %
+[P]mica evict-valid:      78.308730 %
+[P]mica evict-invalid:    21.691270 %
+[P]set success:           1948557.450 / s
+
+[P]expire scan persec:    111672837.642 / s
+[P]total expire scan:     1193163246
+
+[P]expire hit persec:      34.441 / s
+[P]total expire hit:      658
+
+[P]expire hit rate:       0.000031 %
+[P]total expire hit rate: 0.000055 %
+
+[P]get found:             1883289.338 / s
+
+----------------------------------
+
+[INFO]Current Time:       32.25 s
+
+[P]indexs Load Factor:    58.7797 %
+
+[P]full bucket LFactor:   13.5755 %
+
+[P]full expirted BLF:     0.0000 %
+
+[P]set request:           60062614 
+[P]get request:           57617608 
+
+[P]Get Hit Rate:          92.9664 %
+[P]ACC Hit Rate:          91.5059 %
+
+[P]mica ttl-evicted:      1592377 / s
+[P]mica ttl-evt-invalid:  336188 / s
+[P]mica ttl-evict-valid:  1256189 / s
+
+[P]rx packet:             79047.583 / s
+
+[P]rx burst:              2470.237 / s
+
+[P]Throughput:            3922288.648 ops
+[P]all request:           117680222 o
+
+[P]GetThroughput:         1943830.847 ops
+[P]SetThroughput:         1978457.800 ops
+
+[P]Valid Entries:         1644073.207 / s
+[P]mica evicted:          397251.217009 %
+[P]mica evict-invalid-ps: 83209.288444 %
+[P]mica evict-valid-ps:   314041.928565 %
+[P]mica evict-valid:      79.053736 %
+[P]mica evict-invalid:    20.946264 %
+[P]set success:           1933389.915 / s
+
+[P]expire scan persec:    116473412.205 / s
+[P]total expire scan:     1337302948
+
+[P]expire hit persec:      46.867 / s
+[P]total expire hit:      716
+
+[P]expire hit rate:       0.000040 %
+[P]total expire hit rate: 0.000054 %
+
+[P]get found:             1807108.847 / s
+
+----------------------------------
+
+[INFO]Current Time:       33.49 s
+
+[P]indexs Load Factor:    60.6220 %
+
+[P]full bucket LFactor:   15.3692 %
+
+[P]full expirted BLF:     0.0000 %
+
+[P]set request:           62472032 
+[P]get request:           59934797 
+
+[P]Get Hit Rate:          97.0465 %
+[P]ACC Hit Rate:          91.7201 %
+
+[P]mica ttl-evicted:      1918165 / s
+[P]mica ttl-evt-invalid:  405527 / s
+[P]mica ttl-evict-valid:  1512638 / s
+
+[P]rx packet:             77286.925 / s
+
+[P]rx burst:              2415.216 / s
+
+[P]Throughput:            3796401.315 ops
+[P]all request:           122406829 o
+
+[P]GetThroughput:         1861161.583 ops
+[P]SetThroughput:         1935239.732 ops
+
+[P]Valid Entries:         1579151.534 / s
+[P]mica evicted:          431645.696402 %
+[P]mica evict-invalid-ps: 91869.193902 %
+[P]mica evict-valid-ps:   339776.502500 %
+[P]mica evict-valid:      78.716527 %
+[P]mica evict-invalid:    21.283473 %
+[P]set success:           1872225.635 / s
+
+[P]expire scan persec:    121444884.571 / s
+[P]total expire scan:     1488504624
+
+[P]expire hit persec:      58.633 / s
+[P]total expire hit:      789
+
+[P]expire hit rate:       0.000048 %
+[P]total expire hit rate: 0.000053 %
+
+[P]get found:             1806192.318 / s
+
+----------------------------------
+
+[INFO]Current Time:       34.75 s
+
+[P]indexs Load Factor:    62.4158 %
+
+[P]full bucket LFactor:   17.2627 %
+
+[P]full expirted BLF:     0.0000 %
+
+[P]set request:           64827985 
+[P]get request:           62251281 
+
+[P]Get Hit Rate:          92.9015 %
+[P]ACC Hit Rate:          91.7641 %
+
+[P]mica ttl-evicted:      2278793 / s
+[P]mica ttl-evt-invalid:  483262 / s
+[P]mica ttl-evict-valid:  1795531 / s
+
+[P]rx packet:             74842.088 / s
+
+[P]rx burst:              2338.815 / s
+
+[P]Throughput:            3720792.260 ops
+[P]all request:           127079266 o
+
+[P]GetThroughput:         1844680.996 ops
+[P]SetThroughput:         1876111.264 ops
+
+[P]Valid Entries:         1502082.389 / s
+[P]mica evicted:          460104.712747 %
+[P]mica evict-invalid-ps: 99177.656326 %
+[P]mica evict-valid-ps:   360927.056422 %
+[P]mica evict-valid:      78.444547 %
+[P]mica evict-invalid:    21.555453 %
+[P]set success:           1797328.150 / s
+
+[P]expire scan persec:    124113887.690 / s
+[P]total expire scan:     1644362377
+
+[P]expire hit persec:      46.983 / s
+[P]total expire hit:      848
+
+[P]expire hit rate:       0.000038 %
+[P]total expire hit rate: 0.000052 %
+
+[P]get found:             1713736.010 / s
+
+----------------------------------
+
+[INFO]Current Time:       36.02 s
+
+[P]indexs Load Factor:    64.1381 %
+
+[P]full bucket LFactor:   19.2069 %
+
+[P]full expirted BLF:     0.0000 %
+
+[P]set request:           67183073 
+[P]get request:           64540588 
+
+[P]Get Hit Rate:          94.9929 %
+[P]ACC Hit Rate:          91.8786 %
+
+[P]mica ttl-evicted:      2679345 / s
+[P]mica ttl-evt-invalid:  570066 / s
+[P]mica ttl-evict-valid:  2109279 / s
+
+[P]rx packet:             73322.808 / s
+
+[P]rx burst:              2291.338 / s
+
+[P]Throughput:            3667083.925 ops
+[P]all request:           131723661 o
+
+[P]GetThroughput:         1807572.547 ops
+[P]SetThroughput:         1859511.378 ops
+
+[P]Valid Entries:         1442019.693 / s
+[P]mica evicted:          493099.557465 %
+[P]mica evict-invalid-ps: 106860.068072 %
+[P]mica evict-valid-ps:   386239.489394 %
+[P]mica evict-valid:      78.328906 %
+[P]mica evict-invalid:    21.671094 %
+[P]set success:           1801102.794 / s
+
+[P]expire scan persec:    127491395.520 / s
+[P]total expire scan:     1805831384
+
+[P]expire hit persec:      47.374 / s
+[P]total expire hit:      908
+
+[P]expire hit rate:       0.000037 %
+[P]total expire hit rate: 0.000050 %
+
+[P]get found:             1717066.285 / s
+
+----------------------------------
+
+[INFO]Current Time:       37.29 s
+
+[P]indexs Load Factor:    65.8095 %
+
+[P]full bucket LFactor:   21.2289 %
+
+[P]full expirted BLF:     0.0000 %
+
+[P]set request:           69500404 
+[P]get request:           66822523 
+
+[P]Get Hit Rate:          93.7914 %
+[P]ACC Hit Rate:          91.9439 %
+
+[P]mica ttl-evicted:      3127474 / s
+[P]mica ttl-evt-invalid:  665956 / s
+[P]mica ttl-evict-valid:  2461518 / s
+
+[P]rx packet:             73188.984 / s
+
+[P]rx burst:              2287.940 / s
+
+[P]Throughput:            3607420.308 ops
+[P]all request:           136322927 o
+
+[P]GetThroughput:         1789828.782 ops
+[P]SetThroughput:         1817591.527 ops
+
+[P]Valid Entries:         1408263.594 / s
+[P]mica evicted:          534099.891199 %
+[P]mica evict-invalid-ps: 114285.927862 %
+[P]mica evict-valid-ps:   419813.963336 %
+[P]mica evict-valid:      78.602144 %
+[P]mica evict-invalid:    21.397856 %
+[P]set success:           1781524.900 / s
+
+[P]expire scan persec:    132855729.111 / s
+[P]total expire scan:     1975215261
+
+[P]expire hit persec:      36.080 / s
+[P]total expire hit:      954
+
+[P]expire hit rate:       0.000027 %
+[P]total expire hit rate: 0.000048 %
+
+[P]get found:             1678705.642 / s
+
+----------------------------------
+
+[INFO]Current Time:       38.58 s
+
+[P]indexs Load Factor:    67.4137 %
+
+[P]full bucket LFactor:   23.3003 %
+
+[P]full expirted BLF:     0.0000 %
+
+[P]set request:           71816547 
+[P]get request:           69054473 
+
+[P]Get Hit Rate:          94.7486 %
+[P]ACC Hit Rate:          92.0346 %
+
+[P]mica ttl-evicted:      3611295 / s
+[P]mica ttl-evt-invalid:  770718 / s
+[P]mica ttl-evict-valid:  2840577 / s
+
+[P]rx packet:             71042.143 / s
+
+[P]rx burst:              2220.067 / s
+
+[P]Throughput:            3542831.965 ops
+[P]all request:           140871020 o
+
+[P]GetThroughput:         1738624.035 ops
+[P]SetThroughput:         1804207.930 ops
+
+[P]Valid Entries:         1337420.541 / s
+[P]mica evicted:          559058.903015 %
+[P]mica evict-invalid-ps: 121053.300286 %
+[P]mica evict-valid-ps:   438005.602729 %
+[P]mica evict-valid:      78.346951 %
+[P]mica evict-invalid:    21.653049 %
+[P]set success:           1732554.294 / s
+
+[P]expire scan persec:    134624334.436 / s
+[P]total expire scan:     2148038584
+
+[P]expire hit persec:      50.633 / s
+[P]total expire hit:      1019
+
+[P]expire hit rate:       0.000038 %
+[P]total expire hit rate: 0.000047 %
+
+[P]get found:             1647321.639 / s
+
+----------------------------------
+
+[INFO]Current Time:       39.86 s
+
+[P]indexs Load Factor:    68.9539 %
+
+[P]full bucket LFactor:   25.4007 %
+
+[P]full expirted BLF:     0.0000 %
+
+[P]set request:           74131719 
+[P]get request:           71309189 
+
+[P]Get Hit Rate:          94.7063 %
+[P]ACC Hit Rate:          92.1190 %
+
+[P]mica ttl-evicted:      4141567 / s
+[P]mica ttl-evt-invalid:  885316 / s
+[P]mica ttl-evict-valid:  3256251 / s
+
+[P]rx packet:             70728.584 / s
+
+[P]rx burst:              2210.268 / s
+
+[P]Throughput:            3545341.627 ops
+[P]all request:           145440908 o
+
+[P]GetThroughput:         1749219.782 ops
+[P]SetThroughput:         1796121.845 ops
+
+[P]Valid Entries:         1298007.757 / s
+[P]mica evicted:          596612.874286 %
+[P]mica evict-invalid-ps: 128935.041200 %
+[P]mica evict-valid-ps:   467677.833085 %
+[P]mica evict-valid:      78.388827 %
+[P]mica evict-invalid:    21.611173 %
+[P]set success:           1743544.769 / s
+
+[P]expire scan persec:    139652057.649 / s
+[P]total expire scan:     2328047827
+
+[P]expire hit persec:      49.652 / s
+[P]total expire hit:      1083
+
+[P]expire hit rate:       0.000036 %
+[P]total expire hit rate: 0.000047 %
+
+[P]get found:             1656621.258 / s
+
+----------------------------------
+
+[INFO]Current Time:       41.16 s
+
+[P]indexs Load Factor:    70.4328 %
+
+[P]full bucket LFactor:   27.5307 %
+
+[P]full expirted BLF:     0.0000 %
+
+[P]set request:           76375003 
+[P]get request:           73515426 
+
+[P]Get Hit Rate:          94.6645 %
+[P]ACC Hit Rate:          92.1954 %
+
+[P]mica ttl-evicted:      4706786 / s
+[P]mica ttl-evt-invalid:  1008093 / s
+[P]mica ttl-evict-valid:  3698693 / s
+
+[P]rx packet:             68816.937 / s
+
+[P]rx burst:              2150.529 / s
+
+[P]Throughput:            3434610.620 ops
+[P]all request:           149890429 o
+
+[P]GetThroughput:         1703006.915 ops
+[P]SetThroughput:         1731603.705 ops
+
+[P]Valid Entries:         1231703.680 / s
+[P]mica evicted:          619449.736012 %
+[P]mica evict-invalid-ps: 134557.012836 %
+[P]mica evict-valid-ps:   484892.723176 %
+[P]mica evict-valid:      78.277977 %
+[P]mica evict-invalid:    21.722023 %
+[P]set success:           1683838.953 / s
+
+[P]expire scan persec:    141447061.004 / s
+[P]total expire scan:     2511291792
+
+[P]expire hit persec:      55.577 / s
+[P]total expire hit:      1155
+
+[P]expire hit rate:       0.000039 %
+[P]total expire hit rate: 0.000046 %
+
+[P]get found:             1612143.579 / s
+
+----------------------------------
+
+[INFO]Current Time:       42.47 s
+
+[P]indexs Load Factor:    71.8521 %
+
+[P]full bucket LFactor:   29.6735 %
+
+[P]full expirted BLF:     0.0000 %
+
+[P]set request:           78575023 
+[P]get request:           75680581 
+
+[P]Get Hit Rate:          94.4943 %
+[P]ACC Hit Rate:          92.2612 %
+
+[P]mica ttl-evicted:      5307106 / s
+[P]mica ttl-evt-invalid:  1138930 / s
+[P]mica ttl-evict-valid:  4168176 / s
+
+[P]rx packet:             66939.972 / s
+
+[P]rx burst:              2091.874 / s
+
+[P]Throughput:            3338719.068 ops
+[P]all request:           154255604 o
+
+[P]GetThroughput:         1656026.227 ops
+[P]SetThroughput:         1682692.841 ops
+
+[P]Valid Entries:         1165365.868 / s
+[P]mica evicted:          639030.370106 %
+[P]mica evict-invalid-ps: 139273.748224 %
+[P]mica evict-valid-ps:   499756.621883 %
+[P]mica evict-valid:      78.205457 %
+[P]mica evict-invalid:    21.794543 %
+[P]set success:           1634856.613 / s
+
+[P]expire scan persec:    141790299.344 / s
+[P]total expire scan:     2696674107
+
+[P]expire hit persec:      55.834 / s
+[P]total expire hit:      1228
+
+[P]expire hit rate:       0.000039 %
+[P]total expire hit rate: 0.000046 %
+
+[P]get found:             1564850.344 / s
+
+----------------------------------
+
+[INFO]Current Time:       43.78 s
+
+[P]indexs Load Factor:    73.2290 %
+
+[P]full bucket LFactor:   31.8523 %
+
+[P]full expirted BLF:     0.0000 %
+
+[P]set request:           80840648 
+[P]get request:           77891414 
+
+[P]Get Hit Rate:          94.3330 %
+[P]ACC Hit Rate:          92.3200 %
+
+[P]mica ttl-evicted:      5967351 / s
+[P]mica ttl-evt-invalid:  1280004 / s
+[P]mica ttl-evict-valid:  4687347 / s
+
+[P]rx packet:             68001.460 / s
+
+[P]rx burst:              2125.046 / s
+
+[P]Throughput:            3418137.772 ops
+[P]all request:           158732062 o
+
+[P]GetThroughput:         1688149.824 ops
+[P]SetThroughput:         1729987.948 ops
+
+[P]Valid Entries:         1151952.635 / s
+[P]mica evicted:          688457.715733 %
+[P]mica evict-invalid-ps: 147102.187505 %
+[P]mica evict-valid-ps:   541355.528228 %
+[P]mica evict-valid:      78.633083 %
+[P]mica evict-invalid:    21.366917 %
+[P]set success:           1683105.609 / s
+
+[P]expire scan persec:    148912762.003 / s
+[P]total expire scan:     2891693082
+
+[P]expire hit persec:      61.086 / s
+[P]total expire hit:      1308
+
+[P]expire hit rate:       0.000041 %
+[P]total expire hit rate: 0.000045 %
+
+[P]get found:             1592481.538 / s
+
+----------------------------------
+
+[INFO]Current Time:       45.09 s
+
+[P]indexs Load Factor:    74.5633 %
+
+[P]full bucket LFactor:   34.0625 %
+
+[P]full expirted BLF:     0.0000 %
+
+[P]set request:           83080307 
+[P]get request:           80073958 
+
+[P]Get Hit Rate:          94.2734 %
+[P]ACC Hit Rate:          92.3732 %
+
+[P]mica ttl-evicted:      6667033 / s
+[P]mica ttl-evt-invalid:  1433236 / s
+[P]mica ttl-evict-valid:  5233797 / s
+
+[P]rx packet:             66979.151 / s
+
+[P]rx burst:              2093.098 / s
+
+[P]Throughput:            3362189.014 ops
+[P]all request:           163154265 o
+
+[P]GetThroughput:         1659382.317 ops
+[P]SetThroughput:         1702806.697 ops
+
+[P]Valid Entries:         1101074.719 / s
+[P]mica evicted:          713442.598839 %
+[P]mica evict-invalid-ps: 156245.603439 %
+[P]mica evict-valid-ps:   557196.995400 %
+[P]mica evict-valid:      78.099765 %
+[P]mica evict-invalid:    21.900235 %
+[P]set success:           1655935.129 / s
+
+[P]expire scan persec:    149741922.345 / s
+[P]total expire scan:     3088644882
+
+[P]expire hit persec:      61.584 / s
+[P]total expire hit:      1389
+
+[P]expire hit rate:       0.000041 %
+[P]total expire hit rate: 0.000045 %
+
+[P]get found:             1564356.558 / s
+
+----------------------------------
+
+[INFO]Current Time:       46.42 s
+
+[P]indexs Load Factor:    75.8438 %
+
+[P]full bucket LFactor:   36.2718 %
+
+[P]full expirted BLF:     0.0000 %
+
+[P]set request:           85284883 
+[P]get request:           82244869 
+
+[P]Get Hit Rate:          93.1921 %
+[P]ACC Hit Rate:          92.3949 %
+
+[P]mica ttl-evicted:      7410597 / s
+[P]mica ttl-evt-invalid:  1593018 / s
+[P]mica ttl-evict-valid:  5817579 / s
+
+[P]rx packet:             66136.429 / s
+
+[P]rx burst:              2066.763 / s
+
+[P]Throughput:            3306433.779 ops
+[P]all request:           167529752 o
+
+[P]GetThroughput:         1640497.038 ops
+[P]SetThroughput:         1665936.741 ops
+
+[P]Valid Entries:         1053910.290 / s
+[P]mica evicted:          740852.333934 %
+[P]mica evict-invalid-ps: 159199.299079 %
+[P]mica evict-valid-ps:   581653.034855 %
+[P]mica evict-valid:      78.511332 %
+[P]mica evict-invalid:    21.488668 %
+[P]set success:           1621211.528 / s
+
+[P]expire scan persec:    153084537.767 / s
+[P]total expire scan:     3291225502
+
+[P]expire hit persec:      63.476 / s
+[P]total expire hit:      1473
+
+[P]expire hit rate:       0.000041 %
+[P]total expire hit rate: 0.000045 %
+
+[P]get found:             1528813.980 / s
+
+----------------------------------
+
+[INFO]Current Time:       47.75 s
+
+[P]indexs Load Factor:    77.0638 %
+
+[P]full bucket LFactor:   38.4558 %
+
+[P]full expirted BLF:     0.0000 %
+
+[P]set request:           87520393 
+[P]get request:           84425107 
+
+[P]Get Hit Rate:          93.0173 %
+[P]ACC Hit Rate:          92.4109 %
+
+[P]mica ttl-evicted:      8206327 / s
+[P]mica ttl-evt-invalid:  1765328 / s
+[P]mica ttl-evict-valid:  6440999 / s
+
+[P]rx packet:             66035.013 / s
+
+[P]rx burst:              2063.594 / s
+
+[P]Throughput:            3320813.323 ops
+[P]all request:           171945500 o
+
+[P]GetThroughput:         1639623.320 ops
+[P]SetThroughput:         1681190.002 ops
+
+[P]Valid Entries:         1018096.436 / s
+[P]mica evicted:          776525.308410 %
+[P]mica evict-invalid-ps: 168151.352710 %
+[P]mica evict-valid-ps:   608373.955700 %
+[P]mica evict-valid:      78.345670 %
+[P]mica evict-invalid:    21.654330 %
+[P]set success:           1636576.811 / s
+
+[P]expire scan persec:    155977346.189 / s
+[P]total expire scan:     3498631516
+
+[P]expire hit persec:      48.883 / s
+[P]total expire hit:      1538
+
+[P]expire hit rate:       0.000031 %
+[P]total expire hit rate: 0.000044 %
+
+[P]get found:             1525132.951 / s
+
+----------------------------------
+
+[INFO]Current Time:       49.07 s
+
+[P]indexs Load Factor:    78.2220 %
+
+[P]full bucket LFactor:   40.6036 %
+
+[P]full expirted BLF:     0.0000 %
+
+[P]set request:           89693911 
+[P]get request:           86502351 
+
+[P]Get Hit Rate:          94.7332 %
+[P]ACC Hit Rate:          92.4667 %
+
+[P]mica ttl-evicted:      9025962 / s
+[P]mica ttl-evt-invalid:  1946242 / s
+[P]mica ttl-evict-valid:  7079720 / s
+
+[P]rx packet:             64206.649 / s
+
+[P]rx burst:              2006.458 / s
+
+[P]Throughput:            3197965.681 ops
+[P]all request:           176196262 o
+
+[P]GetThroughput:         1562768.045 ops
+[P]SetThroughput:         1635197.635 ops
+
+[P]Valid Entries:         958496.240 / s
+[P]mica evicted:          788312.692530 %
+[P]mica evict-invalid-ps: 174000.381214 %
+[P]mica evict-valid-ps:   614312.311316 %
+[P]mica evict-valid:      77.927492 %
+[P]mica evict-invalid:    22.072508 %
+[P]set success:           1591878.611 / s
+
+[P]expire scan persec:    156039422.604 / s
+[P]total expire scan:     3706040386
+
+[P]expire hit persec:      58.682 / s
+[P]total expire hit:      1616
+
+[P]expire hit rate:       0.000038 %
+[P]total expire hit rate: 0.000044 %
+
+[P]get found:             1480459.642 / s
+
+----------------------------------
+
+[INFO]Current Time:       50.41 s
+
+[P]indexs Load Factor:    79.3584 %
+
+[P]full bucket LFactor:   42.7884 %
+
+[P]full expirted BLF:     0.0096 %
+
+[P]set request:           91854747 
+[P]get request:           88612493 
+
+[P]Get Hit Rate:          94.4965 %
+[P]ACC Hit Rate:          92.5150 %
+
+[P]mica ttl-evicted:      9894894 / s
+[P]mica ttl-evt-invalid:  2137055 / s
+[P]mica ttl-evict-valid:  7757839 / s
+
+[P]rx packet:             64211.061 / s
+
+[P]rx burst:              2006.596 / s
+
+[P]Throughput:            3199001.842 ops
+[P]all request:           180467240 o
+
+[P]GetThroughput:         1580515.784 ops
+[P]SetThroughput:         1618486.057 ops
+
+[P]Valid Entries:         925897.467 / s
+[P]mica evicted:          820125.006884 %
+[P]mica evict-invalid-ps: 180095.235230 %
+[P]mica evict-valid-ps:   640029.771655 %
+[P]mica evict-valid:      78.040514 %
+[P]mica evict-invalid:    21.959486 %
+[P]set success:           1592938.851 / s
+
+[P]expire scan persec:    159491521.677 / s
+[P]total expire scan:     3918977050
+
+[P]expire hit persec:      57.674 / s
+[P]total expire hit:      1693
+
+[P]expire hit rate:       0.000036 %
+[P]total expire hit rate: 0.000043 %
+
+[P]get found:             1493531.847 / s
+
+----------------------------------
+
+[INFO]Current Time:       51.76 s
+
+[P]indexs Load Factor:    80.4607 %
+
+[P]full bucket LFactor:   44.9808 %
+
+[P]full expirted BLF:     0.1236 %
+
+[P]set request:           94033792 
+[P]get request:           90781390 
+
+[P]Get Hit Rate:          93.3936 %
+[P]ACC Hit Rate:          92.5360 %
+
+[P]mica ttl-evicted:      10826583 / s
+[P]mica ttl-evt-invalid:  2343112 / s
+[P]mica ttl-evict-valid:  8483471 / s
+
+[P]rx packet:             64599.507 / s
+
+[P]rx burst:              2018.735 / s
+
+[P]Throughput:            3219860.956 ops
+[P]all request:           184815182 o
+
+[P]GetThroughput:         1606172.936 ops
+[P]SetThroughput:         1613688.020 ops
+
+[P]Valid Entries:         898468.716 / s
+[P]mica evicted:          857512.953103 %
+[P]mica evict-invalid-ps: 189651.854404 %
+[P]mica evict-valid-ps:   667861.098699 %
+[P]mica evict-valid:      77.883500 %
+[P]mica evict-invalid:    22.116500 %
+[P]set success:           1603253.694 / s
+
+[P]expire scan persec:    163919703.452 / s
+[P]total expire scan:     4140326162
+
+[P]expire hit persec:      53.319 / s
+[P]total expire hit:      1765
+
+[P]expire hit rate:       0.000033 %
+[P]total expire hit rate: 0.000043 %
+
+[P]get found:             1500061.995 / s
+
+----------------------------------
+
+[INFO]Current Time:       53.13 s
+
+[P]indexs Load Factor:    81.5205 %
+
+[P]full bucket LFactor:   47.1629 %
+
+[P]full expirted BLF:     0.4853 %
+
+[P]set request:           96256830 
+[P]get request:           92952582 
+
+[P]Get Hit Rate:          93.0758 %
+[P]ACC Hit Rate:          92.5486 %
+
+[P]mica ttl-evicted:      11804820 / s
+[P]mica ttl-evt-invalid:  2562061 / s
+[P]mica ttl-evict-valid:  9242759 / s
+
+[P]rx packet:             63720.293 / s
+
+[P]rx burst:              1991.990 / s
+
+[P]Throughput:            3209849.869 ops
+[P]all request:           189209412 o
+
+[P]GetThroughput:         1585988.980 ops
+[P]SetThroughput:         1623860.889 ops
+
+[P]Valid Entries:         854428.414 / s
+[P]mica evicted:          876554.869545 %
+[P]mica evict-invalid-ps: 196190.506117 %
+[P]mica evict-valid-ps:   680364.363428 %
+[P]mica evict-valid:      77.618001 %
+[P]mica evict-invalid:    22.381999 %
+[P]set success:           1583256.295 / s
+
+[P]expire scan persec:    165019338.441 / s
+[P]total expire scan:     4366234836
+
+[P]expire hit persec:      72.316 / s
+[P]total expire hit:      1864
+
+[P]expire hit rate:       0.000044 %
+[P]total expire hit rate: 0.000043 %
+
+[P]get found:             1476171.695 / s
+
+----------------------------------
+
+[INFO]Current Time:       54.51 s
+
+[P]indexs Load Factor:    82.5462 %
+
+[P]full bucket LFactor:   49.3410 %
+
+[P]full expirted BLF:     1.1493 %
+
+[P]set request:           98428126 
+[P]get request:           95134231 
+
+[P]Get Hit Rate:          92.7138 %
+[P]ACC Hit Rate:          92.5524 %
+
+[P]mica ttl-evicted:      12835037 / s
+[P]mica ttl-evt-invalid:  2805650 / s
+[P]mica ttl-evict-valid:  10029387 / s
+
+[P]rx packet:             63530.044 / s
+
+[P]rx burst:              1986.039 / s
+
+[P]Throughput:            3156304.618 ops
+[P]all request:           193562357 o
+
+[P]GetThroughput:         1581905.770 ops
+[P]SetThroughput:         1574398.848 ops
+
+[P]Valid Entries:         820401.587 / s
+[P]mica evicted:          904955.815248 %
+[P]mica evict-invalid-ps: 213971.699244 %
+[P]mica evict-valid-ps:   690984.116003 %
+[P]mica evict-valid:      76.355564 %
+[P]mica evict-invalid:    23.644436 %
+[P]set success:           1579839.246 / s
+
+[P]expire scan persec:    166537269.400 / s
+[P]total expire scan:     4595910885
+
+[P]expire hit persec:      84.111 / s
+[P]total expire hit:      1980
+
+[P]expire hit rate:       0.000051 %
+[P]total expire hit rate: 0.000043 %
+
+[P]get found:             1466645.177 / s
+
+----------------------------------
+
+[INFO]Current Time:       55.89 s
+
+[P]indexs Load Factor:    83.5409 %
+
+[P]full bucket LFactor:   51.5186 %
+
+[P]full expirted BLF:     2.1081 %
+
+[P]set request:           100674639 
+[P]get request:           97306836 
+
+[P]Get Hit Rate:          93.1651 %
+[P]ACC Hit Rate:          92.5661 %
+
+[P]mica ttl-evicted:      13919510 / s
+[P]mica ttl-evt-invalid:  3077564 / s
+[P]mica ttl-evict-valid:  10841946 / s
+
+[P]rx packet:             63936.115 / s
+
+[P]rx burst:              1998.004 / s
+
+[P]Throughput:            3203705.990 ops
+[P]all request:           197981475 o
+
+[P]GetThroughput:         1575062.638 ops
+[P]SetThroughput:         1628643.353 ops
+
+[P]Valid Entries:         791211.604 / s
+[P]mica evicted:          941101.961951 %
+[P]mica evict-invalid-ps: 235966.039617 %
+[P]mica evict-valid-ps:   705135.922334 %
+[P]mica evict-valid:      74.926623 %
+[P]mica evict-invalid:    25.073377 %
+[P]set success:           1573027.661 / s
+
+[P]expire scan persec:    166976115.054 / s
+[P]total expire scan:     4826233879
+
+[P]expire hit persec:      83.371 / s
+[P]total expire hit:      2095
+
+[P]expire hit rate:       0.000050 %
+[P]total expire hit rate: 0.000043 %
+
+[P]get found:             1467408.231 / s
+
+----------------------------------
+
+[INFO]Current Time:       57.28 s
+
+[P]indexs Load Factor:    84.5025 %
+
+[P]full bucket LFactor:   53.6843 %
+
+[P]full expirted BLF:     3.2938 %
+
+[P]set request:           102922026 
+[P]get request:           99525074 
+
+[P]Get Hit Rate:          90.9327 %
+[P]ACC Hit Rate:          92.5297 %
+
+[P]mica ttl-evicted:      15063492 / s
+[P]mica ttl-evt-invalid:  3386451 / s
+[P]mica ttl-evict-valid:  11677041 / s
+
+[P]rx packet:             64108.187 / s
+
+[P]rx burst:              2003.381 / s
+
+[P]Throughput:            3212333.039 ops
+[P]all request:           202447100 o
+
+[P]GetThroughput:         1595682.400 ops
+[P]SetThroughput:         1616650.640 ops
+
+[P]Valid Entries:         761077.543 / s
+[P]mica evicted:          973840.245166 %
+[P]mica evict-invalid-ps: 262946.962285 %
+[P]mica evict-valid-ps:   710893.282881 %
+[P]mica evict-valid:      72.998963 %
+[P]mica evict-invalid:    27.001037 %
+[P]set success:           1593003.552 / s
+
+[P]expire scan persec:    164219373.070 / s
+[P]total expire scan:     5054523452
+
+[P]expire hit persec:      97.831 / s
+[P]total expire hit:      2231
+
+[P]expire hit rate:       0.000060 %
+[P]total expire hit rate: 0.000044 %
+
+[P]get found:             1450996.582 / s
+
+----------------------------------
+
+[INFO]Current Time:       58.66 s
+
+[P]indexs Load Factor:    85.4340 %
+
+[P]full bucket LFactor:   55.8470 %
+
+[P]full expirted BLF:     4.6874 %
+
+[P]set request:           105183844 
+[P]get request:           101755109 
+
+[P]Get Hit Rate:          91.3851 %
+[P]ACC Hit Rate:          92.5046 %
+
+[P]mica ttl-evicted:      16262690 / s
+[P]mica ttl-evt-invalid:  3733450 / s
+[P]mica ttl-evict-valid:  12529240 / s
+
+[P]rx packet:             64942.540 / s
+
+[P]rx burst:              2029.454 / s
+
+[P]Throughput:            3254555.770 ops
+[P]all request:           206938953 o
+
+[P]GetThroughput:         1615763.756 ops
+[P]SetThroughput:         1638792.014 ops
+
+[P]Valid Entries:         737887.439 / s
+[P]mica evicted:          1017012.651199 %
+[P]mica evict-invalid-ps: 294281.989257 %
+[P]mica evict-valid-ps:   722730.661941 %
+[P]mica evict-valid:      71.064078 %
+[P]mica evict-invalid:    28.935922 %
+[P]set success:           1613256.826 / s
+
+[P]expire scan persec:    163700844.848 / s
+[P]total expire scan:     5280459089
+
+[P]expire hit persec:     111.580 / s
+[P]total expire hit:      2385
+
+[P]expire hit rate:       0.000068 %
+[P]total expire hit rate: 0.000045 %
+
+[P]get found:             1476567.531 / s
+
+----------------------------------
+
+[INFO]Current Time:       60.04 s
+
+[P]indexs Load Factor:    86.3341 %
+
+[P]full bucket LFactor:   57.9926 %
+
+[P]full expirted BLF:     6.2390 %
+
+[P]set request:           107510043 
+[P]get request:           104026799 
+
+[P]Get Hit Rate:          90.1209 %
+[P]ACC Hit Rate:          92.4525 %
+
+[P]mica ttl-evicted:      17533609 / s
+[P]mica ttl-evt-invalid:  4134372 / s
+[P]mica ttl-evict-valid:  13399237 / s
+
+[P]rx packet:             66233.606 / s
+
+[P]rx burst:              2069.800 / s
+
+[P]Throughput:            3333349.044 ops
+[P]all request:           211536842 o
+
+[P]GetThroughput:         1646915.723 ops
+[P]SetThroughput:         1686433.320 ops
+
+[P]Valid Entries:         717458.718 / s
+[P]mica evicted:          1067230.097967 %
+[P]mica evict-invalid-ps: 336666.636770 %
+[P]mica evict-valid-ps:   730563.461197 %
+[P]mica evict-valid:      68.454166 %
+[P]mica evict-invalid:    31.545834 %
+[P]set success:           1628221.549 / s
+
+[P]expire scan persec:    161897685.004 / s
+[P]total expire scan:     5503774312
+
+[P]expire hit persec:     110.921 / s
+[P]total expire hit:      2538
+
+[P]expire hit rate:       0.000069 %
+[P]total expire hit rate: 0.000046 %
+
+[P]get found:             1484214.929 / s
+
+----------------------------------
+
+[INFO]Current Time:       61.42 s
+
+[P]indexs Load Factor:    87.1995 %
+
+[P]full bucket LFactor:   60.1088 %
+
+[P]full expirted BLF:     7.9221 %
+
+[P]set request:           109848477 
+[P]get request:           106287600 
+
+[P]Get Hit Rate:          91.4406 %
+[P]ACC Hit Rate:          92.4310 %
+
+[P]mica ttl-evicted:      18859997 / s
+[P]mica ttl-evt-invalid:  4582367 / s
+[P]mica ttl-evict-valid:  14277630 / s
+
+[P]rx packet:             66384.052 / s
+
+[P]rx burst:              2074.502 / s
+
+[P]Throughput:            3324432.220 ops
+[P]all request:           216136077 o
+
+[P]GetThroughput:         1634158.656 ops
+[P]SetThroughput:         1690273.564 ops
+
+[P]Valid Entries:         685229.571 / s
+[P]mica evicted:          1099483.022822 %
+[P]mica evict-invalid-ps: 371356.568975 %
+[P]mica evict-valid-ps:   728126.453847 %
+[P]mica evict-valid:      66.224438 %
+[P]mica evict-invalid:    33.775562 %
+[P]set success:           1648560.902 / s
+
+[P]expire scan persec:    158769727.209 / s
+[P]total expire scan:     5723426643
+
+[P]expire hit persec:     126.494 / s
+[P]total expire hit:      2713
+
+[P]expire hit rate:       0.000080 %
+[P]total expire hit rate: 0.000047 %
+
+[P]get found:             1494284.481 / s
+
+----------------------------------
+
+[INFO]Current Time:       62.80 s
+
+[P]indexs Load Factor:    88.0302 %
+
+[P]full bucket LFactor:   62.1926 %
+
+[P]full expirted BLF:     9.7267 %
+
+[P]set request:           112189668 
+[P]get request:           108597445 
+
+[P]Get Hit Rate:          90.2190 %
+[P]ACC Hit Rate:          92.3840 %
+
+[P]mica ttl-evicted:      20249971 / s
+[P]mica ttl-evt-invalid:  5086396 / s
+[P]mica ttl-evict-valid:  15163575 / s
+
+[P]rx packet:             67209.818 / s
+
+[P]rx burst:              2100.307 / s
+
+[P]Throughput:            3363843.849 ops
+[P]all request:           220787113 o
+
+[P]GetThroughput:         1670586.487 ops
+[P]SetThroughput:         1693257.361 ops
+
+[P]Valid Entries:         659813.117 / s
+[P]mica evicted:          1141986.356496 %
+[P]mica evict-invalid-ps: 414104.322295 %
+[P]mica evict-valid-ps:   727882.034200 %
+[P]mica evict-valid:      63.738243 %
+[P]mica evict-invalid:    36.261757 %
+[P]set success:           1651286.664 / s
+
+[P]expire scan persec:    156457447.094 / s
+[P]total expire scan:     5939753337
+
+[P]expire hit persec:     128.738 / s
+[P]total expire hit:      2891
+
+[P]expire hit rate:       0.000082 %
+[P]total expire hit rate: 0.000049 %
+
+[P]get found:             1507187.103 / s
+
+----------------------------------
+
+[INFO]Current Time:       64.18 s
+
+[P]indexs Load Factor:    88.8240 %
+
+[P]full bucket LFactor:   64.2391 %
+
+[P]full expirted BLF:     11.6173 %
+
+[P]set request:           114574595 
+[P]get request:           110879368 
+
+[P]Get Hit Rate:          91.6696 %
+[P]ACC Hit Rate:          92.3693 %
+
+[P]mica ttl-evicted:      21701489 / s
+[P]mica ttl-evt-invalid:  5647536 / s
+[P]mica ttl-evict-valid:  16053953 / s
+
+[P]rx packet:             68017.663 / s
+
+[P]rx burst:              2125.552 / s
+
+[P]Throughput:            3386695.853 ops
+[P]all request:           225453963 o
+
+[P]GetThroughput:         1655973.336 ops
+[P]SetThroughput:         1730722.517 ops
+
+[P]Valid Entries:         632225.800 / s
+[P]mica evicted:          1185889.754420 %
+[P]mica evict-invalid-ps: 458451.205425 %
+[P]mica evict-valid-ps:   727438.548996 %
+[P]mica evict-valid:      61.341161 %
+[P]mica evict-invalid:    38.658839 %
+[P]set success:           1673117.084 / s
+
+[P]expire scan persec:    155363811.041 / s
+[P]total expire scan:     6153843894
+
+[P]expire hit persec:     139.333 / s
+[P]total expire hit:      3083
+
+[P]expire hit rate:       0.000090 %
+[P]total expire hit rate: 0.000050 %
+
+[P]get found:             1518023.635 / s
+
+----------------------------------
+
+[INFO]Current Time:       65.56 s
+
+[P]indexs Load Factor:    89.5812 %
+
+[P]full bucket LFactor:   66.2305 %
+
+[P]full expirted BLF:     13.5673 %
+
+[P]set request:           116961289 
+[P]get request:           113208660 
+
+[P]Get Hit Rate:          88.6283 %
+[P]ACC Hit Rate:          92.2923 %
+
+[P]mica ttl-evicted:      23198830 / s
+[P]mica ttl-evt-invalid:  6263639 / s
+[P]mica ttl-evict-valid:  16935191 / s
+
+[P]rx packet:             68161.956 / s
+
+[P]rx burst:              2130.061 / s
+
+[P]Throughput:            3427273.425 ops
+[P]all request:           230169949 o
+
+[P]GetThroughput:         1692778.683 ops
+[P]SetThroughput:         1734494.742 ops
+
+[P]Valid Entries:         601768.791 / s
+[P]mica evicted:          1214731.117650 %
+[P]mica evict-invalid-ps: 499819.003004 %
+[P]mica evict-valid-ps:   714912.114645 %
+[P]mica evict-valid:      58.853528 %
+[P]mica evict-invalid:    41.146472 %
+[P]set success:           1673443.164 / s
+
+[P]expire scan persec:    151092788.005 / s
+[P]total expire scan:     6361750117
+
+[P]expire hit persec:     119.185 / s
+[P]total expire hit:      3247
+
+[P]expire hit rate:       0.000079 %
+[P]total expire hit rate: 0.000051 %
+
+[P]get found:             1500281.041 / s
+
+----------------------------------
+
+[INFO]Current Time:       66.93 s
+
+[P]indexs Load Factor:    90.3040 %
+
+[P]full bucket LFactor:   68.1765 %
+
+[P]full expirted BLF:     15.5947 %
+
+[P]set request:           119318921 
+[P]get request:           115532964 
+
+[P]Get Hit Rate:          90.0842 %
+[P]ACC Hit Rate:          92.2479 %
+
+[P]mica ttl-evicted:      24768240 / s
+[P]mica ttl-evt-invalid:  6937185 / s
+[P]mica ttl-evict-valid:  17831055 / s
+
+[P]rx packet:             69421.728 / s
+
+[P]rx burst:              2169.429 / s
+
+[P]Throughput:            3401583.308 ops
+[P]all request:           234851885 o
+
+[P]GetThroughput:         1688684.700 ops
+[P]SetThroughput:         1712898.608 ops
+
+[P]Valid Entries:         579924.845 / s
+[P]mica evicted:          1262655.462006 %
+[P]mica evict-invalid-ps: 541895.703361 %
+[P]mica evict-valid-ps:   720759.758645 %
+[P]mica evict-valid:      57.082853 %
+[P]mica evict-invalid:    42.917147 %
+[P]set success:           1720451.650 / s
+
+[P]expire scan persec:    151011046.162 / s
+[P]total expire scan:     6569601576
+
+[P]expire hit persec:     144.580 / s
+[P]total expire hit:      3446
+
+[P]expire hit rate:       0.000096 %
+[P]total expire hit rate: 0.000052 %
+
+[P]get found:             1521237.620 / s
+
+----------------------------------
+
+[INFO]Current Time:       68.31 s
+
+[P]indexs Load Factor:    90.9904 %
+
+[P]full bucket LFactor:   70.0658 %
+
+[P]full expirted BLF:     17.6595 %
+
+[P]set request:           121741988 
+[P]get request:           117919588 
+
+[P]Get Hit Rate:          87.1847 %
+[P]ACC Hit Rate:          92.1454 %
+
+[P]mica ttl-evicted:      26396484 / s
+[P]mica ttl-evt-invalid:  7680621 / s
+[P]mica ttl-evict-valid:  18715863 / s
+
+[P]rx packet:             69967.855 / s
+
+[P]rx burst:              2186.495 / s
+
+[P]Throughput:            3497295.492 ops
+[P]all request:           239661576 o
+
+[P]GetThroughput:         1735398.253 ops
+[P]SetThroughput:         1761897.240 ops
+
+[P]Valid Entries:         549767.271 / s
+[P]mica evicted:          1301185.604785 %
+[P]mica evict-invalid-ps: 594105.196321 %
+[P]mica evict-valid-ps:   707080.408464 %
+[P]mica evict-valid:      54.341241 %
+[P]mica evict-invalid:    45.658759 %
+[P]set success:           1734145.399 / s
+
+[P]expire scan persec:    148995243.019 / s
+[P]total expire scan:     6774508791
+
+[P]expire hit persec:     115.614 / s
+[P]total expire hit:      3605
+
+[P]expire hit rate:       0.000078 %
+[P]total expire hit rate: 0.000053 %
+
+[P]get found:             1513001.779 / s
+
+----------------------------------
+
+[INFO]Current Time:       69.68 s
+
+[P]indexs Load Factor:    91.6397 %
+
+[P]full bucket LFactor:   71.8871 %
+
+[P]full expirted BLF:     19.7495 %
+
+[P]set request:           124182900 
+[P]get request:           120276122 
+
+[P]Get Hit Rate:          88.7035 %
+[P]ACC Hit Rate:          92.0780 %
+
+[P]mica ttl-evicted:      28064154 / s
+[P]mica ttl-evt-invalid:  8480755 / s
+[P]mica ttl-evict-valid:  19583399 / s
+
+[P]rx packet:             70148.321 / s
+
+[P]rx burst:              2192.135 / s
+
+[P]Throughput:            3505549.792 ops
+[P]all request:           244459022 o
+
+[P]GetThroughput:         1721946.901 ops
+[P]SetThroughput:         1783602.891 ops
+
+[P]Valid Entries:         519384.011 / s
+[P]mica evicted:          1329757.527912 %
+[P]mica evict-invalid-ps: 638006.446022 %
+[P]mica evict-valid-ps:   691751.081889 %
+[P]mica evict-valid:      52.020843 %
+[P]mica evict-invalid:    47.979157 %
+[P]set success:           1721269.531 / s
+
+[P]expire scan persec:    146375524.371 / s
+[P]total expire scan:     6974827918
+
+[P]expire hit persec:     139.566 / s
+[P]total expire hit:      3796
+
+[P]expire hit rate:       0.000095 %
+[P]total expire hit rate: 0.000054 %
+
+[P]get found:             1527426.339 / s
+
+----------------------------------
+
+[INFO]Current Time:       71.05 s
+
+[P]indexs Load Factor:    92.2599 %
+
+[P]full bucket LFactor:   73.6628 %
+
+[P]full expirted BLF:     21.8852 %
+
+[P]set request:           126648585 
+[P]get request:           122678080 
+
+[P]Get Hit Rate:          89.2956 %
+[P]ACC Hit Rate:          92.0235 %
+
+[P]mica ttl-evicted:      29789574 / s
+[P]mica ttl-evt-invalid:  9346161 / s
+[P]mica ttl-evict-valid:  20443413 / s
+
+[P]rx packet:             71407.944 / s
+
+[P]rx burst:              2231.498 / s
+
+[P]Throughput:            3548558.269 ops
+[P]all request:           249326665 o
+
+[P]GetThroughput:         1751050.339 ops
+[P]SetThroughput:         1797507.931 ops
+
+[P]Valid Entries:         497621.924 / s
+[P]mica evicted:          1363373.843595 %
+[P]mica evict-invalid-ps: 683817.218121 %
+[P]mica evict-valid-ps:   679556.625474 %
+[P]mica evict-valid:      49.843748 %
+[P]mica evict-invalid:    50.156252 %
+[P]set success:           1768504.285 / s
+
+[P]expire scan persec:    146060092.408 / s
+[P]total expire scan:     7175182071
+
+[P]expire hit persec:     129.764 / s
+[P]total expire hit:      3974
+
+[P]expire hit rate:       0.000089 %
+[P]total expire hit rate: 0.000055 %
+
+[P]get found:             1563610.317 / s
+
+----------------------------------
+
+[INFO]Current Time:       72.42 s
+
+[P]indexs Load Factor:    92.8474 %
+
+[P]full bucket LFactor:   75.3757 %
+
+[P]full expirted BLF:     24.0502 %
+
+[P]set request:           129147768 
+[P]get request:           125089165 
+
+[P]Get Hit Rate:          89.0734 %
+[P]ACC Hit Rate:          91.9666 %
+
+[P]mica ttl-evicted:      31597542 / s
+[P]mica ttl-evt-invalid:  10272738 / s
+[P]mica ttl-evict-valid:  21324804 / s
+
+[P]rx packet:             72332.378 / s
+
+[P]rx burst:              2260.387 / s
+
+[P]Throughput:            3576894.965 ops
+[P]all request:           254236933 o
+
+[P]GetThroughput:         1756359.897 ops
+[P]SetThroughput:         1820535.068 ops
+
+[P]Valid Entries:         472521.372 / s
+[P]mica evicted:          1418475.711588 %
+[P]mica evict-invalid-ps: 726963.624033 %
+[P]mica evict-valid-ps:   691512.087555 %
+[P]mica evict-valid:      48.750365 %
+[P]mica evict-invalid:    51.249635 %
+[P]set success:           1775189.655 / s
+
+[P]expire scan persec:    144899399.725 / s
+[P]total expire scan:     7374096183
+
+[P]expire hit persec:     151.518 / s
+[P]total expire hit:      4182
+
+[P]expire hit rate:       0.000105 %
+[P]total expire hit rate: 0.000057 %
+
+[P]get found:             1564449.923 / s
+
+----------------------------------
+
+[INFO]Current Time:       73.80 s
+
+[P]indexs Load Factor:    93.4048 %
+
+[P]full bucket LFactor:   77.0336 %
+
+[P]full expirted BLF:     26.2350 %
+
+[P]set request:           131684972 
+[P]get request:           127558767 
+
+[P]Get Hit Rate:          88.7113 %
+[P]ACC Hit Rate:          91.9036 %
+
+[P]mica ttl-evicted:      33453319 / s
+[P]mica ttl-evt-invalid:  11271543 / s
+[P]mica ttl-evict-valid:  22181776 / s
+
+[P]rx packet:             73392.353 / s
+
+[P]rx burst:              2293.511 / s
+
+[P]Throughput:            3644292.247 ops
+[P]all request:           259243739 o
+
+[P]GetThroughput:         1797543.468 ops
+[P]SetThroughput:         1846748.779 ops
+
+[P]Valid Entries:         448428.357 / s
+[P]mica evicted:          1446135.409356 %
+[P]mica evict-invalid-ps: 778330.196754 %
+[P]mica evict-valid-ps:   667805.212602 %
+[P]mica evict-valid:      46.178609 %
+[P]mica evict-invalid:    53.821391 %
+[P]set success:           1798242.221 / s
+
+[P]expire scan persec:    142543183.289 / s
+[P]total expire scan:     7569932855
+
+[P]expire hit persec:     155.764 / s
+[P]total expire hit:      4396
+
+[P]expire hit rate:       0.000109 %
+[P]total expire hit rate: 0.000058 %
+
+[P]get found:             1594624.878 / s
+
+----------------------------------
+
+[INFO]Current Time:       75.17 s
+
+[P]indexs Load Factor:    93.9287 %
+
+[P]full bucket LFactor:   78.6245 %
+
+[P]full expirted BLF:     28.4294 %
+
+[P]set request:           134259343 
+[P]get request:           130069659 
+
+[P]Get Hit Rate:          87.5436 %
+[P]ACC Hit Rate:          91.8194 %
+
+[P]mica ttl-evicted:      35381122 / s
+[P]mica ttl-evt-invalid:  12350958 / s
+[P]mica ttl-evict-valid:  23030164 / s
+
+[P]rx packet:             73911.845 / s
+
+[P]rx burst:              2309.745 / s
+
+[P]Throughput:            3707595.200 ops
+[P]all request:           264329002 o
+
+[P]GetThroughput:         1830656.768 ops
+[P]SetThroughput:         1876938.432 ops
+
+[P]Valid Entries:         420587.970 / s
+[P]mica evicted:          1496384.394798 %
+[P]mica evict-invalid-ps: 837855.196569 %
+[P]mica evict-valid-ps:   658529.198229 %
+[P]mica evict-valid:      44.008024 %
+[P]mica evict-invalid:    55.991976 %
+[P]set success:           1830675.724 / s
+
+[P]expire scan persec:    139636848.008 / s
+[P]total expire scan:     7761455947
+
+[P]expire hit persec:     174.252 / s
+[P]total expire hit:      4635
+
+[P]expire hit rate:       0.000125 %
+[P]total expire hit rate: 0.000060 %
+
+[P]get found:             1602623.386 / s
+
+----------------------------------
+
+[INFO]Current Time:       76.55 s
+
+[P]indexs Load Factor:    94.4251 %
+
+[P]full bucket LFactor:   80.1555 %
+
+[P]full expirted BLF:     30.6402 %
+
+[P]set request:           136884575 
+[P]get request:           132628874 
+
+[P]Get Hit Rate:          87.2992 %
+[P]ACC Hit Rate:          91.7322 %
+
+[P]mica ttl-evicted:      37384567 / s
+[P]mica ttl-evt-invalid:  13504499 / s
+[P]mica ttl-evict-valid:  23880068 / s
+
+[P]rx packet:             74940.908 / s
+
+[P]rx burst:              2341.903 / s
+
+[P]Throughput:            3756644.143 ops
+[P]all request:           269513449 o
+
+[P]GetThroughput:         1854404.152 ops
+[P]SetThroughput:         1902239.991 ops
+
+[P]Valid Entries:         398246.754 / s
+[P]mica evicted:          1537401.716908 %
+[P]mica evict-invalid-ps: 885203.194459 %
+[P]mica evict-valid-ps:   652198.522449 %
+[P]mica evict-valid:      42.422128 %
+[P]mica evict-invalid:    57.577872 %
+[P]set success:           1836721.042 / s
+
+[P]expire scan persec:    137069115.629 / s
+[P]total expire scan:     7950621473
+
+[P]expire hit persec:     160.136 / s
+[P]total expire hit:      4856
+
+[P]expire hit rate:       0.000117 %
+[P]total expire hit rate: 0.000061 %
+
+[P]get found:             1618879.829 / s
+
+----------------------------------
+
+[INFO]Current Time:       77.92 s
+
+[P]indexs Load Factor:    94.8904 %
+
+[P]full bucket LFactor:   81.6147 %
+
+[P]full expirted BLF:     32.8379 %
+
+[P]set request:           139533466 
+[P]get request:           135210633 
+
+[P]Get Hit Rate:          86.1708 %
+[P]ACC Hit Rate:          91.6260 %
+
+[P]mica ttl-evicted:      39444789 / s
+[P]mica ttl-evt-invalid:  14726179 / s
+[P]mica ttl-evict-valid:  24718610 / s
+
+[P]rx packet:             75887.407 / s
+
+[P]rx burst:              2371.481 / s
+
+[P]Throughput:            3801529.110 ops
+[P]all request:           274744099 o
+
+[P]GetThroughput:         1876369.475 ops
+[P]SetThroughput:         1925159.635 ops
+
+[P]Valid Entries:         374520.370 / s
+[P]mica evicted:          1577955.019483 %
+[P]mica evict-invalid-ps: 935703.088406 %
+[P]mica evict-valid-ps:   642251.931077 %
+[P]mica evict-valid:      40.701536 %
+[P]mica evict-invalid:    59.298464 %
+[P]set success:           1878504.026 / s
+
+[P]expire scan persec:    134924411.305 / s
+[P]total expire scan:     8136268446
+
+[P]expire hit persec:     168.613 / s
+[P]total expire hit:      5088
+
+[P]expire hit rate:       0.000125 %
+[P]total expire hit rate: 0.000063 %
+
+[P]get found:             1616883.035 / s
+
+----------------------------------
+
+[INFO]Current Time:       79.30 s
+
+[P]indexs Load Factor:    95.3259 %
+
+[P]full bucket LFactor:   83.0010 %
+
+[P]full expirted BLF:     35.0029 %
+
+[P]set request:           142205699 
+[P]get request:           137766072 
+
+[P]Get Hit Rate:          87.6589 %
+[P]ACC Hit Rate:          91.5524 %
+
+[P]mica ttl-evicted:      41558447 / s
+[P]mica ttl-evt-invalid:  16017579 / s
+[P]mica ttl-evict-valid:  25540868 / s
+
+[P]rx packet:             76405.197 / s
+
+[P]rx burst:              2387.662 / s
+
+[P]Throughput:            3788138.351 ops
+[P]all request:           279971771 o
+
+[P]GetThroughput:         1851752.841 ops
+[P]SetThroughput:         1936385.510 ops
+
+[P]Valid Entries:         350161.741 / s
+[P]mica evicted:          1606724.791476 %
+[P]mica evict-invalid-ps: 981674.611366 %
+[P]mica evict-valid-ps:   625050.180109 %
+[P]mica evict-valid:      38.902131 %
+[P]mica evict-invalid:    61.097869 %
+[P]set success:           1870760.663 / s
+
+[P]expire scan persec:    131939332.134 / s
+[P]total expire scan:     8318346155
+
+[P]expire hit persec:     186.955 / s
+[P]total expire hit:      5346
+
+[P]expire hit rate:       0.000142 %
+[P]total expire hit rate: 0.000064 %
+
+[P]get found:             1623226.376 / s
+
+----------------------------------
+[INFO]End rx_queue_1:1678948
+
+[INFO]Current Time:       80.69 s
+
+[P]indexs Load Factor:    95.6644 %
+
+[P]full bucket LFactor:   84.0928 %
+
+[P]full expirted BLF:     36.6602 %
+
+[P]set request:           144914922 
+[P]get request:           140407177 
+
+[P]Get Hit Rate:          85.6379 %
+[P]ACC Hit Rate:          91.4412 %
+
+[P]mica ttl-evicted:      43735614 / s
+[P]mica ttl-evt-invalid:  17387722 / s
+[P]mica ttl-evict-valid:  26347892 / s
+
+[P]rx packet:             77323.935 / s
+
+[P]rx burst:              2416.373 / s
+
+[P]Throughput:            3870774.812 ops
+[P]all request:           285322099 o
+
+[P]GetThroughput:         1910746.913 ops
+[P]SetThroughput:         1960027.899 ops
+
+[P]Valid Entries:         327868.530 / s
+[P]mica evicted:          1646489.099895 %
+[P]mica evict-invalid-ps: 1036174.769688 %
+[P]mica evict-valid-ps:   610314.330207 %
+[P]mica evict-valid:      37.067620 %
+[P]mica evict-invalid:    62.932380 %
+[P]set success:           1893513.978 / s
+
+[P]expire scan persec:    128884003.591 / s
+[P]total expire scan:     8496494388
+
+[P]expire hit persec:     204.017 / s
+[P]total expire hit:      5628
+
+[P]expire hit rate:       0.000158 %
+[P]total expire hit rate: 0.000066 %
+
+[P]get found:             1636324.356 / s
+
+----------------------------------
+
+[INFO]Current Time:       81.97 s
+
+[P]indexs Load Factor:    95.9150 %
+
+[P]full bucket LFactor:   84.9111 %
+
+[P]full expirted BLF:     37.7508 %
+
+[P]set request:           146621222 
+[P]get request:           142084337 
+
+[P]Get Hit Rate:          86.5710 %
+[P]ACC Hit Rate:          91.3837 %
+
+[P]mica ttl-evicted:      45170360 / s
+[P]mica ttl-evt-invalid:  18322170 / s
+[P]mica ttl-evict-valid:  26848190 / s
+
+[P]rx packet:             32790.901 / s
+
+[P]rx burst:              1677.162 / s
+
+[P]Throughput:            2640582.204 ops
+[P]all request:           288705559 o
+
+[P]GetThroughput:         1308920.114 ops
+[P]SetThroughput:         1331662.090 ops
+
+[P]Valid Entries:         212785.757 / s
+[P]mica evicted:          1167420.342797 %
+[P]mica evict-invalid-ps: 760339.185114 %
+[P]mica evict-valid-ps:   407081.157683 %
+[P]mica evict-valid:      34.870144 %
+[P]mica evict-invalid:    65.129856 %
+[P]set success:           1319013.524 / s
+
+[P]expire scan persec:    89259000.553 / s
+[P]total expire scan:     8610864718
+
+[P]expire hit persec:     107.701 / s
+[P]total expire hit:      5766
+
+[P]expire hit rate:       0.000121 %
+[P]total expire hit rate: 0.000067 %
+
+[P]get found:             1133145.869 / s
+
+----------------------------------
+
+[INFO]Current Time:       83.24 s
+
+[P]indexs Load Factor:    96.1591 %
+
+[P]full bucket LFactor:   85.7190 %
+
+[P]full expirted BLF:     38.8654 %
+
+[P]set request:           148426308 
+[P]get request:           143866480 
+
+[P]Get Hit Rate:          85.1584 %
+[P]ACC Hit Rate:          91.3066 %
+
+[P]mica ttl-evicted:      46677169 / s
+[P]mica ttl-evt-invalid:  19303921 / s
+[P]mica ttl-evict-valid:  27373248 / s
+
+[P]rx packet:             56007.258 / s
+
+[P]rx burst:              1750.227 / s
+
+[P]Throughput:            2824320.458 ops
+[P]all request:           292292788 o
+
+[P]GetThroughput:         1403128.413 ops
+[P]SetThroughput:         1421192.045 ops
+
+[P]Valid Entries:         211209.782 / s
+[P]mica evicted:          1233737.867083 %
+[P]mica evict-invalid-ps: 803833.388802 %
+[P]mica evict-valid-ps:   429904.478282 %
+[P]mica evict-valid:      34.845690 %
+[P]mica evict-invalid:    65.154310 %
+[P]set success:           1419919.725 / s
+
+[P]expire scan persec:    92645312.503 / s
+[P]total expire scan:     8728535484
+
+[P]expire hit persec:     120.461 / s
+[P]total expire hit:      5919
+
+[P]expire hit rate:       0.000130 %
+[P]total expire hit rate: 0.000068 %
+
+[P]get found:             1194881.341 / s
+
+----------------------------------
+
+[INFO]Current Time:       84.50 s
+
+[P]indexs Load Factor:    96.3621 %
+
+[P]full bucket LFactor:   86.3981 %
+
+[P]full expirted BLF:     39.8251 %
+
+[P]set request:           150226262 
+[P]get request:           145677000 
+
+[P]Get Hit Rate:          84.2570 %
+[P]ACC Hit Rate:          91.2190 %
+
+[P]mica ttl-evicted:      48208611 / s
+[P]mica ttl-evt-invalid:  20284783 / s
+[P]mica ttl-evict-valid:  27923828 / s
+
+[P]rx packet:             56614.315 / s
+
+[P]rx burst:              1769.197 / s
+
+[P]Throughput:            2856726.728 ops
+[P]all request:           295903262 o
+
+[P]GetThroughput:         1432543.449 ops
+[P]SetThroughput:         1424183.279 ops
+
+[P]Valid Entries:         202380.033 / s
+[P]mica evicted:          1257473.644289 %
+[P]mica evict-invalid-ps: 805390.026971 %
+[P]mica evict-valid-ps:   452083.617318 %
+[P]mica evict-valid:      35.951737 %
+[P]mica evict-invalid:    64.048263 %
+[P]set success:           1408180.589 / s
+
+[P]expire scan persec:    92913398.303 / s
+[P]total expire scan:     8845964080
+
+[P]expire hit persec:     111.564 / s
+[P]total expire hit:      6060
+
+[P]expire hit rate:       0.000120 %
+[P]total expire hit rate: 0.000069 %
+
+[P]get found:             1207017.472 / s
+
+----------------------------------
+[INFO]End rx_queue_0:1630673
+[INFO]End rx_queue_3:1146269
+
+[INFO]Current Time:       85.71 s
+
+[P]indexs Load Factor:    96.4270 %
+
+[P]full bucket LFactor:   86.6170 %
+
+[P]full expirted BLF:     40.1559 %
+
+[P]set request:           151293228 
+[P]get request:           146734264 
+
+[P]Get Hit Rate:          85.0060 %
+[P]ACC Hit Rate:          91.1742 %
+
+[P]mica ttl-evicted:      49122219 / s
+[P]mica ttl-evt-invalid:  20856267 / s
+[P]mica ttl-evict-valid:  28265952 / s
+
+[P]rx packet:             26733.863 / s
+
+[P]rx burst:              1085.455 / s
+
+[P]Throughput:            1752094.889 ops
+[P]all request:           298027493 o
+
+[P]GetThroughput:         872045.861 ops
+[P]SetThroughput:         880048.203 ops
+
+[P]Valid Entries:         119014.847 / s
+[P]mica evicted:          781478.634832 %
+[P]mica evict-invalid-ps: 488833.872020 %
+[P]mica evict-valid-ps:   292644.762812 %
+[P]mica evict-valid:      37.447571 %
+[P]mica evict-invalid:    62.552429 %
+[P]set success:           888282.319 / s
+
+[P]expire scan persec:    57855047.845 / s
+[P]total expire scan:     8916107248
+
+[P]expire hit persec:      72.584 / s
+[P]total expire hit:      6148
+
+[P]expire hit rate:       0.000125 %
+[P]total expire hit rate: 0.000069 %
+
+[P]get found:             741291.440 / s
+
+----------------------------------
+[INFO]End rx_queue_2:1612553
+Finish the job......
+
+[INFO]Current Time:       86.84 s
+
+[P]indexs Load Factor:    96.4290 %
+
+[P]full bucket LFactor:   86.6238 %
+
+[P]full expirted BLF:     40.1670 %
+
+[P]set request:           151437345 
+[P]get request:           146878382 
+
+[P]Get Hit Rate:          82.5525 %
+[P]ACC Hit Rate:          91.1657 %
+
+[P]mica ttl-evicted:      49244353 / s
+[P]mica ttl-evt-invalid:  20922605 / s
+[P]mica ttl-evict-valid:  28321748 / s
+
+[P]rx packet:             2464.839 / s
+
+[P]rx burst:              155.161 / s
+
+[P]Throughput:            255557.650 ops
+[P]all request:           298315727 o
+
+[P]GetThroughput:         127779.712 ops
+[P]SetThroughput:         127778.825 ops
+
+[P]Valid Entries:         16384.083 / s
+[P]mica evicted:          112298.140639 %
+[P]mica evict-invalid-ps: 60995.579067 %
+[P]mica evict-valid-ps:   51302.561573 %
+[P]mica evict-valid:      45.684248 %
+[P]mica evict-invalid:    54.315752 %
+[P]set success:           127779.712 / s
+
+[P]expire scan persec:    9032627.748 / s
+[P]total expire scan:     8926294814
+
+[P]expire hit persec:       5.320 / s
+[P]total expire hit:      6154
+
+[P]expire hit rate:       0.000059 %
+[P]total expire hit rate: 0.000069 %
+
+[P]get found:             105485.336 / s
+
+----------------------------------
+
+Total Index Entries:      95284858
+
+indexs Load Factor:     96.429007 %
+
+log_0 Load Factor:      40.821927 %
+
+log_1 Load Factor:      43.066844 %
+
+log_2 Load Factor:      39.904006 %
+
+log_3 Load Factor:      34.708746 %
+
+Get Hit Rate:           91.165739%
+
+Max Throughput:         5137493.42
+
+Calc Load Factor:       96.429007%
+
+set request:              42397472 | set_success:              42397472
+set_fail:                        0 | set_key_duplicate:         1799291 | set_mica_evicted:         13666353
+set_random:                      0 | set_cuckoo_evicted:              0 | set_expire_evicted:              0
+
+get request:              42397472
+get_found:                37056272 | get_notfound:              5341200 | get_hit_ratio:          87.402079%
+
+clean up:               18446744073709550232 | test_notfound:                   0
+move_to_head_performed:    5401217 | move_to_head_skipped:     31655055 | move_to_head_failed:             0
+
+
+set request:              43652622 | set_success:              43652622
+set_fail:                        0 | set_key_duplicate:         1506599 | set_mica_evicted:         13319593
+set_random:                      0 | set_cuckoo_evicted:              0 | set_expire_evicted:              0
+
+get request:              43652622
+get_found:                39018851 | get_notfound:              4633771 | get_hit_ratio:          89.384897%
+
+clean up:               18446744073709550995 | test_notfound:                   0
+move_to_head_performed:    4772521 | move_to_head_skipped:     34246330 | move_to_head_failed:             0
+
+
+set request:              41926352 | set_success:              41926352
+set_fail:                        0 | set_key_duplicate:         1945802 | set_mica_evicted:         13665886
+set_random:                      0 | set_cuckoo_evicted:              0 | set_expire_evicted:              0
+
+get request:              41926352
+get_found:                36252203 | get_notfound:              5674149 | get_hit_ratio:          86.466390%
+
+clean up:               18446744073709549615 | test_notfound:                   0
+move_to_head_performed:    5695000 | move_to_head_skipped:     30557203 | move_to_head_failed:             0
+
+
+set request:              29802968 | set_success:              29802968
+set_fail:                        0 | set_key_duplicate:          884400 | set_mica_evicted:          9659396
+set_random:                      0 | set_cuckoo_evicted:              0 | set_expire_evicted:              0
+
+get request:              29802968
+get_found:                24962040 | get_notfound:              4840928 | get_hit_ratio:          83.756893%
+
+clean up:               18446744073709549468 | test_notfound:                   0
+move_to_head_performed:    3145539 | move_to_head_skipped:     21816501 | move_to_head_failed:             0
+
+
+[INFO] Everything works fine.
+deleting piekv......

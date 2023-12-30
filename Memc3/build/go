@@ -1,0 +1,19 @@
+echo "本命令将执行server实验程序,不写入log"
+logsize=31 #8-30  64-31  512-33
+
+if [ $# == 2 ]
+then
+    if [ $1 == "-p" ]
+    then
+        echo " 将打印过程信息,目前给的空间大小是 $2 "
+        sudo ./main -f 2 -l $2
+    elif [ $1 == "-h" ]
+    then
+        echo "当且仅当参数个数为1且为 -p 时打印过程信息,除 -h/p 外其余情况均正常执行"
+    else
+        echo 仅执行,不打印过程信息,目前给的空间大小是 $2
+        sudo ./main -l $2
+    fi
+else
+    echo 请输入两个参数
+fi

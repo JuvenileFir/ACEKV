@@ -1,0 +1,222 @@
+EAL: Detected 44 lcore(s)
+EAL: Detected 1 NUMA nodes
+EAL: Multi-process socket /var/run/dpdk/rte/mp_socket
+EAL: Selected IOVA mode 'PA'
+EAL: No available hugepages reported in hugepages-1048576kB
+[INFO] maxbytes Size为:1073741824 GB
+[INFO] 运行memc3
+[INFO] table_power 参数值为 25
+EAL: Probing VFIO support...
+EAL: VFIO support initialized
+EAL: PCI device 0000:03:00.0 on NUMA socket 0
+EAL:   probe driver: 15b3:1017 net_mlx5
+WEN: There are 1 device(s) available
+starting port 0...
+querying port 0...
+port 0: 100 Gbps (full-duplex)
+Adding UDP filter for each endpoint.
+port_id/queue_id/udp_port = 0 0 0
+Flow is created with src_port = 0, dst_port = 0
+port_id/queue_id/udp_port = 0 1 1
+Flow is created with src_port = 0, dst_port = 1
+port_id/queue_id/udp_port = 0 2 2
+Flow is created with src_port = 0, dst_port = 2
+port_id/queue_id/udp_port = 0 3 3
+Flow is created with src_port = 0, dst_port = 3
+MEM: Initializing pages...
+maxbytes:268435456
+alloc maxbytes:268435456
+memc3 settings:
+	eviction = CLOCK
+	+int_keycmp
+	+cuckoo 
+	+tag
+	+opt lock
+
+ == [STAT] Workers Start (4 threads in total) == 
+
+[INFO]Current Time:       2.00 s
+
+[P]indexs Load Factor:    0.4297 %
+
+[P]slabs Load Factor:     13.7490 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           576651 
+
+[P]get request:           0 
+
+[P]Get Hit Rate:          -nan %
+
+[P]ACC Hit Rate:          -nan %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+
+[P]rx packet:             22175.271 / s
+
+[P]Throughput:            576606.046 ops
+
+[P]all request:           576651 o
+
+[P]Valid Entries:         576624.045 / s
+
+[P]set success:           576603.046 / s
+
+----------------------------------
+
+[INFO]Current Time:       3.00 s
+
+[P]indexs Load Factor:    0.9704 %
+
+[P]slabs Load Factor:     31.0522 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           1270266 
+
+[P]get request:           0 
+
+[P]Get Hit Rate:          -nan %
+
+[P]ACC Hit Rate:          -nan %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+
+[P]rx packet:             27907.589 / s
+
+[P]Throughput:            693505.377 ops
+
+[P]all request:           1270266 o
+
+[P]Valid Entries:         725630.299 / s
+
+[P]set success:           725599.303 / s
+
+----------------------------------
+
+[INFO]Current Time:       4.00 s
+
+[P]indexs Load Factor:    1.5326 %
+
+[P]slabs Load Factor:     49.0421 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           2024795 
+
+[P]get request:           0 
+
+[P]Get Hit Rate:          -nan %
+
+[P]ACC Hit Rate:          -nan %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+
+[P]rx packet:             29015.476 / s
+
+[P]Throughput:            754411.368 ops
+
+[P]all request:           2024795 o
+
+[P]Valid Entries:         754435.364 / s
+
+[P]set success:           754411.368 / s
+
+----------------------------------
+
+[INFO]Current Time:       5.00 s
+
+[P]indexs Load Factor:    2.1320 %
+
+[P]slabs Load Factor:     68.2226 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           2829247 
+
+[P]get request:           0 
+
+[P]Get Hit Rate:          -nan %
+
+[P]ACC Hit Rate:          -nan %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+
+[P]rx packet:             30939.109 / s
+
+[P]Throughput:            804324.859 ops
+
+[P]all request:           2829247 o
+
+[P]Valid Entries:         804361.853 / s
+
+[P]set success:           804325.859 / s
+
+----------------------------------
+
+[INFO]Current Time:       6.00 s
+
+[P]indexs Load Factor:    2.7229 %
+
+[P]slabs Load Factor:     87.1325 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           3622347 
+
+[P]get request:           0 
+
+[P]Get Hit Rate:          -nan %
+
+[P]ACC Hit Rate:          -nan %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+
+[P]rx packet:             30503.207 / s
+
+[P]Throughput:            792975.409 ops
+
+[P]all request:           3622347 o
+
+[P]Valid Entries:         793013.403 / s
+
+[P]set success:           792975.409 / s
+
+----------------------------------
+
+[INFO]Current Time:       7.00 s
+
+[P]indexs Load Factor:    3.1250 %
+
+[P]slabs Load Factor:     100.0000 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           4147654 
+
+[P]get request:           0 
+
+[P]Get Hit Rate:          -nan %
+
+[P]ACC Hit Rate:          -nan %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+
+[P]rx packet:             20752.744 / s
+
+[P]Throughput:            525224.603 ops
+
+[P]all request:           4147654 o
+
+[P]Valid Entries:         539625.344 / s
+
+[P]set success:           539610.346 / s
+
+---------
