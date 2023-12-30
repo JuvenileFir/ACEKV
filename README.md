@@ -95,12 +95,13 @@ basic_hash.h --> bp(basic_hash.cc):::source
 communication.h --> main(main.cc):::source
 communication.h:::header --> cp(communication.cc):::source
 
-cuckoo.h --> cc(cuckoo.cc):::source
-
 hashtable.h --> ht(hashtable.cc):::source
 
-log.h --> lg(log.cc):::source
 log.h --> cc(cuckoo.cc):::source
+
+log.h --> lg(log.cc):::source
+
+
 
 mempool.h:::header --> mp(mempool.cc):::source
 
