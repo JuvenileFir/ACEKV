@@ -1,0 +1,4132 @@
+EAL: Detected 44 lcore(s)
+EAL: Detected 1 NUMA nodes
+EAL: Multi-process socket /var/run/dpdk/rte/mp_socket
+EAL: Selected IOVA mode 'PA'
+EAL: No available hugepages reported in hugepages-1048576kB
+[INFO] 单个Log Size为:4 GB
+[INFO] 运行mica
+[INFO] 运行cleanup
+[INFO] 运行reload
+[INFO] reload kv size 64
+EAL: Probing VFIO support...
+EAL: VFIO support initialized
+EAL: PCI device 0000:03:00.0 on NUMA socket 0
+EAL:   probe driver: 15b3:1017 net_mlx5
+WEN: There are 1 device(s) available
+starting port 0...
+querying port 0...
+port 0: 100 Gbps (full-duplex)
+Adding UDP filter for each endpoint.
+port_id/queue_id/udp_port = 0 0 0
+Flow is created with src_port = 0, dst_port = 0
+port_id/queue_id/udp_port = 0 1 1
+Flow is created with src_port = 0, dst_port = 1
+port_id/queue_id/udp_port = 0 2 2
+Flow is created with src_port = 0, dst_port = 2
+port_id/queue_id/udp_port = 0 3 3
+Flow is created with src_port = 0, dst_port = 3
+MEM: Initializing pages...
+ == [STAT] Workers Start (4 threads in total) == 
+trigger:50.000000 
+
+[INFO]Current Time:       1.62 s
+
+[P]indexs Load Factor:    0.6707 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           61674 
+[P]get request:           62008 
+
+[P]Get Hit Rate:          2.3739 %
+[P]ACC Hit Rate:          2.3739 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            177154.190 ops
+[P]all request:           123682 o
+
+[P]GetThroughput:         88816.295 ops
+[P]SetThroughput:         88337.895 ops
+
+[P]Valid Entries:         87707.667 / s
+[P]set success:           87474.196 / s
+
+[P]get found:             2108.399 / s
+
+----------------------------------
+
+[INFO]Current Time:       2.47 s
+
+[P]indexs Load Factor:    2.7995 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           1195209 
+[P]get request:           1218376 
+
+[P]Get Hit Rate:          3.2150 %
+[P]ACC Hit Rate:          3.1722 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            2697027.546 ops
+[P]all request:           2413585 o
+
+[P]GetThroughput:         1361960.026 ops
+[P]SetThroughput:         1335067.520 ops
+
+[P]Valid Entries:         1296804.618 / s
+[P]set success:           1275968.314 / s
+
+[P]expire scan persec:      3.533 / s
+[P]total expire scan:     3
+[P]expire hit persec:       0.000 / s
+[P]total expire hit:      0
+
+[P]expire hit rate:       0.000000 %
+[P]total expire hit rate: 0.000000 %
+
+[P]get found:             43786.743 / s
+
+----------------------------------
+
+[INFO]Current Time:       3.24 s
+
+[P]indexs Load Factor:    4.9690 %
+
+[P]full bucket LFactor:   0.0000 %
+
+[P]set request:           2414843 
+[P]get request:           2437288 
+
+[P]Get Hit Rate:          4.9969 %
+[P]ACC Hit Rate:          4.0847 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3167174.691 ops
+[P]all request:           4852132 o
+
+[P]GetThroughput:         1583117.831 ops
+[P]SetThroughput:         1584055.561 ops
+
+[P]Valid Entries:         1485751.003 / s
+[P]set success:           1436513.653 / s
+
+[P]expire scan persec:     10.390 / s
+[P]total expire scan:     11
+[P]expire hit persec:       1.299 / s
+[P]total expire hit:      1
+
+[P]expire hit rate:       12.500000 %
+[P]total expire hit rate: 9.090909 %
+
+[P]get found:             79107.057 / s
+
+----------------------------------
+
+[INFO]Current Time:       4.05 s
+
+[P]indexs Load Factor:    7.2350 %
+
+[P]full bucket LFactor:   0.0002 %
+
+[P]set request:           3641524 
+[P]get request:           3721999 
+
+[P]Get Hit Rate:          6.8475 %
+[P]ACC Hit Rate:          5.0383 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3090288.053 ops
+[P]all request:           7363523 o
+
+[P]GetThroughput:         1580847.847 ops
+[P]SetThroughput:         1509441.437 ops
+
+[P]Valid Entries:         1472741.520 / s
+[P]set success:           1498845.528 / s
+
+[P]expire scan persec:     14.766 / s
+[P]total expire scan:     23
+[P]expire hit persec:       0.000 / s
+[P]total expire hit:      1
+
+[P]expire hit rate:       0.000000 %
+[P]total expire hit rate: 4.347826 %
+
+[P]get found:             108247.836 / s
+
+----------------------------------
+
+[INFO]Current Time:       4.91 s
+
+[P]indexs Load Factor:    9.6053 %
+
+[P]full bucket LFactor:   0.0006 %
+
+[P]set request:           5008723 
+[P]get request:           5087609 
+
+[P]Get Hit Rate:          8.7631 %
+[P]ACC Hit Rate:          6.0381 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3172222.202 ops
+[P]all request:           10096332 o
+
+[P]GetThroughput:         1585188.852 ops
+[P]SetThroughput:         1587033.350 ops
+
+[P]Valid Entries:         1465618.013 / s
+[P]set success:           1437265.674 / s
+
+[P]expire scan persec:     24.377 / s
+[P]total expire scan:     44
+[P]expire hit persec:       1.161 / s
+[P]total expire hit:      2
+
+[P]expire hit rate:       4.761905 %
+[P]total expire hit rate: 4.545455 %
+
+[P]get found:             138911.951 / s
+
+----------------------------------
+
+[INFO]Current Time:       5.82 s
+
+[P]indexs Load Factor:    12.0143 %
+
+[P]full bucket LFactor:   0.0029 %
+
+[P]set request:           6450388 
+[P]get request:           6467201 
+
+[P]Get Hit Rate:          11.1819 %
+[P]ACC Hit Rate:          7.1354 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3101001.963 ops
+[P]all request:           12917589 o
+
+[P]GetThroughput:         1516387.022 ops
+[P]SetThroughput:         1584614.941 ops
+
+[P]Valid Entries:         1449983.702 / s
+[P]set success:           1502897.078 / s
+
+[P]expire scan persec:     32.975 / s
+[P]total expire scan:     74
+[P]expire hit persec:       3.297 / s
+[P]total expire hit:      5
+
+[P]expire hit rate:       10.000000 %
+[P]total expire hit rate: 6.756757 %
+
+[P]get found:             169560.223 / s
+
+----------------------------------
+
+[INFO]Current Time:       6.75 s
+
+[P]indexs Load Factor:    14.4275 %
+
+[P]full bucket LFactor:   0.0088 %
+
+[P]set request:           7901667 
+[P]get request:           7879153 
+
+[P]Get Hit Rate:          13.1480 %
+[P]ACC Hit Rate:          8.2129 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3083315.835 ops
+[P]all request:           15780821 o
+
+[P]GetThroughput:         1520482.434 ops
+[P]SetThroughput:         1562832.325 ops
+
+[P]Valid Entries:         1436324.316 / s
+[P]set success:           1503103.978 / s
+
+[P]expire scan persec:     41.998 / s
+[P]total expire scan:     113
+[P]expire hit persec:       0.000 / s
+[P]total expire hit:      5
+
+[P]expire hit rate:       0.000000 %
+[P]total expire hit rate: 4.424779 %
+
+[P]get found:             199913.624 / s
+
+----------------------------------
+
+[INFO]Current Time:       7.69 s
+
+[P]indexs Load Factor:    16.8259 %
+
+[P]full bucket LFactor:   0.0228 %
+
+[P]set request:           9300745 
+[P]get request:           9353100 
+
+[P]Get Hit Rate:          14.8833 %
+[P]ACC Hit Rate:          9.2641 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3067293.800 ops
+[P]all request:           18653845 o
+
+[P]GetThroughput:         1573613.201 ops
+[P]SetThroughput:         1493681.666 ops
+
+[P]Valid Entries:         1418271.495 / s
+[P]set success:           1476374.501 / s
+
+[P]expire scan persec:     54.449 / s
+[P]total expire scan:     164
+[P]expire hit persec:       2.135 / s
+[P]total expire hit:      7
+
+[P]expire hit rate:       3.921569 %
+[P]total expire hit rate: 4.268293 %
+
+[P]get found:             234205.623 / s
+
+----------------------------------
+
+[INFO]Current Time:       8.64 s
+
+[P]indexs Load Factor:    19.2148 %
+
+[P]full bucket LFactor:   0.0503 %
+
+[P]set request:           10817119 
+[P]get request:           10864263 
+
+[P]Get Hit Rate:          16.8418 %
+[P]ACC Hit Rate:          10.3181 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3184598.295 ops
+[P]all request:           21681382 o
+
+[P]GetThroughput:         1589558.481 ops
+[P]SetThroughput:         1595039.815 ops
+
+[P]Valid Entries:         1419091.200 / s
+[P]set success:           1473084.076 / s
+
+[P]expire scan persec:     48.386 / s
+[P]total expire scan:     210
+[P]expire hit persec:       0.000 / s
+[P]total expire hit:      7
+
+[P]expire hit rate:       0.000000 %
+[P]total expire hit rate: 3.333333 %
+
+[P]get found:             267710.207 / s
+
+----------------------------------
+
+[INFO]Current Time:       9.60 s
+
+[P]indexs Load Factor:    21.5829 %
+
+[P]full bucket LFactor:   0.0981 %
+
+[P]set request:           12315536 
+[P]get request:           12373671 
+
+[P]Get Hit Rate:          18.9247 %
+[P]ACC Hit Rate:          11.3680 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3133164.145 ops
+[P]all request:           24689207 o
+
+[P]GetThroughput:         1572306.576 ops
+[P]SetThroughput:         1560857.570 ops
+
+[P]Valid Entries:         1390987.067 / s
+[P]set success:           1499917.731 / s
+
+[P]expire scan persec:     54.167 / s
+[P]total expire scan:     262
+[P]expire hit persec:       1.042 / s
+[P]total expire hit:      8
+
+[P]expire hit rate:       1.923077 %
+[P]total expire hit rate: 3.053435 %
+
+[P]get found:             297554.369 / s
+
+----------------------------------
+
+[INFO]Current Time:       10.56 s
+
+[P]indexs Load Factor:    23.9239 %
+
+[P]full bucket LFactor:   0.1749 %
+
+[P]set request:           13853916 
+[P]get request:           13904467 
+
+[P]Get Hit Rate:          20.9053 %
+[P]ACC Hit Rate:          12.4180 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3169386.022 ops
+[P]all request:           27758383 o
+
+[P]GetThroughput:         1580777.201 ops
+[P]SetThroughput:         1588608.822 ops
+
+[P]Valid Entries:         1385683.711 / s
+[P]set success:           1510136.680 / s
+
+[P]expire scan persec:     82.612 / s
+[P]total expire scan:     342
+[P]expire hit persec:       1.033 / s
+[P]total expire hit:      9
+
+[P]expire hit rate:       1.250000 %
+[P]total expire hit rate: 2.631579 %
+
+[P]get found:             330465.704 / s
+
+----------------------------------
+
+[INFO]Current Time:       11.54 s
+
+[P]indexs Load Factor:    26.2390 %
+
+[P]full bucket LFactor:   0.2897 %
+
+[P]set request:           15352798 
+[P]get request:           15413566 
+
+[P]Get Hit Rate:          23.1997 %
+[P]ACC Hit Rate:          13.4736 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3095018.963 ops
+[P]all request:           30766364 o
+
+[P]GetThroughput:         1552765.799 ops
+[P]SetThroughput:         1542253.164 ops
+
+[P]Valid Entries:         1364842.017 / s
+[P]set success:           1484648.200 / s
+
+[P]expire scan persec:     65.852 / s
+[P]total expire scan:     406
+[P]expire hit persec:       1.029 / s
+[P]total expire hit:      10
+
+[P]expire hit rate:       1.562500 %
+[P]total expire hit rate: 2.463054 %
+
+[P]get found:             360237.583 / s
+
+----------------------------------
+
+[INFO]Current Time:       12.52 s
+
+[P]indexs Load Factor:    28.5287 %
+
+[P]full bucket LFactor:   0.4530 %
+
+[P]set request:           16873555 
+[P]get request:           16944748 
+
+[P]Get Hit Rate:          25.1118 %
+[P]ACC Hit Rate:          14.5252 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3105651.888 ops
+[P]all request:           33818304 o
+
+[P]GetThroughput:         1558129.672 ops
+[P]SetThroughput:         1547521.199 ops
+
+[P]Valid Entries:         1355389.300 / s
+[P]set success:           1474733.342 / s
+
+[P]expire scan persec:     87.514 / s
+[P]total expire scan:     492
+[P]expire hit persec:       0.000 / s
+[P]total expire hit:      10
+
+[P]expire hit rate:       0.000000 %
+[P]total expire hit rate: 2.032520 %
+
+[P]get found:             391275.057 / s
+
+----------------------------------
+
+[INFO]Current Time:       13.51 s
+
+[P]indexs Load Factor:    30.7901 %
+
+[P]full bucket LFactor:   0.6754 %
+
+[P]set request:           18415455 
+[P]get request:           18475192 
+
+[P]Get Hit Rate:          27.1010 %
+[P]ACC Hit Rate:          15.5670 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3112226.174 ops
+[P]all request:           36890647 o
+
+[P]GetThroughput:         1550311.236 ops
+[P]SetThroughput:         1561915.951 ops
+
+[P]Valid Entries:         1334254.469 / s
+[P]set success:           1466257.082 / s
+
+[P]expire scan persec:     88.129 / s
+[P]total expire scan:     579
+[P]expire hit persec:       0.000 / s
+[P]total expire hit:      10
+
+[P]expire hit rate:       0.000000 %
+[P]total expire hit rate: 1.727116 %
+
+[P]get found:             420149.212 / s
+
+----------------------------------
+
+[INFO]Current Time:       14.50 s
+
+[P]indexs Load Factor:    32.9971 %
+
+[P]full bucket LFactor:   0.9645 %
+
+[P]set request:           19973319 
+[P]get request:           20039448 
+
+[P]Get Hit Rate:          28.3096 %
+[P]ACC Hit Rate:          16.5617 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3137241.846 ops
+[P]all request:           40012767 o
+
+[P]GetThroughput:         1571832.403 ops
+[P]SetThroughput:         1565409.443 ops
+
+[P]Valid Entries:         1320647.665 / s
+[P]set success:           1508506.163 / s
+
+[P]expire scan persec:    100.484 / s
+[P]total expire scan:     679
+[P]expire hit persec:       1.005 / s
+[P]total expire hit:      11
+
+[P]expire hit rate:       1.000000 %
+[P]total expire hit rate: 1.620029 %
+
+[P]get found:             444978.846 / s
+
+----------------------------------
+
+[INFO]Current Time:       15.49 s
+
+[P]indexs Load Factor:    35.1791 %
+
+[P]full bucket LFactor:   1.3332 %
+
+[P]set request:           21518321 
+[P]get request:           21550524 
+
+[P]Get Hit Rate:          31.3137 %
+[P]ACC Hit Rate:          17.5960 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3082306.098 ops
+[P]all request:           43068846 o
+
+[P]GetThroughput:         1524043.969 ops
+[P]SetThroughput:         1558261.120 ops
+
+[P]Valid Entries:         1298202.300 / s
+[P]set success:           1466427.717 / s
+
+[P]expire scan persec:     98.841 / s
+[P]total expire scan:     777
+[P]expire hit persec:       1.009 / s
+[P]total expire hit:      12
+
+[P]expire hit rate:       1.020408 %
+[P]total expire hit rate: 1.544402 %
+
+[P]get found:             477234.753 / s
+
+----------------------------------
+
+[INFO]Current Time:       16.49 s
+
+[P]indexs Load Factor:    37.3172 %
+
+[P]full bucket LFactor:   1.7823 %
+
+[P]set request:           23066433 
+[P]get request:           23122979 
+
+[P]Get Hit Rate:          31.9214 %
+[P]ACC Hit Rate:          18.5702 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3116260.720 ops
+[P]all request:           46189413 o
+
+[P]GetThroughput:         1570285.064 ops
+[P]SetThroughput:         1545975.656 ops
+
+[P]Valid Entries:         1286389.372 / s
+[P]set success:           1491010.611 / s
+
+[P]expire scan persec:     99.862 / s
+[P]total expire scan:     877
+[P]expire hit persec:       0.000 / s
+[P]total expire hit:      12
+
+[P]expire hit rate:       0.000000 %
+[P]total expire hit rate: 1.368301 %
+
+[P]get found:             501257.325 / s
+
+----------------------------------
+
+[INFO]Current Time:       17.50 s
+
+[P]indexs Load Factor:    39.4214 %
+
+[P]full bucket LFactor:   2.3229 %
+
+[P]set request:           24628453 
+[P]get request:           24670031 
+
+[P]Get Hit Rate:          34.1889 %
+[P]ACC Hit Rate:          19.5497 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3104593.574 ops
+[P]all request:           49298484 o
+
+[P]GetThroughput:         1544824.064 ops
+[P]SetThroughput:         1559770.508 ops
+
+[P]Valid Entries:         1264044.003 / s
+[P]set success:           1429390.542 / s
+
+[P]expire scan persec:     91.868 / s
+[P]total expire scan:     969
+[P]expire hit persec:       0.000 / s
+[P]total expire hit:      12
+
+[P]expire hit rate:       0.000000 %
+[P]total expire hit rate: 1.238390 %
+
+[P]get found:             528158.293 / s
+
+----------------------------------
+
+[INFO]Current Time:       18.51 s
+
+[P]indexs Load Factor:    41.4623 %
+
+[P]full bucket LFactor:   2.9496 %
+
+[P]set request:           26208736 
+[P]get request:           26213098 
+
+[P]Get Hit Rate:          36.3471 %
+[P]ACC Hit Rate:          20.5385 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3088729.137 ops
+[P]all request:           52421834 o
+
+[P]GetThroughput:         1525962.830 ops
+[P]SetThroughput:         1562766.308 ops
+
+[P]Valid Entries:         1245544.970 / s
+[P]set success:           1489386.802 / s
+
+[P]expire scan persec:    119.659 / s
+[P]total expire scan:     1090
+[P]expire hit persec:       0.989 / s
+[P]total expire hit:      13
+
+[P]expire hit rate:       0.826446 %
+[P]total expire hit rate: 1.192661 %
+
+[P]get found:             554643.131 / s
+
+----------------------------------
+
+[INFO]Current Time:       19.51 s
+
+[P]indexs Load Factor:    43.4749 %
+
+[P]full bucket LFactor:   3.6800 %
+
+[P]set request:           27800896 
+[P]get request:           27786810 
+
+[P]Get Hit Rate:          37.6345 %
+[P]ACC Hit Rate:          21.5067 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3154147.453 ops
+[P]all request:           55587706 o
+
+[P]GetThroughput:         1567883.887 ops
+[P]SetThroughput:         1586263.566 ops
+
+[P]Valid Entries:         1227223.186 / s
+[P]set success:           1493114.817 / s
+
+[P]expire scan persec:    126.530 / s
+[P]total expire scan:     1217
+[P]expire hit persec:       1.993 / s
+[P]total expire hit:      15
+
+[P]expire hit rate:       1.574803 %
+[P]total expire hit rate: 1.232539 %
+
+[P]get found:             590064.621 / s
+
+----------------------------------
+
+[INFO]Current Time:       20.52 s
+
+[P]indexs Load Factor:    45.4096 %
+
+[P]full bucket LFactor:   4.4888 %
+
+[P]set request:           29403018 
+[P]get request:           29368647 
+
+[P]Get Hit Rate:          39.2426 %
+[P]ACC Hit Rate:          22.4620 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3140064.174 ops
+[P]all request:           58771665 o
+
+[P]GetThroughput:         1560029.414 ops
+[P]SetThroughput:         1580034.760 ops
+
+[P]Valid Entries:         1202054.530 / s
+[P]set success:           1497440.344 / s
+
+[P]expire scan persec:     95.663 / s
+[P]total expire scan:     1314
+[P]expire hit persec:       0.986 / s
+[P]total expire hit:      16
+
+[P]expire hit rate:       1.030928 %
+[P]total expire hit rate: 1.217656 %
+
+[P]get found:             612196.136 / s
+
+----------------------------------
+
+[INFO]Current Time:       21.53 s
+
+[P]indexs Load Factor:    47.2862 %
+
+[P]full bucket LFactor:   5.3833 %
+
+[P]set request:           30944158 
+[P]get request:           30909202 
+
+[P]Get Hit Rate:          40.3201 %
+[P]ACC Hit Rate:          23.3521 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3068414.862 ops
+[P]all request:           61853360 o
+
+[P]GetThroughput:         1533916.192 ops
+[P]SetThroughput:         1534498.671 ops
+
+[P]Valid Entries:         1160716.405 / s
+[P]set success:           1446047.488 / s
+
+[P]expire scan persec:    109.526 / s
+[P]total expire scan:     1424
+[P]expire hit persec:       0.996 / s
+[P]total expire hit:      17
+
+[P]expire hit rate:       0.909091 %
+[P]total expire hit rate: 1.193820 %
+
+[P]get found:             618477.223 / s
+
+----------------------------------
+
+[INFO]Current Time:       22.55 s
+
+[P]indexs Load Factor:    49.0808 %
+
+[P]full bucket LFactor:   6.3452 %
+
+[P]set request:           32498326 
+[P]get request:           32422906 
+
+[P]Get Hit Rate:          43.4501 %
+[P]ACC Hit Rate:          24.2904 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3014290.927 ops
+[P]all request:           64921233 o
+
+[P]GetThroughput:         1487266.335 ops
+[P]SetThroughput:         1527023.609 ops
+
+[P]Valid Entries:         1132787.554 / s
+[P]set success:           1457795.214 / s
+
+[P]expire scan persec:    104.149 / s
+[P]total expire scan:     1530
+[P]expire hit persec:       0.983 / s
+[P]total expire hit:      18
+
+[P]expire hit rate:       0.943396 %
+[P]total expire hit rate: 1.176471 %
+
+[P]get found:             646218.806 / s
+
+----------------------------------
+
+[INFO]Current Time:       23.55 s
+
+[P]indexs Load Factor:    50.8750 %
+
+[P]full bucket LFactor:   7.4117 %
+
+[P]set request:           34066355 
+[P]get request:           33931444 
+
+[P]Get Hit Rate:          44.9440 %
+[P]ACC Hit Rate:          25.2086 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3062439.205 ops
+[P]all request:           67997799 o
+
+[P]GetThroughput:         1501611.184 ops
+[P]SetThroughput:         1560829.016 ops
+
+[P]Valid Entries:         1121565.306 / s
+[P]set success:           1472078.416 / s
+
+[P]expire scan persec:    140.353 / s
+[P]total expire scan:     1671
+[P]expire hit persec:       0.000 / s
+[P]total expire hit:      18
+
+[P]expire hit rate:       0.000000 %
+[P]total expire hit rate: 1.077199 %
+
+[P]get found:             674884.809 / s
+
+----------------------------------
+
+[INFO]Current Time:       24.57 s
+
+[P]indexs Load Factor:    52.6142 %
+
+[P]full bucket LFactor:   8.5598 %
+
+[P]set request:           35655589 
+[P]get request:           35457915 
+
+[P]Get Hit Rate:          46.6101 %
+[P]ACC Hit Rate:          26.1299 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3070873.064 ops
+[P]all request:           71113504 o
+
+[P]GetThroughput:         1504506.581 ops
+[P]SetThroughput:         1566366.483 ops
+
+[P]Valid Entries:         1114581.135 / s
+[P]set success:           1515752.402 / s
+
+[P]expire scan persec:    137.986 / s
+[P]total expire scan:     1811
+[P]expire hit persec:       0.986 / s
+[P]total expire hit:      19
+
+[P]expire hit rate:       0.714286 %
+[P]total expire hit rate: 1.049144 %
+
+[P]get found:             701252.357 / s
+
+----------------------------------
+
+[INFO]Current Time:       25.57 s
+
+[P]indexs Load Factor:    54.3015 %
+
+[P]full bucket LFactor:   9.7809 %
+
+[P]set request:           37245067 
+[P]get request:           37023387 
+
+[P]Get Hit Rate:          46.8893 %
+[P]ACC Hit Rate:          27.0077 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3130597.449 ops
+[P]all request:           74268454 o
+
+[P]GetThroughput:         1553388.374 ops
+[P]SetThroughput:         1577209.075 ops
+
+[P]Valid Entries:         1083997.709 / s
+[P]set success:           1488340.374 / s
+
+[P]expire scan persec:    143.881 / s
+[P]total expire scan:     1956
+[P]expire hit persec:       0.992 / s
+[P]total expire hit:      20
+
+[P]expire hit rate:       0.689655 %
+[P]total expire hit rate: 1.022495 %
+
+[P]get found:             728373.071 / s
+
+----------------------------------
+
+[INFO]Current Time:       26.59 s
+
+[P]indexs Load Factor:    55.9314 %
+
+[P]full bucket LFactor:   11.0696 %
+
+[P]set request:           38760499 
+[P]get request:           38534314 
+
+[P]Get Hit Rate:          50.0671 %
+[P]ACC Hit Rate:          27.9119 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            2991839.075 ops
+[P]all request:           77294813 o
+
+[P]GetThroughput:         1493692.730 ops
+[P]SetThroughput:         1498146.344 ops
+
+[P]Valid Entries:         1058872.696 / s
+[P]set success:           1488676.607 / s
+
+[P]expire scan persec:    139.392 / s
+[P]total expire scan:     2097
+[P]expire hit persec:       0.989 / s
+[P]total expire hit:      21
+
+[P]expire hit rate:       0.709220 %
+[P]total expire hit rate: 1.001431 %
+
+[P]get found:             747849.293 / s
+
+----------------------------------
+
+[INFO]Current Time:       27.60 s
+
+[P]indexs Load Factor:    57.5054 %
+
+[P]full bucket LFactor:   12.4074 %
+
+[P]set request:           40332579 
+[P]get request:           40101012 
+
+[P]Get Hit Rate:          49.5649 %
+[P]ACC Hit Rate:          28.7578 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3105914.270 ops
+[P]all request:           80433591 o
+
+[P]GetThroughput:         1550294.310 ops
+[P]SetThroughput:         1555619.959 ops
+
+[P]Valid Entries:         1033029.498 / s
+[P]set success:           1507304.189 / s
+
+[P]expire scan persec:    150.409 / s
+[P]total expire scan:     2249
+[P]expire hit persec:       0.000 / s
+[P]total expire hit:      21
+
+[P]expire hit rate:       0.000000 %
+[P]total expire hit rate: 0.933748 %
+
+[P]get found:             768402.520 / s
+
+----------------------------------
+
+[INFO]Current Time:       28.60 s
+
+[P]indexs Load Factor:    59.0300 %
+
+[P]full bucket LFactor:   13.8083 %
+
+[P]set request:           41926208 
+[P]get request:           41628990 
+
+[P]Get Hit Rate:          52.1781 %
+[P]ACC Hit Rate:          29.6175 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3103715.202 ops
+[P]all request:           83555199 o
+
+[P]GetThroughput:         1519219.757 ops
+[P]SetThroughput:         1584494.451 ops
+
+[P]Valid Entries:         1012676.957 / s
+[P]set success:           1478170.405 / s
+
+[P]expire scan persec:    153.117 / s
+[P]total expire scan:     2403
+[P]expire hit persec:       2.983 / s
+[P]total expire hit:      24
+
+[P]expire hit rate:       1.948052 %
+[P]total expire hit rate: 0.998752 %
+
+[P]get found:             792700.115 / s
+
+----------------------------------
+
+[INFO]Current Time:       29.61 s
+
+[P]indexs Load Factor:    60.4895 %
+
+[P]full bucket LFactor:   15.2364 %
+
+[P]set request:           43502836 
+[P]get request:           43183777 
+
+[P]Get Hit Rate:          52.6100 %
+[P]ACC Hit Rate:          30.4453 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3104337.758 ops
+[P]all request:           86686613 o
+
+[P]GetThroughput:         1541343.301 ops
+[P]SetThroughput:         1562995.449 ops
+
+[P]Valid Entries:         986074.393 / s
+[P]set success:           1475681.012 / s
+
+[P]expire scan persec:    139.781 / s
+[P]total expire scan:     2544
+[P]expire hit persec:       0.991 / s
+[P]total expire hit:      25
+
+[P]expire hit rate:       0.709220 %
+[P]total expire hit rate: 0.982704 %
+
+[P]get found:             810901.265 / s
+
+----------------------------------
+
+[INFO]Current Time:       30.61 s
+
+[P]indexs Load Factor:    61.8892 %
+
+[P]full bucket LFactor:   16.6914 %
+
+[P]set request:           45036245 
+[P]get request:           44729937 
+
+[P]Get Hit Rate:          53.2735 %
+[P]ACC Hit Rate:          31.2344 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3080385.676 ops
+[P]all request:           89766182 o
+
+[P]GetThroughput:         1546570.029 ops
+[P]SetThroughput:         1533815.647 ops
+
+[P]Valid Entries:         953061.677 / s
+[P]set success:           1448778.102 / s
+
+[P]expire scan persec:    139.037 / s
+[P]total expire scan:     2683
+[P]expire hit persec:       4.001 / s
+[P]total expire hit:      29
+
+[P]expire hit rate:       2.877698 %
+[P]total expire hit rate: 1.080880 %
+
+[P]get found:             823911.437 / s
+
+----------------------------------
+
+[INFO]Current Time:       31.61 s
+
+[P]indexs Load Factor:    63.2441 %
+
+[P]full bucket LFactor:   18.1810 %
+
+[P]set request:           46576043 
+[P]get request:           46242630 
+
+[P]Get Hit Rate:          55.8600 %
+[P]ACC Hit Rate:          32.0399 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3052814.164 ops
+[P]all request:           92818673 o
+
+[P]GetThroughput:         1512853.147 ops
+[P]SetThroughput:         1539961.017 ops
+
+[P]Valid Entries:         932540.717 / s
+[P]set success:           1513237.188 / s
+
+[P]expire scan persec:    152.016 / s
+[P]total expire scan:     2835
+[P]expire hit persec:       1.000 / s
+[P]total expire hit:      30
+
+[P]expire hit rate:       0.657895 %
+[P]total expire hit rate: 1.058201 %
+
+[P]get found:             845080.458 / s
+
+----------------------------------
+
+[INFO]Current Time:       32.60 s
+
+[P]indexs Load Factor:    64.5413 %
+
+[P]full bucket LFactor:   19.6832 %
+
+[P]set request:           48125988 
+[P]get request:           47764352 
+
+[P]Get Hit Rate:          56.2166 %
+[P]ACC Hit Rate:          32.8102 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3095702.346 ops
+[P]all request:           95890340 o
+
+[P]GetThroughput:         1533629.252 ops
+[P]SetThroughput:         1562073.093 ops
+
+[P]Valid Entries:         907820.409 / s
+[P]set success:           1496168.403 / s
+
+[P]expire scan persec:    167.299 / s
+[P]total expire scan:     3001
+[P]expire hit persec:       3.023 / s
+[P]total expire hit:      33
+
+[P]expire hit rate:       1.807229 %
+[P]total expire hit rate: 1.099633 %
+
+[P]get found:             862153.850 / s
+
+----------------------------------
+
+[INFO]Current Time:       33.60 s
+
+[P]indexs Load Factor:    65.7889 %
+
+[P]full bucket LFactor:   21.2032 %
+
+[P]set request:           49675465 
+[P]get request:           49286052 
+
+[P]Get Hit Rate:          56.6622 %
+[P]ACC Hit Rate:          33.5466 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3093475.370 ops
+[P]all request:           98961518 o
+
+[P]GetThroughput:         1532747.848 ops
+[P]SetThroughput:         1560726.515 ops
+
+[P]Valid Entries:         881271.088 / s
+[P]set success:           1515194.324 / s
+
+[P]expire scan persec:    144.038 / s
+[P]total expire scan:     3144
+[P]expire hit persec:       0.000 / s
+[P]total expire hit:      33
+
+[P]expire hit rate:       0.000000 %
+[P]total expire hit rate: 1.049618 %
+
+[P]get found:             868488.956 / s
+
+----------------------------------
+
+[INFO]Current Time:       34.58 s
+
+[P]indexs Load Factor:    66.9837 %
+
+[P]full bucket LFactor:   22.7311 %
+
+[P]set request:           51216483 
+[P]get request:           50798904 
+
+[P]Get Hit Rate:          56.7970 %
+[P]ACC Hit Rate:          34.2390 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3092309.953 ops
+[P]all request:           102015387 o
+
+[P]GetThroughput:         1531895.211 ops
+[P]SetThroughput:         1560415.754 ops
+
+[P]Valid Entries:         855324.665 / s
+[P]set success:           1494952.977 / s
+
+[P]expire scan persec:    190.366 / s
+[P]total expire scan:     3332
+[P]expire hit persec:       0.000 / s
+[P]total expire hit:      33
+
+[P]expire hit rate:       0.000000 %
+[P]total expire hit rate: 0.990396 %
+
+[P]get found:             870070.978 / s
+
+----------------------------------
+
+[INFO]Current Time:       35.57 s
+
+[P]indexs Load Factor:    68.1281 %
+
+[P]full bucket LFactor:   24.2545 %
+
+[P]set request:           52729123 
+[P]get request:           52323300 
+
+[P]Get Hit Rate:          58.5515 %
+[P]ACC Hit Rate:          34.9474 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3079517.635 ops
+[P]all request:           105052423 o
+
+[P]GetThroughput:         1545719.038 ops
+[P]SetThroughput:         1533798.597 ops
+
+[P]Valid Entries:         827889.654 / s
+[P]set success:           1470630.195 / s
+
+[P]expire scan persec:    159.196 / s
+[P]total expire scan:     3489
+[P]expire hit persec:       3.042 / s
+[P]total expire hit:      36
+
+[P]expire hit rate:       1.910828 %
+[P]total expire hit rate: 1.031814 %
+
+[P]get found:             905040.948 / s
+
+----------------------------------
+
+[INFO]Current Time:       36.55 s
+
+[P]indexs Load Factor:    69.2224 %
+
+[P]full bucket LFactor:   25.7738 %
+
+[P]set request:           54260680 
+[P]get request:           53825879 
+
+[P]Get Hit Rate:          59.5133 %
+[P]ACC Hit Rate:          35.6331 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3096063.862 ops
+[P]all request:           108086559 o
+
+[P]GetThroughput:         1533247.205 ops
+[P]SetThroughput:         1562816.657 ops
+
+[P]Valid Entries:         808236.448 / s
+[P]set success:           1517585.946 / s
+
+[P]expire scan persec:    188.776 / s
+[P]total expire scan:     3674
+[P]expire hit persec:       2.041 / s
+[P]total expire hit:      38
+
+[P]expire hit rate:       1.081081 %
+[P]total expire hit rate: 1.034295 %
+
+[P]get found:             912486.674 / s
+
+----------------------------------
+
+[INFO]Current Time:       37.53 s
+
+[P]indexs Load Factor:    70.2747 %
+
+[P]full bucket LFactor:   27.2862 %
+
+[P]set request:           55761441 
+[P]get request:           55298712 
+
+[P]Get Hit Rate:          61.9941 %
+[P]ACC Hit Rate:          36.3352 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3030633.557 ops
+[P]all request:           111060153 o
+
+[P]GetThroughput:         1501084.921 ops
+[P]SetThroughput:         1529548.636 ops
+
+[P]Valid Entries:         777557.409 / s
+[P]set success:           1466734.410 / s
+
+[P]expire scan persec:    191.606 / s
+[P]total expire scan:     3862
+[P]expire hit persec:       5.096 / s
+[P]total expire hit:      43
+
+[P]expire hit rate:       2.659574 %
+[P]total expire hit rate: 1.113413 %
+
+[P]get found:             930583.513 / s
+
+----------------------------------
+
+[INFO]Current Time:       38.50 s
+
+[P]indexs Load Factor:    71.2775 %
+
+[P]full bucket LFactor:   28.7789 %
+
+[P]set request:           57247215 
+[P]get request:           56785510 
+
+[P]Get Hit Rate:          61.9227 %
+[P]ACC Hit Rate:          37.0052 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3057789.493 ops
+[P]all request:           114032725 o
+
+[P]GetThroughput:         1529421.424 ops
+[P]SetThroughput:         1528368.069 ops
+
+[P]Valid Entries:         758404.978 / s
+[P]set success:           1516050.799 / s
+
+[P]expire scan persec:    180.017 / s
+[P]total expire scan:     4037
+[P]expire hit persec:      15.430 / s
+[P]total expire hit:      58
+
+[P]expire hit rate:       8.571429 %
+[P]total expire hit rate: 1.436710 %
+
+[P]get found:             947059.591 / s
+
+----------------------------------
+
+[INFO]Current Time:       39.47 s
+
+[P]indexs Load Factor:    72.2389 %
+
+[P]full bucket LFactor:   30.2642 %
+
+[P]set request:           58713934 
+[P]get request:           58264026 
+
+[P]Get Hit Rate:          62.8373 %
+[P]ACC Hit Rate:          37.6607 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3035798.599 ops
+[P]all request:           116977960 o
+
+[P]GetThroughput:         1523979.173 ops
+[P]SetThroughput:         1511819.425 ops
+
+[P]Valid Entries:         734352.109 / s
+[P]set success:           1510750.538 / s
+
+[P]expire scan persec:    198.935 / s
+[P]total expire scan:     4230
+[P]expire hit persec:      15.461 / s
+[P]total expire hit:      73
+
+[P]expire hit rate:       7.772021 %
+[P]total expire hit rate: 1.725768 %
+
+[P]get found:             957626.814 / s
+
+----------------------------------
+
+[INFO]Current Time:       40.43 s
+
+[P]indexs Load Factor:    73.1564 %
+
+[P]full bucket LFactor:   31.7201 %
+
+[P]set request:           60203390 
+[P]get request:           59724863 
+
+[P]Get Hit Rate:          63.5883 %
+[P]ACC Hit Rate:          38.2949 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3068057.187 ops
+[P]all request:           119928253 o
+
+[P]GetThroughput:         1519147.914 ops
+[P]SetThroughput:         1548909.273 ops
+
+[P]Valid Entries:         710504.996 / s
+[P]set success:           1388457.498 / s
+
+[P]expire scan persec:    190.305 / s
+[P]total expire scan:     4413
+[P]expire hit persec:      14.559 / s
+[P]total expire hit:      87
+
+[P]expire hit rate:       7.650273 %
+[P]total expire hit rate: 1.971448 %
+
+[P]get found:             965999.902 / s
+
+----------------------------------
+
+[INFO]Current Time:       41.40 s
+
+[P]indexs Load Factor:    74.0292 %
+
+[P]full bucket LFactor:   33.1502 %
+
+[P]set request:           61671018 
+[P]get request:           61183190 
+
+[P]Get Hit Rate:          64.3779 %
+[P]ACC Hit Rate:          38.9166 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3044217.244 ops
+[P]all request:           122854208 o
+
+[P]GetThroughput:         1517270.156 ops
+[P]SetThroughput:         1526947.087 ops
+
+[P]Valid Entries:         686927.886 / s
+[P]set success:           1444443.994 / s
+
+[P]expire scan persec:    191.437 / s
+[P]total expire scan:     4597
+[P]expire hit persec:      17.687 / s
+[P]total expire hit:      104
+
+[P]expire hit rate:       9.239130 %
+[P]total expire hit rate: 2.262345 %
+
+[P]get found:             976786.354 / s
+
+----------------------------------
+
+[INFO]Current Time:       42.35 s
+
+[P]indexs Load Factor:    74.8639 %
+
+[P]full bucket LFactor:   34.5551 %
+
+[P]set request:           63085215 
+[P]get request:           62627781 
+
+[P]Get Hit Rate:          65.1101 %
+[P]ACC Hit Rate:          39.5208 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3005507.623 ops
+[P]all request:           125712996 o
+
+[P]GetThroughput:         1518730.757 ops
+[P]SetThroughput:         1486776.866 ops
+
+[P]Valid Entries:         667872.477 / s
+[P]set success:           1488164.612 / s
+
+[P]expire scan persec:    183.981 / s
+[P]total expire scan:     4772
+[P]expire hit persec:      15.770 / s
+[P]total expire hit:      119
+
+[P]expire hit rate:       8.571429 %
+[P]total expire hit rate: 2.493713 %
+
+[P]get found:             988847.488 / s
+
+----------------------------------
+
+[INFO]Current Time:       43.30 s
+
+[P]indexs Load Factor:    75.6574 %
+
+[P]full bucket LFactor:   35.9213 %
+
+[P]set request:           64470129 
+[P]get request:           64023600 
+
+[P]Get Hit Rate:          67.5623 %
+[P]ACC Hit Rate:          40.1321 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            2922245.401 ops
+[P]all request:           128493729 o
+
+[P]GetThroughput:         1466852.680 ops
+[P]SetThroughput:         1455392.721 ops
+
+[P]Valid Entries:         642505.936 / s
+[P]set success:           1479003.074 / s
+
+[P]expire scan persec:    177.600 / s
+[P]total expire scan:     4941
+[P]expire hit persec:      11.560 / s
+[P]total expire hit:      130
+
+[P]expire hit rate:       6.508876 %
+[P]total expire hit rate: 2.631046 %
+
+[P]get found:             991040.018 / s
+
+----------------------------------
+
+[INFO]Current Time:       44.24 s
+
+[P]indexs Load Factor:    76.4084 %
+
+[P]full bucket LFactor:   37.2488 %
+
+[P]set request:           65892415 
+[P]get request:           65437298 
+
+[P]Get Hit Rate:          65.4923 %
+[P]ACC Hit Rate:          40.6800 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3020310.394 ops
+[P]all request:           131329713 o
+
+[P]GetThroughput:         1505582.106 ops
+[P]SetThroughput:         1514728.288 ops
+
+[P]Valid Entries:         622156.567 / s
+[P]set success:           1475974.164 / s
+
+[P]expire scan persec:    185.309 / s
+[P]total expire scan:     5115
+[P]expire hit persec:      23.430 / s
+[P]total expire hit:      152
+
+[P]expire hit rate:       12.643678 %
+[P]total expire hit rate: 2.971652 %
+
+[P]get found:             986041.058 / s
+
+----------------------------------
+
+[INFO]Current Time:       45.17 s
+
+[P]indexs Load Factor:    77.1260 %
+
+[P]full bucket LFactor:   38.5409 %
+
+[P]set request:           67288122 
+[P]get request:           66805386 
+
+[P]Get Hit Rate:          67.9077 %
+[P]ACC Hit Rate:          41.2376 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            2958966.080 ops
+[P]all request:           134093508 o
+
+[P]GetThroughput:         1464698.354 ops
+[P]SetThroughput:         1494267.726 ops
+
+[P]Valid Entries:         594301.672 / s
+[P]set success:           1382891.434 / s
+
+[P]expire scan persec:    182.005 / s
+[P]total expire scan:     5285
+[P]expire hit persec:      26.765 / s
+[P]total expire hit:      177
+
+[P]expire hit rate:       14.705882 %
+[P]total expire hit rate: 3.349101 %
+
+[P]get found:             994642.863 / s
+
+----------------------------------
+
+[INFO]Current Time:       46.11 s
+
+[P]indexs Load Factor:    77.8128 %
+
+[P]full bucket LFactor:   39.8153 %
+
+[P]set request:           68684451 
+[P]get request:           68187094 
+
+[P]Get Hit Rate:          67.6202 %
+[P]ACC Hit Rate:          41.7722 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            2965434.040 ops
+[P]all request:           136871545 o
+
+[P]GetThroughput:         1474913.378 ops
+[P]SetThroughput:         1490520.662 ops
+
+[P]Valid Entries:         573478.270 / s
+[P]set success:           1447097.593 / s
+
+[P]expire scan persec:    182.535 / s
+[P]total expire scan:     5456
+[P]expire hit persec:      24.552 / s
+[P]total expire hit:      200
+
+[P]expire hit rate:       13.450292 %
+[P]total expire hit rate: 3.665689 %
+
+[P]get found:             997339.682 / s
+
+----------------------------------
+
+[INFO]Current Time:       47.04 s
+
+[P]indexs Load Factor:    78.4844 %
+
+[P]full bucket LFactor:   41.0852 %
+
+[P]set request:           70114821 
+[P]get request:           69549253 
+
+[P]Get Hit Rate:          70.0903 %
+[P]ACC Hit Rate:          42.3268 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3008837.549 ops
+[P]all request:           139664074 o
+
+[P]GetThroughput:         1467671.472 ops
+[P]SetThroughput:         1541166.077 ops
+
+[P]Valid Entries:         561423.323 / s
+[P]set success:           1482703.112 / s
+
+[P]expire scan persec:    195.020 / s
+[P]total expire scan:     5637
+[P]expire hit persec:      33.401 / s
+[P]total expire hit:      231
+
+[P]expire hit rate:       17.127072 %
+[P]total expire hit rate: 4.097924 %
+
+[P]get found:             1028696.060 / s
+
+----------------------------------
+
+[INFO]Current Time:       47.97 s
+
+[P]indexs Load Factor:    79.1293 %
+
+[P]full bucket LFactor:   42.3283 %
+
+[P]set request:           71515013 
+[P]get request:           70980443 
+
+[P]Get Hit Rate:          65.8741 %
+[P]ACC Hit Rate:          42.8016 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3043714.696 ops
+[P]all request:           142495456 o
+
+[P]GetThroughput:         1538518.658 ops
+[P]SetThroughput:         1505196.038 ops
+
+[P]Valid Entries:         553553.464 / s
+[P]set success:           1489848.368 / s
+
+[P]expire scan persec:    197.799 / s
+[P]total expire scan:     5821
+[P]expire hit persec:      41.925 / s
+[P]total expire hit:      270
+
+[P]expire hit rate:       21.195652 %
+[P]total expire hit rate: 4.638378 %
+
+[P]get found:             1013485.823 / s
+
+----------------------------------
+
+[INFO]Current Time:       48.89 s
+
+[P]indexs Load Factor:    79.7473 %
+
+[P]full bucket LFactor:   43.5440 %
+
+[P]set request:           72941385 
+[P]get request:           72397520 
+
+[P]Get Hit Rate:          68.2535 %
+[P]ACC Hit Rate:          43.2998 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3066324.830 ops
+[P]all request:           145338905 o
+
+[P]GetThroughput:         1528150.634 ops
+[P]SetThroughput:         1538174.197 ops
+
+[P]Valid Entries:         534249.960 / s
+[P]set success:           1480080.668 / s
+
+[P]expire scan persec:    210.285 / s
+[P]total expire scan:     6016
+[P]expire hit persec:      32.351 / s
+[P]total expire hit:      300
+
+[P]expire hit rate:       15.384615 %
+[P]total expire hit rate: 4.986702 %
+
+[P]get found:             1043015.592 / s
+
+----------------------------------
+
+[INFO]Current Time:       49.82 s
+
+[P]indexs Load Factor:    80.3377 %
+
+[P]full bucket LFactor:   44.7247 %
+
+[P]set request:           74374578 
+[P]get request:           73821271 
+
+[P]Get Hit Rate:          66.8777 %
+[P]ACC Hit Rate:          43.7545 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3085075.967 ops
+[P]all request:           148195849 o
+
+[P]GetThroughput:         1537440.003 ops
+[P]SetThroughput:         1547635.964 ops
+
+[P]Valid Entries:         520887.007 / s
+[P]set success:           1490020.474 / s
+
+[P]expire scan persec:    223.529 / s
+[P]total expire scan:     6223
+[P]expire hit persec:      41.034 / s
+[P]total expire hit:      338
+
+[P]expire hit rate:       18.357488 %
+[P]total expire hit rate: 5.431464 %
+
+[P]get found:             1028204.597 / s
+
+----------------------------------
+
+[INFO]Current Time:       50.74 s
+
+[P]indexs Load Factor:    80.9034 %
+
+[P]full bucket LFactor:   45.8730 %
+
+[P]set request:           75787148 
+[P]get request:           75146780 
+
+[P]Get Hit Rate:          73.2533 %
+[P]ACC Hit Rate:          44.2748 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            2966104.568 ops
+[P]all request:           150933928 o
+
+[P]GetThroughput:         1435896.590 ops
+[P]SetThroughput:         1530207.978 ops
+
+[P]Valid Entries:         499928.025 / s
+[P]set success:           1451993.039 / s
+
+[P]expire scan persec:    210.156 / s
+[P]total expire scan:     6417
+[P]expire hit persec:      31.415 / s
+[P]total expire hit:      367
+
+[P]expire hit rate:       14.948454 %
+[P]total expire hit rate: 5.719183 %
+
+[P]get found:             1051841.546 / s
+
+----------------------------------
+
+[INFO]Current Time:       51.66 s
+
+[P]indexs Load Factor:    81.4437 %
+
+[P]full bucket LFactor:   46.9915 %
+
+[P]set request:           77161981 
+[P]get request:           76530059 
+
+[P]Get Hit Rate:          69.6967 %
+[P]ACC Hit Rate:          44.7343 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            2999711.446 ops
+[P]all request:           153692040 o
+
+[P]GetThroughput:         1504448.641 ops
+[P]SetThroughput:         1495262.805 ops
+
+[P]Valid Entries:         485950.922 / s
+[P]set success:           1457526.489 / s
+
+[P]expire scan persec:    188.154 / s
+[P]total expire scan:     6590
+[P]expire hit persec:      54.380 / s
+[P]total expire hit:      417
+
+[P]expire hit rate:       28.901734 %
+[P]total expire hit rate: 6.327769 %
+
+[P]get found:             1048551.257 / s
+
+----------------------------------
+
+[INFO]Current Time:       52.57 s
+
+[P]indexs Load Factor:    81.9572 %
+
+[P]full bucket LFactor:   48.0687 %
+
+[P]set request:           78544867 
+[P]get request:           77903882 
+
+[P]Get Hit Rate:          70.0777 %
+[P]ACC Hit Rate:          45.1813 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3020756.089 ops
+[P]all request:           156448749 o
+
+[P]GetThroughput:         1505412.502 ops
+[P]SetThroughput:         1515343.587 ops
+
+[P]Valid Entries:         472608.113 / s
+[P]set success:           1459223.038 / s
+
+[P]expire scan persec:    209.295 / s
+[P]total expire scan:     6781
+[P]expire hit persec:      46.023 / s
+[P]total expire hit:      459
+
+[P]expire hit rate:       21.989529 %
+[P]total expire hit rate: 6.768913 %
+
+[P]get found:             1054958.939 / s
+
+----------------------------------
+
+[INFO]Current Time:       53.48 s
+
+[P]indexs Load Factor:    82.4543 %
+
+[P]full bucket LFactor:   49.1255 %
+
+[P]set request:           79915431 
+[P]get request:           79285298 
+
+[P]Get Hit Rate:          70.4651 %
+[P]ACC Hit Rate:          45.6218 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3036068.534 ops
+[P]all request:           159200729 o
+
+[P]GetThroughput:         1524020.396 ops
+[P]SetThroughput:         1512048.138 ops
+
+[P]Valid Entries:         455211.699 / s
+[P]set success:           1499404.012 / s
+
+[P]expire scan persec:    204.098 / s
+[P]total expire scan:     6966
+[P]expire hit persec:      58.471 / s
+[P]total expire hit:      512
+
+[P]expire hit rate:       28.648649 %
+[P]total expire hit rate: 7.349986 %
+
+[P]get found:             1073902.313 / s
+
+----------------------------------
+
+[INFO]Current Time:       54.39 s
+
+[P]indexs Load Factor:    82.9341 %
+
+[P]full bucket LFactor:   50.1627 %
+
+[P]set request:           81306368 
+[P]get request:           80635146 
+
+[P]Get Hit Rate:          70.3549 %
+[P]ACC Hit Rate:          46.0358 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3024959.400 ops
+[P]all request:           161941515 o
+
+[P]GetThroughput:         1489804.529 ops
+[P]SetThroughput:         1535153.767 ops
+
+[P]Valid Entries:         445538.136 / s
+[P]set success:           1477208.193 / s
+
+[P]expire scan persec:    193.145 / s
+[P]total expire scan:     7141
+[P]expire hit persec:      44.147 / s
+[P]total expire hit:      552
+
+[P]expire hit rate:       22.857143 %
+[P]total expire hit rate: 7.730010 %
+
+[P]get found:             1048150.254 / s
+
+----------------------------------
+
+[INFO]Current Time:       55.29 s
+
+[P]indexs Load Factor:    83.3956 %
+
+[P]full bucket LFactor:   51.1757 %
+
+[P]set request:           82660466 
+[P]get request:           82000224 
+
+[P]Get Hit Rate:          69.6510 %
+[P]ACC Hit Rate:          46.4290 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            2998903.670 ops
+[P]all request:           164660690 o
+
+[P]GetThroughput:         1505507.157 ops
+[P]SetThroughput:         1493397.616 ops
+
+[P]Valid Entries:         434772.241 / s
+[P]set success:           1479649.206 / s
+
+[P]expire scan persec:    223.883 / s
+[P]total expire scan:     7344
+[P]expire hit persec:      41.909 / s
+[P]total expire hit:      590
+
+[P]expire hit rate:       18.719212 %
+[P]total expire hit rate: 8.033769 %
+
+[P]get found:             1048601.366 / s
+
+----------------------------------
+
+[INFO]Current Time:       56.18 s
+
+[P]indexs Load Factor:    83.8468 %
+
+[P]full bucket LFactor:   52.1863 %
+
+[P]set request:           84029891 
+[P]get request:           83321661 
+
+[P]Get Hit Rate:          71.7102 %
+[P]ACC Hit Rate:          46.8299 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3020704.981 ops
+[P]all request:           167351552 o
+
+[P]GetThroughput:         1483417.332 ops
+[P]SetThroughput:         1537287.650 ops
+
+[P]Valid Entries:         424488.628 / s
+[P]set success:           1501806.297 / s
+
+[P]expire scan persec:    216.658 / s
+[P]total expire scan:     7537
+[P]expire hit persec:      38.168 / s
+[P]total expire hit:      624
+
+[P]expire hit rate:       17.616580 %
+[P]total expire hit rate: 8.279156 %
+
+[P]get found:             1063761.406 / s
+
+----------------------------------
+
+[INFO]Current Time:       57.09 s
+
+[P]indexs Load Factor:    84.2833 %
+
+[P]full bucket LFactor:   53.1798 %
+
+[P]set request:           85385006 
+[P]get request:           84651828 
+
+[P]Get Hit Rate:          72.6380 %
+[P]ACC Hit Rate:          47.2354 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            2982510.193 ops
+[P]all request:           170036834 o
+
+[P]GetThroughput:         1477400.376 ops
+[P]SetThroughput:         1505109.817 ops
+
+[P]Valid Entries:         411294.389 / s
+[P]set success:           1448551.369 / s
+
+[P]expire scan persec:    218.806 / s
+[P]total expire scan:     7734
+[P]expire hit persec:      51.092 / s
+[P]total expire hit:      670
+
+[P]expire hit rate:       23.350254 %
+[P]total expire hit rate: 8.663046 %
+
+[P]get found:             1073154.412 / s
+
+----------------------------------
+
+[INFO]Current Time:       57.98 s
+
+[P]indexs Load Factor:    84.7070 %
+
+[P]full bucket LFactor:   54.1574 %
+
+[P]set request:           86762871 
+[P]get request:           86022044 
+
+[P]Get Hit Rate:          69.7063 %
+[P]ACC Hit Rate:          47.5934 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3064113.266 ops
+[P]all request:           172784915 o
+
+[P]GetThroughput:         1527792.312 ops
+[P]SetThroughput:         1536320.955 ops
+
+[P]Valid Entries:         403711.784 / s
+[P]set success:           1501983.382 / s
+
+[P]expire scan persec:    214.080 / s
+[P]total expire scan:     7926
+[P]expire hit persec:      56.865 / s
+[P]total expire hit:      721
+
+[P]expire hit rate:       26.562500 %
+[P]total expire hit rate: 9.096644 %
+
+[P]get found:             1064967.631 / s
+
+----------------------------------
+
+[INFO]Current Time:       58.87 s
+
+[P]indexs Load Factor:    85.1197 %
+
+[P]full bucket LFactor:   55.1247 %
+
+[P]set request:           88113847 
+[P]get request:           87369093 
+
+[P]Get Hit Rate:          70.4354 %
+[P]ACC Hit Rate:          47.9455 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3022975.159 ops
+[P]all request:           175482941 o
+
+[P]GetThroughput:         1509287.036 ops
+[P]SetThroughput:         1513687.002 ops
+
+[P]Valid Entries:         393860.288 / s
+[P]set success:           1479569.617 / s
+
+[P]expire scan persec:    200.559 / s
+[P]total expire scan:     8105
+[P]expire hit persec:      62.745 / s
+[P]total expire hit:      777
+
+[P]expire hit rate:       31.284916 %
+[P]total expire hit rate: 9.586675 %
+
+[P]get found:             1063071.967 / s
+
+----------------------------------
+
+[INFO]Current Time:       59.76 s
+
+[P]indexs Load Factor:    85.5199 %
+
+[P]full bucket LFactor:   56.0748 %
+
+[P]set request:           89485379 
+[P]get request:           88692994 
+
+[P]Get Hit Rate:          71.6677 %
+[P]ACC Hit Rate:          48.2996 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3031664.306 ops
+[P]all request:           178178373 o
+
+[P]GetThroughput:         1489046.434 ops
+[P]SetThroughput:         1542618.997 ops
+
+[P]Valid Entries:         386485.933 / s
+[P]set success:           1486018.629 / s
+
+[P]expire scan persec:    229.447 / s
+[P]total expire scan:     8309
+[P]expire hit persec:      46.114 / s
+[P]total expire hit:      818
+
+[P]expire hit rate:       20.098039 %
+[P]total expire hit rate: 9.844747 %
+
+[P]get found:             1067164.884 / s
+
+----------------------------------
+
+[INFO]Current Time:       60.65 s
+
+[P]indexs Load Factor:    85.9072 %
+
+[P]full bucket LFactor:   57.0119 %
+
+[P]set request:           90860361 
+[P]get request:           90018836 
+
+[P]Get Hit Rate:          71.6796 %
+[P]ACC Hit Rate:          48.6440 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3042842.574 ops
+[P]all request:           180879197 o
+
+[P]GetThroughput:         1493739.868 ops
+[P]SetThroughput:         1549102.707 ops
+
+[P]Valid Entries:         374093.485 / s
+[P]set success:           1448521.249 / s
+
+[P]expire scan persec:    210.681 / s
+[P]total expire scan:     8496
+[P]expire hit persec:      43.939 / s
+[P]total expire hit:      857
+
+[P]expire hit rate:       20.855615 %
+[P]total expire hit rate: 10.087100 %
+
+[P]get found:             1070706.489 / s
+
+----------------------------------
+
+[INFO]Current Time:       61.54 s
+
+[P]indexs Load Factor:    86.2866 %
+
+[P]full bucket LFactor:   57.9425 %
+
+[P]set request:           92200340 
+[P]get request:           91331737 
+
+[P]Get Hit Rate:          72.4926 %
+[P]ACC Hit Rate:          48.9868 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            2996632.573 ops
+[P]all request:           183532077 o
+
+[P]GetThroughput:         1483022.942 ops
+[P]SetThroughput:         1513609.631 ops
+
+[P]Valid Entries:         368335.899 / s
+[P]set success:           1414463.258 / s
+
+[P]expire scan persec:    222.527 / s
+[P]total expire scan:     8693
+[P]expire hit persec:      66.645 / s
+[P]total expire hit:      916
+
+[P]expire hit rate:       29.949239 %
+[P]total expire hit rate: 10.537214 %
+
+[P]get found:             1075081.810 / s
+
+----------------------------------
+
+[INFO]Current Time:       62.42 s
+
+[P]indexs Load Factor:    86.6518 %
+
+[P]full bucket LFactor:   58.8460 %
+
+[P]set request:           93568643 
+[P]get request:           92571670 
+
+[P]Get Hit Rate:          74.9882 %
+[P]ACC Hit Rate:          49.3351 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            2957697.063 ops
+[P]all request:           186140313 o
+
+[P]GetThroughput:         1406063.789 ops
+[P]SetThroughput:         1551633.274 ops
+
+[P]Valid Entries:         358228.847 / s
+[P]set success:           1428486.048 / s
+
+[P]expire scan persec:    219.993 / s
+[P]total expire scan:     8887
+[P]expire hit persec:      62.369 / s
+[P]total expire hit:      971
+
+[P]expire hit rate:       28.350515 %
+[P]total expire hit rate: 10.926072 %
+
+[P]get found:             1054381.429 / s
+
+----------------------------------
+
+[INFO]Current Time:       63.29 s
+
+[P]indexs Load Factor:    87.0086 %
+
+[P]full bucket LFactor:   59.7453 %
+
+[P]set request:           94916684 
+[P]get request:           93893899 
+
+[P]Get Hit Rate:          69.1659 %
+[P]ACC Hit Rate:          49.6143 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3053160.558 ops
+[P]all request:           188810583 o
+
+[P]GetThroughput:         1511823.685 ops
+[P]SetThroughput:         1541336.873 ops
+
+[P]Valid Entries:         352040.696 / s
+[P]set success:           1509084.122 / s
+
+[P]expire scan persec:    241.255 / s
+[P]total expire scan:     9098
+[P]expire hit persec:      67.460 / s
+[P]total expire hit:      1030
+
+[P]expire hit rate:       27.962085 %
+[P]total expire hit rate: 11.321169 %
+
+[P]get found:             1045665.786 / s
+
+----------------------------------
+
+[INFO]Current Time:       64.17 s
+
+[P]indexs Load Factor:    87.3532 %
+
+[P]full bucket LFactor:   60.6225 %
+
+[P]set request:           96281079 
+[P]get request:           95231863 
+
+[P]Get Hit Rate:          69.1405 %
+[P]ACC Hit Rate:          49.8887 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3090452.333 ops
+[P]all request:           191512942 o
+
+[P]GetThroughput:         1530112.752 ops
+[P]SetThroughput:         1560339.582 ops
+
+[P]Valid Entries:         341804.136 / s
+[P]set success:           1482720.294 / s
+
+[P]expire scan persec:    228.723 / s
+[P]total expire scan:     9298
+[P]expire hit persec:      65.186 / s
+[P]total expire hit:      1087
+
+[P]expire hit rate:       28.500000 %
+[P]total expire hit rate: 11.690686 %
+
+[P]get found:             1057927.608 / s
+
+----------------------------------
+
+[INFO]Current Time:       65.04 s
+
+[P]indexs Load Factor:    87.6883 %
+
+[P]full bucket LFactor:   61.4859 %
+
+[P]set request:           97570642 
+[P]get request:           96515487 
+
+[P]Get Hit Rate:          72.1568 %
+[P]ACC Hit Rate:          50.1848 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            2962255.347 ops
+[P]all request:           194086129 o
+
+[P]GetThroughput:         1477709.182 ops
+[P]SetThroughput:         1484546.165 ops
+
+[P]Valid Entries:         333953.038 / s
+[P]set success:           1454781.864 / s
+
+[P]expire scan persec:    212.972 / s
+[P]total expire scan:     9483
+[P]expire hit persec:      74.828 / s
+[P]total expire hit:      1152
+
+[P]expire hit rate:       35.135135 %
+[P]total expire hit rate: 12.148054 %
+
+[P]get found:             1066267.656 / s
+
+----------------------------------
+
+[INFO]Current Time:       65.90 s
+
+[P]indexs Load Factor:    88.0124 %
+
+[P]full bucket LFactor:   62.3255 %
+
+[P]set request:           98841386 
+[P]get request:           97819756 
+
+[P]Get Hit Rate:          71.0217 %
+[P]ACC Hit Rate:          50.4627 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            2977134.860 ops
+[P]all request:           196661142 o
+
+[P]GetThroughput:         1507947.613 ops
+[P]SetThroughput:         1469187.247 ops
+
+[P]Valid Entries:         326194.060 / s
+[P]set success:           1483939.888 / s
+
+[P]expire scan persec:    246.263 / s
+[P]total expire scan:     9696
+[P]expire hit persec:      77.463 / s
+[P]total expire hit:      1219
+
+[P]expire hit rate:       31.455399 %
+[P]total expire hit rate: 12.572195 %
+
+[P]get found:             1070970.011 / s
+
+----------------------------------
+
+[INFO]Current Time:       66.77 s
+
+[P]indexs Load Factor:    88.3276 %
+
+[P]full bucket LFactor:   63.1551 %
+
+[P]set request:           100145296 
+[P]get request:           99117111 
+
+[P]Get Hit Rate:          69.9187 %
+[P]ACC Hit Rate:          50.7173 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3005562.208 ops
+[P]all request:           199262408 o
+
+[P]GetThroughput:         1498993.628 ops
+[P]SetThroughput:         1506567.425 ops
+
+[P]Valid Entries:         316589.331 / s
+[P]set success:           1475893.259 / s
+
+[P]expire scan persec:    220.686 / s
+[P]total expire scan:     9887
+[P]expire hit persec:      78.569 / s
+[P]total expire hit:      1287
+
+[P]expire hit rate:       35.602094 %
+[P]total expire hit rate: 13.017093 %
+
+[P]get found:             1048077.146 / s
+
+----------------------------------
+
+[INFO]Current Time:       67.63 s
+
+[P]indexs Load Factor:    88.6277 %
+
+[P]full bucket LFactor:   63.9513 %
+
+[P]set request:           101452394 
+[P]get request:           100400060 
+
+[P]Get Hit Rate:          68.6764 %
+[P]ACC Hit Rate:          50.9468 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            2994432.092 ops
+[P]all request:           201852454 o
+
+[P]GetThroughput:         1483256.922 ops
+[P]SetThroughput:         1511176.326 ops
+
+[P]Valid Entries:         300977.857 / s
+[P]set success:           1481305.373 / s
+
+[P]expire scan persec:    223.133 / s
+[P]total expire scan:     10080
+[P]expire hit persec:      75.149 / s
+[P]total expire hit:      1352
+
+[P]expire hit rate:       33.678756 %
+[P]total expire hit rate: 13.412698 %
+
+[P]get found:             1018647.241 / s
+
+----------------------------------
+
+[INFO]Current Time:       68.49 s
+
+[P]indexs Load Factor:    88.9197 %
+
+[P]full bucket LFactor:   64.7309 %
+
+[P]set request:           102744408 
+[P]get request:           101665892 
+
+[P]Get Hit Rate:          70.8383 %
+[P]ACC Hit Rate:          51.1945 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            2966343.576 ops
+[P]all request:           204410300 o
+
+[P]GetThroughput:         1467990.106 ops
+[P]SetThroughput:         1498353.470 ops
+
+[P]Valid Entries:         295361.467 / s
+[P]set success:           1423096.815 / s
+
+[P]expire scan persec:    221.503 / s
+[P]total expire scan:     10271
+[P]expire hit persec:      62.624 / s
+[P]total expire hit:      1406
+
+[P]expire hit rate:       28.272251 %
+[P]total expire hit rate: 13.689027 %
+
+[P]get found:             1039899.387 / s
+
+----------------------------------
+
+[INFO]Current Time:       69.36 s
+
+[P]indexs Load Factor:    89.2084 %
+
+[P]full bucket LFactor:   65.5142 %
+
+[P]set request:           104052357 
+[P]get request:           102948932 
+
+[P]Get Hit Rate:          70.7071 %
+[P]ACC Hit Rate:          51.4377 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3007372.326 ops
+[P]all request:           207001289 o
+
+[P]GetThroughput:         1489230.170 ops
+[P]SetThroughput:         1518142.156 ops
+
+[P]Valid Entries:         292088.940 / s
+[P]set success:           1444819.298 / s
+
+[P]expire scan persec:    228.659 / s
+[P]total expire scan:     10468
+[P]expire hit persec:      77.767 / s
+[P]total expire hit:      1473
+
+[P]expire hit rate:       34.010152 %
+[P]total expire hit rate: 14.071456 %
+
+[P]get found:             1052992.190 / s
+
+----------------------------------
+
+[INFO]Current Time:       70.21 s
+
+[P]indexs Load Factor:    89.4882 %
+
+[P]full bucket LFactor:   66.2774 %
+
+[P]set request:           105381672 
+[P]get request:           104251907 
+
+[P]Get Hit Rate:          68.4784 %
+[P]ACC Hit Rate:          51.6506 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3068723.135 ops
+[P]all request:           209633579 o
+
+[P]GetThroughput:         1519007.984 ops
+[P]SetThroughput:         1549715.151 ops
+
+[P]Valid Entries:         287860.450 / s
+[P]set success:           1450071.911 / s
+
+[P]expire scan persec:    228.497 / s
+[P]total expire scan:     10664
+[P]expire hit persec:      76.943 / s
+[P]total expire hit:      1539
+
+[P]expire hit rate:       33.673469 %
+[P]total expire hit rate: 14.431733 %
+
+[P]get found:             1040193.025 / s
+
+----------------------------------
+
+[INFO]Current Time:       71.07 s
+
+[P]indexs Load Factor:    89.7583 %
+
+[P]full bucket LFactor:   67.0188 %
+
+[P]set request:           106718596 
+[P]get request:           105543609 
+
+[P]Get Hit Rate:          69.4713 %
+[P]ACC Hit Rate:          51.8687 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3079364.922 ops
+[P]all request:           212262205 o
+
+[P]GetThroughput:         1513194.280 ops
+[P]SetThroughput:         1566170.641 ops
+
+[P]Valid Entries:         282546.451 / s
+[P]set success:           1466985.520 / s
+
+[P]expire scan persec:    261.239 / s
+[P]total expire scan:     10887
+[P]expire hit persec:      80.832 / s
+[P]total expire hit:      1608
+
+[P]expire hit rate:       30.941704 %
+[P]total expire hit rate: 14.769909 %
+
+[P]get found:             1051235.537 / s
+
+----------------------------------
+
+[INFO]Current Time:       71.91 s
+
+[P]indexs Load Factor:    90.0235 %
+
+[P]full bucket LFactor:   67.7558 %
+
+[P]set request:           108004335 
+[P]get request:           106804999 
+
+[P]Get Hit Rate:          69.4100 %
+[P]ACC Hit Rate:          52.0759 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3025411.952 ops
+[P]all request:           214809335 o
+
+[P]GetThroughput:         1498244.841 ops
+[P]SetThroughput:         1527165.923 ops
+
+[P]Valid Entries:         273223.397 / s
+[P]set success:           1474103.357 / s
+
+[P]expire scan persec:    218.550 / s
+[P]total expire scan:     11071
+[P]expire hit persec:      74.830 / s
+[P]total expire hit:      1671
+
+[P]expire hit rate:       34.239130 %
+[P]total expire hit rate: 15.093487 %
+
+[P]get found:             1039931.983 / s
+
+----------------------------------
+
+[INFO]Current Time:       72.76 s
+
+[P]indexs Load Factor:    90.2810 %
+
+[P]full bucket LFactor:   68.4770 %
+
+[P]set request:           109310879 
+[P]get request:           108105888 
+
+[P]Get Hit Rate:          68.2711 %
+[P]ACC Hit Rate:          52.2708 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3056054.346 ops
+[P]all request:           217416767 o
+
+[P]GetThroughput:         1524713.773 ops
+[P]SetThroughput:         1531341.745 ops
+
+[P]Valid Entries:         266935.582 / s
+[P]set success:           1433050.849 / s
+
+[P]expire scan persec:    236.755 / s
+[P]total expire scan:     11273
+[P]expire hit persec:      78.528 / s
+[P]total expire hit:      1738
+
+[P]expire hit rate:       33.168317 %
+[P]total expire hit rate: 15.417369 %
+
+[P]get found:             1040938.595 / s
+
+----------------------------------
+
+[INFO]Current Time:       73.61 s
+
+[P]indexs Load Factor:    90.5307 %
+
+[P]full bucket LFactor:   69.1813 %
+
+[P]set request:           110612124 
+[P]get request:           109323503 
+
+[P]Get Hit Rate:          73.7052 %
+[P]ACC Hit Rate:          52.5095 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            2969387.672 ops
+[P]all request:           219935627 o
+
+[P]GetThroughput:         1435399.733 ops
+[P]SetThroughput:         1533987.940 ops
+
+[P]Valid Entries:         260842.021 / s
+[P]set success:           1482174.609 / s
+
+[P]expire scan persec:    248.740 / s
+[P]total expire scan:     11484
+[P]expire hit persec:     100.203 / s
+[P]total expire hit:      1823
+
+[P]expire hit rate:       40.284360 %
+[P]total expire hit rate: 15.874260 %
+
+[P]get found:             1057963.571 / s
+
+----------------------------------
+
+[INFO]Current Time:       74.46 s
+
+[P]indexs Load Factor:    90.7740 %
+
+[P]full bucket LFactor:   69.8717 %
+
+[P]set request:           111895543 
+[P]get request:           110601818 
+
+[P]Get Hit Rate:          69.1826 %
+[P]ACC Hit Rate:          52.7022 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3024832.254 ops
+[P]all request:           222497361 o
+
+[P]GetThroughput:         1509402.788 ops
+[P]SetThroughput:         1515429.465 ops
+
+[P]Valid Entries:         255557.562 / s
+[P]set success:           1420186.948 / s
+
+[P]expire scan persec:    239.697 / s
+[P]total expire scan:     11687
+[P]expire hit persec:      94.462 / s
+[P]total expire hit:      1903
+
+[P]expire hit rate:       39.408867 %
+[P]total expire hit rate: 16.283050 %
+
+[P]get found:             1044243.440 / s
+
+----------------------------------
+
+[INFO]Current Time:       75.30 s
+
+[P]indexs Load Factor:    91.0072 %
+
+[P]full bucket LFactor:   70.5387 %
+
+[P]set request:           113174337 
+[P]get request:           111875824 
+
+[P]Get Hit Rate:          70.1249 %
+[P]ACC Hit Rate:          52.9006 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3015277.219 ops
+[P]all request:           225050161 o
+
+[P]GetThroughput:         1504810.901 ops
+[P]SetThroughput:         1510466.318 ops
+
+[P]Valid Entries:         247435.104 / s
+[P]set success:           1505321.164 / s
+
+[P]expire scan persec:    238.595 / s
+[P]total expire scan:     11889
+[P]expire hit persec:      80.319 / s
+[P]total expire hit:      1971
+
+[P]expire hit rate:       33.663366 %
+[P]total expire hit rate: 16.578350 %
+
+[P]get found:             1055247.809 / s
+
+----------------------------------
+
+[INFO]Current Time:       76.14 s
+
+[P]indexs Load Factor:    91.2342 %
+
+[P]full bucket LFactor:   71.1913 %
+
+[P]set request:           114457788 
+[P]get request:           113134663 
+
+[P]Get Hit Rate:          69.9659 %
+[P]ACC Hit Rate:          53.0905 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3041231.969 ops
+[P]all request:           227592451 o
+
+[P]GetThroughput:         1505894.847 ops
+[P]SetThroughput:         1535337.122 ops
+
+[P]Valid Entries:         242505.200 / s
+[P]set success:           1482866.901 / s
+
+[P]expire scan persec:    238.055 / s
+[P]total expire scan:     12088
+[P]expire hit persec:      86.130 / s
+[P]total expire hit:      2043
+
+[P]expire hit rate:       36.180905 %
+[P]total expire hit rate: 16.901059 %
+
+[P]get found:             1053612.840 / s
+
+----------------------------------
+
+[INFO]Current Time:       76.98 s
+
+[P]indexs Load Factor:    91.4556 %
+
+[P]full bucket LFactor:   71.8358 %
+
+[P]set request:           115727141 
+[P]get request:           114398642 
+
+[P]Get Hit Rate:          69.9776 %
+[P]ACC Hit Rate:          53.2771 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3021799.179 ops
+[P]all request:           230125783 o
+
+[P]GetThroughput:         1507694.493 ops
+[P]SetThroughput:         1514104.686 ops
+
+[P]Valid Entries:         236354.123 / s
+[P]set success:           1509277.360 / s
+
+[P]expire scan persec:    245.720 / s
+[P]total expire scan:     12294
+[P]expire hit persec:      89.461 / s
+[P]total expire hit:      2118
+
+[P]expire hit rate:       36.407767 %
+[P]total expire hit rate: 17.227916 %
+
+[P]get found:             1055048.220 / s
+
+----------------------------------
+
+[INFO]Current Time:       77.81 s
+
+[P]indexs Load Factor:    91.6705 %
+
+[P]full bucket LFactor:   72.4618 %
+
+[P]set request:           117004372 
+[P]get request:           115651631 
+
+[P]Get Hit Rate:          69.8281 %
+[P]ACC Hit Rate:          53.4564 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3029376.532 ops
+[P]all request:           232656003 o
+
+[P]GetThroughput:         1500176.060 ops
+[P]SetThroughput:         1529200.472 ops
+
+[P]Valid Entries:         228835.728 / s
+[P]set success:           1478069.521 / s
+
+[P]expire scan persec:    238.258 / s
+[P]total expire scan:     12493
+[P]expire hit persec:      71.837 / s
+[P]total expire hit:      2178
+
+[P]expire hit rate:       30.150754 %
+[P]total expire hit rate: 17.433763 %
+
+[P]get found:             1047545.144 / s
+
+----------------------------------
+
+[INFO]Current Time:       78.65 s
+
+[P]indexs Load Factor:    91.8801 %
+
+[P]full bucket LFactor:   73.0794 %
+
+[P]set request:           118251388 
+[P]get request:           116875002 
+
+[P]Get Hit Rate:          70.9469 %
+[P]ACC Hit Rate:          53.6395 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            2945614.954 ops
+[P]all request:           235126390 o
+
+[P]GetThroughput:         1458710.685 ops
+[P]SetThroughput:         1486904.270 ops
+
+[P]Valid Entries:         224532.780 / s
+[P]set success:           1484029.466 / s
+
+[P]expire scan persec:    228.935 / s
+[P]total expire scan:     12685
+[P]expire hit persec:      84.658 / s
+[P]total expire hit:      2249
+
+[P]expire hit rate:       36.979167 %
+[P]total expire hit rate: 17.729602 %
+
+[P]get found:             1034910.249 / s
+
+----------------------------------
+
+[INFO]Current Time:       79.49 s
+
+[P]indexs Load Factor:    92.0811 %
+
+[P]full bucket LFactor:   73.6757 %
+
+[P]set request:           119553537 
+[P]get request:           118152698 
+
+[P]Get Hit Rate:          68.6698 %
+[P]ACC Hit Rate:          53.8020 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3083236.132 ops
+[P]all request:           237706235 o
+
+[P]GetThroughput:         1527005.875 ops
+[P]SetThroughput:         1556230.256 ops
+
+[P]Valid Entries:         218881.088 / s
+[P]set success:           1505651.390 / s
+
+[P]expire scan persec:    242.610 / s
+[P]total expire scan:     12888
+[P]expire hit persec:      96.805 / s
+[P]total expire hit:      2330
+
+[P]expire hit rate:       39.901478 %
+[P]total expire hit rate: 18.078833 %
+
+[P]get found:             1048591.537 / s
+
+----------------------------------
+
+[INFO]Current Time:       80.32 s
+
+[P]indexs Load Factor:    92.2767 %
+
+[P]full bucket LFactor:   74.2590 %
+
+[P]set request:           120819149 
+[P]get request:           119414078 
+
+[P]Get Hit Rate:          68.6828 %
+[P]ACC Hit Rate:          53.9592 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3045353.634 ops
+[P]all request:           240233227 o
+
+[P]GetThroughput:         1520126.762 ops
+[P]SetThroughput:         1525226.872 ops
+
+[P]Valid Entries:         211790.735 / s
+[P]set success:           1429159.941 / s
+
+[P]expire scan persec:    227.770 / s
+[P]total expire scan:     13077
+[P]expire hit persec:      83.154 / s
+[P]total expire hit:      2399
+
+[P]expire hit rate:       36.507937 %
+[P]total expire hit rate: 18.345186 %
+
+[P]get found:             1044065.500 / s
+
+----------------------------------
+
+[INFO]Current Time:       81.15 s
+
+[P]indexs Load Factor:    92.4683 %
+
+[P]full bucket LFactor:   74.8320 %
+
+[P]set request:           122063830 
+[P]get request:           120615220 
+
+[P]Get Hit Rate:          71.8347 %
+[P]ACC Hit Rate:          54.1372 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            2950133.334 ops
+[P]all request:           242679050 o
+
+[P]GetThroughput:         1448808.459 ops
+[P]SetThroughput:         1501324.874 ops
+
+[P]Valid Entries:         207352.932 / s
+[P]set success:           1452113.427 / s
+
+[P]expire scan persec:    255.713 / s
+[P]total expire scan:     13289
+[P]expire hit persec:     101.320 / s
+[P]total expire hit:      2483
+
+[P]expire hit rate:       39.622642 %
+[P]total expire hit rate: 18.684626 %
+
+[P]get found:             1040747.509 / s
+
+----------------------------------
+
+[INFO]Current Time:       81.98 s
+
+[P]indexs Load Factor:    92.6526 %
+
+[P]full bucket LFactor:   75.3853 %
+
+[P]set request:           123337781 
+[P]get request:           121865006 
+
+[P]Get Hit Rate:          69.5091 %
+[P]ACC Hit Rate:          54.2949 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3039332.451 ops
+[P]all request:           245202787 o
+
+[P]GetThroughput:         1505115.290 ops
+[P]SetThroughput:         1534217.161 ops
+
+[P]Valid Entries:         203699.850 / s
+[P]set success:           1484530.217 / s
+
+[P]expire scan persec:    244.473 / s
+[P]total expire scan:     13492
+[P]expire hit persec:      84.301 / s
+[P]total expire hit:      2553
+
+[P]expire hit rate:       34.482759 %
+[P]total expire hit rate: 18.922324 %
+
+[P]get found:             1046192.091 / s
+
+----------------------------------
+
+[INFO]Current Time:       82.80 s
+
+[P]indexs Load Factor:    92.8337 %
+
+[P]full bucket LFactor:   75.9326 %
+
+[P]set request:           124609063 
+[P]get request:           123072345 
+
+[P]Get Hit Rate:          70.5575 %
+[P]ACC Hit Rate:          54.4544 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3012983.008 ops
+[P]all request:           247681408 o
+
+[P]GetThroughput:         1467627.319 ops
+[P]SetThroughput:         1545355.690 ops
+
+[P]Valid Entries:         196762.437 / s
+[P]set success:           1494691.180 / s
+
+[P]expire scan persec:    224.884 / s
+[P]total expire scan:     13677
+[P]expire hit persec:      79.013 / s
+[P]total expire hit:      2618
+
+[P]expire hit rate:       35.135135 %
+[P]total expire hit rate: 19.141625 %
+
+[P]get found:             1035520.884 / s
+
+----------------------------------
+
+[INFO]Current Time:       83.63 s
+
+[P]indexs Load Factor:    93.0161 %
+
+[P]full bucket LFactor:   76.4898 %
+
+[P]set request:           125949462 
+[P]get request:           124366278 
+
+[P]Get Hit Rate:          68.0317 %
+[P]ACC Hit Rate:          54.5957 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            3179179.092 ops
+[P]all request:           250315740 o
+
+[P]GetThroughput:         1561551.368 ops
+[P]SetThroughput:         1617627.723 ops
+
+[P]Valid Entries:         198849.848 / s
+[P]set success:           1563738.136 / s
+
+[P]expire scan persec:    258.261 / s
+[P]total expire scan:     13891
+[P]expire hit persec:     103.787 / s
+[P]total expire hit:      2704
+
+[P]expire hit rate:       40.186916 %
+[P]total expire hit rate: 19.465841 %
+
+[P]get found:             1062350.405 / s
+
+----------------------------------
+[INFO]End rx_queue_3:2398855
+
+[INFO]Current Time:       84.45 s
+
+[P]indexs Load Factor:    93.1168 %
+
+[P]full bucket LFactor:   76.7985 %
+
+[P]set request:           127153289 
+[P]get request:           125550067 
+
+[P]Get Hit Rate:          67.9505 %
+[P]ACC Hit Rate:          54.7216 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            2890321.072 ops
+[P]all request:           252703356 o
+
+[P]GetThroughput:         1433032.067 ops
+[P]SetThroughput:         1457289.005 ops
+
+[P]Valid Entries:         172805.565 / s
+[P]set success:           1413606.421 / s
+
+[P]expire scan persec:    222.741 / s
+[P]total expire scan:     14075
+[P]expire hit persec:      85.949 / s
+[P]total expire hit:      2775
+
+[P]expire hit rate:       38.586957 %
+[P]total expire hit rate: 19.715808 %
+
+[P]get found:             973753.006 / s
+
+----------------------------------
+[INFO]End rx_queue_1:2701907
+[INFO]End rx_queue_2:2701161
+Finish the job......
+[INFO]End rx_queue_0:2688445
+
+[INFO]Current Time:       85.28 s
+
+[P]indexs Load Factor:    93.1168 %
+
+[P]full bucket LFactor:   76.7985 %
+
+[P]set request:           127164359 
+[P]get request:           125561138 
+
+[P]Get Hit Rate:          67.1665 %
+[P]ACC Hit Rate:          54.7227 %
+
+[P]total cuckoo num:      0 
+[P]total cuckoo path:     0 
+[P]total cp perset:       0.000000 / set
+[P]total cp percuckoo:    -nan / cuckoo num
+
+[P]cuckoo path / s:       0 / s
+[P]cp per set * s:        0 / set * s
+
+[P]break loop / s:        0 / s
+[P]break / set :          0 %
+
+[P]Throughput:            26765.646 ops
+[P]all request:           252725497 o
+
+[P]GetThroughput:         13383.427 ops
+[P]SetThroughput:         13382.218 ops
+
+[P]Valid Entries:         1888.259 / s
+[P]set success:           13382.218 / s
+
+[P]get found:             8989.176 / s
+
+----------------------------------
+
+Total Index Entries:      61112542
+
+indexs Load Factor:     93.116793 %
+
+log_0 Load Factor:      12.350768 %
+
+log_1 Load Factor:      12.389365 %
+
+log_2 Load Factor:      12.366931 %
+
+log_3 Load Factor:      12.319290 %
+
+Get Hit Rate:           54.722696%
+
+Max Throughput:         3184598.30
+
+Calc Load Factor:       93.116793%
+
+set request:              34949772 | set_success:              34949772
+set_fail:                        0 | set_key_duplicate:        10134985 | set_mica_evicted:          8361102
+set_random:                      0 | set_cuckoo_evicted:              0 | set_expire_evicted:              0
+
+get request:              34949772
+get_found:                18755192 | get_notfound:             16194580 | get_hit_ratio:          53.663274%
+
+clean up scan:                 806 | clean up success:              726 | test_notfound:                   0
+move_to_head_performed:    2491194 | move_to_head_skipped:     13529576 | move_to_head_failed:       2734422
+
+
+set request:              35124778 | set_success:              35124778
+set_fail:                        0 | set_key_duplicate:        10122239 | set_mica_evicted:          8381444
+set_random:                      0 | set_cuckoo_evicted:              0 | set_expire_evicted:              0
+
+get request:              35124778
+get_found:                18730694 | get_notfound:             16394084 | get_hit_ratio:          53.326156%
+
+clean up scan:                 813 | clean up success:              730 | test_notfound:                   0
+move_to_head_performed:    2513534 | move_to_head_skipped:     13401428 | move_to_head_failed:       2815732
+
+
+set request:              35115080 | set_success:              35115080
+set_fail:                        0 | set_key_duplicate:        10175201 | set_mica_evicted:          8396952
+set_random:                      0 | set_cuckoo_evicted:              0 | set_expire_evicted:              0
+
+get request:              35115080
+get_found:                18822909 | get_notfound:             16292171 | get_hit_ratio:          53.603492%
+
+clean up scan:                 811 | clean up success:              704 | test_notfound:                   0
+move_to_head_performed:    2513595 | move_to_head_skipped:     13523531 | move_to_head_failed:       2785783
+
+
+set request:              31185102 | set_success:              31185102
+set_fail:                        0 | set_key_duplicate:         8628541 | set_mica_evicted:          7103340
+set_random:                      0 | set_cuckoo_evicted:              0 | set_expire_evicted:              0
+
+get request:              31185102
+get_found:                16085093 | get_notfound:             15100009 | get_hit_ratio:          51.579414%
+
+clean up scan:                 717 | clean up success:              615 | test_notfound:                   0
+move_to_head_performed:    2001620 | move_to_head_skipped:     12179674 | move_to_head_failed:       1903799
+
+
+[INFO] Everything works fine.
+deleting piekv......

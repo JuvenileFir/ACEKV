@@ -1,0 +1,5921 @@
+EAL: Detected 44 lcore(s)
+EAL: Detected 1 NUMA nodes
+EAL: Multi-process socket /var/run/dpdk/rte/mp_socket
+EAL: Selected IOVA mode 'PA'
+EAL: No available hugepages reported in hugepages-1048576kB
+[INFO] maxbytes Size为:1 GB
+[INFO] 运行memc3
+EAL: Probing VFIO support...
+EAL: VFIO support initialized
+EAL: PCI device 0000:03:00.0 on NUMA socket 0
+EAL:   probe driver: 15b3:1017 net_mlx5
+WEN: There are 1 device(s) available
+starting port 0...
+querying port 0...
+port 0: 100 Gbps (full-duplex)
+Adding UDP filter for each endpoint.
+port_id/queue_id/udp_port = 0 0 0
+Flow is created with src_port = 0, dst_port = 0
+port_id/queue_id/udp_port = 0 1 1
+Flow is created with src_port = 0, dst_port = 1
+port_id/queue_id/udp_port = 0 2 2
+Flow is created with src_port = 0, dst_port = 2
+port_id/queue_id/udp_port = 0 3 3
+Flow is created with src_port = 0, dst_port = 3
+MEM: Initializing pages...
+maxbytes:1073741824
+alloc maxbytes:1073741824
+memc3 settings:
+	eviction = CLOCK
+	+int_keycmp
+	+cuckoo 
+	+tag
+	+opt lock
+
+ == [STAT] Workers Start (4 threads in total) == 
+
+[INFO]Current Time:       2.00 s
+
+[P]indexs Load Factor:    0.1484 %
+
+[P]slabs Load Factor:     0.1491 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           25002 
+
+[P]get request:           25001 
+
+[P]Get Hit Rate:          0.6160 %
+
+[P]ACC Hit Rate:          0.6160 %
+
+[P]rx packet:             961.879 / s
+
+[P]Throughput:            49996.694 ops
+
+[P]all request:           50003 o
+
+[P]Valid Entries:         24998.847 / s
+
+[P]set success:           24998.847 / s
+
+[P]get found:             153.981 / s
+
+----------------------------------
+
+[INFO]Current Time:       3.00 s
+
+[P]indexs Load Factor:    0.3607 %
+
+[P]slabs Load Factor:     0.3634 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           60968 
+
+[P]get request:           60959 
+
+[P]Get Hit Rate:          1.3293 %
+
+[P]ACC Hit Rate:          1.0368 %
+
+[P]rx packet:             1382.863 / s
+
+[P]Throughput:            71916.884 ops
+
+[P]all request:           121927 o
+
+[P]Valid Entries:         35962.442 / s
+
+[P]set success:           35962.442 / s
+
+[P]get found:             477.953 / s
+
+----------------------------------
+
+[INFO]Current Time:       4.00 s
+
+[P]indexs Load Factor:    0.5704 %
+
+[P]slabs Load Factor:     0.5768 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           96772 
+
+[P]get request:           96772 
+
+[P]Get Hit Rate:          2.2980 %
+
+[P]ACC Hit Rate:          1.5035 %
+
+[P]rx packet:             1376.782 / s
+
+[P]Throughput:            71605.681 ops
+
+[P]all request:           193544 o
+
+[P]Valid Entries:         35798.341 / s
+
+[P]set success:           35798.341 / s
+
+[P]get found:             822.870 / s
+
+----------------------------------
+
+[INFO]Current Time:       5.00 s
+
+[P]indexs Load Factor:    0.7518 %
+
+[P]slabs Load Factor:     0.7626 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           127949 
+
+[P]get request:           127951 
+
+[P]Get Hit Rate:          3.1977 %
+
+[P]ACC Hit Rate:          1.9164 %
+
+[P]rx packet:             1201.809 / s
+
+[P]Throughput:            62346.085 ops
+
+[P]all request:           255900 o
+
+[P]Valid Entries:         31172.043 / s
+
+[P]set success:           31172.043 / s
+
+[P]get found:             996.841 / s
+
+----------------------------------
+dump mbuf at 0x101f2f880, iova=158992f900, buf_len=2176
+  pkt_len=70, ol_flags=80, nb_segs=1, in_port=0
+  segment at 0x101f2f880, data=0x101f2f980, data_len=70
+  Dump data at [0x101f2f980], len=70
+00000000: 33 33 00 00 00 02 98 03 9B 8F B0 11 86 DD 60 0C | 33............`.
+00000010: 24 98 00 10 3A FF FE 80 00 00 00 00 00 00 9A 03 | $...:...........
+00000020: 9B FF FE 8F B0 11 FF 02 00 00 00 00 00 00 00 00 | ................
+00000030: 00 00 00 00 00 02 85 00 B3 E4 00 00 00 00 01 01 | ................
+00000040: 98 03 9B 8F B0 11                               | ......
+
+[INFO]Current Time:       6.00 s
+
+[P]indexs Load Factor:    0.9135 %
+
+[P]slabs Load Factor:     0.9294 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           155922 
+
+[P]get request:           155922 
+
+[P]Get Hit Rate:          4.1186 %
+
+[P]ACC Hit Rate:          2.3114 %
+
+[P]rx packet:             1075.826 / s
+
+[P]Throughput:            55934.945 ops
+
+[P]all request:           311844 o
+
+[P]Valid Entries:         27968.472 / s
+
+[P]set success:           27968.472 / s
+
+[P]get found:             1151.814 / s
+
+----------------------------------
+
+[INFO]Current Time:       7.00 s
+
+[P]indexs Load Factor:    1.0396 %
+
+[P]slabs Load Factor:     1.0603 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           177892 
+
+[P]get request:           177892 
+
+[P]Get Hit Rate:          5.0114 %
+
+[P]ACC Hit Rate:          2.6449 %
+
+[P]rx packet:             843.866 / s
+
+[P]Throughput:            43933.014 ops
+
+[P]all request:           355784 o
+
+[P]Valid Entries:         21966.507 / s
+
+[P]set success:           21966.507 / s
+
+[P]get found:             1100.825 / s
+
+----------------------------------
+
+[INFO]Current Time:       8.00 s
+
+[P]indexs Load Factor:    1.1356 %
+
+[P]slabs Load Factor:     1.1604 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           194688 
+
+[P]get request:           194688 
+
+[P]Get Hit Rate:          5.5847 %
+
+[P]ACC Hit Rate:          2.8985 %
+
+[P]rx packet:             647.890 / s
+
+[P]Throughput:            33586.291 ops
+
+[P]all request:           389376 o
+
+[P]Valid Entries:         16793.145 / s
+
+[P]set success:           16793.145 / s
+
+[P]get found:             937.841 / s
+
+----------------------------------
+
+[INFO]Current Time:       9.00 s
+
+[P]indexs Load Factor:    1.3812 %
+
+[P]slabs Load Factor:     1.4180 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           237900 
+
+[P]get request:           237900 
+
+[P]Get Hit Rate:          6.2668 %
+
+[P]ACC Hit Rate:          3.5103 %
+
+[P]rx packet:             1658.733 / s
+
+[P]Throughput:            86410.094 ops
+
+[P]all request:           475800 o
+
+[P]Valid Entries:         43205.047 / s
+
+[P]set success:           43205.047 / s
+
+[P]get found:             2707.564 / s
+
+----------------------------------
+
+[INFO]Current Time:       10.00 s
+
+[P]indexs Load Factor:    1.5856 %
+
+[P]slabs Load Factor:     1.6340 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           274144 
+
+[P]get request:           274144 
+
+[P]Get Hit Rate:          7.2205 %
+
+[P]ACC Hit Rate:          4.0008 %
+
+[P]rx packet:             1393.780 / s
+
+[P]Throughput:            72476.544 ops
+
+[P]all request:           548288 o
+
+[P]Valid Entries:         36238.272 / s
+
+[P]set success:           36238.272 / s
+
+[P]get found:             2616.586 / s
+
+----------------------------------
+
+[INFO]Current Time:       11.00 s
+
+[P]indexs Load Factor:    1.7852 %
+
+[P]slabs Load Factor:     1.8470 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           309868 
+
+[P]get request:           309868 
+
+[P]Get Hit Rate:          8.3333 %
+
+[P]ACC Hit Rate:          4.5003 %
+
+[P]rx packet:             1373.782 / s
+
+[P]Throughput:            71436.640 ops
+
+[P]all request:           619736 o
+
+[P]Valid Entries:         35718.320 / s
+
+[P]set success:           35718.320 / s
+
+[P]get found:             2976.527 / s
+
+----------------------------------
+
+[INFO]Current Time:       12.00 s
+
+[P]indexs Load Factor:    1.9873 %
+
+[P]slabs Load Factor:     2.0642 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           346320 
+
+[P]get request:           346320 
+
+[P]Get Hit Rate:          9.4618 %
+
+[P]ACC Hit Rate:          5.0225 %
+
+[P]rx packet:             1401.776 / s
+
+[P]Throughput:            72892.339 ops
+
+[P]all request:           692640 o
+
+[P]Valid Entries:         36446.169 / s
+
+[P]set success:           36446.169 / s
+
+[P]get found:             3448.448 / s
+
+----------------------------------
+
+[INFO]Current Time:       13.00 s
+
+[P]indexs Load Factor:    2.1867 %
+
+[P]slabs Load Factor:     2.2802 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           382552 
+
+[P]get request:           382556 
+
+[P]Get Hit Rate:          10.1032 %
+
+[P]ACC Hit Rate:          5.5038 %
+
+[P]rx packet:             1393.773 / s
+
+[P]Throughput:            72456.184 ops
+
+[P]all request:           765108 o
+
+[P]Valid Entries:         36226.092 / s
+
+[P]set success:           36226.092 / s
+
+[P]get found:             3660.403 / s
+
+----------------------------------
+
+[INFO]Current Time:       14.00 s
+
+[P]indexs Load Factor:    2.3825 %
+
+[P]slabs Load Factor:     2.4936 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           418354 
+
+[P]get request:           418361 
+
+[P]Get Hit Rate:          11.0264 %
+
+[P]ACC Hit Rate:          5.9764 %
+
+[P]rx packet:             1376.704 / s
+
+[P]Throughput:            71591.621 ops
+
+[P]all request:           836715 o
+
+[P]Valid Entries:         35794.311 / s
+
+[P]set success:           35794.311 / s
+
+[P]get found:             3947.152 / s
+
+----------------------------------
+
+[INFO]Current Time:       15.00 s
+
+[P]indexs Load Factor:    2.5782 %
+
+[P]slabs Load Factor:     2.7089 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           454480 
+
+[P]get request:           454480 
+
+[P]Get Hit Rate:          12.3785 %
+
+[P]ACC Hit Rate:          6.4852 %
+
+[P]rx packet:             1388.777 / s
+
+[P]Throughput:            72233.427 ops
+
+[P]all request:           908960 o
+
+[P]Valid Entries:         36120.213 / s
+
+[P]set success:           36120.213 / s
+
+[P]get found:             4470.284 / s
+
+----------------------------------
+
+[INFO]Current Time:       16.00 s
+
+[P]indexs Load Factor:    2.7728 %
+
+[P]slabs Load Factor:     2.9249 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           490724 
+
+[P]get request:           490724 
+
+[P]Get Hit Rate:          13.2215 %
+
+[P]ACC Hit Rate:          6.9827 %
+
+[P]rx packet:             1393.779 / s
+
+[P]Throughput:            72476.492 ops
+
+[P]all request:           981448 o
+
+[P]Valid Entries:         36238.246 / s
+
+[P]set success:           36238.246 / s
+
+[P]get found:             4791.239 / s
+
+----------------------------------
+
+[INFO]Current Time:       17.00 s
+
+[P]indexs Load Factor:    2.9658 %
+
+[P]slabs Load Factor:     3.1404 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           526864 
+
+[P]get request:           526864 
+
+[P]Get Hit Rate:          13.7714 %
+
+[P]ACC Hit Rate:          7.4484 %
+
+[P]rx packet:             1389.776 / s
+
+[P]Throughput:            72268.352 ops
+
+[P]all request:           1053728 o
+
+[P]Valid Entries:         36134.176 / s
+
+[P]set success:           36134.176 / s
+
+[P]get found:             4976.198 / s
+
+----------------------------------
+
+[INFO]Current Time:       18.00 s
+
+[P]indexs Load Factor:    3.1565 %
+
+[P]slabs Load Factor:     3.3548 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           562848 
+
+[P]get request:           562848 
+
+[P]Get Hit Rate:          14.8149 %
+
+[P]ACC Hit Rate:          7.9194 %
+
+[P]rx packet:             1383.779 / s
+
+[P]Throughput:            71956.488 ops
+
+[P]all request:           1125696 o
+
+[P]Valid Entries:         35978.244 / s
+
+[P]set success:           35978.244 / s
+
+[P]get found:             5330.147 / s
+
+----------------------------------
+
+[INFO]Current Time:       19.00 s
+
+[P]indexs Load Factor:    3.3449 %
+
+[P]slabs Load Factor:     3.5688 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           598747 
+
+[P]get request:           598745 
+
+[P]Get Hit Rate:          15.8370 %
+
+[P]ACC Hit Rate:          8.3941 %
+
+[P]rx packet:             1380.776 / s
+
+[P]Throughput:            71784.379 ops
+
+[P]all request:           1197492 o
+
+[P]Valid Entries:         35893.189 / s
+
+[P]set success:           35893.189 / s
+
+[P]get found:             5684.080 / s
+
+----------------------------------
+
+[INFO]Current Time:       20.00 s
+
+[P]indexs Load Factor:    3.5340 %
+
+[P]slabs Load Factor:     3.7847 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           634972 
+
+[P]get request:           634972 
+
+[P]Get Hit Rate:          16.5843 %
+
+[P]ACC Hit Rate:          8.8613 %
+
+[P]rx packet:             1392.776 / s
+
+[P]Throughput:            72440.325 ops
+
+[P]all request:           1269944 o
+
+[P]Valid Entries:         36219.163 / s
+
+[P]set success:           36219.163 / s
+
+[P]get found:             6007.032 / s
+
+----------------------------------
+
+[INFO]Current Time:       21.00 s
+
+[P]indexs Load Factor:    3.7197 %
+
+[P]slabs Load Factor:     3.9989 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           670904 
+
+[P]get request:           670904 
+
+[P]Get Hit Rate:          17.5470 %
+
+[P]ACC Hit Rate:          9.3265 %
+
+[P]rx packet:             1381.706 / s
+
+[P]Throughput:            71848.703 ops
+
+[P]all request:           1341808 o
+
+[P]Valid Entries:         35924.351 / s
+
+[P]set success:           35924.351 / s
+
+[P]get found:             6303.658 / s
+
+----------------------------------
+
+[INFO]Current Time:       22.00 s
+
+[P]indexs Load Factor:    3.9039 %
+
+[P]slabs Load Factor:     4.2134 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           706890 
+
+[P]get request:           706890 
+
+[P]Get Hit Rate:          18.4627 %
+
+[P]ACC Hit Rate:          9.7916 %
+
+[P]rx packet:             1384.777 / s
+
+[P]Throughput:            71960.419 ops
+
+[P]all request:           1413780 o
+
+[P]Valid Entries:         35980.210 / s
+
+[P]set success:           35980.210 / s
+
+[P]get found:             6642.931 / s
+
+----------------------------------
+
+[INFO]Current Time:       23.00 s
+
+[P]indexs Load Factor:    4.0873 %
+
+[P]slabs Load Factor:     4.4282 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           742924 
+
+[P]get request:           742924 
+
+[P]Get Hit Rate:          19.1541 %
+
+[P]ACC Hit Rate:          10.2457 %
+
+[P]rx packet:             1384.781 / s
+
+[P]Throughput:            72056.610 ops
+
+[P]all request:           1485848 o
+
+[P]Valid Entries:         36028.305 / s
+
+[P]set success:           36028.305 / s
+
+[P]get found:             6900.909 / s
+
+----------------------------------
+
+[INFO]Current Time:       24.00 s
+
+[P]indexs Load Factor:    4.2688 %
+
+[P]slabs Load Factor:     4.6425 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           778883 
+
+[P]get request:           778887 
+
+[P]Get Hit Rate:          20.4599 %
+
+[P]ACC Hit Rate:          10.7173 %
+
+[P]rx packet:             1383.773 / s
+
+[P]Throughput:            71910.204 ops
+
+[P]all request:           1557770 o
+
+[P]Valid Entries:         35953.103 / s
+
+[P]set success:           35953.103 / s
+
+[P]get found:             7356.793 / s
+
+----------------------------------
+
+[INFO]Current Time:       25.00 s
+
+[P]indexs Load Factor:    4.4498 %
+
+[P]slabs Load Factor:     4.8573 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           814922 
+
+[P]get request:           814924 
+
+[P]Get Hit Rate:          20.7259 %
+
+[P]ACC Hit Rate:          11.1599 %
+
+[P]rx packet:             1385.757 / s
+
+[P]Throughput:            72063.389 ops
+
+[P]all request:           1629846 o
+
+[P]Valid Entries:         36032.694 / s
+
+[P]set success:           36032.694 / s
+
+[P]get found:             7467.693 / s
+
+----------------------------------
+
+[INFO]Current Time:       26.00 s
+
+[P]indexs Load Factor:    4.6297 %
+
+[P]slabs Load Factor:     5.0732 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           851136 
+
+[P]get request:           851136 
+
+[P]Get Hit Rate:          22.0949 %
+
+[P]ACC Hit Rate:          11.6252 %
+
+[P]rx packet:             1391.775 / s
+
+[P]Throughput:            72414.277 ops
+
+[P]all request:           1702272 o
+
+[P]Valid Entries:         36208.138 / s
+
+[P]set success:           36208.138 / s
+
+[P]get found:             7999.705 / s
+
+----------------------------------
+
+[INFO]Current Time:       27.00 s
+
+[P]indexs Load Factor:    4.8070 %
+
+[P]slabs Load Factor:     5.2881 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           887202 
+
+[P]get request:           887206 
+
+[P]Get Hit Rate:          23.3241 %
+
+[P]ACC Hit Rate:          12.1008 %
+
+[P]rx packet:             1387.774 / s
+
+[P]Throughput:            72124.238 ops
+
+[P]all request:           1774408 o
+
+[P]Valid Entries:         36060.119 / s
+
+[P]set success:           36060.119 / s
+
+[P]get found:             8411.628 / s
+
+----------------------------------
+
+[INFO]Current Time:       28.00 s
+
+[P]indexs Load Factor:    4.9828 %
+
+[P]slabs Load Factor:     5.5032 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           923286 
+
+[P]get request:           923286 
+
+[P]Get Hit Rate:          24.0965 %
+
+[P]ACC Hit Rate:          12.5696 %
+
+[P]rx packet:             1386.706 / s
+
+[P]Throughput:            72148.708 ops
+
+[P]all request:           1846572 o
+
+[P]Valid Entries:         36076.353 / s
+
+[P]set success:           36076.353 / s
+
+[P]get found:             8692.158 / s
+
+----------------------------------
+
+[INFO]Current Time:       29.00 s
+
+[P]indexs Load Factor:    5.1580 %
+
+[P]slabs Load Factor:     5.7184 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           959392 
+
+[P]get request:           959393 
+
+[P]Get Hit Rate:          24.6683 %
+
+[P]ACC Hit Rate:          13.0249 %
+
+[P]rx packet:             1388.774 / s
+
+[P]Throughput:            72201.226 ops
+
+[P]all request:           1918785 o
+
+[P]Valid Entries:         36100.113 / s
+
+[P]set success:           36100.113 / s
+
+[P]get found:             8905.548 / s
+
+----------------------------------
+
+[INFO]Current Time:       30.00 s
+
+[P]indexs Load Factor:    5.3299 %
+
+[P]slabs Load Factor:     5.9316 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           995152 
+
+[P]get request:           995154 
+
+[P]Get Hit Rate:          25.4355 %
+
+[P]ACC Hit Rate:          13.4709 %
+
+[P]rx packet:             1375.774 / s
+
+[P]Throughput:            71509.270 ops
+
+[P]all request:           1990306 o
+
+[P]Valid Entries:         35754.135 / s
+
+[P]set success:           35754.135 / s
+
+[P]get found:             9094.508 / s
+
+----------------------------------
+
+[INFO]Current Time:       31.01 s
+
+[P]indexs Load Factor:    5.5022 %
+
+[P]slabs Load Factor:     6.1473 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           1031343 
+
+[P]get request:           1031346 
+
+[P]Get Hit Rate:          26.5445 %
+
+[P]ACC Hit Rate:          13.9297 %
+
+[P]rx packet:             1391.772 / s
+
+[P]Throughput:            72371.129 ops
+
+[P]all request:           2062689 o
+
+[P]Valid Entries:         36185.064 / s
+
+[P]set success:           36185.064 / s
+
+[P]get found:             9605.424 / s
+
+----------------------------------
+
+[INFO]Current Time:       32.01 s
+
+[P]indexs Load Factor:    5.6722 %
+
+[P]slabs Load Factor:     6.3613 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           1067251 
+
+[P]get request:           1067254 
+
+[P]Get Hit Rate:          27.2753 %
+
+[P]ACC Hit Rate:          14.3787 %
+
+[P]rx packet:             1380.772 / s
+
+[P]Throughput:            71804.153 ops
+
+[P]all request:           2134505 o
+
+[P]Valid Entries:         35902.077 / s
+
+[P]set success:           35902.077 / s
+
+[P]get found:             9792.384 / s
+
+----------------------------------
+
+[INFO]Current Time:       33.01 s
+
+[P]indexs Load Factor:    5.8427 %
+
+[P]slabs Load Factor:     6.5779 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           1103596 
+
+[P]get request:           1103602 
+
+[P]Get Hit Rate:          28.0208 %
+
+[P]ACC Hit Rate:          14.8280 %
+
+[P]rx packet:             1397.774 / s
+
+[P]Throughput:            72681.234 ops
+
+[P]all request:           2207198 o
+
+[P]Valid Entries:         36339.117 / s
+
+[P]set success:           36339.117 / s
+
+[P]get found:             10183.351 / s
+
+----------------------------------
+
+[INFO]Current Time:       34.01 s
+
+[P]indexs Load Factor:    6.0105 %
+
+[P]slabs Load Factor:     6.7928 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           1139635 
+
+[P]get request:           1139637 
+
+[P]Get Hit Rate:          28.9385 %
+
+[P]ACC Hit Rate:          15.2742 %
+
+[P]rx packet:             1385.766 / s
+
+[P]Throughput:            72061.819 ops
+
+[P]all request:           2279272 o
+
+[P]Valid Entries:         36032.909 / s
+
+[P]set success:           36032.909 / s
+
+[P]get found:             10426.238 / s
+
+----------------------------------
+
+[INFO]Current Time:       35.01 s
+
+[P]indexs Load Factor:    6.1772 %
+
+[P]slabs Load Factor:     7.0075 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           1175668 
+
+[P]get request:           1175668 
+
+[P]Get Hit Rate:          29.3358 %
+
+[P]ACC Hit Rate:          15.7051 %
+
+[P]rx packet:             1384.866 / s
+
+[P]Throughput:            72057.008 ops
+
+[P]all request:           2351336 o
+
+[P]Valid Entries:         36029.504 / s
+
+[P]set success:           36029.504 / s
+
+[P]get found:             10568.974 / s
+
+----------------------------------
+
+[INFO]Current Time:       36.01 s
+
+[P]indexs Load Factor:    6.3420 %
+
+[P]slabs Load Factor:     7.2222 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           1211678 
+
+[P]get request:           1211678 
+
+[P]Get Hit Rate:          30.4082 %
+
+[P]ACC Hit Rate:          16.1421 %
+
+[P]rx packet:             1384.797 / s
+
+[P]Throughput:            72009.424 ops
+
+[P]all request:           2423356 o
+
+[P]Valid Entries:         36004.712 / s
+
+[P]set success:           36004.712 / s
+
+[P]get found:             10948.392 / s
+
+----------------------------------
+
+[INFO]Current Time:       37.01 s
+
+[P]indexs Load Factor:    6.5060 %
+
+[P]slabs Load Factor:     7.4370 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           1247714 
+
+[P]get request:           1247714 
+
+[P]Get Hit Rate:          30.9330 %
+
+[P]ACC Hit Rate:          16.5693 %
+
+[P]rx packet:             1385.863 / s
+
+[P]Throughput:            72064.852 ops
+
+[P]all request:           2495428 o
+
+[P]Valid Entries:         36032.426 / s
+
+[P]set success:           36032.426 / s
+
+[P]get found:             11145.895 / s
+
+----------------------------------
+
+[INFO]Current Time:       38.01 s
+
+[P]indexs Load Factor:    6.6678 %
+
+[P]slabs Load Factor:     7.6516 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           1283724 
+
+[P]get request:           1283724 
+
+[P]Get Hit Rate:          32.2049 %
+
+[P]ACC Hit Rate:          17.0079 %
+
+[P]rx packet:             1384.781 / s
+
+[P]Throughput:            72008.635 ops
+
+[P]all request:           2567448 o
+
+[P]Valid Entries:         36004.317 / s
+
+[P]set success:           36004.317 / s
+
+[P]get found:             11595.170 / s
+
+----------------------------------
+
+[INFO]Current Time:       39.01 s
+
+[P]indexs Load Factor:    6.8296 %
+
+[P]slabs Load Factor:     7.8667 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           1319812 
+
+[P]get request:           1319812 
+
+[P]Get Hit Rate:          32.4595 %
+
+[P]ACC Hit Rate:          17.4304 %
+
+[P]rx packet:             1387.783 / s
+
+[P]Throughput:            72164.730 ops
+
+[P]all request:           2639624 o
+
+[P]Valid Entries:         36082.365 / s
+
+[P]set success:           36082.365 / s
+
+[P]get found:             11712.171 / s
+
+----------------------------------
+
+[INFO]Current Time:       40.01 s
+
+[P]indexs Load Factor:    6.9898 %
+
+[P]slabs Load Factor:     8.0812 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           1355802 
+
+[P]get request:           1355802 
+
+[P]Get Hit Rate:          33.1564 %
+
+[P]ACC Hit Rate:          17.8478 %
+
+[P]rx packet:             1384.784 / s
+
+[P]Throughput:            71968.778 ops
+
+[P]all request:           2711604 o
+
+[P]Valid Entries:         35984.389 / s
+
+[P]set success:           35984.389 / s
+
+[P]get found:             11931.140 / s
+
+----------------------------------
+
+[INFO]Current Time:       41.01 s
+
+[P]indexs Load Factor:    7.1488 %
+
+[P]slabs Load Factor:     8.2967 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           1391962 
+
+[P]get request:           1391962 
+
+[P]Get Hit Rate:          34.4580 %
+
+[P]ACC Hit Rate:          18.2793 %
+
+[P]rx packet:             1390.780 / s
+
+[P]Throughput:            72308.570 ops
+
+[P]all request:           2783924 o
+
+[P]Valid Entries:         36154.285 / s
+
+[P]set success:           36154.285 / s
+
+[P]get found:             12458.031 / s
+
+----------------------------------
+
+[INFO]Current Time:       42.01 s
+
+[P]indexs Load Factor:    7.3057 %
+
+[P]slabs Load Factor:     8.5112 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           1427940 
+
+[P]get request:           1427931 
+
+[P]Get Hit Rate:          34.8634 %
+
+[P]ACC Hit Rate:          18.6971 %
+
+[P]rx packet:             1382.786 / s
+
+[P]Throughput:            71935.852 ops
+
+[P]all request:           2855871 o
+
+[P]Valid Entries:         35972.425 / s
+
+[P]set success:           35972.425 / s
+
+[P]get found:             12538.057 / s
+
+----------------------------------
+
+[INFO]Current Time:       43.01 s
+
+[P]indexs Load Factor:    7.4620 %
+
+[P]slabs Load Factor:     8.7260 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           1463982 
+
+[P]get request:           1463982 
+
+[P]Get Hit Rate:          35.6800 %
+
+[P]ACC Hit Rate:          19.1153 %
+
+[P]rx packet:             1385.716 / s
+
+[P]Throughput:            72078.221 ops
+
+[P]all request:           2927964 o
+
+[P]Valid Entries:         36034.611 / s
+
+[P]set success:           36034.611 / s
+
+[P]get found:             12860.363 / s
+
+----------------------------------
+
+[INFO]Current Time:       44.01 s
+
+[P]indexs Load Factor:    7.6169 %
+
+[P]slabs Load Factor:     8.9408 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           1500022 
+
+[P]get request:           1500023 
+
+[P]Get Hit Rate:          36.5195 %
+
+[P]ACC Hit Rate:          19.5334 %
+
+[P]rx packet:             1387.853 / s
+
+[P]Throughput:            72073.370 ops
+
+[P]all request:           3000045 o
+
+[P]Valid Entries:         36036.185 / s
+
+[P]set success:           36036.185 / s
+
+[P]get found:             13160.607 / s
+
+----------------------------------
+
+[INFO]Current Time:       45.01 s
+
+[P]indexs Load Factor:    7.7707 %
+
+[P]slabs Load Factor:     9.1554 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           1536029 
+
+[P]get request:           1536030 
+
+[P]Get Hit Rate:          37.1594 %
+
+[P]ACC Hit Rate:          19.9466 %
+
+[P]rx packet:             1383.777 / s
+
+[P]Throughput:            72002.412 ops
+
+[P]all request:           3072059 o
+
+[P]Valid Entries:         36001.206 / s
+
+[P]set success:           36001.206 / s
+
+[P]get found:             13377.847 / s
+
+----------------------------------
+
+[INFO]Current Time:       46.01 s
+
+[P]indexs Load Factor:    7.9241 %
+
+[P]slabs Load Factor:     9.3709 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           1572168 
+
+[P]get request:           1572171 
+
+[P]Get Hit Rate:          37.7826 %
+
+[P]ACC Hit Rate:          20.3566 %
+
+[P]rx packet:             1389.780 / s
+
+[P]Throughput:            72268.576 ops
+
+[P]all request:           3144339 o
+
+[P]Valid Entries:         36133.288 / s
+
+[P]set success:           36133.288 / s
+
+[P]get found:             13652.842 / s
+
+----------------------------------
+
+[INFO]Current Time:       47.01 s
+
+[P]indexs Load Factor:    8.0737 %
+
+[P]slabs Load Factor:     9.5838 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           1607894 
+
+[P]get request:           1607897 
+
+[P]Get Hit Rate:          39.0304 %
+
+[P]ACC Hit Rate:          20.7715 %
+
+[P]rx packet:             1373.777 / s
+
+[P]Throughput:            71440.418 ops
+
+[P]all request:           3215791 o
+
+[P]Valid Entries:         35720.209 / s
+
+[P]set success:           35720.209 / s
+
+[P]get found:             13941.740 / s
+
+----------------------------------
+
+[INFO]Current Time:       48.01 s
+
+[P]indexs Load Factor:    8.2256 %
+
+[P]slabs Load Factor:     9.8014 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           1644396 
+
+[P]get request:           1644396 
+
+[P]Get Hit Rate:          39.7107 %
+
+[P]ACC Hit Rate:          21.1919 %
+
+[P]rx packet:             1402.759 / s
+
+[P]Throughput:            72988.453 ops
+
+[P]all request:           3288792 o
+
+[P]Valid Entries:         36495.726 / s
+
+[P]set success:           36495.726 / s
+
+[P]get found:             14491.509 / s
+
+----------------------------------
+
+[INFO]Current Time:       49.01 s
+
+[P]indexs Load Factor:    8.3746 %
+
+[P]slabs Load Factor:     10.0166 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           1680510 
+
+[P]get request:           1680510 
+
+[P]Get Hit Rate:          40.6297 %
+
+[P]ACC Hit Rate:          21.6096 %
+
+[P]rx packet:             1388.775 / s
+
+[P]Throughput:            72216.309 ops
+
+[P]all request:           3361020 o
+
+[P]Valid Entries:         36108.155 / s
+
+[P]set success:           36108.155 / s
+
+[P]get found:             14670.625 / s
+
+----------------------------------
+
+[INFO]Current Time:       50.01 s
+
+[P]indexs Load Factor:    8.5220 %
+
+[P]slabs Load Factor:     10.2320 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           1716650 
+
+[P]get request:           1716650 
+
+[P]Get Hit Rate:          41.2479 %
+
+[P]ACC Hit Rate:          22.0231 %
+
+[P]rx packet:             1389.700 / s
+
+[P]Throughput:            72264.390 ops
+
+[P]all request:           3433300 o
+
+[P]Valid Entries:         36132.195 / s
+
+[P]set success:           36132.195 / s
+
+[P]get found:             14903.781 / s
+
+----------------------------------
+
+[INFO]Current Time:       51.01 s
+
+[P]indexs Load Factor:    8.6678 %
+
+[P]slabs Load Factor:     10.4467 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           1752660 
+
+[P]get request:           1752660 
+
+[P]Get Hit Rate:          41.7634 %
+
+[P]ACC Hit Rate:          22.4287 %
+
+[P]rx packet:             1384.775 / s
+
+[P]Throughput:            72008.326 ops
+
+[P]all request:           3505320 o
+
+[P]Valid Entries:         36004.163 / s
+
+[P]set success:           36004.163 / s
+
+[P]get found:             15036.562 / s
+
+----------------------------------
+
+[INFO]Current Time:       52.01 s
+
+[P]indexs Load Factor:    8.8135 %
+
+[P]slabs Load Factor:     10.6618 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           1788748 
+
+[P]get request:           1788750 
+
+[P]Get Hit Rate:          41.9618 %
+
+[P]ACC Hit Rate:          22.8228 %
+
+[P]rx packet:             1388.777 / s
+
+[P]Throughput:            72166.386 ops
+
+[P]all request:           3577498 o
+
+[P]Valid Entries:         36082.193 / s
+
+[P]set success:           36082.193 / s
+
+[P]get found:             15141.563 / s
+
+----------------------------------
+
+[INFO]Current Time:       53.01 s
+
+[P]indexs Load Factor:    8.9572 %
+
+[P]slabs Load Factor:     10.8759 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           1824680 
+
+[P]get request:           1824680 
+
+[P]Get Hit Rate:          43.1227 %
+
+[P]ACC Hit Rate:          23.2225 %
+
+[P]rx packet:             1380.772 / s
+
+[P]Throughput:            71850.146 ops
+
+[P]all request:           3649360 o
+
+[P]Valid Entries:         35926.073 / s
+
+[P]set success:           35926.073 / s
+
+[P]get found:             15491.444 / s
+
+----------------------------------
+
+[INFO]Current Time:       54.01 s
+
+[P]indexs Load Factor:    9.1003 %
+
+[P]slabs Load Factor:     11.0906 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           1860700 
+
+[P]get request:           1860700 
+
+[P]Get Hit Rate:          43.2593 %
+
+[P]ACC Hit Rate:          23.6104 %
+
+[P]rx packet:             1385.774 / s
+
+[P]Throughput:            72028.254 ops
+
+[P]all request:           3721400 o
+
+[P]Valid Entries:         36014.127 / s
+
+[P]set success:           36014.127 / s
+
+[P]get found:             15579.459 / s
+
+----------------------------------
+
+[INFO]Current Time:       55.01 s
+
+[P]indexs Load Factor:    9.2423 %
+
+[P]slabs Load Factor:     11.3054 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           1896727 
+
+[P]get request:           1896728 
+
+[P]Get Hit Rate:          44.3599 %
+
+[P]ACC Hit Rate:          24.0045 %
+
+[P]rx packet:             1385.766 / s
+
+[P]Throughput:            72042.822 ops
+
+[P]all request:           3793455 o
+
+[P]Valid Entries:         36020.911 / s
+
+[P]set success:           36020.911 / s
+
+[P]get found:             15979.299 / s
+
+----------------------------------
+
+[INFO]Current Time:       56.01 s
+
+[P]indexs Load Factor:    9.3849 %
+
+[P]slabs Load Factor:     11.5225 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           1933152 
+
+[P]get request:           1933155 
+
+[P]Get Hit Rate:          45.1067 %
+
+[P]ACC Hit Rate:          24.4021 %
+
+[P]rx packet:             1400.769 / s
+
+[P]Throughput:            72839.982 ops
+
+[P]all request:           3866307 o
+
+[P]Valid Entries:         36418.991 / s
+
+[P]set success:           36418.991 / s
+
+[P]get found:             16428.290 / s
+
+----------------------------------
+
+[INFO]Current Time:       57.01 s
+
+[P]indexs Load Factor:    9.5246 %
+
+[P]slabs Load Factor:     11.7370 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           1969137 
+
+[P]get request:           1969138 
+
+[P]Get Hit Rate:          45.5132 %
+
+[P]ACC Hit Rate:          24.7879 %
+
+[P]rx packet:             1383.704 / s
+
+[P]Throughput:            71952.612 ops
+
+[P]all request:           3938275 o
+
+[P]Valid Entries:         35977.306 / s
+
+[P]set success:           35977.306 / s
+
+[P]get found:             16373.498 / s
+
+----------------------------------
+
+[INFO]Current Time:       58.01 s
+
+[P]indexs Load Factor:    9.6639 %
+
+[P]slabs Load Factor:     11.9528 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           2005354 
+
+[P]get request:           2005354 
+
+[P]Get Hit Rate:          46.2199 %
+
+[P]ACC Hit Rate:          25.1750 %
+
+[P]rx packet:             1391.774 / s
+
+[P]Throughput:            72421.259 ops
+
+[P]all request:           4010708 o
+
+[P]Valid Entries:         36211.129 / s
+
+[P]set success:           36211.129 / s
+
+[P]get found:             16736.287 / s
+
+----------------------------------
+
+[INFO]Current Time:       59.01 s
+
+[P]indexs Load Factor:    9.8009 %
+
+[P]slabs Load Factor:     12.1671 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           2041298 
+
+[P]get request:           2041293 
+
+[P]Get Hit Rate:          47.0742 %
+
+[P]ACC Hit Rate:          25.5605 %
+
+[P]rx packet:             1382.774 / s
+
+[P]Throughput:            71871.279 ops
+
+[P]all request:           4082591 o
+
+[P]Valid Entries:         35938.139 / s
+
+[P]set success:           35938.139 / s
+
+[P]get found:             16915.241 / s
+
+----------------------------------
+
+[INFO]Current Time:       60.01 s
+
+[P]indexs Load Factor:    9.9372 %
+
+[P]slabs Load Factor:     12.3827 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           2077474 
+
+[P]get request:           2077468 
+
+[P]Get Hit Rate:          47.9005 %
+
+[P]ACC Hit Rate:          25.9495 %
+
+[P]rx packet:             1390.847 / s
+
+[P]Throughput:            72343.049 ops
+
+[P]all request:           4154942 o
+
+[P]Valid Entries:         36172.024 / s
+
+[P]set success:           36172.024 / s
+
+[P]get found:             17326.096 / s
+
+----------------------------------
+
+[INFO]Current Time:       61.01 s
+
+[P]indexs Load Factor:    10.0721 %
+
+[P]slabs Load Factor:     12.5977 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           2113540 
+
+[P]get request:           2113540 
+
+[P]Get Hit Rate:          48.6250 %
+
+[P]ACC Hit Rate:          26.3365 %
+
+[P]rx packet:             1386.760 / s
+
+[P]Throughput:            72125.516 ops
+
+[P]all request:           4227080 o
+
+[P]Valid Entries:         36059.758 / s
+
+[P]set success:           36059.758 / s
+
+[P]get found:             17536.964 / s
+
+----------------------------------
+
+[INFO]Current Time:       62.01 s
+
+[P]indexs Load Factor:    10.2056 %
+
+[P]slabs Load Factor:     12.8120 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           2149504 
+
+[P]get request:           2149499 
+
+[P]Get Hit Rate:          49.3812 %
+
+[P]ACC Hit Rate:          26.7220 %
+
+[P]rx packet:             1383.757 / s
+
+[P]Throughput:            71910.347 ops
+
+[P]all request:           4299003 o
+
+[P]Valid Entries:         35957.673 / s
+
+[P]set success:           35957.673 / s
+
+[P]get found:             17753.876 / s
+
+----------------------------------
+
+[INFO]Current Time:       63.01 s
+
+[P]indexs Load Factor:    10.3384 %
+
+[P]slabs Load Factor:     13.0271 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           2185586 
+
+[P]get request:           2185586 
+
+[P]Get Hit Rate:          49.9127 %
+
+[P]ACC Hit Rate:          27.1050 %
+
+[P]rx packet:             1386.770 / s
+
+[P]Throughput:            72157.026 ops
+
+[P]all request:           4371172 o
+
+[P]Valid Entries:         36076.014 / s
+
+[P]set success:           36076.014 / s
+
+[P]get found:             18009.012 / s
+
+----------------------------------
+
+[INFO]Current Time:       64.01 s
+
+[P]indexs Load Factor:    10.4701 %
+
+[P]slabs Load Factor:     13.2424 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           2221700 
+
+[P]get request:           2221700 
+
+[P]Get Hit Rate:          50.3655 %
+
+[P]ACC Hit Rate:          27.4831 %
+
+[P]rx packet:             1388.777 / s
+
+[P]Throughput:            72216.378 ops
+
+[P]all request:           4443400 o
+
+[P]Valid Entries:         36108.189 / s
+
+[P]set success:           36108.189 / s
+
+[P]get found:             18186.073 / s
+
+----------------------------------
+
+[INFO]Current Time:       65.01 s
+
+[P]indexs Load Factor:    10.6010 %
+
+[P]slabs Load Factor:     13.4573 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           2257764 
+
+[P]get request:           2257767 
+
+[P]Get Hit Rate:          50.7971 %
+
+[P]ACC Hit Rate:          27.8555 %
+
+[P]rx packet:             1387.703 / s
+
+[P]Throughput:            72115.560 ops
+
+[P]all request:           4515531 o
+
+[P]Valid Entries:         36056.280 / s
+
+[P]set success:           36056.280 / s
+
+[P]get found:             18317.078 / s
+
+----------------------------------
+
+[INFO]Current Time:       66.01 s
+
+[P]indexs Load Factor:    10.7298 %
+
+[P]slabs Load Factor:     13.6715 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           2293689 
+
+[P]get request:           2293687 
+
+[P]Get Hit Rate:          51.6871 %
+
+[P]ACC Hit Rate:          28.2287 %
+
+[P]rx packet:             1383.776 / s
+
+[P]Throughput:            71833.371 ops
+
+[P]all request:           4587376 o
+
+[P]Valid Entries:         35919.185 / s
+
+[P]set success:           35919.185 / s
+
+[P]get found:             18562.995 / s
+
+----------------------------------
+
+[INFO]Current Time:       67.01 s
+
+[P]indexs Load Factor:    10.8594 %
+
+[P]slabs Load Factor:     13.8880 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           2330017 
+
+[P]get request:           2330020 
+
+[P]Get Hit Rate:          52.1207 %
+
+[P]ACC Hit Rate:          28.6013 %
+
+[P]rx packet:             1394.775 / s
+
+[P]Throughput:            72649.291 ops
+
+[P]all request:           4660037 o
+
+[P]Valid Entries:         36322.146 / s
+
+[P]set success:           36322.146 / s
+
+[P]get found:             18933.948 / s
+
+----------------------------------
+
+[INFO]Current Time:       68.01 s
+
+[P]indexs Load Factor:    10.9862 %
+
+[P]slabs Load Factor:     14.1035 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           2366182 
+
+[P]get request:           2366182 
+
+[P]Get Hit Rate:          53.2299 %
+
+[P]ACC Hit Rate:          28.9777 %
+
+[P]rx packet:             1389.845 / s
+
+[P]Throughput:            72318.913 ops
+
+[P]all request:           4732364 o
+
+[P]Valid Entries:         36160.957 / s
+
+[P]set success:           36160.957 / s
+
+[P]get found:             19246.848 / s
+
+----------------------------------
+
+[INFO]Current Time:       69.01 s
+
+[P]indexs Load Factor:    11.1130 %
+
+[P]slabs Load Factor:     14.3195 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           2402416 
+
+[P]get request:           2402415 
+
+[P]Get Hit Rate:          53.4899 %
+
+[P]ACC Hit Rate:          29.3473 %
+
+[P]rx packet:             1393.767 / s
+
+[P]Throughput:            72454.891 ops
+
+[P]all request:           4804831 o
+
+[P]Valid Entries:         36227.945 / s
+
+[P]set success:           36227.945 / s
+
+[P]get found:             19377.761 / s
+
+----------------------------------
+
+[INFO]Current Time:       70.01 s
+
+[P]indexs Load Factor:    11.2371 %
+
+[P]slabs Load Factor:     14.5324 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           2438124 
+
+[P]get request:           2438128 
+
+[P]Get Hit Rate:          54.0811 %
+
+[P]ACC Hit Rate:          29.7096 %
+
+[P]rx packet:             1373.769 / s
+
+[P]Throughput:            71409.014 ops
+
+[P]all request:           4876252 o
+
+[P]Valid Entries:         35702.008 / s
+
+[P]set success:           35702.008 / s
+
+[P]get found:             19310.759 / s
+
+----------------------------------
+
+[INFO]Current Time:       71.01 s
+
+[P]indexs Load Factor:    11.3616 %
+
+[P]slabs Load Factor:     14.7482 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           2474343 
+
+[P]get request:           2474343 
+
+[P]Get Hit Rate:          54.7425 %
+
+[P]ACC Hit Rate:          30.0760 %
+
+[P]rx packet:             1392.769 / s
+
+[P]Throughput:            72421.965 ops
+
+[P]all request:           4948686 o
+
+[P]Valid Entries:         36212.982 / s
+
+[P]set success:           36212.982 / s
+
+[P]get found:             19821.706 / s
+
+----------------------------------
+
+[INFO]Current Time:       72.01 s
+
+[P]indexs Load Factor:    11.4859 %
+
+[P]slabs Load Factor:     14.9647 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           2510664 
+
+[P]get request:           2510664 
+
+[P]Get Hit Rate:          55.0646 %
+
+[P]ACC Hit Rate:          30.4375 %
+
+[P]rx packet:             1395.653 / s
+
+[P]Throughput:            72623.923 ops
+
+[P]all request:           5021328 o
+
+[P]Valid Entries:         36311.962 / s
+
+[P]set success:           36311.962 / s
+
+[P]get found:             19995.023 / s
+
+----------------------------------
+
+[INFO]Current Time:       73.01 s
+
+[P]indexs Load Factor:    11.6078 %
+
+[P]slabs Load Factor:     15.1795 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           2546700 
+
+[P]get request:           2546700 
+
+[P]Get Hit Rate:          55.8664 %
+
+[P]ACC Hit Rate:          30.7973 %
+
+[P]rx packet:             1385.767 / s
+
+[P]Throughput:            72059.888 ops
+
+[P]all request:           5093400 o
+
+[P]Valid Entries:         36029.944 / s
+
+[P]set success:           36029.944 / s
+
+[P]get found:             20128.617 / s
+
+----------------------------------
+
+[INFO]Current Time:       74.01 s
+
+[P]indexs Load Factor:    11.7282 %
+
+[P]slabs Load Factor:     15.3920 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           2582346 
+
+[P]get request:           2582348 
+
+[P]Get Hit Rate:          55.9611 %
+
+[P]ACC Hit Rate:          31.1447 %
+
+[P]rx packet:             1371.754 / s
+
+[P]Throughput:            71281.237 ops
+
+[P]all request:           5164694 o
+
+[P]Valid Entries:         35639.619 / s
+
+[P]set success:           35639.619 / s
+
+[P]get found:             19945.429 / s
+
+----------------------------------
+
+[INFO]Current Time:       75.01 s
+
+[P]indexs Load Factor:    11.8483 %
+
+[P]slabs Load Factor:     15.6091 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           2618772 
+
+[P]get request:           2618774 
+
+[P]Get Hit Rate:          57.7005 %
+
+[P]ACC Hit Rate:          31.5141 %
+
+[P]rx packet:             1400.773 / s
+
+[P]Throughput:            72840.208 ops
+
+[P]all request:           5237546 o
+
+[P]Valid Entries:         36420.104 / s
+
+[P]set success:           36420.104 / s
+
+[P]get found:             21014.598 / s
+
+----------------------------------
+
+[INFO]Current Time:       76.01 s
+
+[P]indexs Load Factor:    11.9665 %
+
+[P]slabs Load Factor:     15.8233 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           2654704 
+
+[P]get request:           2654704 
+
+[P]Get Hit Rate:          58.0462 %
+
+[P]ACC Hit Rate:          31.8732 %
+
+[P]rx packet:             1380.774 / s
+
+[P]Throughput:            71850.214 ops
+
+[P]all request:           5309408 o
+
+[P]Valid Entries:         35926.107 / s
+
+[P]set success:           35926.107 / s
+
+[P]get found:             20852.580 / s
+
+----------------------------------
+
+[INFO]Current Time:       77.01 s
+
+[P]indexs Load Factor:    12.0852 %
+
+[P]slabs Load Factor:     16.0392 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           2690923 
+
+[P]get request:           2690923 
+
+[P]Get Hit Rate:          58.3534 %
+
+[P]ACC Hit Rate:          32.2296 %
+
+[P]rx packet:             1393.766 / s
+
+[P]Throughput:            72425.826 ops
+
+[P]all request:           5381846 o
+
+[P]Valid Entries:         36212.913 / s
+
+[P]set success:           36212.913 / s
+
+[P]get found:             21131.448 / s
+
+----------------------------------
+
+[INFO]Current Time:       78.01 s
+
+[P]indexs Load Factor:    12.2020 %
+
+[P]slabs Load Factor:     16.2541 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           2726986 
+
+[P]get request:           2726985 
+
+[P]Get Hit Rate:          58.7072 %
+
+[P]ACC Hit Rate:          32.5798 %
+
+[P]rx packet:             1386.769 / s
+
+[P]Throughput:            72112.965 ops
+
+[P]all request:           5453971 o
+
+[P]Valid Entries:         36056.982 / s
+
+[P]set success:           36056.982 / s
+
+[P]get found:             21167.467 / s
+
+----------------------------------
+
+[INFO]Current Time:       79.01 s
+
+[P]indexs Load Factor:    12.3183 %
+
+[P]slabs Load Factor:     16.4697 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           2763150 
+
+[P]get request:           2763152 
+
+[P]Get Hit Rate:          59.6483 %
+
+[P]ACC Hit Rate:          32.9341 %
+
+[P]rx packet:             1390.693 / s
+
+[P]Throughput:            72315.017 ops
+
+[P]all request:           5526302 o
+
+[P]Valid Entries:         36156.009 / s
+
+[P]set success:           36156.009 / s
+
+[P]get found:             21568.233 / s
+
+----------------------------------
+
+[INFO]Current Time:       80.01 s
+
+[P]indexs Load Factor:    12.4344 %
+
+[P]slabs Load Factor:     16.6852 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           2799316 
+
+[P]get request:           2799316 
+
+[P]Get Hit Rate:          59.5260 %
+
+[P]ACC Hit Rate:          33.2776 %
+
+[P]rx packet:             1389.780 / s
+
+[P]Throughput:            72318.568 ops
+
+[P]all request:           5598632 o
+
+[P]Valid Entries:         36160.284 / s
+
+[P]set success:           36160.284 / s
+
+[P]get found:             21523.598 / s
+
+----------------------------------
+
+[INFO]Current Time:       81.01 s
+
+[P]indexs Load Factor:    12.5465 %
+
+[P]slabs Load Factor:     16.8980 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           2835016 
+
+[P]get request:           2835017 
+
+[P]Get Hit Rate:          60.6874 %
+
+[P]ACC Hit Rate:          33.6228 %
+
+[P]rx packet:             1373.782 / s
+
+[P]Throughput:            71389.647 ops
+
+[P]all request:           5670033 o
+
+[P]Valid Entries:         35694.324 / s
+
+[P]set success:           35694.324 / s
+
+[P]get found:             21662.555 / s
+
+----------------------------------
+
+[INFO]Current Time:       82.01 s
+
+[P]indexs Load Factor:    12.6607 %
+
+[P]slabs Load Factor:     17.1147 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           2871362 
+
+[P]get request:           2871362 
+
+[P]Get Hit Rate:          60.7429 %
+
+[P]ACC Hit Rate:          33.9660 %
+
+[P]rx packet:             1396.774 / s
+
+[P]Throughput:            72679.234 ops
+
+[P]all request:           5742724 o
+
+[P]Valid Entries:         36340.117 / s
+
+[P]set success:           36340.117 / s
+
+[P]get found:             22073.427 / s
+
+----------------------------------
+
+[INFO]Current Time:       83.01 s
+
+[P]indexs Load Factor:    12.7730 %
+
+[P]slabs Load Factor:     17.3293 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           2907372 
+
+[P]get request:           2907374 
+
+[P]Get Hit Rate:          61.3657 %
+
+[P]ACC Hit Rate:          34.3054 %
+
+[P]rx packet:             1385.760 / s
+
+[P]Throughput:            72009.536 ops
+
+[P]all request:           5814746 o
+
+[P]Valid Entries:         36003.768 / s
+
+[P]set success:           36003.768 / s
+
+[P]get found:             22095.176 / s
+
+----------------------------------
+
+[INFO]Current Time:       84.01 s
+
+[P]indexs Load Factor:    12.8843 %
+
+[P]slabs Load Factor:     17.5441 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           2943408 
+
+[P]get request:           2943412 
+
+[P]Get Hit Rate:          62.2149 %
+
+[P]ACC Hit Rate:          34.6471 %
+
+[P]rx packet:             1385.773 / s
+
+[P]Throughput:            72062.197 ops
+
+[P]all request:           5886820 o
+
+[P]Valid Entries:         36030.099 / s
+
+[P]set success:           36030.099 / s
+
+[P]get found:             22417.328 / s
+
+----------------------------------
+
+[INFO]Current Time:       85.01 s
+
+[P]indexs Load Factor:    12.9951 %
+
+[P]slabs Load Factor:     17.7593 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           2979522 
+
+[P]get request:           2979522 
+
+[P]Get Hit Rate:          62.6502 %
+
+[P]ACC Hit Rate:          34.9865 %
+
+[P]rx packet:             1387.854 / s
+
+[P]Throughput:            72216.407 ops
+
+[P]all request:           5959044 o
+
+[P]Valid Entries:         36110.203 / s
+
+[P]set success:           36110.203 / s
+
+[P]get found:             22620.622 / s
+
+----------------------------------
+
+[INFO]Current Time:       86.01 s
+
+[P]indexs Load Factor:    13.1052 %
+
+[P]slabs Load Factor:     17.9757 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           3015818 
+
+[P]get request:           3015818 
+
+[P]Get Hit Rate:          63.6048 %
+
+[P]ACC Hit Rate:          35.3309 %
+
+[P]rx packet:             1395.696 / s
+
+[P]Throughput:            72576.185 ops
+
+[P]all request:           6031636 o
+
+[P]Valid Entries:         36288.092 / s
+
+[P]set success:           36288.092 / s
+
+[P]get found:             23080.970 / s
+
+----------------------------------
+
+[INFO]Current Time:       87.01 s
+
+[P]indexs Load Factor:    13.2131 %
+
+[P]slabs Load Factor:     18.1911 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           3051958 
+
+[P]get request:           3051958 
+
+[P]Get Hit Rate:          64.1229 %
+
+[P]ACC Hit Rate:          35.6719 %
+
+[P]rx packet:             1389.778 / s
+
+[P]Throughput:            72268.439 ops
+
+[P]all request:           6103916 o
+
+[P]Valid Entries:         36134.219 / s
+
+[P]set success:           36134.219 / s
+
+[P]get found:             23170.293 / s
+
+----------------------------------
+
+[INFO]Current Time:       88.01 s
+
+[P]indexs Load Factor:    13.3199 %
+
+[P]slabs Load Factor:     18.4056 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           3087942 
+
+[P]get request:           3087942 
+
+[P]Get Hit Rate:          64.5231 %
+
+[P]ACC Hit Rate:          36.0081 %
+
+[P]rx packet:             1383.777 / s
+
+[P]Throughput:            71956.403 ops
+
+[P]all request:           6175884 o
+
+[P]Valid Entries:         35978.201 / s
+
+[P]set success:           35978.201 / s
+
+[P]get found:             23214.259 / s
+
+----------------------------------
+
+[INFO]Current Time:       89.01 s
+
+[P]indexs Load Factor:    13.4271 %
+
+[P]slabs Load Factor:     18.6207 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           3124030 
+
+[P]get request:           3124032 
+
+[P]Get Hit Rate:          64.6273 %
+
+[P]ACC Hit Rate:          36.3387 %
+
+[P]rx packet:             1388.773 / s
+
+[P]Throughput:            72166.180 ops
+
+[P]all request:           6248062 o
+
+[P]Valid Entries:         36082.090 / s
+
+[P]set success:           36082.090 / s
+
+[P]get found:             23320.180 / s
+
+----------------------------------
+
+[INFO]Current Time:       90.01 s
+
+[P]indexs Load Factor:    13.5322 %
+
+[P]slabs Load Factor:     18.8348 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           3159962 
+
+[P]get request:           3159962 
+
+[P]Get Hit Rate:          65.6805 %
+
+[P]ACC Hit Rate:          36.6723 %
+
+[P]rx packet:             1380.776 / s
+
+[P]Throughput:            71850.351 ops
+
+[P]all request:           6319924 o
+
+[P]Valid Entries:         35926.175 / s
+
+[P]set success:           35926.175 / s
+
+[P]get found:             23595.175 / s
+
+----------------------------------
+
+[INFO]Current Time:       91.01 s
+
+[P]indexs Load Factor:    13.6364 %
+
+[P]slabs Load Factor:     19.0494 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           3195965 
+
+[P]get request:           3195967 
+
+[P]Get Hit Rate:          66.1075 %
+
+[P]ACC Hit Rate:          37.0039 %
+
+[P]rx packet:             1384.773 / s
+
+[P]Throughput:            71996.190 ops
+
+[P]all request:           6391932 o
+
+[P]Valid Entries:         35997.095 / s
+
+[P]set success:           35997.095 / s
+
+[P]get found:             23798.096 / s
+
+----------------------------------
+
+[INFO]Current Time:       92.02 s
+
+[P]indexs Load Factor:    13.7404 %
+
+[P]slabs Load Factor:     19.2642 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           3232001 
+
+[P]get request:           3232003 
+
+[P]Get Hit Rate:          66.3642 %
+
+[P]ACC Hit Rate:          37.3313 %
+
+[P]rx packet:             1385.777 / s
+
+[P]Throughput:            72060.403 ops
+
+[P]all request:           6464004 o
+
+[P]Valid Entries:         36030.202 / s
+
+[P]set success:           36030.202 / s
+
+[P]get found:             23911.152 / s
+
+----------------------------------
+
+[INFO]Current Time:       93.02 s
+
+[P]indexs Load Factor:    13.8429 %
+
+[P]slabs Load Factor:     19.4772 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           3267732 
+
+[P]get request:           3267734 
+
+[P]Get Hit Rate:          66.7432 %
+
+[P]ACC Hit Rate:          37.6529 %
+
+[P]rx packet:             1374.710 / s
+
+[P]Throughput:            71446.925 ops
+
+[P]all request:           6535466 o
+
+[P]Valid Entries:         35723.462 / s
+
+[P]set success:           35723.462 / s
+
+[P]get found:             23842.969 / s
+
+----------------------------------
+
+[INFO]Current Time:       94.02 s
+
+[P]indexs Load Factor:    13.9448 %
+
+[P]slabs Load Factor:     19.6911 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           3303613 
+
+[P]get request:           3303617 
+
+[P]Get Hit Rate:          67.0206 %
+
+[P]ACC Hit Rate:          37.9719 %
+
+[P]rx packet:             1379.778 / s
+
+[P]Throughput:            71752.453 ops
+
+[P]all request:           6607230 o
+
+[P]Valid Entries:         35875.227 / s
+
+[P]set success:           35875.227 / s
+
+[P]get found:             24045.130 / s
+
+----------------------------------
+
+[INFO]Current Time:       95.02 s
+
+[P]indexs Load Factor:    14.0467 %
+
+[P]slabs Load Factor:     19.9071 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           3339857 
+
+[P]get request:           3339858 
+
+[P]Get Hit Rate:          67.5395 %
+
+[P]ACC Hit Rate:          38.2927 %
+
+[P]rx packet:             1393.770 / s
+
+[P]Throughput:            72473.043 ops
+
+[P]all request:           6679715 o
+
+[P]Valid Entries:         36238.021 / s
+
+[P]set success:           36238.021 / s
+
+[P]get found:             24472.962 / s
+
+----------------------------------
+
+[INFO]Current Time:       96.02 s
+
+[P]indexs Load Factor:    14.1468 %
+
+[P]slabs Load Factor:     20.1227 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           3376023 
+
+[P]get request:           3376024 
+
+[P]Get Hit Rate:          68.3515 %
+
+[P]ACC Hit Rate:          38.6147 %
+
+[P]rx packet:             1390.779 / s
+
+[P]Throughput:            72320.499 ops
+
+[P]all request:           6752047 o
+
+[P]Valid Entries:         36160.250 / s
+
+[P]set success:           36160.250 / s
+
+[P]get found:             24716.070 / s
+
+----------------------------------
+
+[INFO]Current Time:       97.02 s
+
+[P]indexs Load Factor:    14.2464 %
+
+[P]slabs Load Factor:     20.3379 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           3412136 
+
+[P]get request:           3412136 
+
+[P]Get Hit Rate:          68.8885 %
+
+[P]ACC Hit Rate:          38.9351 %
+
+[P]rx packet:             1387.755 / s
+
+[P]Throughput:            72212.277 ops
+
+[P]all request:           6824272 o
+
+[P]Valid Entries:         36106.638 / s
+
+[P]set success:           36106.638 / s
+
+[P]get found:             24872.618 / s
+
+----------------------------------
+
+[INFO]Current Time:       98.02 s
+
+[P]indexs Load Factor:    14.3454 %
+
+[P]slabs Load Factor:     20.5530 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           3448224 
+
+[P]get request:           3448225 
+
+[P]Get Hit Rate:          69.1596 %
+
+[P]ACC Hit Rate:          39.2515 %
+
+[P]rx packet:             1388.833 / s
+
+[P]Throughput:            72168.345 ops
+
+[P]all request:           6896449 o
+
+[P]Valid Entries:         36083.673 / s
+
+[P]set success:           36083.673 / s
+
+[P]get found:             24956.007 / s
+
+----------------------------------
+
+[INFO]Current Time:       99.02 s
+
+[P]indexs Load Factor:    14.4431 %
+
+[P]slabs Load Factor:     20.7677 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           3484234 
+
+[P]get request:           3484234 
+
+[P]Get Hit Rate:          69.5076 %
+
+[P]ACC Hit Rate:          39.5642 %
+
+[P]rx packet:             1383.848 / s
+
+[P]Throughput:            72011.085 ops
+
+[P]all request:           6968468 o
+
+[P]Valid Entries:         36006.043 / s
+
+[P]set success:           36006.043 / s
+
+[P]get found:             25026.249 / s
+
+----------------------------------
+
+[INFO]Current Time:       100.02 s
+
+[P]indexs Load Factor:    14.5397 %
+
+[P]slabs Load Factor:     20.9807 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           3519971 
+
+[P]get request:           3519967 
+
+[P]Get Hit Rate:          69.8850 %
+
+[P]ACC Hit Rate:          39.8720 %
+
+[P]rx packet:             1374.779 / s
+
+[P]Throughput:            71458.500 ops
+
+[P]all request:           7039938 o
+
+[P]Valid Entries:         35731.250 / s
+
+[P]set success:           35731.250 / s
+
+[P]get found:             24967.982 / s
+
+----------------------------------
+
+[INFO]Current Time:       101.02 s
+
+[P]indexs Load Factor:    14.6361 %
+
+[P]slabs Load Factor:     21.1968 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           3556228 
+
+[P]get request:           3556228 
+
+[P]Get Hit Rate:          70.6848 %
+
+[P]ACC Hit Rate:          40.1861 %
+
+[P]rx packet:             1393.704 / s
+
+[P]Throughput:            72502.615 ops
+
+[P]all request:           7112456 o
+
+[P]Valid Entries:         36249.308 / s
+
+[P]set success:           36249.308 / s
+
+[P]get found:             25625.562 / s
+
+----------------------------------
+
+[INFO]Current Time:       102.02 s
+
+[P]indexs Load Factor:    14.7311 %
+
+[P]slabs Load Factor:     21.4119 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           3592316 
+
+[P]get request:           3592316 
+
+[P]Get Hit Rate:          71.4337 %
+
+[P]ACC Hit Rate:          40.5001 %
+
+[P]rx packet:             1387.768 / s
+
+[P]Throughput:            72163.956 ops
+
+[P]all request:           7184632 o
+
+[P]Valid Entries:         36081.978 / s
+
+[P]set success:           36081.978 / s
+
+[P]get found:             25774.698 / s
+
+----------------------------------
+
+[INFO]Current Time:       103.02 s
+
+[P]indexs Load Factor:    14.8251 %
+
+[P]slabs Load Factor:     21.6256 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           3628170 
+
+[P]get request:           3628170 
+
+[P]Get Hit Rate:          71.7661 %
+
+[P]ACC Hit Rate:          40.8090 %
+
+[P]rx packet:             1378.775 / s
+
+[P]Throughput:            71696.308 ops
+
+[P]all request:           7256340 o
+
+[P]Valid Entries:         35848.154 / s
+
+[P]set success:           35848.154 / s
+
+[P]get found:             25726.805 / s
+
+----------------------------------
+
+[INFO]Current Time:       104.02 s
+
+[P]indexs Load Factor:    14.9185 %
+
+[P]slabs Load Factor:     21.8400 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           3664138 
+
+[P]get request:           3664137 
+
+[P]Get Hit Rate:          71.8075 %
+
+[P]ACC Hit Rate:          41.1133 %
+
+[P]rx packet:             1383.772 / s
+
+[P]Throughput:            71923.134 ops
+
+[P]all request:           7328275 o
+
+[P]Valid Entries:         35962.067 / s
+
+[P]set success:           35962.067 / s
+
+[P]get found:             25822.740 / s
+
+----------------------------------
+
+[INFO]Current Time:       105.02 s
+
+[P]indexs Load Factor:    15.0119 %
+
+[P]slabs Load Factor:     22.0553 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           3700268 
+
+[P]get request:           3700268 
+
+[P]Get Hit Rate:          72.5527 %
+
+[P]ACC Hit Rate:          41.4203 %
+
+[P]rx packet:             1388.770 / s
+
+[P]Throughput:            72249.011 ops
+
+[P]all request:           7400536 o
+
+[P]Valid Entries:         36124.006 / s
+
+[P]set success:           36124.006 / s
+
+[P]get found:             26209.651 / s
+
+----------------------------------
+
+[INFO]Current Time:       106.02 s
+
+[P]indexs Load Factor:    15.1036 %
+
+[P]slabs Load Factor:     22.2698 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           3736252 
+
+[P]get request:           3736252 
+
+[P]Get Hit Rate:          73.1909 %
+
+[P]ACC Hit Rate:          41.7263 %
+
+[P]rx packet:             1383.770 / s
+
+[P]Throughput:            71956.060 ops
+
+[P]all request:           7472504 o
+
+[P]Valid Entries:         35978.030 / s
+
+[P]set success:           35978.030 / s
+
+[P]get found:             26332.630 / s
+
+----------------------------------
+
+[INFO]Current Time:       107.02 s
+
+[P]indexs Load Factor:    15.1950 %
+
+[P]slabs Load Factor:     22.4843 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           3772238 
+
+[P]get request:           3772238 
+
+[P]Get Hit Rate:          73.2590 %
+
+[P]ACC Hit Rate:          42.0271 %
+
+[P]rx packet:             1384.760 / s
+
+[P]Throughput:            71959.544 ops
+
+[P]all request:           7544476 o
+
+[P]Valid Entries:         35979.772 / s
+
+[P]set success:           35979.772 / s
+
+[P]get found:             26358.438 / s
+
+----------------------------------
+
+[INFO]Current Time:       108.02 s
+
+[P]indexs Load Factor:    15.2845 %
+
+[P]slabs Load Factor:     22.6988 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           3808229 
+
+[P]get request:           3808231 
+
+[P]Get Hit Rate:          74.1033 %
+
+[P]ACC Hit Rate:          42.3303 %
+
+[P]rx packet:             1383.707 / s
+
+[P]Throughput:            71968.746 ops
+
+[P]all request:           7616460 o
+
+[P]Valid Entries:         35983.373 / s
+
+[P]set success:           35983.373 / s
+
+[P]get found:             26666.348 / s
+
+----------------------------------
+
+[INFO]Current Time:       109.02 s
+
+[P]indexs Load Factor:    15.3746 %
+
+[P]slabs Load Factor:     22.9142 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           3844360 
+
+[P]get request:           3844360 
+
+[P]Get Hit Rate:          73.9323 %
+
+[P]ACC Hit Rate:          42.6273 %
+
+[P]rx packet:             1388.771 / s
+
+[P]Throughput:            72248.080 ops
+
+[P]all request:           7688720 o
+
+[P]Valid Entries:         36125.040 / s
+
+[P]set success:           36125.040 / s
+
+[P]get found:             26706.594 / s
+
+----------------------------------
+
+[INFO]Current Time:       110.02 s
+
+[P]indexs Load Factor:    15.4636 %
+
+[P]slabs Load Factor:     23.1293 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           3880447 
+
+[P]get request:           3880439 
+
+[P]Get Hit Rate:          74.4228 %
+
+[P]ACC Hit Rate:          42.9229 %
+
+[P]rx packet:             1387.775 / s
+
+[P]Throughput:            72154.302 ops
+
+[P]all request:           7760886 o
+
+[P]Valid Entries:         36081.150 / s
+
+[P]set success:           36081.150 / s
+
+[P]get found:             26846.647 / s
+
+----------------------------------
+
+[INFO]Current Time:       111.02 s
+
+[P]indexs Load Factor:    15.5511 %
+
+[P]slabs Load Factor:     23.3431 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           3916328 
+
+[P]get request:           3916332 
+
+[P]Get Hit Rate:          75.1149 %
+
+[P]ACC Hit Rate:          43.2179 %
+
+[P]rx packet:             1380.780 / s
+
+[P]Throughput:            71762.588 ops
+
+[P]all request:           7832660 o
+
+[P]Valid Entries:         35875.295 / s
+
+[P]set success:           35875.295 / s
+
+[P]get found:             26956.713 / s
+
+----------------------------------
+
+[INFO]Current Time:       112.02 s
+
+[P]indexs Load Factor:    15.6392 %
+
+[P]slabs Load Factor:     23.5602 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           3952754 
+
+[P]get request:           3952754 
+
+[P]Get Hit Rate:          75.5779 %
+
+[P]ACC Hit Rate:          43.5161 %
+
+[P]rx packet:             1399.773 / s
+
+[P]Throughput:            72836.209 ops
+
+[P]all request:           7905508 o
+
+[P]Valid Entries:         36420.104 / s
+
+[P]set success:           36420.104 / s
+
+[P]get found:             27522.544 / s
+
+----------------------------------
+
+[INFO]Current Time:       113.02 s
+
+[P]indexs Load Factor:    15.7257 %
+
+[P]slabs Load Factor:     23.7750 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           3988790 
+
+[P]get request:           3988792 
+
+[P]Get Hit Rate:          76.2723 %
+
+[P]ACC Hit Rate:          43.8120 %
+
+[P]rx packet:             1386.778 / s
+
+[P]Throughput:            72062.472 ops
+
+[P]all request:           7977582 o
+
+[P]Valid Entries:         36030.236 / s
+
+[P]set success:           36030.236 / s
+
+[P]get found:             27482.603 / s
+
+----------------------------------
+
+[INFO]Current Time:       114.02 s
+
+[P]indexs Load Factor:    15.8115 %
+
+[P]slabs Load Factor:     23.9901 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           4024858 
+
+[P]get request:           4024861 
+
+[P]Get Hit Rate:          76.4479 %
+
+[P]ACC Hit Rate:          44.1045 %
+
+[P]rx packet:             1386.761 / s
+
+[P]Throughput:            72124.585 ops
+
+[P]all request:           8049719 o
+
+[P]Valid Entries:         36061.792 / s
+
+[P]set success:           36061.792 / s
+
+[P]get found:             27569.254 / s
+
+----------------------------------
+
+[INFO]Current Time:       115.02 s
+
+[P]indexs Load Factor:    15.8957 %
+
+[P]slabs Load Factor:     24.2032 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           4060628 
+
+[P]get request:           4060629 
+
+[P]Get Hit Rate:          76.8844 %
+
+[P]ACC Hit Rate:          44.3932 %
+
+[P]rx packet:             1375.708 / s
+
+[P]Throughput:            71522.840 ops
+
+[P]all request:           8121257 o
+
+[P]Valid Entries:         35762.420 / s
+
+[P]set success:           35762.420 / s
+
+[P]get found:             27494.172 / s
+
+----------------------------------
+
+[INFO]Current Time:       116.02 s
+
+[P]indexs Load Factor:    15.9806 %
+
+[P]slabs Load Factor:     24.4201 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           4097006 
+
+[P]get request:           4097005 
+
+[P]Get Hit Rate:          77.2048 %
+
+[P]ACC Hit Rate:          44.6846 %
+
+[P]rx packet:             1398.764 / s
+
+[P]Throughput:            72741.704 ops
+
+[P]all request:           8194011 o
+
+[P]Valid Entries:         36371.852 / s
+
+[P]set success:           36371.852 / s
+
+[P]get found:             28079.254 / s
+
+----------------------------------
+
+[INFO]Current Time:       117.02 s
+
+[P]indexs Load Factor:    16.0643 %
+
+[P]slabs Load Factor:     24.6353 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           4133116 
+
+[P]get request:           4133116 
+
+[P]Get Hit Rate:          77.3172 %
+
+[P]ACC Hit Rate:          44.9697 %
+
+[P]rx packet:             1387.781 / s
+
+[P]Throughput:            72209.603 ops
+
+[P]all request:           8266232 o
+
+[P]Valid Entries:         36104.302 / s
+
+[P]set success:           36104.302 / s
+
+[P]get found:             27915.594 / s
+
+----------------------------------
+
+[INFO]Current Time:       118.02 s
+
+[P]indexs Load Factor:    16.1472 %
+
+[P]slabs Load Factor:     24.8505 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           4169230 
+
+[P]get request:           4169230 
+
+[P]Get Hit Rate:          78.1470 %
+
+[P]ACC Hit Rate:          45.2571 %
+
+[P]rx packet:             1388.775 / s
+
+[P]Throughput:            72216.292 ops
+
+[P]all request:           8338460 o
+
+[P]Valid Entries:         36108.146 / s
+
+[P]set success:           36108.146 / s
+
+[P]get found:             28217.425 / s
+
+----------------------------------
+
+[INFO]Current Time:       119.02 s
+
+[P]indexs Load Factor:    16.2293 %
+
+[P]slabs Load Factor:     25.0649 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           4205188 
+
+[P]get request:           4205191 
+
+[P]Get Hit Rate:          78.3933 %
+
+[P]ACC Hit Rate:          45.5404 %
+
+[P]rx packet:             1383.776 / s
+
+[P]Throughput:            71907.359 ops
+
+[P]all request:           8410379 o
+
+[P]Valid Entries:         35952.180 / s
+
+[P]set success:           35952.180 / s
+
+[P]get found:             28186.437 / s
+
+----------------------------------
+
+[INFO]Current Time:       120.02 s
+
+[P]indexs Load Factor:    16.3102 %
+
+[P]slabs Load Factor:     25.2770 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           4240783 
+
+[P]get request:           4240783 
+
+[P]Get Hit Rate:          78.5289 %
+
+[P]ACC Hit Rate:          45.8173 %
+
+[P]rx packet:             1368.782 / s
+
+[P]Throughput:            71175.681 ops
+
+[P]all request:           8481566 o
+
+[P]Valid Entries:         35589.340 / s
+
+[P]set success:           35589.340 / s
+
+[P]get found:             27945.556 / s
+
+----------------------------------
+
+[INFO]Current Time:       121.02 s
+
+[P]indexs Load Factor:    16.3917 %
+
+[P]slabs Load Factor:     25.4934 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           4277078 
+
+[P]get request:           4277083 
+
+[P]Get Hit Rate:          79.2782 %
+
+[P]ACC Hit Rate:          46.1013 %
+
+[P]rx packet:             1395.778 / s
+
+[P]Throughput:            72583.457 ops
+
+[P]all request:           8554161 o
+
+[P]Valid Entries:         36289.229 / s
+
+[P]set success:           36289.229 / s
+
+[P]get found:             28773.424 / s
+
+----------------------------------
+
+[INFO]Current Time:       122.02 s
+
+[P]indexs Load Factor:    16.4724 %
+
+[P]slabs Load Factor:     25.7092 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           4313295 
+
+[P]get request:           4313291 
+
+[P]Get Hit Rate:          79.3084 %
+
+[P]ACC Hit Rate:          46.3800 %
+
+[P]rx packet:             1391.667 / s
+
+[P]Throughput:            72407.685 ops
+
+[P]all request:           8626586 o
+
+[P]Valid Entries:         36208.341 / s
+
+[P]set success:           36208.341 / s
+
+[P]get found:             28709.135 / s
+
+----------------------------------
+
+[INFO]Current Time:       123.02 s
+
+[P]indexs Load Factor:    16.5515 %
+
+[P]slabs Load Factor:     25.9234 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           4349210 
+
+[P]get request:           4349215 
+
+[P]Get Hit Rate:          80.1525 %
+
+[P]ACC Hit Rate:          46.6590 %
+
+[P]rx packet:             1381.781 / s
+
+[P]Throughput:            71827.595 ops
+
+[P]all request:           8698425 o
+
+[P]Valid Entries:         35909.298 / s
+
+[P]set success:           35909.298 / s
+
+[P]get found:             28789.429 / s
+
+----------------------------------
+
+[INFO]Current Time:       124.02 s
+
+[P]indexs Load Factor:    16.6301 %
+
+[P]slabs Load Factor:     26.1384 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           4385290 
+
+[P]get request:           4385290 
+
+[P]Get Hit Rate:          80.1691 %
+
+[P]ACC Hit Rate:          46.9347 %
+
+[P]rx packet:             1386.852 / s
+
+[P]Throughput:            72147.277 ops
+
+[P]all request:           8770580 o
+
+[P]Valid Entries:         36076.138 / s
+
+[P]set success:           36076.138 / s
+
+[P]get found:             28917.904 / s
+
+----------------------------------
+
+[INFO]Current Time:       125.02 s
+
+[P]indexs Load Factor:    16.7079 %
+
+[P]slabs Load Factor:     26.3529 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           4421281 
+
+[P]get request:           4421285 
+
+[P]Get Hit Rate:          80.3334 %
+
+[P]ACC Hit Rate:          47.2066 %
+
+[P]rx packet:             1384.846 / s
+
+[P]Throughput:            71978.003 ops
+
+[P]all request:           8842566 o
+
+[P]Valid Entries:         35987.002 / s
+
+[P]set success:           35987.002 / s
+
+[P]get found:             28912.788 / s
+
+----------------------------------
+
+[INFO]Current Time:       126.02 s
+
+[P]indexs Load Factor:    16.7842 %
+
+[P]slabs Load Factor:     26.5673 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           4457258 
+
+[P]get request:           4457258 
+
+[P]Get Hit Rate:          81.3694 %
+
+[P]ACC Hit Rate:          47.4823 %
+
+[P]rx packet:             1382.855 / s
+
+[P]Throughput:            71942.453 ops
+
+[P]all request:           8914516 o
+
+[P]Valid Entries:         35973.226 / s
+
+[P]set success:           35973.226 / s
+
+[P]get found:             29267.930 / s
+
+----------------------------------
+
+[INFO]Current Time:       127.02 s
+
+[P]indexs Load Factor:    16.8610 %
+
+[P]slabs Load Factor:     26.7827 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           4493398 
+
+[P]get request:           4493398 
+
+[P]Get Hit Rate:          81.3116 %
+
+[P]ACC Hit Rate:          47.7544 %
+
+[P]rx packet:             1389.846 / s
+
+[P]Throughput:            72271.970 ops
+
+[P]all request:           8986796 o
+
+[P]Valid Entries:         36135.985 / s
+
+[P]set success:           36135.985 / s
+
+[P]get found:             29382.735 / s
+
+----------------------------------
+
+[INFO]Current Time:       128.02 s
+
+[P]indexs Load Factor:    16.9365 %
+
+[P]slabs Load Factor:     26.9969 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           4529331 
+
+[P]get request:           4529333 
+
+[P]Get Hit Rate:          81.6029 %
+
+[P]ACC Hit Rate:          48.0229 %
+
+[P]rx packet:             1382.848 / s
+
+[P]Throughput:            71860.102 ops
+
+[P]all request:           9058664 o
+
+[P]Valid Entries:         35929.051 / s
+
+[P]set success:           35929.051 / s
+
+[P]get found:             29320.777 / s
+
+----------------------------------
+
+[INFO]Current Time:       129.02 s
+
+[P]indexs Load Factor:    17.0115 %
+
+[P]slabs Load Factor:     27.2120 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           4565418 
+
+[P]get request:           4565418 
+
+[P]Get Hit Rate:          82.1311 %
+
+[P]ACC Hit Rate:          48.2925 %
+
+[P]rx packet:             1386.759 / s
+
+[P]Throughput:            72159.441 ops
+
+[P]all request:           9130836 o
+
+[P]Valid Entries:         36080.720 / s
+
+[P]set success:           36080.720 / s
+
+[P]get found:             29631.843 / s
+
+----------------------------------
+
+[INFO]Current Time:       130.02 s
+
+[P]indexs Load Factor:    17.0864 %
+
+[P]slabs Load Factor:     27.4277 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           4601610 
+
+[P]get request:           4601605 
+
+[P]Get Hit Rate:          82.5628 %
+
+[P]ACC Hit Rate:          48.5620 %
+
+[P]rx packet:             1391.850 / s
+
+[P]Throughput:            72371.184 ops
+
+[P]all request:           9203215 o
+
+[P]Valid Entries:         36188.092 / s
+
+[P]set success:           36188.092 / s
+
+[P]get found:             29873.774 / s
+
+----------------------------------
+
+[INFO]Current Time:       131.02 s
+
+[P]indexs Load Factor:    17.1602 %
+
+[P]slabs Load Factor:     27.6431 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           4637750 
+
+[P]get request:           4637746 
+
+[P]Get Hit Rate:          82.9999 %
+
+[P]ACC Hit Rate:          48.8304 %
+
+[P]rx packet:             1389.849 / s
+
+[P]Throughput:            72273.125 ops
+
+[P]all request:           9275496 o
+
+[P]Valid Entries:         36136.063 / s
+
+[P]set success:           36136.063 / s
+
+[P]get found:             29993.732 / s
+
+----------------------------------
+
+[INFO]Current Time:       132.02 s
+
+[P]indexs Load Factor:    17.2325 %
+
+[P]slabs Load Factor:     27.8559 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           4673449 
+
+[P]get request:           4673450 
+
+[P]Get Hit Rate:          83.1924 %
+
+[P]ACC Hit Rate:          49.0929 %
+
+[P]rx packet:             1373.769 / s
+
+[P]Throughput:            71391.000 ops
+
+[P]all request:           9346899 o
+
+[P]Valid Entries:         35693.001 / s
+
+[P]set success:           35693.001 / s
+
+[P]get found:             29698.008 / s
+
+----------------------------------
+
+[INFO]Current Time:       133.02 s
+
+[P]indexs Load Factor:    17.3056 %
+
+[P]slabs Load Factor:     28.0726 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           4709796 
+
+[P]get request:           4709796 
+
+[P]Get Hit Rate:          83.4837 %
+
+[P]ACC Hit Rate:          49.3583 %
+
+[P]rx packet:             1396.771 / s
+
+[P]Throughput:            72681.078 ops
+
+[P]all request:           9419592 o
+
+[P]Valid Entries:         36341.039 / s
+
+[P]set success:           36341.039 / s
+
+[P]get found:             30338.024 / s
+
+----------------------------------
+
+[INFO]Current Time:       134.02 s
+
+[P]indexs Load Factor:    17.3774 %
+
+[P]slabs Load Factor:     28.2865 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           4745679 
+
+[P]get request:           4745678 
+
+[P]Get Hit Rate:          84.0644 %
+
+[P]ACC Hit Rate:          49.6207 %
+
+[P]rx packet:             1380.774 / s
+
+[P]Throughput:            71753.247 ops
+
+[P]all request:           9491357 o
+
+[P]Valid Entries:         35877.124 / s
+
+[P]set success:           35877.124 / s
+
+[P]get found:             30159.060 / s
+
+----------------------------------
+
+[INFO]Current Time:       135.02 s
+
+[P]indexs Load Factor:    17.4486 %
+
+[P]slabs Load Factor:     28.5005 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           4781588 
+
+[P]get request:           4781592 
+
+[P]Get Hit Rate:          84.1956 %
+
+[P]ACC Hit Rate:          49.8804 %
+
+[P]rx packet:             1382.774 / s
+
+[P]Throughput:            71811.289 ops
+
+[P]all request:           9563180 o
+
+[P]Valid Entries:         35903.145 / s
+
+[P]set success:           35903.145 / s
+
+[P]get found:             30233.070 / s
+
+----------------------------------
+
+[INFO]Current Time:       136.02 s
+
+[P]indexs Load Factor:    17.5191 %
+
+[P]slabs Load Factor:     28.7170 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           4817904 
+
+[P]get request:           4817904 
+
+[P]Get Hit Rate:          85.1619 %
+
+[P]ACC Hit Rate:          50.1463 %
+
+[P]rx packet:             1393.766 / s
+
+[P]Throughput:            72615.794 ops
+
+[P]all request:           9635808 o
+
+[P]Valid Entries:         36309.897 / s
+
+[P]set success:           36309.897 / s
+
+[P]get found:             30918.803 / s
+
+----------------------------------
+
+[INFO]Current Time:       137.02 s
+
+[P]indexs Load Factor:    17.5889 %
+
+[P]slabs Load Factor:     28.9332 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           4854179 
+
+[P]get request:           4854182 
+
+[P]Get Hit Rate:          84.6188 %
+
+[P]ACC Hit Rate:          50.4039 %
+
+[P]rx packet:             1395.697 / s
+
+[P]Throughput:            72537.262 ops
+
+[P]all request:           9708361 o
+
+[P]Valid Entries:         36267.131 / s
+
+[P]set success:           36267.131 / s
+
+[P]get found:             30691.341 / s
+
+----------------------------------
+
+[INFO]Current Time:       138.02 s
+
+[P]indexs Load Factor:    17.6582 %
+
+[P]slabs Load Factor:     29.1476 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           4890158 
+
+[P]get request:           4890158 
+
+[P]Get Hit Rate:          85.2179 %
+
+[P]ACC Hit Rate:          50.6601 %
+
+[P]rx packet:             1382.768 / s
+
+[P]Throughput:            71942.907 ops
+
+[P]all request:           9780316 o
+
+[P]Valid Entries:         35972.953 / s
+
+[P]set success:           35972.953 / s
+
+[P]get found:             30652.848 / s
+
+----------------------------------
+
+[INFO]Current Time:       139.02 s
+
+[P]indexs Load Factor:    17.7268 %
+
+[P]slabs Load Factor:     29.3624 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           4926195 
+
+[P]get request:           4926195 
+
+[P]Get Hit Rate:          85.6786 %
+
+[P]ACC Hit Rate:          50.9162 %
+
+[P]rx packet:             1386.774 / s
+
+[P]Throughput:            72062.265 ops
+
+[P]all request:           9852390 o
+
+[P]Valid Entries:         36031.133 / s
+
+[P]set success:           36031.133 / s
+
+[P]get found:             30870.973 / s
+
+----------------------------------
+
+[INFO]Current Time:       140.02 s
+
+[P]indexs Load Factor:    17.7951 %
+
+[P]slabs Load Factor:     29.5772 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           4962230 
+
+[P]get request:           4962230 
+
+[P]Get Hit Rate:          85.5141 %
+
+[P]ACC Hit Rate:          51.1675 %
+
+[P]rx packet:             1384.767 / s
+
+[P]Throughput:            72057.888 ops
+
+[P]all request:           9924460 o
+
+[P]Valid Entries:         36028.944 / s
+
+[P]set success:           36028.944 / s
+
+[P]get found:             30809.821 / s
+
+----------------------------------
+
+[INFO]Current Time:       141.02 s
+
+[P]indexs Load Factor:    17.8623 %
+
+[P]slabs Load Factor:     29.7925 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           4998345 
+
+[P]get request:           4998349 
+
+[P]Get Hit Rate:          86.4448 %
+
+[P]ACC Hit Rate:          51.4224 %
+
+[P]rx packet:             1389.772 / s
+
+[P]Throughput:            72222.153 ops
+
+[P]all request:           9996694 o
+
+[P]Valid Entries:         36109.077 / s
+
+[P]set success:           36109.077 / s
+
+[P]get found:             31217.879 / s
+
+----------------------------------
+
+[INFO]Current Time:       142.02 s
+
+[P]indexs Load Factor:    17.9294 %
+
+[P]slabs Load Factor:     30.0066 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           5034279 
+
+[P]get request:           5034278 
+
+[P]Get Hit Rate:          86.4817 %
+
+[P]ACC Hit Rate:          51.6726 %
+
+[P]rx packet:             1381.772 / s
+
+[P]Throughput:            71851.146 ops
+
+[P]all request:           10068557 o
+
+[P]Valid Entries:         35928.072 / s
+
+[P]set success:           35928.072 / s
+
+[P]get found:             31066.874 / s
+
+----------------------------------
+
+[INFO]Current Time:       143.02 s
+
+[P]indexs Load Factor:    17.9958 %
+
+[P]slabs Load Factor:     30.2213 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           5070286 
+
+[P]get request:           5070283 
+
+[P]Get Hit Rate:          86.7241 %
+
+[P]ACC Hit Rate:          51.9215 %
+
+[P]rx packet:             1383.770 / s
+
+[P]Throughput:            72000.052 ops
+
+[P]all request:           10140569 o
+
+[P]Valid Entries:         36001.026 / s
+
+[P]set success:           36001.026 / s
+
+[P]get found:             31219.819 / s
+
+----------------------------------
+
+[INFO]Current Time:       144.02 s
+
+[P]indexs Load Factor:    18.0612 %
+
+[P]slabs Load Factor:     30.4356 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           5106245 
+
+[P]get request:           5106245 
+
+[P]Get Hit Rate:          87.2894 %
+
+[P]ACC Hit Rate:          52.1706 %
+
+[P]rx packet:             1383.700 / s
+
+[P]Throughput:            71905.399 ops
+
+[P]all request:           10212490 o
+
+[P]Valid Entries:         35951.200 / s
+
+[P]set success:           35951.200 / s
+
+[P]get found:             31384.191 / s
+
+----------------------------------
+
+[INFO]Current Time:       145.02 s
+
+[P]indexs Load Factor:    18.1255 %
+
+[P]slabs Load Factor:     30.6481 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           5141890 
+
+[P]get request:           5141892 
+
+[P]Get Hit Rate:          87.4155 %
+
+[P]ACC Hit Rate:          52.4149 %
+
+[P]rx packet:             1370.774 / s
+
+[P]Throughput:            71280.240 ops
+
+[P]all request:           10283782 o
+
+[P]Valid Entries:         35639.120 / s
+
+[P]set success:           35639.120 / s
+
+[P]get found:             31155.860 / s
+
+----------------------------------
+
+[INFO]Current Time:       146.02 s
+
+[P]indexs Load Factor:    18.1907 %
+
+[P]slabs Load Factor:     30.8659 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           5178446 
+
+[P]get request:           5178446 
+
+[P]Get Hit Rate:          87.9274 %
+
+[P]ACC Hit Rate:          52.6656 %
+
+[P]rx packet:             1404.765 / s
+
+[P]Throughput:            73097.783 ops
+
+[P]all request:           10356892 o
+
+[P]Valid Entries:         36549.891 / s
+
+[P]set success:           36549.891 / s
+
+[P]get found:             32135.629 / s
+
+----------------------------------
+
+[INFO]Current Time:       147.02 s
+
+[P]indexs Load Factor:    18.2534 %
+
+[P]slabs Load Factor:     31.0793 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           5214248 
+
+[P]get request:           5214250 
+
+[P]Get Hit Rate:          88.4035 %
+
+[P]ACC Hit Rate:          52.9110 %
+
+[P]rx packet:             1377.742 / s
+
+[P]Throughput:            71592.618 ops
+
+[P]all request:           10428498 o
+
+[P]Valid Entries:         35795.309 / s
+
+[P]set success:           35795.309 / s
+
+[P]get found:             31646.085 / s
+
+----------------------------------
+
+[INFO]Current Time:       148.02 s
+
+[P]indexs Load Factor:    18.3167 %
+
+[P]slabs Load Factor:     31.2935 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           5250180 
+
+[P]get request:           5250181 
+
+[P]Get Hit Rate:          88.1718 %
+
+[P]ACC Hit Rate:          53.1523 %
+
+[P]rx packet:             1381.769 / s
+
+[P]Throughput:            71850.991 ops
+
+[P]all request:           10500361 o
+
+[P]Valid Entries:         35925.996 / s
+
+[P]set success:           35925.996 / s
+
+[P]get found:             31675.706 / s
+
+----------------------------------
+
+[INFO]Current Time:       149.02 s
+
+[P]indexs Load Factor:    18.3794 %
+
+[P]slabs Load Factor:     31.5091 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           5286347 
+
+[P]get request:           5286351 
+
+[P]Get Hit Rate:          88.5375 %
+
+[P]ACC Hit Rate:          53.3944 %
+
+[P]rx packet:             1390.758 / s
+
+[P]Throughput:            72324.429 ops
+
+[P]all request:           10572698 o
+
+[P]Valid Entries:         36160.715 / s
+
+[P]set success:           36160.715 / s
+
+[P]get found:             32018.435 / s
+
+----------------------------------
+
+[INFO]Current Time:       150.02 s
+
+[P]indexs Load Factor:    18.4412 %
+
+[P]slabs Load Factor:     31.7236 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           5322330 
+
+[P]get request:           5322332 
+
+[P]Get Hit Rate:          89.0081 %
+
+[P]ACC Hit Rate:          53.6352 %
+
+[P]rx packet:             1383.776 / s
+
+[P]Throughput:            71952.335 ops
+
+[P]all request:           10644662 o
+
+[P]Valid Entries:         35977.167 / s
+
+[P]set success:           35977.167 / s
+
+[P]get found:             32020.809 / s
+
+----------------------------------
+
+[INFO]Current Time:       151.02 s
+
+[P]indexs Load Factor:    18.5028 %
+
+[P]slabs Load Factor:     31.9387 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           5358418 
+
+[P]get request:           5358418 
+
+[P]Get Hit Rate:          89.3172 %
+
+[P]ACC Hit Rate:          53.8755 %
+
+[P]rx packet:             1386.702 / s
+
+[P]Throughput:            72158.482 ops
+
+[P]all request:           10716836 o
+
+[P]Valid Entries:         36080.241 / s
+
+[P]set success:           36080.241 / s
+
+[P]get found:             32224.070 / s
+
+----------------------------------
+
+[INFO]Current Time:       152.02 s
+
+[P]indexs Load Factor:    18.5636 %
+
+[P]slabs Load Factor:     32.1533 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           5394429 
+
+[P]get request:           5394429 
+
+[P]Get Hit Rate:          89.6393 %
+
+[P]ACC Hit Rate:          54.1143 %
+
+[P]rx packet:             1385.846 / s
+
+[P]Throughput:            72014.016 ops
+
+[P]all request:           10788858 o
+
+[P]Valid Entries:         36007.008 / s
+
+[P]set success:           36007.008 / s
+
+[P]get found:             32276.422 / s
+
+----------------------------------
+
+[INFO]Current Time:       153.03 s
+
+[P]indexs Load Factor:    18.6244 %
+
+[P]slabs Load Factor:     32.3686 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           5430550 
+
+[P]get request:           5430548 
+
+[P]Get Hit Rate:          89.7782 %
+
+[P]ACC Hit Rate:          54.3515 %
+
+[P]rx packet:             1388.774 / s
+
+[P]Throughput:            72228.221 ops
+
+[P]all request:           10861098 o
+
+[P]Valid Entries:         36115.110 / s
+
+[P]set success:           36115.110 / s
+
+[P]get found:             32421.713 / s
+
+----------------------------------
+
+[INFO]Current Time:       154.03 s
+
+[P]indexs Load Factor:    18.6840 %
+
+[P]slabs Load Factor:     32.5830 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           5466526 
+
+[P]get request:           5466526 
+
+[P]Get Hit Rate:          90.1857 %
+
+[P]ACC Hit Rate:          54.5873 %
+
+[P]rx packet:             1382.772 / s
+
+[P]Throughput:            71942.131 ops
+
+[P]all request:           10933052 o
+
+[P]Valid Entries:         35970.065 / s
+
+[P]set success:           35970.065 / s
+
+[P]get found:             32441.648 / s
+
+----------------------------------
+
+[INFO]Current Time:       155.03 s
+
+[P]indexs Load Factor:    18.7424 %
+
+[P]slabs Load Factor:     32.7978 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           5502562 
+
+[P]get request:           5502562 
+
+[P]Get Hit Rate:          90.8453 %
+
+[P]ACC Hit Rate:          54.8248 %
+
+[P]rx packet:             1385.767 / s
+
+[P]Throughput:            72059.888 ops
+
+[P]all request:           11005124 o
+
+[P]Valid Entries:         36029.944 / s
+
+[P]set success:           36029.944 / s
+
+[P]get found:             32731.498 / s
+
+----------------------------------
+
+[INFO]Current Time:       156.03 s
+
+[P]indexs Load Factor:    18.8010 %
+
+[P]slabs Load Factor:     33.0131 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           5538676 
+
+[P]get request:           5538676 
+
+[P]Get Hit Rate:          90.5134 %
+
+[P]ACC Hit Rate:          55.0575 %
+
+[P]rx packet:             1388.775 / s
+
+[P]Throughput:            72216.309 ops
+
+[P]all request:           11077352 o
+
+[P]Valid Entries:         36108.155 / s
+
+[P]set success:           36108.155 / s
+
+[P]get found:             32682.709 / s
+
+----------------------------------
+
+[INFO]Current Time:       157.03 s
+
+[P]indexs Load Factor:    18.8582 %
+
+[P]slabs Load Factor:     33.2269 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           5574556 
+
+[P]get request:           5574556 
+
+[P]Get Hit Rate:          91.3211 %
+
+[P]ACC Hit Rate:          55.2909 %
+
+[P]rx packet:             1379.772 / s
+
+[P]Throughput:            71748.163 ops
+
+[P]all request:           11149112 o
+
+[P]Valid Entries:         35874.081 / s
+
+[P]set success:           35874.081 / s
+
+[P]get found:             32760.595 / s
+
+----------------------------------
+
+[INFO]Current Time:       158.03 s
+
+[P]indexs Load Factor:    18.9157 %
+
+[P]slabs Load Factor:     33.4417 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           5610592 
+
+[P]get request:           5610595 
+
+[P]Get Hit Rate:          91.4398 %
+
+[P]ACC Hit Rate:          55.5231 %
+
+[P]rx packet:             1386.702 / s
+
+[P]Throughput:            72059.503 ops
+
+[P]all request:           11221187 o
+
+[P]Valid Entries:         36028.252 / s
+
+[P]set success:           36028.252 / s
+
+[P]get found:             32946.915 / s
+
+----------------------------------
+
+[INFO]Current Time:       159.03 s
+
+[P]indexs Load Factor:    18.9723 %
+
+[P]slabs Load Factor:     33.6561 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           5646550 
+
+[P]get request:           5646553 
+
+[P]Get Hit Rate:          91.4762 %
+
+[P]ACC Hit Rate:          55.7520 %
+
+[P]rx packet:             1382.777 / s
+
+[P]Throughput:            71904.428 ops
+
+[P]all request:           11293103 o
+
+[P]Valid Entries:         35952.214 / s
+
+[P]set success:           35952.214 / s
+
+[P]get found:             32887.707 / s
+
+----------------------------------
+
+[INFO]Current Time:       160.03 s
+
+[P]indexs Load Factor:    19.0290 %
+
+[P]slabs Load Factor:     33.8713 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           5682664 
+
+[P]get request:           5682664 
+
+[P]Get Hit Rate:          91.5123 %
+
+[P]ACC Hit Rate:          55.9793 %
+
+[P]rx packet:             1387.777 / s
+
+[P]Throughput:            72213.379 ops
+
+[P]all request:           11365328 o
+
+[P]Valid Entries:         36108.189 / s
+
+[P]set success:           36108.189 / s
+
+[P]get found:             33040.683 / s
+
+----------------------------------
+
+[INFO]Current Time:       161.03 s
+
+[P]indexs Load Factor:    19.0854 %
+
+[P]slabs Load Factor:     34.0868 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           5718812 
+
+[P]get request:           5718818 
+
+[P]Get Hit Rate:          92.0756 %
+
+[P]ACC Hit Rate:          56.2075 %
+
+[P]rx packet:             1390.783 / s
+
+[P]Throughput:            72290.711 ops
+
+[P]all request:           11437630 o
+
+[P]Valid Entries:         36142.356 / s
+
+[P]set success:           36142.356 / s
+
+[P]get found:             33283.802 / s
+
+----------------------------------
+
+[INFO]Current Time:       162.03 s
+
+[P]indexs Load Factor:    19.1407 %
+
+[P]slabs Load Factor:     34.3023 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           5754970 
+
+[P]get request:           5754970 
+
+[P]Get Hit Rate:          92.2881 %
+
+[P]ACC Hit Rate:          56.4341 %
+
+[P]rx packet:             1389.774 / s
+
+[P]Throughput:            72298.227 ops
+
+[P]all request:           11509940 o
+
+[P]Valid Entries:         36152.113 / s
+
+[P]set success:           36152.113 / s
+
+[P]get found:             33358.568 / s
+
+----------------------------------
+
+[INFO]Current Time:       163.03 s
+
+[P]indexs Load Factor:    19.1959 %
+
+[P]slabs Load Factor:     34.5167 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           5790941 
+
+[P]get request:           5790948 
+
+[P]Get Hit Rate:          92.4621 %
+
+[P]ACC Hit Rate:          56.6579 %
+
+[P]rx packet:             1385.852 / s
+
+[P]Throughput:            71941.299 ops
+
+[P]all request:           11581889 o
+
+[P]Valid Entries:         35967.150 / s
+
+[P]set success:           35967.150 / s
+
+[P]get found:             33262.439 / s
+
+----------------------------------
+
+[INFO]Current Time:       164.03 s
+
+[P]indexs Load Factor:    19.2502 %
+
+[P]slabs Load Factor:     34.7330 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           5827225 
+
+[P]get request:           5827226 
+
+[P]Get Hit Rate:          92.9131 %
+
+[P]ACC Hit Rate:          56.8837 %
+
+[P]rx packet:             1393.745 / s
+
+[P]Throughput:            72548.716 ops
+
+[P]all request:           11654451 o
+
+[P]Valid Entries:         36277.357 / s
+
+[P]set success:           36277.357 / s
+
+[P]get found:             33700.829 / s
+
+----------------------------------
+
+[INFO]Current Time:       165.03 s
+
+[P]indexs Load Factor:    19.3029 %
+
+[P]slabs Load Factor:     34.9471 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           5863156 
+
+[P]get request:           5863158 
+
+[P]Get Hit Rate:          93.3625 %
+
+[P]ACC Hit Rate:          57.1072 %
+
+[P]rx packet:             1381.702 / s
+
+[P]Throughput:            71847.480 ops
+
+[P]all request:           11726314 o
+
+[P]Valid Entries:         35923.240 / s
+
+[P]set success:           35923.240 / s
+
+[P]get found:             33539.755 / s
+
+----------------------------------
+
+[INFO]Current Time:       166.03 s
+
+[P]indexs Load Factor:    19.3564 %
+
+[P]slabs Load Factor:     35.1633 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           5899426 
+
+[P]get request:           5899426 
+
+[P]Get Hit Rate:          93.3991 %
+
+[P]ACC Hit Rate:          57.3303 %
+
+[P]rx packet:             1393.764 / s
+
+[P]Throughput:            72525.740 ops
+
+[P]all request:           11798852 o
+
+[P]Valid Entries:         36263.870 / s
+
+[P]set success:           36263.870 / s
+
+[P]get found:             33868.275 / s
+
+----------------------------------
+
+[INFO]Current Time:       167.03 s
+
+[P]indexs Load Factor:    19.4087 %
+
+[P]slabs Load Factor:     35.3781 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           5935462 
+
+[P]get request:           5935462 
+
+[P]Get Hit Rate:          93.6730 %
+
+[P]ACC Hit Rate:          57.5510 %
+
+[P]rx packet:             1385.770 / s
+
+[P]Throughput:            72060.042 ops
+
+[P]all request:           11870924 o
+
+[P]Valid Entries:         36030.021 / s
+
+[P]set success:           36030.021 / s
+
+[P]get found:             33750.399 / s
+
+----------------------------------
+
+[INFO]Current Time:       168.03 s
+
+[P]indexs Load Factor:    19.4608 %
+
+[P]slabs Load Factor:     35.5929 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           5971498 
+
+[P]get request:           5971498 
+
+[P]Get Hit Rate:          94.0199 %
+
+[P]ACC Hit Rate:          57.7710 %
+
+[P]rx packet:             1385.773 / s
+
+[P]Throughput:            72060.180 ops
+
+[P]all request:           11942996 o
+
+[P]Valid Entries:         36030.090 / s
+
+[P]set success:           36030.090 / s
+
+[P]get found:             33875.443 / s
+
+----------------------------------
+
+[INFO]Current Time:       169.03 s
+
+[P]indexs Load Factor:    19.5119 %
+
+[P]slabs Load Factor:     35.8052 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           6007120 
+
+[P]get request:           6007120 
+
+[P]Get Hit Rate:          93.9925 %
+
+[P]ACC Hit Rate:          57.9858 %
+
+[P]rx packet:             1370.775 / s
+
+[P]Throughput:            71232.316 ops
+
+[P]all request:           12014240 o
+
+[P]Valid Entries:         35616.158 / s
+
+[P]set success:           35616.158 / s
+
+[P]get found:             33476.509 / s
+
+----------------------------------
+
+[INFO]Current Time:       170.03 s
+
+[P]indexs Load Factor:    19.5637 %
+
+[P]slabs Load Factor:     36.0227 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           6043610 
+
+[P]get request:           6043612 
+
+[P]Get Hit Rate:          94.4947 %
+
+[P]ACC Hit Rate:          58.2063 %
+
+[P]rx packet:             1402.774 / s
+
+[P]Throughput:            72970.257 ops
+
+[P]all request:           12087222 o
+
+[P]Valid Entries:         36484.129 / s
+
+[P]set success:           36484.129 / s
+
+[P]get found:             34477.451 / s
+
+----------------------------------
+
+[INFO]Current Time:       171.03 s
+
+[P]indexs Load Factor:    19.6143 %
+
+[P]slabs Load Factor:     36.2378 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           6079699 
+
+[P]get request:           6079700 
+
+[P]Get Hit Rate:          94.6935 %
+
+[P]ACC Hit Rate:          58.4229 %
+
+[P]rx packet:             1387.753 / s
+
+[P]Throughput:            72164.165 ops
+
+[P]all request:           12159399 o
+
+[P]Valid Entries:         36082.582 / s
+
+[P]set success:           36082.582 / s
+
+[P]get found:             34166.923 / s
+
+----------------------------------
+
+[INFO]Current Time:       172.03 s
+
+[P]indexs Load Factor:    19.6642 %
+
+[P]slabs Load Factor:     36.4527 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           6115746 
+
+[P]get request:           6115746 
+
+[P]Get Hit Rate:          95.1007 %
+
+[P]ACC Hit Rate:          58.6390 %
+
+[P]rx packet:             1385.768 / s
+
+[P]Throughput:            72080.953 ops
+
+[P]all request:           12231492 o
+
+[P]Valid Entries:         36040.976 / s
+
+[P]set success:           36040.976 / s
+
+[P]get found:             34274.272 / s
+
+----------------------------------
+dump mbuf at 0x101f2f880, iova=158992f900, buf_len=2176
+  pkt_len=1514, ol_flags=100, nb_segs=1, in_port=0
+  segment at 0x101f2f880, data=0x101f2f980, data_len=1514
+  Dump data at [0x101f2f980], len=1514
+00000000: 98 03 9B 8F B1 C8 98 03 9B 8F B0 11 08 00 45 00 | ..............E.
+00000010: 05 DC 00 00 00 00 40 11 00 00 0A B0 40 23 0A B0 | ......@.....@#..
+00000020: 40 29 00 00 00 00 05 C8 00 00 02 00 08 00 08 00 | @)..............
+00000030: 17 78 BA 00 00 00 00 00 9C ED FC B3 51 66 A9 39 | .x..........Qf.9
+00000040: 03 00 08 00 08 00 08 00 00 F6 7D 01 00 00 00 00 | ..........}.....
+00000050: EC 13 4D 2C 9D F6 78 20 01 F6 7D 01 00 00 00 00 | ..M,..x ..}.....
+00000060: 02 00 08 00 08 00 D6 D0 AD 00 00 00 00 00 A0 C3 | ................
+00000070: 2C AE 39 56 6E 58 02 00 08 00 08 00 08 49 48 00 | ,.9VnX.......IH.
+00000080: 00 00 00 00 F4 6F A1 08 9C A4 FD B6 03 00 08 00 | .....o..........
+00000090: 08 00 08 00 06 F6 7D 01 00 00 00 00 74 BD D7 7F | ......}.....t...
+000000A0: 55 38 5E 15 07 F6 7D 01 00 00 00 00 02 00 08 00 | U8^...}.........
+000000B0: 08 00 6B 49 19 00 00 00 00 00 54 94 84 C2 94 D6 | ..kI......T.....
+000000C0: 12 DE 02 00 08 00 08 00 7B 46 25 00 00 00 00 00 | ........{F%.....
+000000D0: 68 4A 8B DF 0A 00 72 E0 03 00 08 00 08 00 08 00 | hJ....r.........
+000000E0: 09 F6 7D 01 00 00 00 00 14 7E 72 91 3C 58 A5 84 | ..}......~r.<X..
+000000F0: 0A F6 7D 01 00 00 00 00 02 00 08 00 08 00 69 CE | ..}...........i.
+00000100: 55 01 00 00 00 00 B4 DC 23 C2 E1 5A 32 54 03 00 | U.......#..Z2T..
+00000110: 08 00 08 00 08 00 10 F6 7D 01 00 00 00 00 B0 BD | ........}.......
+00000120: 97 C6 43 92 0E 11 11 F6 7D 01 00 00 00 00 03 00 | ..C.....}.......
+00000130: 08 00 08 00 08 00 12 F6 7D 01 00 00 00 00 C4 B8 | ........}.......
+00000140: B6 58 6E F1 47 22 13 F6 7D 01 00 00 00 00 02 00 | .Xn.G"..}.......
+00000150: 08 00 08 00 D1 45 06 00 00 00 00 00 24 4C 8E 2E | .....E......$L..
+00000160: 5D 76 91 F7 02 00 08 00 08 00 6F 39 5B 00 00 00 | ]v........o9[...
+00000170: 00 00 0C 90 B9 21 46 5C 74 35 03 00 08 00 08 00 | .....!F\t5......
+00000180: 08 00 16 F6 7D 01 00 00 00 00 D0 D9 55 C7 3A B6 | ....}.......U.:.
+00000190: 57 09 17 F6 7D 01 00 00 00 00 03 00 08 00 08 00 | W...}...........
+000001A0: 08 00 1A F6 7D 01 00 00 00 00 30 43 79 CD 65 BF | ....}.....0Cy.e.
+000001B0: E2 02 1B F6 7D 01 00 00 00 00 03 00 08 00 08 00 | ....}...........
+000001C0: 08 00 1D F6 7D 01 00 00 00 00 1C 8B 8E CD 7C BA | ....}.........|.
+000001D0: F2 14 1E F6 7D 01 00 00 00 00 03 00 08 00 08 00 | ....}...........
+000001E0: 08 00 20 F6 7D 01 00 00 00 00 34 81 38 00 81 78 | .. .}.....4.8..x
+000001F0: B7 A2 21 F6 7D 01 00 00 00 00 03 00 08 00 08 00 | ..!.}...........
+00000200: 08 00 27 F6 7D 01 00 00 00 00 04 1F 78 A2 D1 A3 | ..'.}.......x...
+00000210: 1D 04 28 F6 7D 01 00 00 00 00 03 00 08 00 08 00 | ..(.}...........
+00000220: 08 00 2A F6 7D 01 00 00 00 00 90 47 DD D1 77 A6 | ..*.}......G..w.
+00000230: AD 9D 2B F6 7D 01 00 00 00 00 03 00 08 00 08 00 | ..+.}...........
+00000240: 08 00 2B F6 7D 01 00 00 00 00 AC E1 5E 6D AE 93 | ..+.}.......^m..
+00000250: F0 6D 2C F6 7D 01 00 00 00 00 03 00 08 00 08 00 | .m,.}...........
+00000260: 08 00 2E F6 7D 01 00 00 00 00 68 20 EA 0C 48 82 | ....}.....h ..H.
+00000270: 72 D8 2F F6 7D 01 00 00 00 00 03 00 08 00 08 00 | r./.}...........
+00000280: 08 00 30 F6 7D 01 00 00 00 00 D0 5C 94 C2 21 AF | ..0.}......\..!.
+00000290: 97 D8 31 F6 7D 01 00 00 00 00 02 00 08 00 08 00 | ..1.}...........
+000002A0: A5 72 4E 01 00 00 00 00 18 FA FD 73 FC 9D B3 CF | .rN........s....
+000002B0: 02 00 08 00 08 00 F1 C4 04 01 00 00 00 00 B0 89 | ................
+000002C0: 0C 2A 90 19 38 7B 02 00 08 00 08 00 ED 2A 42 01 | .*..8{.......*B.
+000002D0: 00 00 00 00 28 E0 5D EB 0C 0B 3B 46 03 00 08 00 | ....(.]...;F....
+000002E0: 08 00 08 00 31 F6 7D 01 00 00 00 00 58 AF 31 AF | ....1.}.....X.1.
+000002F0: F1 BA 35 49 32 F6 7D 01 00 00 00 00 03 00 08 00 | ..5I2.}.........
+00000300: 08 00 08 00 33 F6 7D 01 00 00 00 00 98 ED E2 0B | ....3.}.........
+00000310: 86 B8 CC 46 34 F6 7D 01 00 00 00 00 02 00 08 00 | ...F4.}.........
+00000320: 08 00 F2 59 EE 00 00 00 00 00 C0 C2 D0 46 7C 16 | ...Y.........F|.
+00000330: B1 FC 03 00 08 00 08 00 08 00 36 F6 7D 01 00 00 | ..........6.}...
+00000340: 00 00 34 00 D0 50 6D 92 F6 C2 37 F6 7D 01 00 00 | ..4..Pm...7.}...
+00000350: 00 00 03 00 08 00 08 00 08 00 39 F6 7D 01 00 00 | ..........9.}...
+00000360: 00 00 04 6C 9E 22 52 45 37 59 3A F6 7D 01 00 00 | ...l."RE7Y:.}...
+00000370: 00 00 03 00 08 00 08 00 08 00 3B F6 7D 01 00 00 | ..........;.}...
+00000380: 00 00 10 B2 6F D8 75 8C 8D 92 3C F6 7D 01 00 00 | ....o.u...<.}...
+00000390: 00 00 03 00 08 00 08 00 08 00 3F F6 7D 01 00 00 | ..........?.}...
+000003A0: 00 00 6C E2 65 F1 43 5C D4 DE 40 F6 7D 01 00 00 | ..l.e.C\..@.}...
+000003B0: 00 00 02 00 08 00 08 00 6A 3B 0E 01 00 00 00 00 | ........j;......
+000003C0: 1C 6B D4 65 C0 80 9D 41 03 00 08 00 08 00 08 00 | .k.e...A........
+000003D0: 40 F6 7D 01 00 00 00 00 A0 12 E1 E8 A5 29 81 40 | @.}..........).@
+000003E0: 41 F6 7D 01 00 00 00 00 03 00 08 00 08 00 08 00 | A.}.............
+000003F0: 41 F6 7D 01 00 00 00 00 94 CE 93 B8 58 29 E4 9F | A.}.........X)..
+00000400: 42 F6 7D 01 00 00 00 00 02 00 08 00 08 00 B0 C4 | B.}.............
+00000410: 9D 01 00 00 00 00 C4 01 33 93 0A 03 4D 1E 03 00 | ........3...M...
+00000420: 08 00 08 00 08 00 42 F6 7D 01 00 00 00 00 28 6E | ......B.}.....(n
+00000430: 29 0F DD AE AD DD 43 F6 7D 01 00 00 00 00 02 00 | ).....C.}.......
+00000440: 08 00 08 00 5D 71 64 00 00 00 00 00 98 1A 68 06 | ....]qd.......h.
+00000450: 8D 82 BF 81 02 00 08 00 08 00 EE B8 18 00 00 00 | ................
+00000460: 00 00 44 9E 28 D6 FC 68 8D E2 02 00 08 00 08 00 | ..D.(..h........
+00000470: 5A AB 0A 01 00 00 00 00 04 16 97 D7 F5 08 DF FD | Z...............
+00000480: 03 00 08 00 08 00 08 00 47 F6 7D 01 00 00 00 00 | ........G.}.....
+00000490: 74 95 45 85 14 4B 10 AB 48 F6 7D 01 00 00 00 00 | t.E..K..H.}.....
+000004A0: 02 00 08 00 08 00 40 9D A5 00 00 00 00 00 CC 54 | ......@........T
+000004B0: 34 54 AF AD BF 46 02 00 08 00 08 00 59 12 02 00 | 4T...F......Y...
+000004C0: 00 00 00 00 60 08 0E 4A EF 09 C3 EE 03 00 08 00 | ....`..J........
+000004D0: 08 00 08 00 4D F6 7D 01 00 00 00 00 A8 13 FD 6F | ....M.}........o
+000004E0: 6A 4C E0 E8 4E F6 7D 01 00 00 00 00 03 00 08 00 | jL..N.}.........
+000004F0: 08 00 08 00 4E F6 7D 01 00 00 00 00 F8 B7 3D 11 | ....N.}.......=.
+00000500: D0 33 31 9F 4F F6 7D 01 00 00 00 00 02 00 08 00 | .31.O.}.........
+00000510: 08 00 82 56 4F 01 00 00 00 00 78 21 0C BC 58 71 | ...VO.....x!..Xq
+00000520: 31 9D 02 00 08 00 08 00 70 58 25 01 00 00 00 00 | 1.......pX%.....
+00000530: E0 52 35 BD 67 D5 30 27 02 00 08 00 08 00 F3 8D | .R5.g.0'........
+00000540: 73 00 00 00 00 00 EC 86 D1 43 42 16 E1 FA 02 00 | s........CB.....
+00000550: 08 00 08 00 AB 3D 34 00 00 00 00 00 DC 3D CF E2 | .....=4......=..
+00000560: 8B 86 5C 23 02 00 08 00 08 00 51 7F 76 01 00 00 | ..\#......Q.v...
+00000570: 00 00 E4 71 C5 B4 D4 13 F9 A0 02 00 08 00 08 00 | ...q............
+00000580: 45 6E 6E 00 00 00 00 00 48 EE 36 F5 41 A1 60 AF | Enn.....H.6.A.`.
+00000590: 02 00 08 00 08 00 14 F6 D5 00 00 00 00 00 DC A7 | ................
+000005A0: 88 20 26 A7 3C 9C FF FF 00 00 00 00 00 00 00 00 | . &.<...........
+000005B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+000005C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+000005D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+000005E0: 00 00 00 00 00 00 00 00 00 00                   | ..........
+
+[INFO]Current Time:       173.03 s
+
+[P]indexs Load Factor:    19.7134 %
+
+[P]slabs Load Factor:     36.6666 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           6151643 
+
+[P]get request:           6151642 
+
+[P]Get Hit Rate:          95.1805 %
+
+[P]ACC Hit Rate:          58.8523 %
+
+[P]rx packet:             1380.700 / s
+
+[P]Throughput:            71777.427 ops
+
+[P]all request:           12303285 o
+
+[P]Valid Entries:         35889.213 / s
+
+[P]set success:           35889.213 / s
+
+[P]get found:             34158.589 / s
+
+----------------------------------
+
+[INFO]Current Time:       174.03 s
+
+[P]indexs Load Factor:    19.7621 %
+
+[P]slabs Load Factor:     36.8818 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           6187731 
+
+[P]get request:           6187732 
+
+[P]Get Hit Rate:          95.5694 %
+
+[P]ACC Hit Rate:          59.0664 %
+
+[P]rx packet:             1388.768 / s
+
+[P]Throughput:            72165.956 ops
+
+[P]all request:           12375463 o
+
+[P]Valid Entries:         36081.978 / s
+
+[P]set success:           36081.978 / s
+
+[P]get found:             34485.245 / s
+
+----------------------------------
+
+[INFO]Current Time:       175.03 s
+
+[P]indexs Load Factor:    19.8102 %
+
+[P]slabs Load Factor:     37.0960 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           6223676 
+
+[P]get request:           6223677 
+
+[P]Get Hit Rate:          95.5126 %
+
+[P]ACC Hit Rate:          59.2769 %
+
+[P]rx packet:             1381.770 / s
+
+[P]Throughput:            71878.055 ops
+
+[P]all request:           12447353 o
+
+[P]Valid Entries:         35939.028 / s
+
+[P]set success:           35939.028 / s
+
+[P]get found:             34326.296 / s
+
+----------------------------------
+
+[INFO]Current Time:       176.03 s
+
+[P]indexs Load Factor:    19.8581 %
+
+[P]slabs Load Factor:     37.3113 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           6259803 
+
+[P]get request:           6259802 
+
+[P]Get Hit Rate:          95.8782 %
+
+[P]ACC Hit Rate:          59.4881 %
+
+[P]rx packet:             1388.772 / s
+
+[P]Throughput:            72240.150 ops
+
+[P]all request:           12519605 o
+
+[P]Valid Entries:         36121.075 / s
+
+[P]set success:           36121.075 / s
+
+[P]get found:             34630.320 / s
+
+----------------------------------
+
+[INFO]Current Time:       177.03 s
+
+[P]indexs Load Factor:    19.9059 %
+
+[P]slabs Load Factor:     37.5253 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           6295709 
+
+[P]get request:           6295709 
+
+[P]Get Hit Rate:          96.1428 %
+
+[P]ACC Hit Rate:          59.6972 %
+
+[P]rx packet:             1381.778 / s
+
+[P]Throughput:            71801.445 ops
+
+[P]all request:           12591418 o
+
+[P]Valid Entries:         35900.222 / s
+
+[P]set success:           35900.222 / s
+
+[P]get found:             34516.445 / s
+
+----------------------------------
+
+[INFO]Current Time:       178.03 s
+
+[P]indexs Load Factor:    19.9532 %
+
+[P]slabs Load Factor:     37.7392 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           6331585 
+
+[P]get request:           6331576 
+
+[P]Get Hit Rate:          96.3588 %
+
+[P]ACC Hit Rate:          59.9049 %
+
+[P]rx packet:             1379.775 / s
+
+[P]Throughput:            71731.302 ops
+
+[P]all request:           12663161 o
+
+[P]Valid Entries:         35870.150 / s
+
+[P]set success:           35870.150 / s
+
+[P]get found:             34555.365 / s
+
+----------------------------------
+
+[INFO]Current Time:       179.03 s
+
+[P]indexs Load Factor:    19.9998 %
+
+[P]slabs Load Factor:     37.9539 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           6367610 
+
+[P]get request:           6367611 
+
+[P]Get Hit Rate:          96.5284 %
+
+[P]ACC Hit Rate:          60.1121 %
+
+[P]rx packet:             1386.773 / s
+
+[P]Throughput:            72048.199 ops
+
+[P]all request:           12735221 o
+
+[P]Valid Entries:         36019.100 / s
+
+[P]set success:           36019.100 / s
+
+[P]get found:             34778.304 / s
+
+----------------------------------
+
+[INFO]Current Time:       180.03 s
+
+[P]indexs Load Factor:    20.0464 %
+
+[P]slabs Load Factor:     38.1707 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           6403988 
+
+[P]get request:           6403991 
+
+[P]Get Hit Rate:          96.8279 %
+
+[P]ACC Hit Rate:          60.3207 %
+
+[P]rx packet:             1396.765 / s
+
+[P]Throughput:            72745.773 ops
+
+[P]all request:           12807979 o
+
+[P]Valid Entries:         36371.886 / s
+
+[P]set success:           36371.886 / s
+
+[P]get found:             35220.080 / s
+
+----------------------------------
+
+[INFO]Current Time:       181.03 s
+
+[P]indexs Load Factor:    20.0919 %
+
+[P]slabs Load Factor:     38.3849 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           6439913 
+
+[P]get request:           6439913 
+
+[P]Get Hit Rate:          97.1438 %
+
+[P]ACC Hit Rate:          60.5261 %
+
+[P]rx packet:             1381.695 / s
+
+[P]Throughput:            71831.124 ops
+
+[P]all request:           12879826 o
+
+[P]Valid Entries:         35917.062 / s
+
+[P]set success:           35917.062 / s
+
+[P]get found:             34888.289 / s
+
+----------------------------------
+
+[INFO]Current Time:       182.03 s
+
+[P]indexs Load Factor:    20.1373 %
+
+[P]slabs Load Factor:     38.5995 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           6475916 
+
+[P]get request:           6475915 
+
+[P]Get Hit Rate:          97.2085 %
+
+[P]ACC Hit Rate:          60.7300 %
+
+[P]rx packet:             1384.777 / s
+
+[P]Throughput:            71993.414 ops
+
+[P]all request:           12951831 o
+
+[P]Valid Entries:         35997.207 / s
+
+[P]set success:           35997.207 / s
+
+[P]get found:             34991.369 / s
+
+----------------------------------
+
+[INFO]Current Time:       183.03 s
+
+[P]indexs Load Factor:    20.1821 %
+
+[P]slabs Load Factor:     38.8153 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           6512133 
+
+[P]get request:           6512132 
+
+[P]Get Hit Rate:          97.4736 %
+
+[P]ACC Hit Rate:          60.9344 %
+
+[P]rx packet:             1391.772 / s
+
+[P]Throughput:            72422.120 ops
+
+[P]all request:           13024265 o
+
+[P]Valid Entries:         36211.060 / s
+
+[P]set success:           36211.060 / s
+
+[P]get found:             35296.210 / s
+
+----------------------------------
+
+[INFO]Current Time:       184.03 s
+
+[P]indexs Load Factor:    20.2265 %
+
+[P]slabs Load Factor:     39.0303 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           6548195 
+
+[P]get request:           6548194 
+
+[P]Get Hit Rate:          97.7372 %
+
+[P]ACC Hit Rate:          61.1371 %
+
+[P]rx packet:             1386.770 / s
+
+[P]Throughput:            72112.034 ops
+
+[P]all request:           13096389 o
+
+[P]Valid Entries:         36056.017 / s
+
+[P]set success:           36056.017 / s
+
+[P]get found:             35240.152 / s
+
+----------------------------------
+
+[INFO]Current Time:       185.03 s
+
+[P]indexs Load Factor:    20.2703 %
+
+[P]slabs Load Factor:     39.2445 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           6584127 
+
+[P]get request:           6584126 
+
+[P]Get Hit Rate:          97.8042 %
+
+[P]ACC Hit Rate:          61.3372 %
+
+[P]rx packet:             1381.773 / s
+
+[P]Throughput:            71852.214 ops
+
+[P]all request:           13168253 o
+
+[P]Valid Entries:         35926.107 / s
+
+[P]set success:           35926.107 / s
+
+[P]get found:             35137.236 / s
+
+----------------------------------
+
+[INFO]Current Time:       186.03 s
+
+[P]indexs Load Factor:    20.3140 %
+
+[P]slabs Load Factor:     39.4597 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           6620232 
+
+[P]get request:           6620226 
+
+[P]Get Hit Rate:          98.1607 %
+
+[P]ACC Hit Rate:          61.5380 %
+
+[P]rx packet:             1388.779 / s
+
+[P]Throughput:            72193.519 ops
+
+[P]all request:           13240458 o
+
+[P]Valid Entries:         36099.259 / s
+
+[P]set success:           36099.259 / s
+
+[P]get found:             35430.366 / s
+
+----------------------------------
+
+[INFO]Current Time:       187.03 s
+
+[P]indexs Load Factor:    20.3569 %
+
+[P]slabs Load Factor:     39.6747 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           6656311 
+
+[P]get request:           6656311 
+
+[P]Get Hit Rate:          98.3373 %
+
+[P]ACC Hit Rate:          61.7375 %
+
+[P]rx packet:             1387.768 / s
+
+[P]Throughput:            72151.941 ops
+
+[P]all request:           13312622 o
+
+[P]Valid Entries:         36072.971 / s
+
+[P]set success:           36072.971 / s
+
+[P]get found:             35479.070 / s
+
+----------------------------------
+
+[INFO]Current Time:       188.03 s
+
+[P]indexs Load Factor:    20.3998 %
+
+[P]slabs Load Factor:     39.8899 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           6692419 
+
+[P]get request:           6692417 
+
+[P]Get Hit Rate:          98.5653 %
+
+[P]ACC Hit Rate:          61.9362 %
+
+[P]rx packet:             1388.774 / s
+
+[P]Throughput:            72202.243 ops
+
+[P]all request:           13384836 o
+
+[P]Valid Entries:         36102.121 / s
+
+[P]set success:           36102.121 / s
+
+[P]get found:             35582.206 / s
+
+----------------------------------
+
+[INFO]Current Time:       189.03 s
+
+[P]indexs Load Factor:    20.4419 %
+
+[P]slabs Load Factor:     40.1049 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           6728479 
+
+[P]get request:           6728478 
+
+[P]Get Hit Rate:          98.7549 %
+
+[P]ACC Hit Rate:          62.1335 %
+
+[P]rx packet:             1385.770 / s
+
+[P]Throughput:            72109.017 ops
+
+[P]all request:           13456957 o
+
+[P]Valid Entries:         36054.009 / s
+
+[P]set success:           36054.009 / s
+
+[P]get found:             35606.083 / s
+
+----------------------------------
+
+[INFO]Current Time:       190.03 s
+
+[P]indexs Load Factor:    20.4834 %
+
+[P]slabs Load Factor:     40.3193 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           6764463 
+
+[P]get request:           6764462 
+
+[P]Get Hit Rate:          98.8412 %
+
+[P]ACC Hit Rate:          62.3288 %
+
+[P]rx packet:             1383.772 / s
+
+[P]Throughput:            71956.128 ops
+
+[P]all request:           13528925 o
+
+[P]Valid Entries:         35978.064 / s
+
+[P]set success:           35978.064 / s
+
+[P]get found:             35561.133 / s
+
+----------------------------------
+
+[INFO]Current Time:       191.03 s
+
+[P]indexs Load Factor:    20.5244 %
+
+[P]slabs Load Factor:     40.5334 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           6800373 
+
+[P]get request:           6800370 
+
+[P]Get Hit Rate:          99.0810 %
+
+[P]ACC Hit Rate:          62.5228 %
+
+[P]rx packet:             1383.783 / s
+
+[P]Throughput:            71806.735 ops
+
+[P]all request:           13600743 o
+
+[P]Valid Entries:         35904.367 / s
+
+[P]set success:           35904.367 / s
+
+[P]get found:             35572.419 / s
+
+----------------------------------
+
+[INFO]Current Time:       192.03 s
+
+[P]indexs Load Factor:    20.5656 %
+
+[P]slabs Load Factor:     40.7485 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           6836457 
+
+[P]get request:           6836456 
+
+[P]Get Hit Rate:          99.3959 %
+
+[P]ACC Hit Rate:          62.7175 %
+
+[P]rx packet:             1384.780 / s
+
+[P]Throughput:            72158.525 ops
+
+[P]all request:           13672913 o
+
+[P]Valid Entries:         36078.263 / s
+
+[P]set success:           36078.263 / s
+
+[P]get found:             35862.297 / s
+
+----------------------------------
+
+[INFO]Current Time:       193.03 s
+
+[P]indexs Load Factor:    20.6063 %
+
+[P]slabs Load Factor:     40.9623 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           6872337 
+
+[P]get request:           6872338 
+
+[P]Get Hit Rate:          99.5151 %
+
+[P]ACC Hit Rate:          62.9096 %
+
+[P]rx packet:             1380.772 / s
+
+[P]Throughput:            71750.162 ops
+
+[P]all request:           13744675 o
+
+[P]Valid Entries:         35874.081 / s
+
+[P]set success:           35874.081 / s
+
+[P]get found:             35702.110 / s
+
+----------------------------------
+
+[INFO]Current Time:       194.03 s
+
+[P]indexs Load Factor:    20.6631 %
+
+[P]slabs Load Factor:     41.1782 %
+
+[P]EVICT Ratio:           0.0000 %
+
+[P]set request:           6908555 
+
+[P]get request:           6908554 
+
+[P]Get Hit Rate:          99.7322 %
+
+[P]ACC Hit Rate:          63.1026 %
+
+[P]rx packet:            

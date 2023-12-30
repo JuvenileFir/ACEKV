@@ -1,0 +1,66 @@
+[INFO] maxbytes Size为:1 GB
+[INFO] 运行memc3
+EAL: Probing VFIO support...
+EAL: VFIO support initialized
+EAL: PCI device 0000:03:00.0 on NUMA socket 0
+EAL:   probe driver: 15b3:1017 net_mlx5
+WEN: There are 1 device(s) available
+starting port 0...
+querying port 0...
+port 0: 100 Gbps (full-duplex)
+Adding UDP filter for each endpoint.
+port_id/queue_id/udp_port = 0 0 0
+Flow is created with src_port = 0, dst_port = 0
+port_id/queue_id/udp_port = 0 1 1
+Flow is created with src_port = 0, dst_port = 1
+port_id/queue_id/udp_port = 0 2 2
+Flow is created with src_port = 0, dst_port = 2
+port_id/queue_id/udp_port = 0 3 3
+Flow is created with src_port = 0, dst_port = 3
+MEM: Initializing pages...
+maxbytes:1073741824
+alloc maxbytes:1073741824
+memc3 settings:
+	eviction = CLOCK
+	+int_keycmp
+	+cuckoo 
+	+tag
+	+opt lock
+
+ == [STAT] Workers Start (8 threads in total) == 
+run finish job......
+
+[INFO]End core_id4:0
+[INFO]End core_id2:0
+[INFO]End core_id0:0
+[INFO]End rx_queue_4:0
+[INFO]End core_id7:0
+[INFO]End core_id6:0
+[INFO]End rx_queue_7:0
+[INFO]End core_id3:0
+[INFO]End rx_queue_3:0
+[INFO]End rx_queue_2:0
+[INFO]End rx_queue_0:0
+[INFO]End core_id5:0
+[INFO]End rx_queue_5:0
+[INFO]End core_id1:0
+[INFO]End rx_queue_1:0
+[INFO]End rx_queue_6:0
+valid count:               0
+
+Set request:               0
+
+Set success:               0
+
+Get request:               0
+
+Get found:                 0
+
+Get Hit Rate:           -nan%
+
+index load factor:    0.0000 %
+index load factor:    0.000000%
+
+slabs load factor:     0.000000%
+
+[INFO] Everything works fine.

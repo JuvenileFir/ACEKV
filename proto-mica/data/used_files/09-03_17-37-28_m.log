@@ -1,0 +1,3027 @@
+[INFO] 单个Log Size为:1 GB
+[INFO] 运行mica
+[INFO] 运行cleanup
+[INFO] 运行reload
+[INFO] reload kv size 8
+EAL: Probing VFIO support...
+EAL: VFIO support initialized
+EAL: PCI device 0000:03:00.0 on NUMA socket 0
+EAL:   probe driver: 15b3:1017 net_mlx5
+WEN: There are 1 device(s) available
+starting port 0...
+querying port 0...
+port 0: 100 Gbps (full-duplex)
+Adding UDP filter for each endpoint.
+port_id/queue_id/udp_port = 0 0 0
+Flow is created with src_port = 0, dst_port = 0
+port_id/queue_id/udp_port = 0 1 1
+Flow is created with src_port = 0, dst_port = 1
+port_id/queue_id/udp_port = 0 2 2
+Flow is created with src_port = 0, dst_port = 2
+port_id/queue_id/udp_port = 0 3 3
+Flow is created with src_port = 0, dst_port = 3
+MEM: Initializing pages...
+ == [STAT] Workers Start (4 threads in total) == 
+latency1: 759
+latency0: 12268
+latency2: 3947
+latency3: 6586
+latency0: 5856
+latency1: 6152
+latency2: 6369
+latency3: 7230
+
+[INFO]Current Time:       14.48 s
+
+[P]indexs Load Factor:    0.3484 %
+
+[P]set latency:          12268 
+[P]set latency:          759 
+[P]set latency:          3947 
+[P]set latency:          6586 
+
+[P]set request:           18848 
+[P]get request:           19099 
+
+[P]Get Hit Rate:          44.7563 %
+[P]ACC Hit Rate:          44.7563 %
+
+[P]Throughput:            39946.524 ops
+[P]all request:           37947 o
+
+[P]GetThroughput:         20105.375 ops
+[P]SetThroughput:         19841.149 ops
+
+[P]Valid Entries:         18802.142 / s
+[P]mica evicted:          0 / s
+[P]set success:           19739.038 / s
+
+[P]get found:             8998.416 / s
+
+----------------------------------
+latency0: 418
+latency1: 282
+latency2: 413
+latency3: 16003086
+latency3: 442
+
+[INFO]Current Time:       15.62 s
+
+[P]indexs Load Factor:    3.4967 %
+
+[P]set latency:          5856 
+[P]set latency:          6152 
+[P]set latency:          6369 
+[P]set latency:          7230 
+
+[P]set request:           2166455 
+[P]get request:           2197540 
+
+[P]Get Hit Rate:          67.8858 %
+[P]ACC Hit Rate:          67.6848 %
+
+[P]Throughput:            3794016.860 ops
+[P]all request:           4363995 o
+
+[P]GetThroughput:         1910529.398 ops
+[P]SetThroughput:         1883487.462 ops
+
+[P]Valid Entries:         1848086.678 / s
+[P]mica evicted:          0 / s
+[P]set success:           1820243.148 / s
+
+[P]expire scan persec:    89161.038 / s
+[P]total expire scan:     101664
+
+[P]expire hit persec:       0.000 / s
+[P]total expire hit:      0
+
+[P]expire hit rate:       0.000000 %
+[P]total expire hit rate: 0.000000 %
+
+[P]get found:             1296978.078 / s
+
+----------------------------------
+latency0: 308
+latency1: 309
+latency2: 294
+latency3: 16005182
+latency3: 575
+
+[INFO]Current Time:       16.64 s
+
+[P]indexs Load Factor:    6.6097 %
+
+[P]set latency:          418 
+[P]set latency:          282 
+[P]set latency:          413 
+[P]set latency:          442 
+
+[P]set request:           4639613 
+[P]get request:           4663923 
+
+[P]Get Hit Rate:          79.5512 %
+[P]ACC Hit Rate:          73.9600 %
+
+[P]Throughput:            4815967.679 ops
+[P]all request:           9303536 o
+
+[P]GetThroughput:         2404681.085 ops
+[P]SetThroughput:         2411286.594 ops
+
+[P]Valid Entries:         2371204.075 / s
+[P]mica evicted:          0 / s
+[P]set success:           2438779.160 / s
+
+[P]expire scan persec:    693019.748 / s
+[P]total expire scan:     812466
+
+[P]expire hit persec:       3.900 / s
+[P]total expire hit:      4
+
+[P]expire hit rate:       0.000563 %
+[P]total expire hit rate: 0.000492 %
+
+[P]get found:             1912952.393 / s
+
+----------------------------------
+latency2: 549
+latency1: 749
+latency0: 495
+latency3: 523
+
+[INFO]Current Time:       17.72 s
+
+[P]indexs Load Factor:    9.7530 %
+
+[P]set latency:          308 
+[P]set latency:          309 
+[P]set latency:          294 
+[P]set latency:          575 
+
+[P]set request:           7164594 
+[P]get request:           7273303 
+
+[P]Get Hit Rate:          83.1088 %
+[P]ACC Hit Rate:          77.2422 %
+
+[P]Throughput:            4765297.613 ops
+[P]all request:           14437897 o
+
+[P]GetThroughput:         2421814.961 ops
+[P]SetThroughput:         2343482.652 ops
+
+[P]Valid Entries:         2389117.331 / s
+[P]mica evicted:           12.066 / s
+[P]set success:           2465113.565 / s
+
+[P]expire scan persec:    2296237.686 / s
+[P]total expire scan:     3286543
+
+[P]expire hit persec:       7.425 / s
+[P]total expire hit:      12
+
+[P]expire hit rate:       0.000323 %
+[P]total expire hit rate: 0.000365 %
+
+[P]get found:             2012740.976 / s
+
+----------------------------------
+latency1: 311
+latency3: 312
+latency2: 754
+latency0: 354
+
+[INFO]Current Time:       18.85 s
+
+[P]indexs Load Factor:    12.9021 %
+
+[P]set latency:          495 
+[P]set latency:          749 
+[P]set latency:          549 
+[P]set latency:          523 
+
+[P]set request:           9870122 
+[P]get request:           10043704 
+
+[P]Get Hit Rate:          81.3475 %
+[P]ACC Hit Rate:          78.3746 %
+
+[P]Throughput:            4844968.938 ops
+[P]all request:           19913826 o
+
+[P]GetThroughput:         2451183.496 ops
+[P]SetThroughput:         2393785.442 ops
+
+[P]Valid Entries:         2367766.843 / s
+[P]mica evicted:           35.391 / s
+[P]set success:           2357053.094 / s
+
+[P]expire scan persec:    3911028.902 / s
+[P]total expire scan:     7706905
+
+[P]expire hit persec:       9.733 / s
+[P]total expire hit:      23
+
+[P]expire hit rate:       0.000249 %
+[P]total expire hit rate: 0.000298 %
+
+[P]get found:             1993976.536 / s
+
+----------------------------------
+latency1: 341
+latency2: 362
+latency0: 377
+latency3: 303
+
+[INFO]Current Time:       20.00 s
+
+[P]indexs Load Factor:    16.0394 %
+
+[P]set latency:          354 
+[P]set latency:          311 
+[P]set latency:          754 
+[P]set latency:          312 
+
+[P]set request:           12641831 
+[P]get request:           12849941 
+
+[P]Get Hit Rate:          87.1106 %
+[P]ACC Hit Rate:          80.2824 %
+
+[P]Throughput:            4852434.652 ops
+[P]all request:           25491772 o
+
+[P]GetThroughput:         2441235.835 ops
+[P]SetThroughput:         2411198.817 ops
+
+[P]Valid Entries:         2385139.129 / s
+[P]mica evicted:          200.954 / s
+[P]set success:           2408517.686 / s
+
+[P]expire scan persec:    5876413.538 / s
+[P]total expire scan:     14461930
+
+[P]expire hit persec:      14.789 / s
+[P]total expire hit:      40
+
+[P]expire hit rate:       0.000252 %
+[P]total expire hit rate: 0.000277 %
+
+[P]get found:             2126575.281 / s
+
+----------------------------------
+latency0: 445
+latency2: 425
+latency1: 504
+latency3: 513
+
+[INFO]Current Time:       21.16 s
+
+[P]indexs Load Factor:    19.1804 %
+
+[P]set latency:          377 
+[P]set latency:          341 
+[P]set latency:          362 
+[P]set latency:          303 
+
+[P]set request:           15529078 
+[P]get request:           15693540 
+
+[P]Get Hit Rate:          88.2243 %
+[P]ACC Hit Rate:          81.7214 %
+
+[P]Throughput:            4925657.944 ops
+[P]all request:           31222618 o
+
+[P]GetThroughput:         2444071.260 ops
+[P]SetThroughput:         2481586.684 ops
+
+[P]Valid Entries:         2393189.763 / s
+[P]mica evicted:          659.236 / s
+[P]set success:           2478694.469 / s
+
+[P]expire scan persec:    7858350.240 / s
+[P]total expire scan:     23604870
+
+[P]expire hit persec:      13.752 / s
+[P]total expire hit:      56
+
+[P]expire hit rate:       0.000175 %
+[P]total expire hit rate: 0.000237 %
+
+[P]get found:             2156264.492 / s
+
+----------------------------------
+latency1: 437
+latency3: 1626
+latency0: 620
+latency2: 681
+
+[INFO]Current Time:       22.34 s
+
+[P]indexs Load Factor:    22.2943 %
+
+[P]set latency:          445 
+[P]set latency:          504 
+[P]set latency:          425 
+[P]set latency:          513 
+
+[P]set request:           18443406 
+[P]get request:           18491191 
+
+[P]Get Hit Rate:          90.9272 %
+[P]ACC Hit Rate:          83.1142 %
+
+[P]Throughput:            4849060.279 ops
+[P]all request:           36934597 o
+
+[P]GetThroughput:         2375004.940 ops
+[P]SetThroughput:         2474055.340 ops
+
+[P]Valid Entries:         2354555.107 / s
+[P]mica evicted:          1753.886 / s
+[P]set success:           2471221.617 / s
+
+[P]expire scan persec:    10145627.138 / s
+[P]total expire scan:     35555971
+
+[P]expire hit persec:      12.734 / s
+[P]total expire hit:      71
+
+[P]expire hit rate:       0.000126 %
+[P]total expire hit rate: 0.000200 %
+
+[P]get found:             2159525.729 / s
+
+----------------------------------
+latency2: 615
+latency1: 313
+latency0: 505
+latency3: 16003755
+latency3: 499
+
+[INFO]Current Time:       23.53 s
+
+[P]indexs Load Factor:    25.4095 %
+
+[P]set latency:          620 
+[P]set latency:          437 
+[P]set latency:          681 
+[P]set latency:          1626 
+
+[P]set request:           21418474 
+[P]get request:           21376287 
+
+[P]Get Hit Rate:          93.0754 %
+[P]ACC Hit Rate:          84.4587 %
+
+[P]Throughput:            4930275.027 ops
+[P]all request:           42794761 o
+
+[P]GetThroughput:         2427289.878 ops
+[P]SetThroughput:         2502985.149 ops
+
+[P]Valid Entries:         2407441.449 / s
+[P]mica evicted:          3804.450 / s
+[P]set success:           2438582.920 / s
+
+[P]expire scan persec:    14117015.006 / s
+[P]total expire scan:     52335567
+
+[P]expire hit persec:      18.509 / s
+[P]total expire hit:      93
+
+[P]expire hit rate:       0.000131 %
+[P]total expire hit rate: 0.000178 %
+
+[P]get found:             2259210.064 / s
+
+----------------------------------
+latency2: 266
+latency1: 322
+latency3: 928
+latency0: 324
+
+[INFO]Current Time:       24.73 s
+
+[P]indexs Load Factor:    28.5114 %
+
+[P]set latency:          505 
+[P]set latency:          313 
+[P]set latency:          615 
+[P]set latency:          499 
+
+[P]set request:           24380743 
+[P]get request:           24343467 
+
+[P]Get Hit Rate:          91.6430 %
+[P]ACC Hit Rate:          85.3344 %
+
+[P]Throughput:            4946277.244 ops
+[P]all request:           48724210 o
+
+[P]GetThroughput:         2475186.971 ops
+[P]SetThroughput:         2471090.272 ops
+
+[P]Valid Entries:         2397841.028 / s
+[P]mica evicted:          7639.497 / s
+[P]set success:           2434434.368 / s
+
+[P]expire scan persec:    17987579.076 / s
+[P]total expire scan:     73898538
+
+[P]expire hit persec:      22.523 / s
+[P]total expire hit:      120
+
+[P]expire hit rate:       0.000125 %
+[P]total expire hit rate: 0.000162 %
+
+[P]get found:             2268334.956 / s
+
+----------------------------------
+latency1: 299
+latency2: 366
+latency0: 349
+latency3: 360
+
+[INFO]Current Time:       25.93 s
+
+[P]indexs Load Factor:    31.5991 %
+
+[P]set latency:          324 
+[P]set latency:          322 
+[P]set latency:          266 
+[P]set latency:          928 
+
+[P]set request:           27372903 
+[P]get request:           27269502 
+
+[P]Get Hit Rate:          93.4901 %
+[P]ACC Hit Rate:          86.2095 %
+
+[P]Throughput:            4911295.491 ops
+[P]all request:           54642405 o
+
+[P]GetThroughput:         2428210.375 ops
+[P]SetThroughput:         2483085.116 ops
+
+[P]Valid Entries:         2377547.193 / s
+[P]mica evicted:          14025.527 / s
+[P]set success:           2507817.545 / s
+
+[P]expire scan persec:    22418174.172 / s
+[P]total expire scan:     100912821
+
+[P]expire hit persec:      27.386 / s
+[P]total expire hit:      153
+
+[P]expire hit rate:       0.000122 %
+[P]total expire hit rate: 0.000152 %
+
+[P]get found:             2270135.439 / s
+
+----------------------------------
+latency2: 252
+latency0: 273
+latency3: 422
+latency1: 759
+
+[INFO]Current Time:       27.15 s
+
+[P]indexs Load Factor:    34.6490 %
+
+[P]set latency:          349 
+[P]set latency:          299 
+[P]set latency:          366 
+[P]set latency:          360 
+
+[P]set request:           30415735 
+[P]get request:           30269941 
+
+[P]Get Hit Rate:          91.9461 %
+[P]ACC Hit Rate:          86.7781 %
+
+[P]Throughput:            4976027.286 ops
+[P]all request:           60685676 o
+
+[P]GetThroughput:         2470560.452 ops
+[P]SetThroughput:         2505466.834 ops
+
+[P]Valid Entries:         2387766.793 / s
+[P]mica evicted:          23457.010 / s
+[P]set success:           2414099.937 / s
+
+[P]expire scan persec:    27273690.076 / s
+[P]total expire scan:     134036092
+
+[P]expire hit persec:      35.406 / s
+[P]total expire hit:      196
+
+[P]expire hit rate:       0.000130 %
+[P]total expire hit rate: 0.000146 %
+
+[P]get found:             2271585.101 / s
+
+----------------------------------
+latency1: 398
+latency2: 318
+latency0: 409
+latency3: 531
+
+[INFO]Current Time:       28.37 s
+
+[P]indexs Load Factor:    37.6766 %
+
+[P]set latency:          273 
+[P]set latency:          759 
+[P]set latency:          252 
+[P]set latency:          422 
+
+[P]set request:           33476054 
+[P]get request:           33248420 
+
+[P]Get Hit Rate:          94.7083 %
+[P]ACC Hit Rate:          87.4885 %
+
+[P]Throughput:            4936207.542 ops
+[P]all request:           66724474 o
+
+[P]GetThroughput:         2434655.126 ops
+[P]SetThroughput:         2501552.416 ops
+
+[P]Valid Entries:         2371531.843 / s
+[P]mica evicted:          36631.662 / s
+[P]set success:           2465830.538 / s
+
+[P]expire scan persec:    29415123.720 / s
+[P]total expire scan:     170021611
+
+[P]expire hit persec:      25.340 / s
+[P]total expire hit:      227
+
+[P]expire hit rate:       0.000086 %
+[P]total expire hit rate: 0.000134 %
+
+[P]get found:             2305820.622 / s
+
+----------------------------------
+latency2: 313
+latency1: 285
+latency0: 422
+latency3: 16003000
+latency3: 421
+
+[INFO]Current Time:       29.60 s
+
+[P]indexs Load Factor:    40.6615 %
+
+[P]set latency:          409 
+[P]set latency:          398 
+[P]set latency:          318 
+[P]set latency:          531 
+
+[P]set request:           36544617 
+[P]get request:           36268403 
+
+[P]Get Hit Rate:          90.7646 %
+[P]ACC Hit Rate:          87.7613 %
+
+[P]Throughput:            4968238.488 ops
+[P]all request:           72813020 o
+
+[P]GetThroughput:         2464298.664 ops
+[P]SetThroughput:         2503939.824 ops
+
+[P]Valid Entries:         2330202.526 / s
+[P]mica evicted:          54379.707 / s
+[P]set success:           2437118.602 / s
+
+[P]expire scan persec:    34129227.187 / s
+[P]total expire scan:     211846771
+
+[P]expire hit persec:      32.640 / s
+[P]total expire hit:      267
+
+[P]expire hit rate:       0.000096 %
+[P]total expire hit rate: 0.000126 %
+
+[P]get found:             2236709.609 / s
+
+----------------------------------
+latency1: 856
+latency3: 327
+latency0: 351
+latency2: 255
+
+[INFO]Current Time:       30.83 s
+
+[P]indexs Load Factor:    43.5107 %
+
+[P]set latency:          422 
+[P]set latency:          285 
+[P]set latency:          313 
+[P]set latency:          421 
+
+[P]set request:           39557712 
+[P]get request:           39163691 
+
+[P]Get Hit Rate:          97.8983 %
+[P]ACC Hit Rate:          88.5107 %
+
+[P]Throughput:            4798164.353 ops
+[P]all request:           78721403 o
+
+[P]GetThroughput:         2351246.978 ops
+[P]SetThroughput:         2446917.375 ops
+
+[P]Valid Entries:         2312512.514 / s
+[P]mica evicted:          76185.818 / s
+[P]set success:           2411816.222 / s
+
+[P]expire scan persec:    39316151.964 / s
+[P]total expire scan:     260260053
+
+[P]expire hit persec:      31.672 / s
+[P]total expire hit:      306
+
+[P]expire hit rate:       0.000081 %
+[P]total expire hit rate: 0.000118 %
+
+[P]get found:             2301830.226 / s
+
+----------------------------------
+latency2: 300
+latency0: 341
+latency1: 317
+latency3: 16003143
+latency3: 288
+
+[INFO]Current Time:       32.06 s
+
+[P]indexs Load Factor:    46.2973 %
+
+[P]set latency:          351 
+[P]set latency:          856 
+[P]set latency:          255 
+[P]set latency:          327 
+
+[P]set request:           42459171 
+[P]get request:           42054663 
+
+[P]Get Hit Rate:          93.5424 %
+[P]ACC Hit Rate:          88.8566 %
+
+[P]Throughput:            4696627.353 ops
+[P]all request:           84513834 o
+
+[P]GetThroughput:         2344062.134 ops
+[P]SetThroughput:         2352565.219 ops
+
+[P]Valid Entries:         2200626.197 / s
+[P]mica evicted:          99762.661 / s
+[P]set success:           2346217.298 / s
+
+[P]expire scan persec:    45311243.422 / s
+[P]total expire scan:     316143186
+
+[P]expire hit persec:      21.081 / s
+[P]total expire hit:      332
+
+[P]expire hit rate:       0.000047 %
+[P]total expire hit rate: 0.000105 %
+
+[P]get found:             2192693.120 / s
+
+----------------------------------
+latency3: 382
+latency1: 480
+latency2: 493
+latency0: 595
+
+[INFO]Current Time:       33.30 s
+
+[P]indexs Load Factor:    48.9635 %
+
+[P]set latency:          341 
+[P]set latency:          317 
+[P]set latency:          300 
+[P]set latency:          288 
+
+[P]set request:           45351600 
+[P]get request:           44935990 
+
+[P]Get Hit Rate:          94.8986 %
+[P]ACC Hit Rate:          89.2440 %
+
+[P]Throughput:            4673588.897 ops
+[P]all request:           90287590 o
+
+[P]GetThroughput:         2332301.170 ops
+[P]SetThroughput:         2341287.727 ops
+
+[P]Valid Entries:         2160802.997 / s
+[P]mica evicted:          131550.008 / s
+[P]set success:           2388194.766 / s
+
+[P]expire scan persec:    52046952.703 / s
+[P]total expire scan:     380442039
+
+[P]expire hit persec:      26.712 / s
+[P]total expire hit:      365
+
+[P]expire hit rate:       0.000051 %
+[P]total expire hit rate: 0.000096 %
+
+[P]get found:             2213321.980 / s
+
+----------------------------------
+latency3: 453
+latency1: 540
+latency2: 303
+latency0: 545
+
+[INFO]Current Time:       34.53 s
+
+[P]indexs Load Factor:    51.5021 %
+
+[P]set latency:          595 
+[P]set latency:          480 
+[P]set latency:          493 
+[P]set latency:          382 
+
+[P]set request:           48177897 
+[P]get request:           47686787 
+
+[P]Get Hit Rate:          91.5935 %
+[P]ACC Hit Rate:          89.3795 %
+
+[P]Throughput:            4509935.105 ops
+[P]all request:           95864684 o
+
+[P]GetThroughput:         2224440.893 ops
+[P]SetThroughput:         2285494.212 ops
+
+[P]Valid Entries:         2054309.147 / s
+[P]mica evicted:          158975.565 / s
+[P]set success:           2251074.696 / s
+
+[P]expire scan persec:    54962276.217 / s
+[P]total expire scan:     448409709
+
+[P]expire hit persec:      29.920 / s
+[P]total expire hit:      402
+
+[P]expire hit rate:       0.000054 %
+[P]total expire hit rate: 0.000090 %
+
+[P]get found:             2037442.258 / s
+
+----------------------------------
+latency1: 355
+latency0: 365
+latency2: 288
+latency3: 16003389
+latency3: 439
+
+[INFO]Current Time:       35.77 s
+
+[P]indexs Load Factor:    53.9543 %
+
+[P]set latency:          545 
+[P]set latency:          540 
+[P]set latency:          303 
+[P]set latency:          453 
+
+[P]set request:           50925058 
+[P]get request:           50459305 
+
+[P]Get Hit Rate:          95.1996 %
+[P]ACC Hit Rate:          89.6993 %
+
+[P]Throughput:            4479520.801 ops
+[P]all request:           101384363 o
+
+[P]GetThroughput:         2250049.695 ops
+[P]SetThroughput:         2229471.106 ops
+
+[P]Valid Entries:         1996837.361 / s
+[P]mica evicted:          195287.626 / s
+[P]set success:           2248551.566 / s
+
+[P]expire scan persec:    60060794.037 / s
+[P]total expire scan:     522416800
+
+[P]expire hit persec:      32.462 / s
+[P]total expire hit:      442
+
+[P]expire hit rate:       0.000054 %
+[P]total expire hit rate: 0.000085 %
+
+[P]get found:             2142039.084 / s
+
+----------------------------------
+latency0: 241
+latency1: 331
+latency3: 329
+latency2: 429
+
+[INFO]Current Time:       37.00 s
+
+[P]indexs Load Factor:    56.2627 %
+
+[P]set latency:          365 
+[P]set latency:          355 
+[P]set latency:          288 
+[P]set latency:          439 
+
+[P]set request:           53661441 
+[P]get request:           53092544 
+
+[P]Get Hit Rate:          96.4540 %
+[P]ACC Hit Rate:          90.0344 %
+
+[P]Throughput:            4355885.468 ops
+[P]all request:           106753985 o
+
+[P]GetThroughput:         2136107.065 ops
+[P]SetThroughput:         2219778.402 ops
+
+[P]Valid Entries:         1928798.560 / s
+[P]mica evicted:          229456.132 / s
+[P]set success:           2212314.469 / s
+
+[P]expire scan persec:    63223785.554 / s
+[P]total expire scan:     600354531
+
+[P]expire hit persec:      41.372 / s
+[P]total expire hit:      493
+
+[P]expire hit rate:       0.000065 %
+[P]total expire hit rate: 0.000082 %
+
+[P]get found:             2060361.240 / s
+
+----------------------------------
+latency1: 450
+latency2: 410
+latency3: 393
+latency0: 529
+
+[INFO]Current Time:       38.23 s
+
+[P]indexs Load Factor:    58.4423 %
+
+[P]set latency:          241 
+[P]set latency:          331 
+[P]set latency:          429 
+[P]set latency:          329 
+
+[P]set request:           56241318 
+[P]get request:           55663163 
+
+[P]Get Hit Rate:          96.5344 %
+[P]ACC Hit Rate:          90.3345 %
+
+[P]Throughput:            4192208.098 ops
+[P]all request:           111904481 o
+
+[P]GetThroughput:         2092336.309 ops
+[P]SetThroughput:         2099871.789 ops
+
+[P]Valid Entries:         1809886.018 / s
+[P]mica evicted:          262331.258 / s
+[P]set success:           2115654.950 / s
+
+[P]expire scan persec:    66642201.406 / s
+[P]total expire scan:     682230331
+
+[P]expire hit persec:      32.558 / s
+[P]total expire hit:      533
+
+[P]expire hit rate:       0.000049 %
+[P]total expire hit rate: 0.000078 %
+
+[P]get found:             2019824.604 / s
+
+----------------------------------
+latency2: 431
+latency0: 416
+latency1: 522
+latency3: 431
+
+[INFO]Current Time:       39.45 s
+
+[P]indexs Load Factor:    60.5399 %
+
+[P]set latency:          529 
+[P]set latency:          450 
+[P]set latency:          410 
+[P]set latency:          393 
+
+[P]set request:           58718711 
+[P]get request:           58197590 
+
+[P]Get Hit Rate:          94.2286 %
+[P]ACC Hit Rate:          90.5041 %
+
+[P]Throughput:            4088030.954 ops
+[P]all request:           116916301 o
+
+[P]GetThroughput:         2067276.165 ops
+[P]SetThroughput:         2020754.790 ops
+
+[P]Valid Entries:         1749103.859 / s
+[P]mica evicted:          297811.353 / s
+[P]set success:           2038547.988 / s
+
+[P]expire scan persec:    69623486.489 / s
+[P]total expire scan:     767586921
+
+[P]expire hit persec:      31.811 / s
+[P]total expire hit:      572
+
+[P]expire hit rate:       0.000046 %
+[P]total expire hit rate: 0.000075 %
+
+[P]get found:             1947964.507 / s
+
+----------------------------------
+latency2: 1807
+latency1: 294
+latency0: 278
+latency3: 588
+
+[INFO]Current Time:       40.67 s
+
+[P]indexs Load Factor:    62.5635 %
+
+[P]set latency:          416 
+[P]set latency:          522 
+[P]set latency:          431 
+[P]set latency:          431 
+
+[P]set request:           61250353 
+[P]get request:           60694340 
+
+[P]Get Hit Rate:          96.5180 %
+[P]ACC Hit Rate:          90.7515 %
+
+[P]Throughput:            4125267.759 ops
+[P]all request:           121944693 o
+
+[P]GetThroughput:         2048321.268 ops
+[P]SetThroughput:         2076946.491 ops
+
+[P]Valid Entries:         1735297.087 / s
+[P]mica evicted:          345281.293 / s
+[P]set success:           2045219.354 / s
+
+[P]expire scan persec:    75951948.691 / s
+[P]total expire scan:     860166650
+
+[P]expire hit persec:      28.714 / s
+[P]total expire hit:      607
+
+[P]expire hit rate:       0.000038 %
+[P]total expire hit rate: 0.000071 %
+
+[P]get found:             1976999.406 / s
+
+----------------------------------
+latency1: 276
+latency0: 381
+latency3: 492
+latency2: 628
+
+[INFO]Current Time:       41.89 s
+
+[P]indexs Load Factor:    64.4997 %
+
+[P]set latency:          278 
+[P]set latency:          294 
+[P]set latency:          1807 
+[P]set latency:          588 
+
+[P]set request:           63789942 
+[P]get request:           63138543 
+
+[P]Get Hit Rate:          96.5236 %
+[P]ACC Hit Rate:          90.9750 %
+
+[P]Throughput:            4091128.397 ops
+[P]all request:           126928485 o
+
+[P]GetThroughput:         2006413.651 ops
+[P]SetThroughput:         2084714.746 ops
+
+[P]Valid Entries:         1658579.344 / s
+[P]mica evicted:          384623.984 / s
+[P]set success:           2051420.404 / s
+
+[P]expire scan persec:    79948973.747 / s
+[P]total expire scan:     957560087
+
+[P]expire hit persec:      40.223 / s
+[P]total expire hit:      656
+
+[P]expire hit rate:       0.000050 %
+[P]total expire hit rate: 0.000069 %
+
+[P]get found:             1936662.911 / s
+
+----------------------------------
+latency1: 388
+latency0: 444
+latency2: 582
+latency3: 472
+
+[INFO]Current Time:       43.10 s
+
+[P]indexs Load Factor:    66.3309 %
+
+[P]set latency:          381 
+[P]set latency:          276 
+[P]set latency:          628 
+[P]set latency:          492 
+
+[P]set request:           66248831 
+[P]get request:           65591168 
+
+[P]Get Hit Rate:          94.1941 %
+[P]ACC Hit Rate:          91.0953 %
+
+[P]Throughput:            4061364.663 ops
+[P]all request:           131839999 o
+
+[P]GetThroughput:         2028092.459 ops
+[P]SetThroughput:         2033272.204 ops
+
+[P]Valid Entries:         1594428.594 / s
+[P]mica evicted:          420673.985 / s
+[P]set success:           2049315.024 / s
+
+[P]expire scan persec:    83442461.003 / s
+[P]total expire scan:     1058469227
+
+[P]expire hit persec:      32.249 / s
+[P]total expire hit:      695
+
+[P]expire hit rate:       0.000039 %
+[P]total expire hit rate: 0.000066 %
+
+[P]get found:             1910344.229 / s
+
+----------------------------------
+latency3: 270
+latency1: 441
+latency2: 285
+latency0: 657
+
+[INFO]Current Time:       44.31 s
+
+[P]indexs Load Factor:    68.0414 %
+
+[P]set latency:          444 
+[P]set latency:          388 
+[P]set latency:          582 
+[P]set latency:          472 
+
+[P]set request:           68624709 
+[P]get request:           67933688 
+
+[P]Get Hit Rate:          95.3625 %
+[P]ACC Hit Rate:          91.2425 %
+
+[P]Throughput:            3901898.032 ops
+[P]all request:           136558397 o
+
+[P]GetThroughput:         1937156.251 ops
+[P]SetThroughput:         1964741.782 ops
+
+[P]Valid Entries:         1498997.162 / s
+[P]mica evicted:          451607.014 / s
+[P]set success:           1957409.181 / s
+
+[P]expire scan persec:    85476620.968 / s
+[P]total expire scan:     1161832440
+
+[P]expire hit persec:      47.136 / s
+[P]total expire hit:      752
+
+[P]expire hit rate:       0.000055 %
+[P]total expire hit rate: 0.000065 %
+
+[P]get found:             1847320.104 / s
+
+----------------------------------
+latency0: 349
+latency3: 281
+latency2: 293
+latency1: 337
+
+[INFO]Current Time:       45.51 s
+
+[P]indexs Load Factor:    69.6309 %
+
+[P]set latency:          657 
+[P]set latency:          441 
+[P]set latency:          285 
+[P]set latency:          270 
+
+[P]set request:           70910590 
+[P]get request:           70186281 
+
+[P]Get Hit Rate:          93.2690 %
+[P]ACC Hit Rate:          91.3075 %
+
+[P]Throughput:            3778629.855 ops
+[P]all request:           141096871 o
+
+[P]GetThroughput:         1875457.513 ops
+[P]SetThroughput:         1903172.342 ops
+
+[P]Valid Entries:         1397783.844 / s
+[P]mica evicted:          477768.583 / s
+[P]set success:           1894407.802 / s
+
+[P]expire scan persec:    84566914.988 / s
+[P]total expire scan:     1263404904
+
+[P]expire hit persec:      43.294 / s
+[P]total expire hit:      804
+
+[P]expire hit rate:       0.000051 %
+[P]total expire hit rate: 0.000064 %
+
+[P]get found:             1749220.497 / s
+
+----------------------------------
+latency2: 381
+latency0: 583
+latency1: 353
+latency3: 254
+
+[INFO]Current Time:       46.70 s
+
+[P]indexs Load Factor:    71.2577 %
+
+[P]set latency:          349 
+[P]set latency:          337 
+[P]set latency:          293 
+[P]set latency:          281 
+
+[P]set request:           73232461 
+[P]get request:           72475654 
+
+[P]Get Hit Rate:          97.3701 %
+[P]ACC Hit Rate:          91.4990 %
+
+[P]Throughput:            3870691.523 ops
+[P]all request:           145708115 o
+
+[P]GetThroughput:         1921706.304 ops
+[P]SetThroughput:         1948985.219 ops
+
+[P]Valid Entries:         1423930.320 / s
+[P]mica evicted:          547926.949 / s
+[P]set success:           1962088.298 / s
+
+[P]expire scan persec:    88974029.101 / s
+[P]total expire scan:     1369401715
+
+[P]expire hit persec:      41.970 / s
+[P]total expire hit:      854
+
+[P]expire hit rate:       0.000047 %
+[P]total expire hit rate: 0.000062 %
+
+[P]get found:             1871167.535 / s
+
+----------------------------------
+latency2: 299
+latency1: 379
+latency0: 260
+latency3: 408
+
+[INFO]Current Time:       47.89 s
+
+[P]indexs Load Factor:    72.8391 %
+
+[P]set latency:          583 
+[P]set latency:          353 
+[P]set latency:          381 
+[P]set latency:          254 
+
+[P]set request:           75628817 
+[P]get request:           74810658 
+
+[P]Get Hit Rate:          95.5982 %
+[P]ACC Hit Rate:          91.6270 %
+
+[P]Throughput:            3984101.583 ops
+[P]all request:           150439475 o
+
+[P]GetThroughput:         1966219.677 ops
+[P]SetThroughput:         2017881.905 ops
+
+[P]Valid Entries:         1396353.773 / s
+[P]mica evicted:          603488.624 / s
+[P]set success:           1984635.587 / s
+
+[P]expire scan persec:    89779663.078 / s
+[P]total expire scan:     1476020459
+
+[P]expire hit persec:      59.786 / s
+[P]total expire hit:      925
+
+[P]expire hit rate:       0.000067 %
+[P]total expire hit rate: 0.000063 %
+
+[P]get found:             1879669.951 / s
+
+----------------------------------
+latency0: 410
+latency2: 437
+latency1: 395
+latency3: 663
+
+[INFO]Current Time:       49.07 s
+
+[P]indexs Load Factor:    74.3602 %
+
+[P]set latency:          260 
+[P]set latency:          379 
+[P]set latency:          299 
+[P]set latency:          408 
+
+[P]set request:           78002687 
+[P]get request:           77121822 
+
+[P]Get Hit Rate:          96.2354 %
+[P]ACC Hit Rate:          91.7651 %
+
+[P]Throughput:            3958302.189 ops
+[P]all request:           155124509 o
+
+[P]GetThroughput:         1952661.500 ops
+[P]SetThroughput:         2005640.688 ops
+
+[P]Valid Entries:         1358928.085 / s
+[P]mica evicted:          651038.401 / s
+[P]set success:           1971203.287 / s
+
+[P]expire scan persec:    88374448.656 / s
+[P]total expire scan:     1580620178
+
+[P]expire hit persec:      57.452 / s
+[P]total expire hit:      993
+
+[P]expire hit rate:       0.000065 %
+[P]total expire hit rate: 0.000063 %
+
+[P]get found:             1879151.673 / s
+
+----------------------------------
+latency1: 400
+latency2: 343
+latency0: 431
+latency3: 528
+
+[INFO]Current Time:       50.25 s
+
+[P]indexs Load Factor:    75.8428 %
+
+[P]set latency:          410 
+[P]set latency:          395 
+[P]set latency:          437 
+[P]set latency:          663 
+
+[P]set request:           80355401 
+[P]get request:           79440925 
+
+[P]Get Hit Rate:          94.5054 %
+[P]ACC Hit Rate:          91.8451 %
+
+[P]Throughput:            3970989.159 ops
+[P]all request:           159796326 o
+
+[P]GetThroughput:         1971210.104 ops
+[P]SetThroughput:         1999779.056 ops
+
+[P]Valid Entries:         1306816.004 / s
+[P]mica evicted:          709982.364 / s
+[P]set success:           2015174.041 / s
+
+[P]expire scan persec:    85973105.241 / s
+[P]total expire scan:     1681766416
+
+[P]expire hit persec:      66.299 / s
+[P]total expire hit:      1071
+
+[P]expire hit rate:       0.000077 %
+[P]total expire hit rate: 0.000064 %
+
+[P]get found:             1862899.512 / s
+
+----------------------------------
+latency3: 258
+latency0: 348
+latency1: 393
+latency2: 354
+
+[INFO]Current Time:       51.41 s
+
+[P]indexs Load Factor:    77.2732 %
+
+[P]set latency:          431 
+[P]set latency:          400 
+[P]set latency:          343 
+[P]set latency:          528 
+
+[P]set request:           82744840 
+[P]get request:           81765417 
+
+[P]Get Hit Rate:          95.2574 %
+[P]ACC Hit Rate:          91.9421 %
+
+[P]Throughput:            4047024.990 ops
+[P]all request:           164510257 o
+
+[P]GetThroughput:         1995633.202 ops
+[P]SetThroughput:         2051391.789 ops
+
+[P]Valid Entries:         1292356.591 / s
+[P]mica evicted:          781767.207 / s
+[P]set success:           2042979.108 / s
+
+[P]expire scan persec:    86358879.370 / s
+[P]total expire scan:     1782356306
+
+[P]expire hit persec:      83.277 / s
+[P]total expire hit:      1168
+
+[P]expire hit rate:       0.000096 %
+[P]total expire hit rate: 0.000066 %
+
+[P]get found:             1900988.608 / s
+
+----------------------------------
+latency0: 399
+latency2: 376
+latency1: 498
+latency3: 298
+
+[INFO]Current Time:       52.57 s
+
+[P]indexs Load Factor:    78.6488 %
+
+[P]set latency:          348 
+[P]set latency:          393 
+[P]set latency:          354 
+[P]set latency:          258 
+
+[P]set request:           85125341 
+[P]get request:           84080386 
+
+[P]Get Hit Rate:          93.6393 %
+[P]ACC Hit Rate:          91.9888 %
+
+[P]Throughput:            4075161.503 ops
+[P]all request:           169205727 o
+
+[P]GetThroughput:         2009143.398 ops
+[P]SetThroughput:         2066018.105 ops
+
+[P]Valid Entries:         1234816.106 / s
+[P]mica evicted:          832995.064 / s
+[P]set success:           2004394.292 / s
+
+[P]expire scan persec:    84235964.641 / s
+[P]total expire scan:     1879414409
+
+[P]expire hit persec:      66.828 / s
+[P]total expire hit:      1245
+
+[P]expire hit rate:       0.000079 %
+[P]total expire hit rate: 0.000066 %
+
+[P]get found:             1881348.016 / s
+
+----------------------------------
+latency0: 447
+latency1: 366
+latency2: 443
+latency3: 502
+
+[INFO]Current Time:       53.71 s
+
+[P]indexs Load Factor:    79.9574 %
+
+[P]set latency:          399 
+[P]set latency:          498 
+[P]set latency:          376 
+[P]set latency:          298 
+
+[P]set request:           87461183 
+[P]get request:           86411424 
+
+[P]Get Hit Rate:          90.8001 %
+[P]ACC Hit Rate:          91.9567 %
+
+[P]Throughput:            4071958.863 ops
+[P]all request:           173872607 o
+
+[P]GetThroughput:         2033883.632 ops
+[P]SetThroughput:         2038075.231 ops
+
+[P]Valid Entries:         1183769.906 / s
+[P]mica evicted:          874266.900 / s
+[P]set success:           2055691.465 / s
+
+[P]expire scan persec:    82869689.618 / s
+[P]total expire scan:     1974391522
+
+[P]expire hit persec:      71.547 / s
+[P]total expire hit:      1327
+
+[P]expire hit rate:       0.000086 %
+[P]total expire hit rate: 0.000067 %
+
+[P]get found:             1846768.516 / s
+
+----------------------------------
+latency3: 451
+latency1: 399
+latency2: 536
+latency0: 389
+
+[INFO]Current Time:       54.85 s
+
+[P]indexs Load Factor:    81.2370 %
+
+[P]set latency:          447 
+[P]set latency:          366 
+[P]set latency:          443 
+[P]set latency:          502 
+
+[P]set request:           89923743 
+[P]get request:           88776204 
+
+[P]Get Hit Rate:          92.8788 %
+[P]ACC Hit Rate:          91.9813 %
+
+[P]Throughput:            4239577.425 ops
+[P]all request:           178699947 o
+
+[P]GetThroughput:         2076851.414 ops
+[P]SetThroughput:         2162726.011 ops
+
+[P]Valid Entries:         1188693.079 / s
+[P]mica evicted:          960429.827 / s
+[P]set success:           2127387.271 / s
+
+[P]expire scan persec:    85816912.981 / s
+[P]total expire scan:     2072105840
+
+[P]expire hit persec:      86.068 / s
+[P]total expire hit:      1425
+
+[P]expire hit rate:       0.000100 %
+[P]total expire hit rate: 0.000069 %
+
+[P]get found:             1928955.297 / s
+
+----------------------------------
+latency2: 328
+latency0: 466
+latency3: 262
+latency1: 404
+
+[INFO]Current Time:       55.98 s
+
+[P]indexs Load Factor:    82.4598 %
+
+[P]set latency:          389 
+[P]set latency:          399 
+[P]set latency:          536 
+[P]set latency:          451 
+
+[P]set request:           92345277 
+[P]get request:           91128379 
+
+[P]Get Hit Rate:          91.4496 %
+[P]ACC Hit Rate:          91.9676 %
+
+[P]Throughput:            4225639.728 ops
+[P]all request:           183473656 o
+
+[P]GetThroughput:         2082121.915 ops
+[P]SetThroughput:         2143517.812 ops
+
+[P]Valid Entries:         1122305.914 / s
+[P]mica evicted:          1034603.054 / s
+[P]set success:           2080936.646 / s
+
+[P]expire scan persec:    82055193.611 / s
+[P]total expire scan:     2164803666
+
+[P]expire hit persec:      76.126 / s
+[P]total expire hit:      1511
+
+[P]expire hit rate:       0.000093 %
+[P]total expire hit rate: 0.000070 %
+
+[P]get found:             1904091.607 / s
+
+----------------------------------
+latency0: 383
+latency2: 368
+latency3: 366
+latency1: 441
+
+[INFO]Current Time:       57.10 s
+
+[P]indexs Load Factor:    83.6169 %
+
+[P]set latency:          466 
+[P]set latency:          404 
+[P]set latency:          328 
+[P]set latency:          262 
+
+[P]set request:           94678506 
+[P]get request:           93487128 
+
+[P]Get Hit Rate:          90.9510 %
+[P]ACC Hit Rate:          91.9419 %
+
+[P]Throughput:            4176750.350 ops
+[P]all request:           188165634 o
+
+[P]GetThroughput:         2099733.995 ops
+[P]SetThroughput:         2077016.355 ops
+
+[P]Valid Entries:         1065348.731 / s
+[P]mica evicted:          1070725.477 / s
+[P]set success:           2075039.243 / s
+
+[P]expire scan persec:    78412126.568 / s
+[P]total expire scan:     2252888407
+
+[P]expire hit persec:      64.094 / s
+[P]total expire hit:      1583
+
+[P]expire hit rate:       0.000082 %
+[P]total expire hit rate: 0.000070 %
+
+[P]get found:             1909729.241 / s
+
+----------------------------------
+latency0: 390
+latency2: 490
+latency3: 442
+latency1: 758
+
+[INFO]Current Time:       58.22 s
+
+[P]indexs Load Factor:    84.7329 %
+
+[P]set latency:          383 
+[P]set latency:          441 
+[P]set latency:          368 
+[P]set latency:          366 
+
+[P]set request:           97110308 
+[P]get request:           95941937 
+
+[P]Get Hit Rate:          90.7459 %
+[P]ACC Hit Rate:          91.9113 %
+
+[P]Throughput:            4383712.125 ops
+[P]all request:           193052245 o
+
+[P]GetThroughput:         2202175.696 ops
+[P]SetThroughput:         2181536.429 ops
+
+[P]Valid Entries:         1065691.959 / s
+[P]mica evicted:          1179249.638 / s
+[P]set success:           2149608.228 / s
+
+[P]expire scan persec:    78824731.258 / s
+[P]total expire scan:     2340755901
+
+[P]expire hit persec:      84.326 / s
+[P]total expire hit:      1677
+
+[P]expire hit rate:       0.000107 %
+[P]total expire hit rate: 0.000072 %
+
+[P]get found:             1998384.585 / s
+
+----------------------------------
+latency1: 371
+latency3: 383
+latency0: 364
+latency2: 423
+
+[INFO]Current Time:       59.32 s
+
+[P]indexs Load Factor:    85.7936 %
+
+[P]set latency:          390 
+[P]set latency:          758 
+[P]set latency:          490 
+[P]set latency:          442 
+
+[P]set request:           99527831 
+[P]get request:           98289013 
+
+[P]Get Hit Rate:          91.6418 %
+[P]ACC Hit Rate:          91.9049 %
+
+[P]Throughput:            4311916.558 ops
+[P]all request:           197816844 o
+
+[P]GetThroughput:         2124081.348 ops
+[P]SetThroughput:         2187835.210 ops
+
+[P]Valid Entries:         987550.911 / s
+[P]mica evicted:          1223505.449 / s
+[P]set success:           2094155.124 / s
+
+[P]expire scan persec:    73857858.281 / s
+[P]total expire scan:     2422367656
+
+[P]expire hit persec:      72.399 / s
+[P]total expire hit:      1757
+
+[P]expire hit rate:       0.000098 %
+[P]total expire hit rate: 0.000073 %
+
+[P]get found:             1946545.753 / s
+
+----------------------------------
+latency1: 536
+latency0: 615
+latency2: 395
+latency3: 16004253
+latency3: 526
+
+[INFO]Current Time:       60.42 s
+
+[P]indexs Load Factor:    86.8042 %
+
+[P]set latency:          364 
+[P]set latency:          371 
+[P]set latency:          423 
+[P]set latency:          383 
+
+[P]set request:           102016145 
+[P]get request:           100702605 
+
+[P]Get Hit Rate:          90.2882 %
+[P]ACC Hit Rate:          91.8661 %
+
+[P]Throughput:            4458787.385 ops
+[P]all request:           202718750 o
+
+[P]GetThroughput:         2195410.022 ops
+[P]SetThroughput:         2263377.362 ops
+
+[P]Valid Entries:         968104.805 / s
+[P]mica evicted:          1305986.768 / s
+[P]set success:           2169265.309 / s
+
+[P]expire scan persec:    73437161.642 / s
+[P]total expire scan:     2503103074
+
+[P]expire hit persec:     110.062 / s
+[P]total expire hit:      1878
+
+[P]expire hit rate:       0.000150 %
+[P]total expire hit rate: 0.000075 %
+
+[P]get found:             1982196.399 / s
+
+----------------------------------
+latency2: 412
+latency1: 415
+latency3: 390
+latency0: 485
+
+[INFO]Current Time:       61.52 s
+
+[P]indexs Load Factor:    87.7559 %
+
+[P]set latency:          615 
+[P]set latency:          536 
+[P]set latency:          395 
+[P]set latency:          526 
+
+[P]set request:           104456591 
+[P]get request:           103059983 
+
+[P]Get Hit Rate:          92.6976 %
+[P]ACC Hit Rate:          91.8852 %
+
+[P]Throughput:            4387660.801 ops
+[P]all request:           207516574 o
+
+[P]GetThroughput:         2155847.118 ops
+[P]SetThroughput:         2231813.683 ops
+
+[P]Valid Entries:         913274.160 / s
+[P]mica evicted:          1376088.759 / s
+[P]set success:           2257845.226 / s
+
+[P]expire scan persec:    70983359.078 / s
+[P]total expire scan:     2580722033
+
+[P]expire hit persec:      98.767 / s
+[P]total expire hit:      1986
+
+[P]expire hit rate:       0.000139 %
+[P]total expire hit rate: 0.000077 %
+
+[P]get found:             1998418.694 / s
+
+----------------------------------
+latency0: 567
+latency2: 424
+latency3: 355
+latency1: 530
+
+[INFO]Current Time:       62.60 s
+
+[P]indexs Load Factor:    88.6547 %
+
+[P]set latency:          485 
+[P]set latency:          415 
+[P]set latency:          412 
+[P]set latency:          390 
+
+[P]set request:           106913264 
+[P]get request:           105474699 
+
+[P]Get Hit Rate:          89.6550 %
+[P]ACC Hit Rate:          91.8341 %
+
+[P]Throughput:            4498121.322 ops
+[P]all request:           212387963 o
+
+[P]GetThroughput:         2229689.628 ops
+[P]SetThroughput:         2268431.694 ops
+
+[P]Valid Entries:         876186.408 / s
+[P]mica evicted:          1451460.434 / s
+[P]set success:           2295106.166 / s
+
+[P]expire scan persec:    69796761.182 / s
+[P]total expire scan:     2656310740
+
+[P]expire hit persec:     113.575 / s
+[P]total expire hit:      2109
+
+[P]expire hit rate:       0.000163 %
+[P]total expire hit rate: 0.000079 %
+
+[P]get found:             1999027.654 / s
+
+----------------------------------
+latency1: 303
+latency0: 585
+latency2: 636
+latency3: 353
+
+[INFO]Current Time:       63.68 s
+
+[P]indexs Load Factor:    89.5003 %
+
+[P]set latency:          567 
+[P]set latency:          530 
+[P]set latency:          424 
+[P]set latency:          355 
+
+[P]set request:           109316054 
+[P]get request:           107900083 
+
+[P]Get Hit Rate:          88.3487 %
+[P]ACC Hit Rate:          91.7558 %
+
+[P]Throughput:            4475255.178 ops
+[P]all request:           217216137 o
+
+[P]GetThroughput:         2248098.827 ops
+[P]SetThroughput:         2227156.351 ops
+
+[P]Valid Entries:         821675.624 / s
+[P]mica evicted:          1498690.222 / s
+[P]set success:           2255412.101 / s
+
+[P]expire scan persec:    67098990.616 / s
+[P]total expire scan:     2728701160
+
+[P]expire hit persec:     115.863 / s
+[P]total expire hit:      2234
+
+[P]expire hit rate:       0.000173 %
+[P]total expire hit rate: 0.000082 %
+
+[P]get found:             1986165.871 / s
+
+----------------------------------
+latency0: 514
+latency1: 436
+latency3: 254
+latency2: 631
+
+[INFO]Current Time:       64.75 s
+
+[P]indexs Load Factor:    90.2945 %
+
+[P]set latency:          585 
+[P]set latency:          303 
+[P]set latency:          636 
+[P]set latency:          353 
+
+[P]set request:           111806631 
+[P]get request:           110247995 
+
+[P]Get Hit Rate:          90.5065 %
+[P]ACC Hit Rate:          91.7291 %
+
+[P]Throughput:            4518169.276 ops
+[P]all request:           222054626 o
+
+[P]GetThroughput:         2192474.523 ops
+[P]SetThroughput:         2325694.753 ops
+
+[P]Valid Entries:         784037.918 / s
+[P]mica evicted:          1551823.090 / s
+[P]set success:           2292498.250 / s
+
+[P]expire scan persec:    65897649.177 / s
+[P]total expire scan:     2799270683
+
+[P]expire hit persec:     104.585 / s
+[P]total expire hit:      2346
+
+[P]expire hit rate:       0.000159 %
+[P]total expire hit rate: 0.000084 %
+
+[P]get found:             1984331.044 / s
+
+----------------------------------
+latency0: 304
+latency1: 534
+latency2: 482
+latency3: 644
+
+[INFO]Current Time:       65.82 s
+
+[P]indexs Load Factor:    91.0277 %
+
+[P]set latency:          514 
+[P]set latency:          436 
+[P]set latency:          631 
+[P]set latency:          254 
+
+[P]set request:           114265617 
+[P]get request:           112628295 
+
+[P]Get Hit Rate:          86.6704 %
+[P]ACC Hit Rate:          91.6222 %
+
+[P]Throughput:            4539122.816 ops
+[P]all request:           226893912 o
+
+[P]GetThroughput:         2232658.710 ops
+[P]SetThroughput:         2306464.106 ops
+
+[P]Valid Entries:         730320.364 / s
+[P]mica evicted:          1606642.894 / s
+[P]set success:           2243439.779 / s
+
+[P]expire scan persec:    63050795.985 / s
+[P]total expire scan:     2866490903
+
+[P]expire hit persec:     117.247 / s
+[P]total expire hit:      2471
+
+[P]expire hit rate:       0.000186 %
+[P]total expire hit rate: 0.000086 %
+
+[P]get found:             1935054.674 / s
+
+----------------------------------
+latency2: 456
+latency0: 489
+latency1: 504
+latency3: 522
+
+[INFO]Current Time:       66.87 s
+
+[P]indexs Load Factor:    91.7128 %
+
+[P]set latency:          304 
+[P]set latency:          534 
+[P]set latency:          482 
+[P]set latency:          644 
+
+[P]set request:           116702025 
+[P]get request:           114985454 
+
+[P]Get Hit Rate:          89.8814 %
+[P]ACC Hit Rate:          91.5865 %
+
+[P]Throughput:            4542907.449 ops
+[P]all request:           231687479 o
+
+[P]GetThroughput:         2233901.222 ops
+[P]SetThroughput:         2309006.227 ops
+
+[P]Valid Entries:         675534.685 / s
+[P]mica evicted:          1652304.419 / s
+[P]set success:           2308234.792 / s
+
+[P]expire scan persec:    60285263.136 / s
+[P]total expire scan:     2930102467
+
+[P]expire hit persec:     121.307 / s
+[P]total expire hit:      2599
+
+[P]expire hit rate:       0.000201 %
+[P]total expire hit rate: 0.000089 %
+
+[P]get found:             2007862.158 / s
+
+----------------------------------
+latency1: 344
+latency3: 405
+latency0: 363
+latency2: 516
+
+[INFO]Current Time:       67.92 s
+
+[P]indexs Load Factor:    92.3540 %
+
+[P]set latency:          489 
+[P]set latency:          504 
+[P]set latency:          456 
+[P]set latency:          522 
+
+[P]set request:           119121884 
+[P]get request:           117325342 
+
+[P]Get Hit Rate:          91.0131 %
+[P]ACC Hit Rate:          91.5751 %
+
+[P]Throughput:            4522836.145 ops
+[P]all request:           236447226 o
+
+[P]GetThroughput:         2223422.804 ops
+[P]SetThroughput:         2299413.341 ops
+
+[P]Valid Entries:         648305.105 / s
+[P]mica evicted:          1666473.393 / s
+[P]set success:           2300578.318 / s
+
+[P]expire scan persec:    59207747.679 / s
+[P]total expire scan:     2992411578
+
+[P]expire hit persec:     114.977 / s
+[P]total expire hit:      2720
+
+[P]expire hit rate:       0.000194 %
+[P]total expire hit rate: 0.000091 %
+
+[P]get found:             2023605.445 / s
+
+----------------------------------
+latency3: 434
+latency2: 581
+latency0: 360
+latency1: 583
+
+[INFO]Current Time:       68.97 s
+
+[P]indexs Load Factor:    92.9541 %
+
+[P]set latency:          363 
+[P]set latency:          344 
+[P]set latency:          516 
+[P]set latency:          405 
+
+[P]set request:           121486420 
+[P]get request:           119676625 
+
+[P]Get Hit Rate:          88.2853 %
+[P]ACC Hit Rate:          91.5105 %
+
+[P]Throughput:            4507586.602 ops
+[P]all request:           241163045 o
+
+[P]GetThroughput:         2247459.402 ops
+[P]SetThroughput:         2260127.200 ops
+
+[P]Valid Entries:         604342.790 / s
+[P]mica evicted:          1749532.619 / s
+[P]set success:           2262022.639 / s
+
+[P]expire scan persec:    56907479.016 / s
+[P]total expire scan:     3051947954
+
+[P]expire hit persec:     100.364 / s
+[P]total expire hit:      2825
+
+[P]expire hit rate:       0.000176 %
+[P]total expire hit rate: 0.000093 %
+
+[P]get found:             1984176.992 / s
+
+----------------------------------
+latency0: 268
+latency1: 583
+latency2: 861
+latency3: 662
+
+[INFO]Current Time:       70.01 s
+
+[P]indexs Load Factor:    93.5261 %
+
+[P]set latency:          360 
+[P]set latency:          583 
+[P]set latency:          581 
+[P]set latency:          434 
+
+[P]set request:           123940064 
+[P]get request:           122114982 
+
+[P]Get Hit Rate:          88.0850 %
+[P]ACC Hit Rate:          91.4421 %
+
+[P]Throughput:            4693593.010 ops
+[P]all request:           246055046 o
+
+[P]GetThroughput:         2339463.007 ops
+[P]SetThroughput:         2354130.003 ops
+
+[P]Valid Entries:         580571.048 / s
+[P]mica evicted:          1836057.030 / s
+[P]set success:           2389586.195 / s
+
+[P]expire scan persec:    56609350.394 / s
+[P]total expire scan:     3110950300
+
+[P]expire hit persec:     112.255 / s
+[P]total expire hit:      2942
+
+[P]expire hit rate:       0.000198 %
+[P]total expire hit rate: 0.000095 %
+
+[P]get found:             2060716.217 / s
+
+----------------------------------
+latency0: 350
+latency2: 427
+latency1: 495
+latency3: 16004096
+latency3: 535
+
+[INFO]Current Time:       71.05 s
+
+[P]indexs Load Factor:    94.0542 %
+
+[P]set latency:          268 
+[P]set latency:          583 
+[P]set latency:          861 
+[P]set latency:          662 
+
+[P]set request:           126433454 
+[P]get request:           124388213 
+
+[P]Get Hit Rate:          93.2178 %
+[P]ACC Hit Rate:          91.4745 %
+
+[P]Throughput:            4589906.012 ops
+[P]all request:           250821667 o
+
+[P]GetThroughput:         2188954.530 ops
+[P]SetThroughput:         2400951.481 ops
+
+[P]Valid Entries:         543577.827 / s
+[P]mica evicted:          1886992.313 / s
+[P]set success:           2405574.492 / s
+
+[P]expire scan persec:    55743823.009 / s
+[P]total expire scan:     3168840304
+
+[P]expire hit persec:     136.736 / s
+[P]total expire hit:      3084
+
+[P]expire hit rate:       0.000245 %
+[P]total expire hit rate: 0.000097 %
+
+[P]get found:             2040494.364 / s
+
+----------------------------------
+latency2: 482
+latency3: 354
+latency1: 411
+latency0: 635
+
+[INFO]Current Time:       72.08 s
+
+[P]indexs Load Factor:    94.5352 %
+
+[P]set latency:          350 
+[P]set latency:          495 
+[P]set latency:          427 
+[P]set latency:          535 
+
+[P]set request:           128860659 
+[P]get request:           126731289 
+
+[P]Get Hit Rate:          88.9812 %
+[P]ACC Hit Rate:          91.4284 %
+
+[P]Throughput:            4610588.559 ops
+[P]all request:           255591948 o
+
+[P]GetThroughput:         2264637.953 ops
+[P]SetThroughput:         2345950.606 ops
+
+[P]Valid Entries:         493168.602 / s
+[P]mica evicted:          1878922.598 / s
+[P]set success:           2350893.407 / s
+
+[P]expire scan persec:    52494097.359 / s
+[P]total expire scan:     3223152588
+
+[P]expire hit persec:     119.849 / s
+[P]total expire hit:      3208
+
+[P]expire hit rate:       0.000228 %
+[P]total expire hit rate: 0.000100 %
+
+[P]get found:             2015101.889 / s
+
+----------------------------------
+latency3: 427
+latency0: 484
+latency1: 697
+latency2: 499
+
+[INFO]Current Time:       73.12 s
+
+[P]indexs Load Factor:    94.9912 %
+
+[P]set latency:          635 
+[P]set latency:          411 
+[P]set latency:          482 
+[P]set latency:          354 
+
+[P]set request:           131355342 
+[P]get request:           129172794 
+
+[P]Get Hit Rate:          86.4275 %
+[P]ACC Hit Rate:          91.3339 %
+
+[P]Throughput:            4784429.681 ops
+[P]all request:           260528136 o
+
+[P]GetThroughput:         2366443.294 ops
+[P]SetThroughput:         2417986.387 ops
+
+[P]Valid Entries:         471658.370 / s
+[P]mica evicted:          1973593.188 / s
+[P]set success:           2423771.876 / s
+
+[P]expire scan persec:    52424194.096 / s
+[P]total expire scan:     3277239636
+
+[P]expire hit persec:     114.372 / s
+[P]total expire hit:      3326
+
+[P]expire hit rate:       0.000218 %
+[P]total expire hit rate: 0.000101 %
+
+[P]get found:             2045257.066 / s
+
+----------------------------------
+latency0: 763
+latency1: 441
+latency3: 526
+latency2: 447
+
+[INFO]Current Time:       74.14 s
+
+[P]indexs Load Factor:    95.4129 %
+
+[P]set latency:          484 
+[P]set latency:          697 
+[P]set latency:          499 
+[P]set latency:          427 
+
+[P]set request:           133850123 
+[P]get request:           131546331 
+
+[P]Get Hit Rate:          87.4960 %
+[P]ACC Hit Rate:          91.2647 %
+
+[P]Throughput:            4738234.974 ops
+[P]all request:           265396454 o
+
+[P]GetThroughput:         2310115.326 ops
+[P]SetThroughput:         2428119.648 ops
+
+[P]Valid Entries:         440034.341 / s
+[P]mica evicted:          1989834.290 / s
+[P]set success:           2401871.268 / s
+
+[P]expire scan persec:    51773980.353 / s
+[P]total expire scan:     3330435014
+
+[P]expire hit persec:     121.660 / s
+[P]total expire hit:      3451
+
+[P]expire hit rate:       0.000235 %
+[P]total expire hit rate: 0.000104 %
+
+[P]get found:             2021259.544 / s
+
+----------------------------------
+latency3: 688
+latency0: 570
+latency1: 611
+latency2: 554
+
+[INFO]Current Time:       75.17 s
+
+[P]indexs Load Factor:    95.8005 %
+
+[P]set latency:          763 
+[P]set latency:          441 
+[P]set latency:          447 
+[P]set latency:          526 
+
+[P]set request:           136302279 
+[P]get request:           133945197 
+
+[P]Get Hit Rate:          88.6004 %
+[P]ACC Hit Rate:          91.2169 %
+
+[P]Throughput:            4739575.469 ops
+[P]all request:           270247476 o
+
+[P]GetThroughput:         2343754.872 ops
+[P]SetThroughput:         2395820.597 ops
+
+[P]Valid Entries:         407412.099 / s
+[P]mica evicted:          2017863.883 / s
+[P]set success:           2369435.028 / s
+
+[P]expire scan persec:    50974639.673 / s
+[P]total expire scan:     3382608273
+
+[P]expire hit persec:     105.519 / s
+[P]total expire hit:      3559
+
+[P]expire hit rate:       0.000207 %
+[P]total expire hit rate: 0.000105 %
+
+[P]get found:             2076577.294 / s
+
+----------------------------------
+latency0: 567
+latency1: 506
+latency3: 380
+latency2: 535
+
+[INFO]Current Time:       76.18 s
+
+[P]indexs Load Factor:    96.1595 %
+
+[P]set latency:          570 
+[P]set latency:          611 
+[P]set latency:          554 
+[P]set latency:          688 
+
+[P]set request:           138759638 
+[P]get request:           136281153 
+
+[P]Get Hit Rate:          88.4423 %
+[P]ACC Hit Rate:          91.1694 %
+
+[P]Throughput:            4719590.527 ops
+[P]all request:           275040791 o
+
+[P]GetThroughput:         2300027.394 ops
+[P]SetThroughput:         2419563.133 ops
+
+[P]Valid Entries:         370032.738 / s
+[P]mica evicted:          2066713.971 / s
+[P]set success:           2324917.586 / s
+
+[P]expire scan persec:    50547568.123 / s
+[P]total expire scan:     3433945442
+
+[P]expire hit persec:     120.124 / s
+[P]total expire hit:      3681
+
+[P]expire hit rate:       0.000238 %
+[P]total expire hit rate: 0.000107 %
+
+[P]get found:             2034197.903 / s
+
+----------------------------------
+latency0: 735
+latency1: 633
+latency2: 500
+latency3: 16003754
+latency3: 387
+
+[INFO]Current Time:       77.20 s
+
+[P]indexs Load Factor:    96.4913 %
+
+[P]set latency:          567 
+[P]set latency:          506 
+[P]set latency:          535 
+[P]set latency:          380 
+
+[P]set request:           141247852 
+[P]get request:           138684140 
+
+[P]Get Hit Rate:          88.2785 %
+[P]ACC Hit Rate:          91.1193 %
+
+[P]Throughput:            4789697.380 ops
+[P]all request:           279931992 o
+
+[P]GetThroughput:         2353119.517 ops
+[P]SetThroughput:         2436577.862 ops
+
+[P]Valid Entries:         349674.669 / s
+[P]mica evicted:          2020243.843 / s
+[P]set success:           2446822.752 / s
+
+[P]expire scan persec:    50648417.987 / s
+[P]total expire scan:     3485667205
+
+[P]expire hit persec:     119.468 / s
+[P]total expire hit:      3803
+
+[P]expire hit rate:       0.000236 %
+[P]total expire hit rate: 0.000109 %
+
+[P]get found:             2077299.711 / s
+
+----------------------------------
+latency0: 547
+latency2: 587
+latency1: 331
+latency3: 506
+
+[INFO]Current Time:       78.22 s
+
+[P]indexs Load Factor:    96.7978 %
+
+[P]set latency:          735 
+[P]set latency:          633 
+[P]set latency:          500 
+[P]set latency:          387 
+
+[P]set request:           143741363 
+[P]get request:           141087273 
+
+[P]Get Hit Rate:          87.0625 %
+[P]ACC Hit Rate:          91.0502 %
+
+[P]Throughput:            4833910.293 ops
+[P]all request:           284828636 o
+
+[P]GetThroughput:         2372345.089 ops
+[P]SetThroughput:         2461565.204 ops
+
+[P]Valid Entries:         326670.523 / s
+[P]mica evicted:          2065061.959 / s
+[P]set success:           2437457.076 / s
+
+[P]expire scan persec:    50166357.118 / s
+[P]total expire scan:     3536484613
+
+[P]expire hit persec:     108.591 / s
+[P]total expire hit:      3913
+
+[P]expire hit rate:       0.000216 %
+[P]total expire hit rate: 0.000111 %
+
+[P]get found:             2065423.270 / s
+
+----------------------------------
+latency2: 564
+latency3: 417
+latency0: 661
+latency1: 771
+
+[INFO]Current Time:       79.23 s
+
+[P]indexs Load Factor:    97.0747 %
+
+[P]set latency:          547 
+[P]set latency:          331 
+[P]set latency:          587 
+[P]set latency:          506 
+
+[P]set request:           146178209 
+[P]get request:           143470481 
+
+[P]Get Hit Rate:          86.8939 %
+[P]ACC Hit Rate:          90.9812 %
+
+[P]Throughput:            4778277.294 ops
+[P]all request:           289648690 o
+
+[P]GetThroughput:         2362552.094 ops
+[P]SetThroughput:         2415725.199 ops
+
+[P]Valid Entries:         294791.623 / s
+[P]mica evicted:          2109148.613 / s
+[P]set success:           2393396.421 / s
+
+[P]expire scan persec:    48631590.682 / s
+[P]total expire scan:     3585541392
+
+[P]expire hit persec:     131.847 / s
+[P]total expire hit:      4046
+
+[P]expire hit rate:       0.000271 %
+[P]total expire hit rate: 0.000113 %
+
+[P]get found:             2052913.281 / s
+
+----------------------------------
+latency2: 537
+latency0: 582
+latency1: 433
+latency3: 548
+
+[INFO]Current Time:       80.23 s
+
+[P]indexs Load Factor:    97.3312 %
+
+[P]set latency:          661 
+[P]set latency:          771 
+[P]set latency:          564 
+[P]set latency:          417 
+
+[P]set request:           148650964 
+[P]get request:           145853326 
+
+[P]Get Hit Rate:          85.5678 %
+[P]ACC Hit Rate:          90.8927 %
+
+[P]Throughput:            4826126.403 ops
+[P]all request:           294504290 o
+
+[P]GetThroughput:         2368381.079 ops
+[P]SetThroughput:         2457745.323 ops
+
+[P]Valid Entries:         276338.376 / s
+[P]mica evicted:          2109200.916 / s
+[P]set success:           2435525.025 / s
+
+[P]expire scan persec:    48804270.833 / s
+[P]total expire scan:     3634643715
+
+[P]expire hit persec:     122.253 / s
+[P]total expire hit:      4169
+
+[P]expire hit rate:       0.000250 %
+[P]total expire hit rate: 0.000115 %
+
+[P]get found:             2026571.541 / s
+
+----------------------------------
+latency0: 529
+latency1: 431
+latency2: 474
+latency3: 564
+
+[INFO]Current Time:       81.23 s
+
+[P]indexs Load Factor:    97.5669 %
+
+[P]set latency:          582 
+[P]set latency:          433 
+[P]set latency:          537 
+[P]set latency:          548 
+
+[P]set request:           151072186 
+[P]get request:           148254475 
+
+[P]Get Hit Rate:          86.7074 %
+[P]ACC Hit Rate:          90.8249 %
+
+[P]Throughput:            4808119.638 ops
+[P]all request:           299326661 o
+
+[P]GetThroughput:         2394052.980 ops
+[P]SetThroughput:         2414066.659 ops
+
+[P]Valid Entries:         253838.617 / s
+[P]mica evicted:          2180790.095 / s
+[P]set success:           2395018.119 / s
+
+[P]expire scan persec:    46664064.789 / s
+[P]total expire scan:     3681446093
+
+[P]expire hit persec:     129.616 / s
+[P]total expire hit:      4299
+
+[P]expire hit rate:       0.000278 %
+[P]total expire hit rate: 0.000117 %
+
+[P]get found:             2075820.228 / s
+
+----------------------------------
+latency0: 356
+latency3: 469
+latency1: 484
+latency2: 481
+
+[INFO]Current Time:       82.24 s
+
+[P]indexs Load Factor:    97.7835 %
+
+[P]set latency:          529 
+[P]set latency:          431 
+[P]set latency:          474 
+[P]set latency:          564 
+
+[P]set request:           153547197 
+[P]get request:           150673029 
+
+[P]Get Hit Rate:          84.1366 %
+[P]ACC Hit Rate:          90.7176 %
+
+[P]Throughput:            4888398.405 ops
+[P]all request:           304220226 o
+
+[P]GetThroughput:         2416000.506 ops
+[P]SetThroughput:         2472397.899 ops
+
+[P]Valid Entries:         234665.979 / s
+[P]mica evicted:          2188254.213 / s
+[P]set success:           2485887.642 / s
+
+[P]expire scan persec:    46279345.917 / s
+[P]total expire scan:     3727774352
+
+[P]expire hit persec:     113.880 / s
+[P]total expire hit:      4413
+
+[P]expire hit rate:       0.000246 %
+[P]total expire hit rate: 0.000118 %
+
+[P]get found:             2032741.576 / s
+
+----------------------------------
+latency2: 489
+latency0: 534
+latency1: 501
+latency3: 439
+
+[INFO]Current Time:       83.23 s
+
+[P]indexs Load Factor:    97.9824 %
+
+[P]set latency:          356 
+[P]set latency:          484 
+[P]set latency:          481 
+[P]set latency:          469 
+
+[P]set request:           156019491 
+[P]get request:           153087486 
+
+[P]Get Hit Rate:          86.6255 %
+[P]ACC Hit Rate:          90.6530 %
+
+[P]Throughput:            4896298.908 ops
+[P]all request:           309106977 o
+
+[P]GetThroughput:         2419174.452 ops
+[P]SetThroughput:         2477124.456 ops
+
+[P]Valid Entries:         216278.749 / s
+[P]mica evicted:          2276455.146 / s
+[P]set success:           2424743.311 / s
+
+[P]expire scan persec:    45106122.091 / s
+[P]total expire scan:     3772792516
+
+[P]expire hit persec:     118.231 / s
+[P]total expire hit:      4531
+
+[P]expire hit rate:       0.000262 %
+[P]total expire hit rate: 0.000120 %
+
+[P]get found:             2095621.516 / s
+
+----------------------------------
+latency1: 783
+latency3: 483
+latency0: 473
+latency2: 798
+
+[INFO]Current Time:       84.23 s
+
+[P]indexs Load Factor:    98.1662 %
+
+[P]set latency:          534 
+[P]set latency:          1284 
+[P]set latency:          489 
+[P]set latency:          439 
+
+[P]set request:           158487298 
+[P]get request:           155462867 
+
+[P]Get Hit Rate:          86.4744 %
+[P]ACC Hit Rate:          90.5892 %
+
+[P]Throughput:            4870379.562 ops
+[P]all request:           313950165 o
+
+[P]GetThroughput:         2388717.323 ops
+[P]SetThroughput:         2481662.239 ops
+
+[P]Valid Entries:         199885.973 / s
+[P]mica evicted:          2296063.030 / s
+[P]set success:           2497057.190 / s
+
+[P]expire scan persec:    43927049.822 / s
+[P]total expire scan:     3816474319
+
+[P]expire hit persec:     103.578 / s
+[P]total expire hit:      4634
+
+[P]expire hit rate:       0.000236 %
+[P]total expire hit rate: 0.000121 %
+
+[P]get found:             2065629.508 / s
+
+----------------------------------
+latency2: 420
+latency0: 545
+latency1: 595
+latency3: 550
+
+[INFO]Current Time:       85.23 s
+
+[P]indexs Load Factor:    98.3291 %
+
+[P]set latency:          473 
+[P]set latency:          0 
+[P]set latency:          798 
+[P]set latency:          483 
+
+[P]set request:           160971109 
+[P]get request:           157781705 
+
+[P]Get Hit Rate:          90.4791 %
+[P]ACC Hit Rate:          90.5876 %
+
+[P]Throughput:            4814501.871 ops
+[P]all request:           318752814 o
+
+[P]GetThroughput:         2324560.860 ops
+[P]SetThroughput:         2489941.011 ops
+
+[P]Valid Entries:         183524.822 / s
+[P]mica evicted:          2187446.296 / s
+[P]set success:           2434109.559 / s
+
+[P]expire scan persec:    43821502.606 / s
+[P]total expire scan:     3860187937
+
+[P]expire hit persec:     125.308 / s
+[P]total expire hit:      4759
+
+[P]expire hit rate:       0.000286 %
+[P]total expire hit rate: 0.000123 %
+
+[P]get found:             2103240.991 / s
+
+----------------------------------
+latency0: 837
+latency2: 448
+latency3: 538
+[INFO]End rx_queue_1:2013105
+
+[INFO]Current Time:       86.22 s
+
+[P]indexs Load Factor:    98.4347 %
+
+[P]set latency:          545 
+[P]set latency:          595 
+[P]set latency:          420 
+[P]set latency:          550 
+
+[P]set request:           162678618 
+[P]get request:           159540057 
+
+[P]Get Hit Rate:          82.7342 %
+[P]ACC Hit Rate:          90.5010 %
+
+[P]Throughput:            3481314.126 ops
+[P]all request:           322218675 o
+
+[P]GetThroughput:         1766191.909 ops
+[P]SetThroughput:         1715122.217 ops
+
+[P]Valid Entries:         119416.073 / s
+[P]mica evicted:          1649055.957 / s
+[P]set success:           1732231.161 / s
+
+[P]expire scan persec:    29872189.980 / s
+[P]total expire scan:     3889927528
+
+[P]expire hit persec:      62.276 / s
+[P]total expire hit:      4821
+
+[P]expire hit rate:       0.000208 %
+[P]total expire hit rate: 0.000124 %
+
+[P]get found:             1461245.288 / s
+
+----------------------------------
+latency2: 433
+latency0: 434
+latency3: 524
+
+[INFO]Current Time:       87.21 s
+
+[P]indexs Load Factor:    98.5434 %
+
+[P]set latency:          837 
+[P]set latency:          0 
+[P]set latency:          448 
+[P]set latency:          538 
+
+[P]set request:           164486600 
+[P]get request:           161357551 
+
+[P]Get Hit Rate:          84.8848 %
+[P]ACC Hit Rate:          90.4378 %
+
+[P]Throughput:            3648182.857 ops
+[P]all request:           325844151 o
+
+[P]GetThroughput:         1828877.216 ops
+[P]SetThroughput:         1819305.641 ops
+
+[P]Valid Entries:         116484.015 / s
+[P]mica evicted:          1731291.829 / s
+[P]set success:           1877169.797 / s
+
+[P]expire scan persec:    30755779.753 / s
+[P]total expire scan:     3920491879
+
+[P]expire hit persec:      77.482 / s
+[P]total expire hit:      4898
+
+[P]expire hit rate:       0.000252 %
+[P]total expire hit rate: 0.000125 %
+
+[P]get found:             1552439.626 / s
+
+----------------------------------
+latency0: 553
+latency2: 864
+latency3: 409
+
+[INFO]Current Time:       88.21 s
+
+[P]indexs Load Factor:    98.6459 %
+
+[P]set latency:          434 
+[P]set latency:          0 
+[P]set latency:          433 
+[P]set latency:          524 
+
+[P]set request:           166416833 
+[P]get request:           163238077 
+
+[P]Get Hit Rate:          84.7387 %
+[P]ACC Hit Rate:          90.3721 %
+
+[P]Throughput:            3843141.119 ops
+[P]all request:           329654910 o
+
+[P]GetThroughput:         1896505.866 ops
+[P]SetThroughput:         1946635.253 ops
+
+[P]Valid Entries:         112311.330 / s
+[P]mica evicted:          1795784.190 / s
+[P]set success:           1951047.430 / s
+
+[P]expire scan persec:    32130932.664 / s
+[P]total expire scan:     3952352078
+
+[P]expire hit persec:      64.544 / s
+[P]total expire hit:      4962
+
+[P]expire hit rate:       0.000201 %
+[P]total expire hit rate: 0.000126 %
+
+[P]get found:             1607075.136 / s
+
+----------------------------------
+latency0: 524
+latency2: 994
+latency3: 521
+
+[INFO]Current Time:       89.20 s
+
+[P]indexs Load Factor:    98.7345 %
+
+[P]set latency:          553 
+[P]set latency:          0 
+[P]set latency:          864 
+[P]set latency:          409 
+
+[P]set request:           168257149 
+[P]get request:           165079299 
+
+[P]Get Hit Rate:          85.9538 %
+[P]ACC Hit Rate:          90.3228 %
+
+[P]Throughput:            3712275.788 ops
+[P]all request:           333336448 o
+
+[P]GetThroughput:         1856594.676 ops
+[P]SetThroughput:         1855681.112 ops
+
+[P]Valid Entries:         104579.926 / s
+[P]mica evicted:          1739941.786 / s
+[P]set success:           1858385.504 / s
+
+[P]expire scan persec:    32251634.788 / s
+[P]total expire scan:     3984336668
+
+[P]expire hit persec:      70.584 / s
+[P]total expire hit:      5032
+
+[P]expire hit rate:       0.000219 %
+[P]total expire hit rate: 0.000126 %
+
+[P]get found:             1595814.405 / s
+
+----------------------------------
+latency2: 435
+[INFO]End rx_queue_0:1981996
+
+[INFO]Current Time:       90.19 s
+
+[P]indexs Load Factor:    98.7764 %
+
+[P]set latency:          524 
+[P]set latency:          0 
+[P]set latency:          994 
+[P]set latency:          521 
+
+[P]set request:           169236683 
+[P]get request:           166060558 
+
+[P]Get Hit Rate:          82.4468 %
+[P]ACC Hit Rate:          90.2763 %
+
+[P]Throughput:            1982317.116 ops
+[P]all request:           335297241 o
+
+[P]GetThroughput:         992030.526 ops
+[P]SetThroughput:         990286.590 ops
+
+[P]Valid Entries:         50211.196 / s
+[P]mica evicted:          952132.309 / s
+[P]set success:           985290.341 / s
+
+[P]expire scan persec:    17228104.777 / s
+[P]total expire scan:     4001377709
+
+[P]expire hit persec:      23.252 / s
+[P]total expire hit:      5055
+
+[P]expire hit rate:       0.000135 %
+[P]total expire hit rate: 0.000126 %
+
+[P]get found:             817897.782 / s
+
+----------------------------------
+[INFO]End rx_queue_3:1229373
+Finish the job......
+[INFO]End rx_queue_2:1965638
+
+[INFO]Current Time:       91.17 s
+
+[P]indexs Load Factor:    98.7795 %
+
+[P]set latency:          0 
+[P]set latency:          0 
+[P]set latency:          435 
+[P]set latency:          0 
+
+[P]set request:           169467225 
+[P]get request:           166291100 
+
+[P]Get Hit Rate:          80.4856 %
+[P]ACC Hit Rate:          90.2627 %
+
+[P]Throughput:            467938.342 ops
+[P]all request:           335758325 o
+
+[P]GetThroughput:         233969.171 ops
+[P]SetThroughput:         233969.171 ops
+
+[P]Valid Entries:         11094.512 / s
+[P]mica evicted:          217925.159 / s
+[P]set success:           233969.171 / s
+
+[P]expire scan persec:    5105132.784 / s
+[P]total expire scan:     4006408062
+
+[P]expire hit persec:       8.119 / s
+[P]total expire hit:      5063
+
+[P]expire hit rate:       0.000159 %
+[P]total expire hit rate: 0.000126 %
+
+[P]get found:             188311.378 / s
+
+----------------------------------
+
+Total Index Entries:      95596789
+
+indexs Load Factor:     98.779451 %
+
+log_0 Load Factor:      67.095052 %
+
+log_1 Load Factor:      70.811972 %
+
+log_2 Load Factor:      65.444138 %
+
+log_3 Load Factor:      59.927862 %
+
+Get Hit Rate:           90.262709%
+
+Max Throughput:         4976027.29
+
+Calc Load Factor:       98.779451%
+
+set request:              51531870 | set_success:              51531870
+set_fail:                        0 | set_key_duplicate:         1992828 | set_mica_evicted:         21541752
+set_random:                      0 | set_cuckoo_evicted:              0 | set_expire_evicted:              0
+
+get request:              51531870
+get_found:                43964140 | get_notfound:              7567730 | get_hit_ratio:          85.314467%
+
+clean up:               18446744073709550206 | test_notfound:                   0
+move_to_head_performed:    5856709 | move_to_head_skipped:     38107431 | move_to_head_failed:             0
+
+
+set request:              52340704 | set_success:              52340704
+set_fail:                        0 | set_key_duplicate:         1634952 | set_mica_evicted:         20757918
+set_random:                      0 | set_cuckoo_evicted:              0 | set_expire_evicted:              0
+
+get request:              52340704
+get_found:                45718200 | get_notfound:              6622504 | get_hit_ratio:          87.347316%
+
+clean up:               18446744073709550501 | test_notfound:                   0
+move_to_head_performed:    5015951 | move_to_head_skipped:     40702249 | move_to_head_failed:             0
+
+
+set request:              51106562 | set_success:              51106562
+set_fail:                        0 | set_key_duplicate:         2155114 | set_mica_evicted:         21843902
+set_random:                      0 | set_cuckoo_evicted:              0 | set_expire_evicted:              0
+
+get request:              51106562
+get_found:                43091853 | get_notfound:              8014709 | get_hit_ratio:          84.317652%
+
+clean up:               18446744073709550607 | test_notfound:                   0
+move_to_head_performed:    6209366 | move_to_head_skipped:     36882487 | move_to_head_failed:             0
+
+
+set request:              31963672 | set_success:              31963672
+set_fail:                        0 | set_key_duplicate:          838367 | set_mica_evicted:         13136530
+set_random:                      0 | set_cuckoo_evicted:              0 | set_expire_evicted:              0
+
+get request:              31963672
+get_found:                26133719 | get_notfound:              5829953 | get_hit_ratio:          81.760691%
+
+clean up:               18446744073709550087 | test_notfound:                   0
+move_to_head_performed:    2968810 | move_to_head_skipped:     23164909 | move_to_head_failed:             0
+
+
+[INFO] Everything works fine.
+deleting piekv......
